@@ -1,16 +1,6 @@
-# NAME: Apple
-# AUTHOR: 
-# GITHUB: 
-# UPDATED: 2021-03-05 16:36:38.725631
-# DOMAIN-SUFFIX: 74
-# DOMAIN: 2
-# DOMAIN-KEYWORD: 6
-# USER-AGENT: 21
-# PROCESS-NAME: 3
-# IP-CIDR: 10
-# TOTAL: 116
 DOMAIN,api.smoot.apple.cn
 DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,networking.apple
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,apple-cloudkit.com
@@ -112,7 +102,6 @@ USER-AGENT,FMDClient*
 USER-AGENT,FMFD*
 USER-AGENT,FindMy*
 USER-AGENT,Maps*
-USER-AGENT,Music*
 USER-AGENT,TestFlight*
 USER-AGENT,com.apple.Maps
 USER-AGENT,com.apple.appstored*
