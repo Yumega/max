@@ -369,7 +369,7 @@ URL-REGEX,^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/
 URL-REGEX,^https?:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\?
 URL-REGEX,^https?:\/\/api-release\.wuta-cam\.com\/ad_tree
 URL-REGEX,^https?:\/\/api\.21jingji\.com\/ad\/
-URL-REGEX,^https?:\/\/api\.twitter\.com\/1.1\/jot\/
+URL-REGEX,^https?:\/\/api\.twitter\.com\/1.1\/jot\/client_event.json
 URL-REGEX,^https?:\/\/ads-api\.twitter\.com\/
 URL-REGEX,^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/
 URL-REGEX,^https?:\/\/api\.chelaile\.net\.cn\/adpub\/
