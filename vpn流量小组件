@@ -1,0 +1,84 @@
+let r = new Request('填入url')
+let res = await r.loadJSON()
+log(res)
+
+let width = 200,h=4
+
+let w = new ListWidget()
+let remains = (res.monthly_bw_limit_b - res.bw_counter_b)/1000000000
+let date = new Date().getDate()
+let resetDay = res.bw_reset_day_of_month
+let daysRemain = resetDay-date
+let usedPercent = (((res.bw_counter_b/1000000000)/(res.monthly_bw_limit_b/1000000000)*100).toFixed(2))
+
+
+addTextItem('VPN 数据💡', 20)
+w.addSpacer(5)
+addTextItem((res.monthly_bw_limit_b/1000000000)+' GB total',12)
+addTextItem(usedPercent+'% used',12)
+addTextItem(daysRemain+' days left',12)
+addTextItem(remains.toFixed(2)+' GB left',13)
+
+w.addSpacer(5)
+
+w.addImage(Progress(res.monthly_bw_limit_b, res.bw_counter_b))
+
+// w.addSpacer(10)
+w.addImage(triangle(usedPercent))
+
+
+let barLabelStack = w.addStack()
+let leftLabel = barLabelStack.addStack()
+barLabelStack.addSpacer()
+let rightLabel = barLabelStack.addStack()
+
+addTextItem(((res.bw_counter_b/1000000000).toFixed(0)+'GB'), 8, leftLabel)
+
+addTextItem((res.monthly_bw_limit_b/1000000000)+'GB', 8, rightLabel)
+
+w.backgroundColor = new Color("#004B97")
+
+Script.setWidget(w)
+Script.complete()
+w.presentSmall()
+
+
+function addTextItem(textToAdd,size,stack){
+  let a = (stack!=undefined)?stack.addText(textToAdd):w.addText(textToAdd)
+  a.textColor = new Color('#ffffff')
+  if(size!=undefined)a.font=Font.systemFont(size)
+}
+
+
+function Progress(total,havegone){
+    const context =new DrawContext()
+    context.size=new Size(width, h)
+    context.opaque=false
+    context.respectScreenScale=true
+    context.setFillColor(Color.darkGray())
+    const path = new Path()
+    path.addRoundedRect(new Rect(0, 0, width, h), 3, 2)
+    context.addPath(path)
+    context.fillPath()
+    context.setFillColor(Color.blue())
+    const patha= new Path()
+    patha.addRoundedRect(new Rect(0, 0, width*havegone/total, h), 3, 2)
+    context.addPath(patha)
+    context.fillPath()
+    return context.getImage()
+}
+
+
+function triangle(percentage){
+  let d = new DrawContext()
+  let sizer = 50
+  d.size = new Size(width*2,20)
+  d.opaque=false
+  let indicatorPos = (percentage/100)*(width*2)
+  let p = new Path()
+  p.addLines([new Point(indicatorPos,0),new Point(indicatorPos+(sizer/2), sizer),new Point(indicatorPos-(sizer/2),sizer),new Point(indicatorPos,0)])
+  d.setFillColor(Color.black())
+  d.addPath(p)
+  d.fillPath()
+  return d.getImage()
+}
