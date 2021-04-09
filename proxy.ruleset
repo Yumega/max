@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,snaptik.app/check_token
+DOMAIN-SUFFIX,snaptik.app/action-2021
 DOMAIN-KEYWORD,-tiktokcdn-com
 USER-AGENT,TikTok*
 USER-AGENT,BluedInternational*
