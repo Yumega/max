@@ -46,3 +46,5 @@ DOMAIN-SUFFIX,itsliveradiobackup.apple.com,AppleMusic
 DOMAIN-SUFFIX,radio-activity.itunes.apple.com,AppleMusic
 DOMAIN-SUFFIX,radio.itunes.apple.com,AppleMusic
 DOMAIN-SUFFIX,backstage-api.com,AppleMusic
+USER-AGENT,BluedInternational*,AppleMusic
+DOMAIN-KEYWORD,streamguys.com,AppleMusic
