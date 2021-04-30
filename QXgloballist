@@ -45,7 +45,6 @@ HOST,vod-thumb-uk-live.akamaized.net,Global
 HOST,vod-thumb-ww-live.akamaized.net,Global
 HOST,widgets.stripst.com,Global
 HOST,www-cdn.icloud.com.akadns.net,Global
-HOST,www.icloud.com,Global
 HOST-SUFFIX,00006801.com,Global
 HOST-SUFFIX,00006808.com,Global
 HOST-SUFFIX,0000gz.com,Global
@@ -2738,8 +2737,6 @@ HOST-SUFFIX,apple-cloudkit.com,Global
 HOST-SUFFIX,apple-darwin.com,Global
 HOST-SUFFIX,apple-darwin.net,Global
 HOST-SUFFIX,apple-darwin.org,Global
-HOST-SUFFIX,apple-dns.com,Global
-HOST-SUFFIX,apple-dns.net,Global
 HOST-SUFFIX,apple-enews.com,Global
 HOST-SUFFIX,apple-expo.com,Global
 HOST-SUFFIX,apple-hk.com,Global
@@ -13044,15 +13041,9 @@ HOST-SUFFIX,itshidden.com,Global
 HOST-SUFFIX,itshidden.eu,Global
 HOST-SUFFIX,itsky.it,Global
 HOST-SUFFIX,itsoc.org,Global
-HOST-SUFFIX,itu.int,Global
 HOST-SUFFIX,itun.es,Global
 HOST-SUFFIX,itunbes.com,Global
 HOST-SUFFIX,ituneas.com,Global
-HOST-SUFFIX,itunes-apple.com.akadns.net,Global
-HOST-SUFFIX,itunes-radio.net,Global
-HOST-SUFFIX,itunes.co,Global
-HOST-SUFFIX,itunes.com,Global
-HOST-SUFFIX,itunes.org,Global
 HOST-SUFFIX,itunes.rio,Global
 HOST-SUFFIX,itunes12days.com,Global
 HOST-SUFFIX,itunesessentials.com,Global
