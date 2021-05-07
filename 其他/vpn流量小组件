@@ -1,9 +1,7 @@
 let r = new Request('填入url')
 let res = await r.loadJSON()
 log(res)
-
 let width = 200,h=4
-
 let w = new ListWidget()
 let remains = (res.monthly_bw_limit_b - res.bw_counter_b)/1000000000
 let date = new Date().getDate()
@@ -12,14 +10,14 @@ let daysRemain = resetDay-date
 let usedPercent = (((res.bw_counter_b/1000000000)/(res.monthly_bw_limit_b/1000000000)*100).toFixed(2))
 
 
-addTextItem('VPN 数据💡', 20)
-w.addSpacer(5)
-addTextItem((res.monthly_bw_limit_b/1000000000)+' GB total',12)
-addTextItem(usedPercent+'% used',12)
-addTextItem(daysRemain+' days left',12)
-addTextItem(remains.toFixed(2)+' GB left',13)
+addTextItem('VPN 数据💡', 19)
+w.addSpacer(6)
+addTextItem((res.monthly_bw_limit_b/1000000000)+' GB total',11)
+addTextItem(usedPercent+'% used',11)
+addTextItem(daysRemain+' days left',11)
+addTextItem(remains.toFixed(2)+' GB left',12)
 
-w.addSpacer(5)
+w.addSpacer(6)
 
 w.addImage(Progress(res.monthly_bw_limit_b, res.bw_counter_b))
 
@@ -46,7 +44,7 @@ w.presentSmall()
 function addTextItem(textToAdd,size,stack){
   let a = (stack!=undefined)?stack.addText(textToAdd):w.addText(textToAdd)
   a.textColor = new Color('#ffffff')
-  if(size!=undefined)a.font=Font.systemFont(size)
+  if(size!=undefined)a.font=Font.lightRoundedSystemFont(size)
 }
 
 
