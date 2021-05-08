@@ -1,6 +1,8 @@
 #https://raw.githubusercontent.com/Apocalypsor/SmartDNS-GFWList/master/docker/overture/overture_gfw_domain.list
 .simplelogin.io
 .theage.com.au
+.cloudinary.com
+.eastasiaforum.org
 .ffx.io
 .fvs.io
 .unpkg.com
