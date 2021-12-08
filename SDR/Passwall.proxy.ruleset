@@ -32,7 +32,6 @@ IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,95.161.64.0/20,no-resolve
 USER-AGENT,Music*
-USER-AGENT,AppleCoreMedia*
 DOMAIN-KEYWORD,aod.itunes.apple.com
 DOMAIN-KEYWORD,audio-ssl.itunes.apple.com
 DOMAIN-KEYWORD,audio.itunes.apple.com
@@ -40,7 +39,9 @@ DOMAIN-KEYWORD,mvod.itunes.apple.com
 DOMAIN-KEYWORD,streamingaudio.itunes.apple.com
 DOMAIN-KEYWORD,blobstore.apple.com
 DOMAIN-KEYWORD,music.apple.com
-PROCESS-NAME,music
+DOMAIN-KEYWORD,itsliveradio.apple.com
+DOMAIN-KEYWORD,play.itunes.apple.com
+DOMAIN-KEYWORD,bag.itunes.apple.com
 DOMAIN-KEYWORD,tv.applemusic.com
 DOMAIN-KEYWORD,covers.webradio.tools
 DOMAIN-KEYWORD,amp-api-edge.music.apple.com
@@ -70,6 +71,7 @@ DOMAIN-SUFFIX,ic975.com
 DOMAIN-SUFFIX,leanstream.co
 DOMAIN-SUFFIX,revma.com
 DOMAIN-SUFFIX,crooze.fm
+USER-AGENT,AppleCoreMedia*
 USER-AGENT,OneDrive*
 DOMAIN-KEYWORD,githubusercontent
 DOMAIN-KEYWORD,1drv
