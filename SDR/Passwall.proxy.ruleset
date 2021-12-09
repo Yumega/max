@@ -36,13 +36,11 @@ USER-AGENT,Music*
 DOMAIN-KEYWORD,aod.itunes.apple.com
 DOMAIN-KEYWORD,audio-ssl.itunes.apple.com
 DOMAIN-KEYWORD,audio.itunes.apple.com
-DOMAIN-KEYWORD,bbc
-DOMAIN-KEYWORD,voa
-DOMAIN-KEYWORD,cnn
 DOMAIN-KEYWORD,mvod.itunes.apple.com
 DOMAIN-KEYWORD,streamingaudio.itunes.apple.com
 DOMAIN-KEYWORD,blobstore.apple.com
 DOMAIN-KEYWORD,music.apple.com
+DOMAIN-KEYWORD,time.apple.com
 DOMAIN-KEYWORD,itsliveradio.apple.com
 DOMAIN-KEYWORD,play.itunes.apple.com
 DOMAIN-KEYWORD,bag.itunes.apple.com
@@ -116,6 +114,9 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,bbc
+DOMAIN-KEYWORD,voa
+DOMAIN-KEYWORD,cnn
 DOMAIN-SUFFIX,fb.me
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,103.2.28.0/22,no-resolve
