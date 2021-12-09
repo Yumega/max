@@ -116,12 +116,20 @@ DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-KEYWORD,-tiktokcdn-com
-# NAME: Reddit
+# NAME: Reddit/Bitwarden/ifttt
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmail.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,bitwarden.com
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,getpocket.com
+DOMAIN-SUFFIX,pocket-image-cache.com
+DOMAIN-SUFFIX,ctfassets.net
+DOMAIN-SUFFIX,rudderlabs.com
+DOMAIN-SUFFIX,fbsbx.com
 # NAME: Apple Music
 USER-AGENT,Music*
 DOMAIN-KEYWORD,aod.itunes.apple.com
