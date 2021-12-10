@@ -1,6 +1,7 @@
 #custom
 DOMAIN-KEYWORD,justmysocks
 DOMAIN-SUFFIX,apnews.com
+DOMAIN-KEYWORD,yahoo
 # NAME: cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
