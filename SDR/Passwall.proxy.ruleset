@@ -1,5 +1,6 @@
 #custom
 DOMAIN-KEYWORD,justmysocks
+DOMAIN-SUFFIX,apnews.com
 # NAME: cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
@@ -17,7 +18,6 @@ DOMAIN-SUFFIX,cloudflarestatus.com
 DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,cloudflaretest.com
 DOMAIN-SUFFIX,cloudflarewarp.com
-DOMAIN-SUFFIX,one.one.one
 DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,trycloudflare.com
 DOMAIN-SUFFIX,videodelivery.net
@@ -267,6 +267,8 @@ DOMAIN-KEYWORD,recaptcha
 DOMAIN-KEYWORD,www.google.
 IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolv
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
 # NAME: WWWed
 DOMAIN-SUFFIX,bf99.com
 DOMAIN-SUFFIX,bldimg.com
