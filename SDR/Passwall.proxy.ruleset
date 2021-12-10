@@ -1,6 +1,5 @@
 #custom
 DOMAIN-KEYWORD,justmysocks
-DOMAIN-KEYWORD,jamjams
 # NAME: cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
