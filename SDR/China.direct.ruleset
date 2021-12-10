@@ -196,10 +196,6 @@ DOMAIN-SUFFIX,qmail.com
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qpimg.cn
 DOMAIN-SUFFIX,qplus.com
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qq.com.cn
-DOMAIN-SUFFIX,qq.xn--fiqs8s
-DOMAIN-SUFFIX,qq.中国
 DOMAIN-SUFFIX,qqgameapp.com
 DOMAIN-SUFFIX,qqgames.com
 DOMAIN-SUFFIX,qqmail.com
@@ -294,7 +290,6 @@ DOMAIN-SUFFIX,urlshare.cn
 DOMAIN-SUFFIX,voovlive.com
 DOMAIN-SUFFIX,wanjiashow.com
 DOMAIN-SUFFIX,webnovel.com
-DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatlegal.net
 DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,wechatpay.com.hk
