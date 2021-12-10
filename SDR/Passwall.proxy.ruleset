@@ -1,3 +1,6 @@
+#custom
+DOMAIN-KEYWORD,justmysocks
+DOMAIN-KEYWORD,jamjams
 # NAME: cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
@@ -354,7 +357,6 @@ DOMAIN-KEYWORD,pornhub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-KEYWORD,xvideos
 DOMAIN-KEYWORD,pincong
-DOMAIN-KEYWORD,justmysocks
 DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,fr
 DOMAIN-SUFFIX,uk
