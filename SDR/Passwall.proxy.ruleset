@@ -2,6 +2,8 @@
 DOMAIN-KEYWORD,justmysocks
 DOMAIN-SUFFIX,apnews.com
 DOMAIN-KEYWORD,yahoo
+DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,staticflickr.com
 # NAME: cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
