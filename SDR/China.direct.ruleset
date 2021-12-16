@@ -1,6 +1,8 @@
-#icloud/AppStore
+#自定义
 DOMAIN-SUFFIX,silvacast.com
 DOMAIN-SUFFIX,revma.com
+DOMAIN-SUFFIX,playdemic.com
+#icloud/AppStore
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,cdn-apple.com
