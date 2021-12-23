@@ -136,6 +136,8 @@ DOMAIN-SUFFIX,pocket-image-cache.com
 DOMAIN-SUFFIX,ctfassets.net
 DOMAIN-SUFFIX,rudderlabs.com
 DOMAIN-SUFFIX,fbsbx.com
+# NAME: podcast
+DOMAIN-KEYWORD,bookkeeper.itunes.apple.com
 # NAME: Apple Music
 USER-AGENT,Music*
 DOMAIN-KEYWORD,aod.itunes.apple.com
