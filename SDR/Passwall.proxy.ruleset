@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,youtubezz.com
 DOMAIN-SUFFIX,staticflickr.com
 DOMAIN-SUFFIX,ujoy.net
+DOMAIN-SUFFIX,infomaniak.ch
 # NAME: cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
