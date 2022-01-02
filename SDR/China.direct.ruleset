@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,xp.apple.com
 DOMAIN-SUFFIX,downloaddispatch.itunes.apple.com
 DOMAIN-SUFFIX,pancake.apple.com
 DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,mzstatic.com
 DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,api.smoot.apple.cn
