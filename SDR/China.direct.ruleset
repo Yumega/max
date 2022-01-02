@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,revma.com
 DOMAIN-SUFFIX,playdemic.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,fengshows.com
+DOMAIN-SUFFIX,ip.cn
+DOMAIN-SUFFIX,digicert.com
 #icloud/AppStore
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
