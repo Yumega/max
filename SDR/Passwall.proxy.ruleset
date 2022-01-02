@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,infomaniak.ch
 DOMAIN-SUFFIX,silvacast.com
 DOMAIN-SUFFIX,defjay.com
 DOMAIN-SUFFIX,voosia.com
+DOMAIN-SUFFIX,friendspire.com
+DOMAIN-SUFFIX,aygun.com
+DOMAIN-SUFFIX,mbark.co
 # NAME: Apple Music
 USER-AGENT,Music*
 DOMAIN-KEYWORD,aod.itunes.apple.com
