@@ -260,6 +260,9 @@ IP-CIDR,216.73.80.0/20,no-resolve
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
 USER-AGENT,com.google.ios.youtube*
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,web.app
 DOMAIN-SUFFIX,web.dev
