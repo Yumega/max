@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,voosia.com
 DOMAIN-SUFFIX,friendspire.com
 DOMAIN-SUFFIX,aygun.com
 DOMAIN-SUFFIX,mbark.co
+DOMAIN-SUFFIX,userstyles.org
 # NAME: Apple Music
 USER-AGENT,Music*
 DOMAIN-KEYWORD,aod.itunes.apple.com
