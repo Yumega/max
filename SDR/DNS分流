@@ -1,0 +1,30 @@
+小火箭DNS分流
+
+[Host]
+*.bdimg.com = server:180.76.76.76
+*.bcebos.com = server:180.76.76.76
+*.bdstatic.com = server:180.76.76.76
+*.baidu.com = server:180.76.76.76
+*.alicdn.com = server:223.5.5.5
+*.alipay.com = server:223.5.5.5
+*.alipay.cn = server:223.5.5.5
+*.1688.com = server:223.5.5.5
+*.aliyuncs.com = server:223.5.5.5
+*.tmall.com = server:223.5.5.5
+*.taobao.com = server:223.5.5.5
+*.alibaba.com = server:223.5.5.5
+*.alipayobjects.com = server:223.5.5.5
+*.alibabadns.com = server:223.5.5.5
+*.qq.com = server:119.29.29.29
+*.tencent.com = server:119.29.29.29
+*.weixin.com = server:119.29.29.29
+*.servicewechat.com = server:119.29.29.29
+*.myqcloud.com = server:119.29.29.29
+*.qlogo.cn = server:119.29.29.29
+
+*.weibo.cn = server:114.114.114.114
+*.sinaimg.cn = server:114.114.114.114
+*.sinaimg.com = server:114.114.114.114
+*.sinajs.cn = server:114.114.114.114
+*.weibo.com = server:114.114.114.114
+*.weibocdn.com = server:114.114.114.114
