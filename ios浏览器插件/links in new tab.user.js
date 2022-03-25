@@ -5,10 +5,7 @@
 // @author         max
 // @description   open links in new tab
 // @match        *://www.google.com/search?*
-// @match       *://m.baidu.com/*
-// @match       *://g9.baidu.com/*
 // @match       *://m.youtube.com/*
-// @match       *://s.weibo.com/weibo?q=*
 // @grant        GM_addStyle
 // @run-at       document-start
 // ==/UserScript==
