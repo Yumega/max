@@ -1,0 +1,32 @@
+var url = args.shortcutParameter;
+let html = `
+<html>
+<div id="player"></div>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<video id="video"></video>
+</html>
+`;
+const wv = new WebView();
+await wv.loadHTML(html, null, new Size(0, 202));
+wv.present(true);
+
+const js = `
+	let hls_url = "${url}";
+	var video = document.getElementById('video');
+	if(Hls.isSupported()) {
+		var hls = new Hls();
+		hls.loadSource(hls_url);
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.play().then(completion);
+	  });
+	 }
+	else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+		video.src = hls_url;
+		video.addEventListener('loadedmetadata',function() {
+		video.play().then(completion);
+    });
+  } else { completion() }
+`;
+await wv.evaluateJavaScript(js,true);
+App.close();
