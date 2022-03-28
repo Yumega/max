@@ -1,0 +1,123 @@
+pincong.rocks##div:style(background-image: none !important)
+
+! 2021-05-31 https://www.ghacks.net
+www.ghacks.net##.comment-respond
+www.ghacks.net##.ghacks-sidebar
+www.ghacks.net###site-footer
+www.ghacks.net###post-author
+www.ghacks.net##.pt--40.mt--40.border--top--gray.the_related_part
+www.ghacks.net##.snippet-type-10
+
+! 2021-06-01 https://www.livenewsmag.com
+www.livenewsmag.com##.entry-content.g1-typography-xl.g1-content-narrow > p
+www.livenewsmag.com##.crp_related
+www.livenewsmag.com##.entry-header-01.entry-header
+www.livenewsmag.com##.g1-hb-shadow-off.g1-hb-sticky-off.g1-hb-boxed.g1-hb-row-2.g1-hb-row-b.g1-hb-row-normal.g1-hb-row.g1-row-layout-page.g1-row
+gayfun.net##.float-ck
+
+! 2021-06-07 https://zh.wikipedia.org
+wikipedia.*##.ambox
+www.dwnews.com##.kGohot.s11hu9bj-2.iZLySy.s11hu9bj-3 > .jdmzmu.s1hkbo5w-0
+||e.infogram.com^$subdocument
+
+! 2021-06-12 https://pincong.rocks
+pincong.rocks##div.aw-mod:nth-of-type(1)
+pincong.rocks##.rbc
+||*.*^$script,domain=weiyun.com
+@@||weiyun.com$script,domain=weiyun.com
+
+||*.*^$script,domain=yijingying.com
+
+! 2021-06-19 https://www.bbc.com
+www.bbc.com###offer_12b657595ec04669062b-0
+www.bbc.com###piano-footer
+www.bbc.com##.tp-container-inner
+
+! 2021-06-30 https://www.voosia.com
+
+! 2021-07-03 https://www.youtube.com
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+www.youtube.com##tp-yt-iron-dropdown.ytd-popup-container.style-scope
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+
+! 2021-07-06 https://www.theverge.com
+www.theverge.com##.adblock-allowlist-messaging__wrapper
+
+! 2021-07-09 https://www.cnbeta.com
+www.cnbeta.com###hXTJhTPWcR
+
+! 2021-07-11 https://www.deepl.com
+www.deepl.com###dl_cookieBanner
+www.deepl.com##.dl_top_element--wide.dl_top_element.dl_app_ad
+www.deepl.com##.dl_header--sticky.dl_header
+www.deepl.com##.lmt_quotes
+www.deepl.com##.dl_menu_items
+
+! 2021-07-11 https://zh.wikipedia.org
+zh.wikipedia.org###bluedeck_ding > div
+
+! 2021-07-11 https://photo.baidu.com
+photo.baidu.com##.yk-side__footer
+photo.baidu.com##.yk-header__link
+
+! 2021-07-12 https://www.bbc.com
+www.bbc.com##.e1nbsi9l0.css-n7zdg2
+
+! 2021-07-17 https://www.facebook.com
+www.facebook.com##.gs1a9yip.j83agx80.btwxx1t3.owycx6da.jifvfom9.dlv3wnog.rl04r1d5.ni8dbmo4.stjgntxs.jbae33se.cxgpxx05.l9j0dhe7
+
+! 2021-07-17 https://www.voosia.com
+www.voosia.com##.fa-pencil.fa
+
+! 2021-08-28 https://www.timednews.com
+||timednews.com/images/cashbackholic468X100.png$image
+||timednews.com/images/cashbackholic468X100.png$image
+||timednews.com/images/cashbackholic160X80.png$image
+||timednews.com/images/cashbackholic160X80.png$image
+www.timednews.com##.comments
+www.timednews.com##.disclaimer
+www.timednews.com##.twitter
+www.timednews.com##.twitter-tweet
+www.timednews.com##.header
+||*.*^$script,domain=timednews.com
+! 2021-10-14 https://learningenglish.voanews.com
+||^$script,domain=learningenglish.voanews.com
+||learningenglish.voanews.com^$xhr,domain=learningenglish.voanews.com
+
+! 2021-11-16 https://www.douyin.com
+www.douyin.com##.a863cbaaffe537635d0f8cc2af289789-scss
+www.douyin.com##._2e1d83c3e628de59d28036fa441a8076-scss
+www.douyin.com##._0f0a7d0d7d54a534b4d62a56e2fee1a7-scss
+
+! 2022-02-25 https://feedly.com
+feedly.com##.col-xl-3-xlarge-only.col-xl-3
+feedly.com##.row.header
+feedly.com##.TopHeaderBar
+feedly.com##div.LeftnavListRow.MockLink:nth-of-type(3)
+
+
+! 2022-03-06 https://s.weibo.com
+s.weibo.com##a.Ctrls_alink_1djyW:nth-of-type(4)
+
+! 2022-03-14 https://www.ithome.com/
+www.ithome.com###nav
+www.ithome.com##.tt10
+www.ithome.com##.tt20
+www.ithome.com##.shareto
+www.ithome.com###side_func
+www.ithome.com##.cv
+
+! 2022-03-15 https://twitter.com
+twitter.com##.r-1phboty.r-qklmqi.r-j5o65s.css-1dbjc4n > .r-1udh08x.r-1adg3ll.css-1dbjc4n
+twitter.com##.r-kmv1fd.r-1qfz7tf.r-1awozwy.css-1dbjc4n
+
+! 2022-03-17 https://tieba.baidu.com
+tieba.baidu.com###forum-card-banner
+tieba.baidu.com##.app_download_box.aside_region
+tieba.baidu.com##.app_download_box.region_bright
+
+! 2022-03-19 https://www.reddit.com
+www.reddit.com##.TopNav__promoButton
+//static.zhihu.com/heifetz/main.signflow.*.js
+//static.zhihu.com/heifetz/column.signflow.*.js
+
