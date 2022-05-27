@@ -1,10 +1,8 @@
-iioo.me
-ixigua.com
-libvio.com
-hicloud.com
-dyndns.com
-douyucdn.cn
-douyucdn2.cn
+dl.wechat.com
+sglong.wechat.com
+sgminorshort.wechat.com
+sgshort.wechat.com
+tencentmap.wechat.com
 icloud-content.com
 icloud.com
 cdn-apple.com
@@ -27,6 +25,7 @@ updates.cdn-apple.com
 icloudsecure.net
 icloudsetup.com
 ios-icloud.com
+outlook.com
 geo.prod.do.dsp.mp.microsoft.com
 1drv.com
 a-msedge.net
@@ -187,7 +186,6 @@ kumo.com
 latampartneruniversity.com
 live.com
 live.net
-livefilestore.com
 livetileedge.dsx.mp.microsoft.com.edgekey.net
 livingyourambition.com
 localytics.com
@@ -338,7 +336,6 @@ optimizely.com
 orithegame.com
 osdinfra.net
 outingsapp.com
-outlook.com
 outlookgroups.ms
 outlookmobile.com
 ovi.com.cn
@@ -372,12 +369,6 @@ serverlesslibrary.net
 sfbassets.com
 sfbassets.net
 sfx.ms
-sharepoint.com
-sharepointonline.com
-skype.com
-skypeassets.com
-skypeforbusiness.com
-spoprod-a.akamaihd.net
 sprinklesapp.com
 sqlserveronlinux.com
 staffhub.ms
@@ -434,7 +425,6 @@ wlxrs.com
 working-bing-int.com
 wunderlist.com
 xamarin.com
-xbox.com
 xboxab.com
 xboxgamepass.com
 xboxgamestudios.com
@@ -444,6 +434,12 @@ xboxstudios.com
 xbx.lv
 yammer.com
 yammerusercontent.com
+xbox.com
+ixigua.com
+hicloud.com
+dyndns.com
+douyucdn.cn
+douyucdn2.cn
 
 
 
@@ -454,3 +450,12 @@ ip////
 223.6.6.6
 119.29.29.29
 180.76.76.76
+101.32.104.4/32
+101.32.104.41/32
+101.32.104.56/32
+101.32.118.25/32
+101.32.133.16/32
+101.32.133.53/32
+101.32.133.209/32
+129.226.3.47/32
+129.226.107.244/32
