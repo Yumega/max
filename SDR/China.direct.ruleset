@@ -8,6 +8,12 @@ DOMAIN-SUFFIX,fengshows.com
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,douyincdn.com
+#wechat
+dl.wechat.com
+sglong.wechat.com
+sgminorshort.wechat.com
+sgshort.wechat.com
+tencentmap.wechat.com
 #icloud/AppStore
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
