@@ -54,6 +54,7 @@ DOMAIN-SUFFIX,radiojar.com
 DOMAIN-SUFFIX,ic975.com
 DOMAIN-SUFFIX,leanstream.co
 DOMAIN-SUFFIX,crooze.fm
+DOMAIN-SUFFIX,mzstatic.com
 USER-AGENT,AppleCoreMedia*
 # NAME: cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
