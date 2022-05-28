@@ -1,0 +1,48 @@
+{
+  "timeStamp": 1653722451378,
+  "version": "1.42.4",
+  "userSettings": {
+    "contextMenuEnabled": false,
+    "importedLists": [],
+    "popupPanelSections": 31,
+    "showIconBadge": false,
+    "suspendUntilListsAreLoaded": true
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-quick-fixes",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "easylist",
+    "adguard-spyware",
+    "adguard-spyware-url",
+    "block-lan",
+    "easyprivacy",
+    "urlhaus-1",
+    "adguard-annoyance",
+    "adguard-social",
+    "fanboy-cookiemonster",
+    "ublock-annoyances",
+    "plowe-0",
+    "CHN-0"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "www.voosia.com",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-strict-blocking: mage98rquewz.com true\nno-csp-reports: * true\nno-popups: www.blphoto.net true\nno-popups: asiangaysex.net true\nno-popups: www.torlock2.com true\nno-popups: www.rarbgprx.org true\nno-strict-blocking: t.co true\nno-popups: lovetorrent.net true\nno-popups: xvideosjingxiang.com true",
+  "userFilters": "pincong.rocks##div:style(background-image: none !important)\n\n! 2021-05-31 https://www.ghacks.net\nwww.ghacks.net##.comment-respond\nwww.ghacks.net##.ghacks-sidebar\nwww.ghacks.net###site-footer\nwww.ghacks.net###post-author\nwww.ghacks.net##.pt--40.mt--40.border--top--gray.the_related_part\nwww.ghacks.net##.snippet-type-10\n\n! 2021-06-01 https://www.livenewsmag.com\nwww.livenewsmag.com##.entry-content.g1-typography-xl.g1-content-narrow > p\nwww.livenewsmag.com##.crp_related\nwww.livenewsmag.com##.entry-header-01.entry-header\nwww.livenewsmag.com##.g1-hb-shadow-off.g1-hb-sticky-off.g1-hb-boxed.g1-hb-row-2.g1-hb-row-b.g1-hb-row-normal.g1-hb-row.g1-row-layout-page.g1-row\ngayfun.net##.float-ck\n\n! 2021-06-07 https://zh.wikipedia.org\nwikipedia.*##.ambox\nwww.dwnews.com##.kGohot.s11hu9bj-2.iZLySy.s11hu9bj-3 > .jdmzmu.s1hkbo5w-0\n||e.infogram.com^$subdocument\n\n! 2021-06-12 https://pincong.rocks\npincong.rocks##div.aw-mod:nth-of-type(1)\npincong.rocks##.rbc\n||*.*^$script,domain=weiyun.com\n@@||weiyun.com$script,domain=weiyun.com\n\n||*.*^$script,domain=yijingying.com\n\n! 2021-06-19 https://www.bbc.com\nwww.bbc.com###offer_12b657595ec04669062b-0\nwww.bbc.com###piano-footer\nwww.bbc.com##.tp-container-inner\n\n! 2021-07-06 https://www.theverge.com\nwww.theverge.com##.adblock-allowlist-messaging__wrapper\n\n! 2021-07-09 https://www.cnbeta.com\nwww.cnbeta.com###hXTJhTPWcR\n\n\n! 2021-07-11 https://zh.wikipedia.org\nzh.wikipedia.org###bluedeck_ding > div\n\n! 2021-07-11 https://photo.baidu.com\nphoto.baidu.com##.yk-side__footer\nphoto.baidu.com##.yk-header__link\n\n! 2021-07-12 https://www.bbc.com\nwww.bbc.com##.e1nbsi9l0.css-n7zdg2\n\n! 2021-07-17 https://www.facebook.com\nwww.facebook.com##.gs1a9yip.j83agx80.btwxx1t3.owycx6da.jifvfom9.dlv3wnog.rl04r1d5.ni8dbmo4.stjgntxs.jbae33se.cxgpxx05.l9j0dhe7\n\n! 2021-07-17 https://www.voosia.com\nwww.voosia.com##.fa-pencil.fa\n\n! 2021-08-28 https://www.timednews.com\n||timednews.com/images/cashbackholic468X100.png$image\n||timednews.com/images/cashbackholic468X100.png$image\n||timednews.com/images/cashbackholic160X80.png$image\n||timednews.com/images/cashbackholic160X80.png$image\nwww.timednews.com##.comments\nwww.timednews.com##.disclaimer\nwww.timednews.com##.twitter\nwww.timednews.com##.twitter-tweet\nwww.timednews.com##.header\n||*.*^$script,domain=timednews.com\n! 2021-10-14 https://learningenglish.voanews.com\n||^$script,domain=learningenglish.voanews.com\n||learningenglish.voanews.com^$xhr,domain=learningenglish.voanews.com\n\n! 2021-11-16 https://www.douyin.com\nwww.douyin.com##.a863cbaaffe537635d0f8cc2af289789-scss\nwww.douyin.com##._2e1d83c3e628de59d28036fa441a8076-scss\nwww.douyin.com##._0f0a7d0d7d54a534b4d62a56e2fee1a7-scss\n\n! 2022-02-25 https://feedly.com\nfeedly.com##.col-xl-3-xlarge-only.col-xl-3\nfeedly.com##.row.header\nfeedly.com##.TopHeaderBar\nfeedly.com##div.LeftnavListRow.MockLink:nth-of-type(3)\n\n\n! 2022-03-06 https://s.weibo.com\ns.weibo.com##a.Ctrls_alink_1djyW:nth-of-type(4)\n\n! 2022-03-14 https://www.ithome.com/\nwww.ithome.com###nav\nwww.ithome.com##.tt10\nwww.ithome.com##.tt20\nwww.ithome.com##.shareto\nwww.ithome.com###side_func\nwww.ithome.com##.cv\n\n! 2022-03-17 https://tieba.baidu.com\ntieba.baidu.com###forum-card-banner\ntieba.baidu.com##.app_download_box.aside_region\ntieba.baidu.com##.app_download_box.region_bright\n\n! 2022-03-19 https://www.reddit.com\nwww.reddit.com##.TopNav__promoButton\n//static.zhihu.com/heifetz/main.signflow.*.js\n//static.zhihu.com/heifetz/column.signflow.*.js\n\n! 2022-03-28 https://www.zaobao.com.sg\nwww.zaobao.com.sg##.cx_paywall_placeholder\nwww.zaobao.com.sg##.article-share-fb\nwww.zaobao.com.sg##.sidebar-right.col-xxl-3.col-lg-4.col-12\nwww.zaobao.com.sg##.newspost-holder\nwww.zaobao.com.sg##.footer\nwww.zaobao.com.sg###js-topnavbar-tertiary > .topnavbar-content\nwww.zaobao.com.sg##.keywords\nwww.zaobao.com.sg###block-socialmediasharingblock > .content > .social-item-list.fa-ul\nwww.zaobao.com.sg###js-header-mobile > .headroom--not-bottom.headroom--top.animated.topnavbar-tertiary.topnavbar\n\n! 2022-04-03 https://news.ifeng.com\nnews.ifeng.com##.clearfix.vote_box-3Jd0QwU2\n\n! 2022-04-05 https://www.rfi.fr\nwww.rfi.fr##.o-pwa-ah2s--android-optin.o-pwa-ah2s\n\n! 2022-04-18 https://m.weibo.cn\nm.weibo.cn##.npage-bg\nm.weibo.cn##.m-container-max.m-bar-panel.m-tab-bar\nm.weibo.cn##.wrap\nm.weibo.cn##.lite-page-editor\n\n! 2022-04-29 https://zh.m.wikipedia.org\nzh.m.wikipedia.org###bluedeck_ding > div\n\n! 2022-05-09 https://twitter.com\ntwitter.com##.r-1phboty.r-qklmqi.r-1igl3o0.css-1dbjc4n\n\n! 2022-05-24 https://zh-m-wikipedia-org.translate.goog\nzh-m-wikipedia-org.translate.goog###bluedeck_ding > div\n\n! 2022-05-25 https://www.libvio.me\nwww.libvio.me##.t-img-box\n\n! 2022-05-25 https://twitter.com\ntwitter.com##.r-1phboty.r-qklmqi.r-j5o65s.css-1dbjc4n\n\n! 2022-05-26 https://tophub.today\ntophub.today##.cq\ntophub.today##.alert-warning.alert\ntophub.today##a.b-L.bb-T:nth-of-type(3)\ntophub.today##.bb-TT.b-L.bb-T\n\n! 2022-05-26 https://zh.m.wikipedia.org\nzh.m.wikipedia.org###page-actions-edit\nzh.m.wikipedia.org##h2.open-block.collapsible-heading.section-heading > .mw-editsection\nzh.m.wikipedia.org##h3.in-block > .mw-editsection\n\n! 2022-05-26 https://baike.baidu.com\nbaike.baidu.com##.J-secondsknow-large-container.secondsknow-large-container\nbaike.baidu.com##.pc-header-new.header-wrapper > .header\nbaike.baidu.com##.navbar-bg-top\nbaike.baidu.com##.wgt-navbar\n\n! 2022-05-26 https://www.zhihu.com\nwww.zhihu.com##.AppBanner.Card\nwww.zhihu.com##.Footer\n"
+}
