@@ -1,0 +1,22 @@
+/dev/dri/card0
+/dev/dri/renderD128
+
+# cd /mnt/sdb1/aria2
+
+
+docker run -d \
+ --name jellyfin \
+ -v /mnt/sdb1/jellyfin/config:/config \
+ -v /mnt/sdb1/jellyfin/cache:/cache \
+ -v /mnt/sdb1/aria2:/media \
+ -p 8096:8096 \
+ --device= /dev/dri/renderD128 \
+ --device /dev/dri/card0:/dev/dri/card0 \
+ --restart=unless-stopped \
+ jellyfin/jellyfin
+
+
+
+电视
+http://epg.51zmt.top:8000/e.xml
+https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml
