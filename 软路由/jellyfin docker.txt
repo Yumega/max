@@ -20,3 +20,4 @@ docker run -d \
 电视
 http://epg.51zmt.top:8000/e.xml
 https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml
