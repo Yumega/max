@@ -25,6 +25,17 @@ docker run -d \
   -v /mnt/sdb1/sonnarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/sonarr:latest
+  
+  docker run -d \
+  --name=jackett \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 9117:9117 \
+  -v /mnt/sdb1/jackett/data:/config \
+  -v /mnt/sdb1/aria2:/downloads \
+  --restart unless-stopped \
+  lscr.io/linuxserver/jackett:latest
     
 
 
