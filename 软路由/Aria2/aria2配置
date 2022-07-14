@@ -47,3 +47,7 @@ bt-detach-seed-only=true
 seed-time=10
 max-download-result=5
 user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+bt-force-encryption=true
+listen-port=51411
+dht-listen-port=51411
+enable-dht=true
