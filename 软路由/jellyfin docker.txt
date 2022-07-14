@@ -16,6 +16,17 @@ docker run -d \
  jellyfin/jellyfin
 
 
+docker run -d \
+  --name=sonarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 8989:8989 \
+  -v /mnt/sdb1/sonnarr/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/sonarr:latest
+    
+
 
 电视
 http://epg.51zmt.top:8000/e.xml
