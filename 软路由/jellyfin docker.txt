@@ -36,7 +36,17 @@ docker run -d \
   -v /mnt/sdb1/aria2:/downloads \
   --restart unless-stopped \
   lscr.io/linuxserver/jackett:latest
-    
+  
+  
+  docker run -d \
+  --name=heimdall \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -p 8080:80 \
+  -p 8443:443 \
+  -v /mnt/sdb1/heimdall/appdata/config:/config \
+  --restart unless-stopped \
+ linuxserver/heimdall  
 
 
 电视
