@@ -6,7 +6,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Asia/Shanghai \
   -p 8989:8989 \
-  -v /mnt/sdb1/sonnarr/data:/config \
+  -v /opt/sonnarr/data:/config \
   -v /mnt/sdb1/aria2-downloads:/downloads \
   --restart unless-stopped \
   lscr.io/linuxserver/sonarr:latest
@@ -19,7 +19,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Asia/Shanghai \
   -p 9696:9696 \
-  -v /mnt/sdb1/prowlarr/data:/config \
+  -v /opt/prowlarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:develop
   
@@ -37,7 +37,7 @@ docker run -d \
     -e RPC_SECRET=token \
     -e RPC_PORT=6800 \
     -e LISTEN_PORT=6888 \
-    -v /mnt/sdb1/aria2-config:/config \
+    -v /opt/aria2-config:/config \
     -v /mnt/sdb1/aria2-downloads:/downloads \
     p3terx/aria2-pro
     
