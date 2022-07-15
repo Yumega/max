@@ -1,0 +1,39 @@
+添加 sonarr
+docker run -d \
+  --name=sonarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 8989:8989 \
+  -v /mnt/sdb1/sonnarr/data:/config \
+  -v /mnt/sdb1/aria2-downloads:/downloads \
+  --restart unless-stopped \
+  lscr.io/linuxserver/sonarr:latest
+  
+  添加prowlarr
+  docker run -d \
+  --name=prowlarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 9696:9696 \
+  -v /mnt/sdb1/prowlarr/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/prowlarr:develop
+  
+  
+  添加Aria2 pro
+ aria2 docker
+docker run -d \
+    --name aria2-pro \
+    --restart unless-stopped \
+    --log-opt max-size=1m \
+    --network host \
+    -e PUID=$UID \
+    -e PGID=$GID \
+    -e RPC_SECRET=token \
+    -e RPC_PORT=6800 \
+    -e LISTEN_PORT=6888 \
+    -v /mnt/sdb1/aria2-config:/config \
+    -v /mnt/sdb1/aria2-downloads:/downloads \
+    p3terx/aria2-pro
