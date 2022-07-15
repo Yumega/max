@@ -26,7 +26,21 @@ docker run -d \
   
   添加Aria2 pro
   
-  
+   docker run -d \
+    --name aria2 \
+    --restart unless-stopped \
+    --log-opt max-size=1m \
+    --network host \
+    -e PUID= \
+    -e PGID= \
+    -e RPC_SECRET=token \
+    -e RPC_PORT=6800 \
+    -e LISTEN_PORT=6888 \
+    -v /opt/aria2-config:/config \
+    -v /mnt/sdb1/aria2-downloads:/downloads \
+    p3terx/aria2-pro
+    
+(下载文件不可修改)    
  docker run -d \
     --name aria2-pro \
     --restart unless-stopped \
