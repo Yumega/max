@@ -33,7 +33,16 @@ docker run -d \
     -e PGID=$GID \
     -e RPC_SECRET=token \
     -e RPC_PORT=6800 \
+    
+    
     -e LISTEN_PORT=6888 \
     -v /mnt/sdb1/aria2-config:/config \
     -v /mnt/sdb1/aria2-downloads:/downloads \
     p3terx/aria2-pro
+------------------------------------------------------
+prowlarr 连接到 sonarr
+打开 http://192.168.11.1:9696/settings/applications
+添加sonarr ，在http://192.168.11.1:8989/settings/general中复制 ApiKey 粘贴在prowlarr
+
+sonarr添加 aira2 pro 下载
+http://192.168.11.1:8989/settings/downloadclients
