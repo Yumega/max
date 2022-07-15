@@ -3,7 +3,6 @@
 
 # cd /mnt/sdb1/aria2
 
-
 docker run -d \
  --name jellyfin \
  -v /mnt/sdb1/jellyfin/config:/config \
@@ -14,29 +13,6 @@ docker run -d \
  --device /dev/dri/card0:/dev/dri/card0 \
  --restart=unless-stopped \
  jellyfin/jellyfin
-
-
-docker run -d \
-  --name=sonarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 8989:8989 \
-  -v /mnt/sdb1/sonnarr/data:/config \
-  --restart unless-stopped \
-  lscr.io/linuxserver/sonarr:latest
-  
-  docker run -d \
-  --name=jackett \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 9117:9117 \
-  -v /mnt/sdb1/jackett/data:/config \
-  -v /mnt/sdb1/aria2:/downloads \
-  --restart unless-stopped \
-  lscr.io/linuxserver/jackett:latest
-  
   
   docker run -d \
   --name=heimdall \
@@ -44,10 +20,12 @@ docker run -d \
   -e PGID=1000 \
   -p 8080:80 \
   -p 8443:443 \
-  -v /mnt/sdb1/heimdall/appdata/config:/config \
+  -v /opt/heimdall/appdata/config:/config \
   --restart unless-stopped \
  linuxserver/heimdall  
-
+ 
+ 
+qbittorrent和aria2冲突
 docker create  \
     --name=qbittorrent  \
     -e WEBUIPORT=8080  \
@@ -63,7 +41,6 @@ docker create  \
     superng6/qbittorrent:latest
 
 用户名 admin
-
 密码 adminadmin
 
 电视
