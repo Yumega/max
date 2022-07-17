@@ -55,6 +55,20 @@ docker run -d \
     -v /mnt/sdb1/aria2-downloads:/downloads \
     p3terx/aria2-pro
     
+    
+   docker create  \
+    --name=qbittorrent  \
+    -e WEBUIPORT=8080  \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e TZ=Asia/Shanghai \
+    -p 6881:6881  \
+    -p 6881:6881/udp  \
+    -p 8080:8080  \
+    -v /opt/qbittorrent:/config  \
+    -v /mnt/sdb1/aria2-downloads:/downloads  \
+    --restart unless-stopped  \
+    superng6/qbittorrent:latest 
 ------------------------------------------------------
 prowlarr 连接到 sonarr
 打开 http://192.168.11.1:9696/settings/applications
