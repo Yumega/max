@@ -62,8 +62,8 @@ docker run -d \
     -e PUID=1000 \
     -e PGID=1000 \
     -e TZ=Asia/Shanghai \
-    -p 6881:6881  \
-    -p 6881:6881/udp  \
+    -p 6888:6888  \
+    -p 6888:6888/udp  \
     -p 8080:8080  \
     -v /opt/qbittorrent:/config  \
     -v /mnt/sdb1/aria2-downloads:/downloads  \
