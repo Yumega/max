@@ -11,6 +11,17 @@ docker run -d \
   --restart unless-stopped \
   lscr.io/linuxserver/sonarr:latest
   
+  docker run -d \
+  --name=radarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 7878:7878 \
+  -v /opt/radarr/data:/config \
+  -v /mnt/sdb1/aria2-downloads:/downloads \
+  --restart unless-stopped \
+  lscr.io/linuxserver/radarr:latest
+  
   添加prowlarr
   
   docker run -d \
