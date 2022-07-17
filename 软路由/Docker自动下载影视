@@ -22,23 +22,6 @@ docker run -d \
   -v /opt/prowlarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:develop
-  
-  
-  添加Aria2 pro
-  
-   docker run -d \
-    --name aria2 pro\
-    --restart unless-stopped \
-    --log-opt max-size=1m \
-    --network host \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e RPC_SECRET=token \
-    -e RPC_PORT=6800 \
-    -e LISTEN_PORT=31411 \
-    -v /opt/aria2-config:/config \
-    -v /mnt/sdb1/aria2-downloads:/downloads \
-    p3terx/aria2-pro
     
     
    docker create  \
@@ -60,6 +43,24 @@ docker run -d \
     
   用于传入连接的端口:59178
   在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
+  
+  
+    添加Aria2 pro
+  
+   docker run -d \
+    --name aria2\
+    --restart unless-stopped \
+    --log-opt max-size=1m \
+    --network host \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e RPC_SECRET=token \
+    -e RPC_PORT=6800 \
+    -e LISTEN_PORT=31411 \
+    -v /opt/aria2:/config \
+    -v /mnt/sdb1/aria2-downloads:/downloads \
+    p3terx/aria2-pro
+    
 ------------------------------------------------------
 prowlarr 连接到 sonarr
 打开 http://192.168.11.1:9696/settings/applications
