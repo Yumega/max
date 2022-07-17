@@ -45,20 +45,20 @@ docker run -d \
   在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
   
   
-    添加Aria2 pro
+    添加Aria2 pro(最大权限，存在不同文件夹)
   
    docker run -d \
     --name aria2\
     --restart unless-stopped \
     --log-opt max-size=1m \
     --network host \
-    -e PUID=1000 \
-    -e PGID=1000 \
+    -e PUID= \
+    -e PGID= \
     -e RPC_SECRET=token \
     -e RPC_PORT=6800 \
     -e LISTEN_PORT=31411 \
     -v /opt/aria2:/config \
-    -v /mnt/sdb1/aria2-downloads:/downloads \
+    -v /mnt/sdb1/aria2:/downloads \
     p3terx/aria2-pro
     
 ------------------------------------------------------
