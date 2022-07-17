@@ -5,14 +5,28 @@
 
 docker run -d \
  --name jellyfin \
- -v /mnt/sdb1/jellyfin/config:/config \
- -v /mnt/sdb1/jellyfin/cache:/cache \
- -v /mnt/sdb1/aria2:/media \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/aria2-downloads:/media \
  -p 8096:8096 \
  --device= /dev/dri/renderD128 \
- --device /dev/dri/card0:/dev/dri/card0 \
+ --device= /dev/dri/card0:/dev/dri/card0 \
  --restart=unless-stopped \
  jellyfin/jellyfin
+  
+  
+  docker run -d \
+ --name jellyfin \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/aria2-downloads:/media \
+ -p 8096:8096 \
+ --device /dev/dri:/dev/dri
+ --restart=unless-stopped \
+ nyanmisaka/jellyfin
+  
+  
+  
   
   docker run -d \
   --name=heimdall \
