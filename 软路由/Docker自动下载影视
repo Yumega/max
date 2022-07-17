@@ -69,6 +69,9 @@ docker run -d \
     -v /mnt/sdb1/aria2-downloads:/downloads  \
     --restart unless-stopped  \
     superng6/qbittorrent:latest 
+    
+    id: max
+    pass:maxmax
 ------------------------------------------------------
 prowlarr 连接到 sonarr
 打开 http://192.168.11.1:9696/settings/applications
