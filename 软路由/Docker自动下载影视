@@ -31,8 +31,8 @@ docker run -d \
     --restart unless-stopped \
     --log-opt max-size=1m \
     --network host \
-    -e PUID= \
-    -e PGID= \
+    -e PUID=1000 \
+    -e PGID=1000 \
     -e RPC_SECRET=token \
     -e RPC_PORT=6800 \
     -e LISTEN_PORT=6888 \
