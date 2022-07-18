@@ -13,6 +13,8 @@ docker run -d \
  --restart=unless-stopped \
  jellyfin/jellyfin
  
+ 
+ (打开特权模式）
  docker run -d \
  --name=jellyfin \
  -e TZ=Asia/Shanghai \
