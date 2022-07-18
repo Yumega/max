@@ -21,12 +21,55 @@ docker run -d \
  -v /opt/jellyfin/cache:/cache \
  -v /mnt/sdb1/aria2-downloads:/media \
  -p 8096:8096 \
- --device /dev/dri:/dev/dri
+ --device= /dev/dri/renderD128 \
+ --device= /dev/dri/card0:/dev/dri/card0 \
+ --restart=unless-stopped \
+ nyanmisaka/jellyfin
+  
+    docker run -d \
+ --name jellyfin \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/aria2-downloads:/media \
+ -p 8096:8096 \
+ --device= /dev/dri/renderD128 \
+ --device= /dev/dri/card0:/dev/dri/card0 \
  --restart=unless-stopped \
  nyanmisaka/jellyfin
   
   
-  
+docker run -d \
+ --name=jellyfinplus \
+ -e TZ=Asia/Shanghai \
+ -p 8096:8096 \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/aria2-downloads/Movies:/movie1 \
+ -v /mnt/sdb1/aria2-downloads/TV show:/tv1 \
+ -v /mnt/sdb1/aria2-downloads/News:/news \
+ -v /mnt/sdb1/aria2/Movies:/movie2 \
+ -v /mnt/sdb1/aria2/TV show:/tv2 \
+ -v /opt/aliyun/Movies:/movie3 \
+ -v /opt/aliyun/TV show:/tv3 \
+ -v /opt/aliyun/Documentary:/documentary \
+ --device= /dev/dri/renderD128 \
+ --device= /dev/dri/card0:/dev/dri/card0 \
+ --restart=unless-stopped \
+ nyanmisaka/jellyfin
+ 
+ docker run -d \
+ --name=jellyfin \
+ -e TZ=Asia/Shanghai \
+ -p 8096:8096 \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/aria2-downloads:/media1 \
+ -v /mnt/sdb1/aria2:/media2 \
+ -v /opt/aliyun:/media3 \
+ --device= /dev/dri/renderD128 \
+ --device= /dev/dri/card0:/dev/dri/card0 \
+ --restart=unless-stopped \
+ nyanmisaka/jellyfin
   
   docker run -d \
   --name=heimdall \
