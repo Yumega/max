@@ -1,6 +1,5 @@
 /dev/dri/card0
 /dev/dri/renderD128
-
 # cd /mnt/sdb1/aria2
 
 docker run -d \
@@ -13,49 +12,6 @@ docker run -d \
  --device= /dev/dri/card0:/dev/dri/card0 \
  --restart=unless-stopped \
  jellyfin/jellyfin
-  
-  
-  docker run -d \
- --name jellyfin \
- -v /opt/docker/jellyfin/data:/config \
- -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdb1/aria2-downloads:/media \
- -p 8096:8096 \
- --device= /dev/dri/renderD128 \
- --device= /dev/dri/card0:/dev/dri/card0 \
- --restart=unless-stopped \
- nyanmisaka/jellyfin
-  
-    docker run -d \
- --name jellyfin \
- -v /opt/docker/jellyfin/data:/config \
- -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdb1/aria2-downloads:/media \
- -p 8096:8096 \
- --device= /dev/dri/renderD128 \
- --device= /dev/dri/card0:/dev/dri/card0 \
- --restart=unless-stopped \
- nyanmisaka/jellyfin
-  
-  
-docker run -d \
- --name=jellyfinplus \
- -e TZ=Asia/Shanghai \
- -p 8096:8096 \
- -v /opt/docker/jellyfin/data:/config \
- -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdb1/aria2-downloads/Movies:/movie1 \
- -v /mnt/sdb1/aria2-downloads/TV show:/tv1 \
- -v /mnt/sdb1/aria2-downloads/News:/news \
- -v /mnt/sdb1/aria2/Movies:/movie2 \
- -v /mnt/sdb1/aria2/TV show:/tv2 \
- -v /opt/aliyun/Movies:/movie3 \
- -v /opt/aliyun/TV show:/tv3 \
- -v /opt/aliyun/Documentary:/documentary \
- --device= /dev/dri/renderD128 \
- --device= /dev/dri/card0:/dev/dri/card0 \
- --restart=unless-stopped \
- nyanmisaka/jellyfin
  
  docker run -d \
  --name=jellyfin \
@@ -81,24 +37,6 @@ docker run -d \
   --restart unless-stopped \
  linuxserver/heimdall  
  
- 
-qbittorrent和aria2冲突
-docker create  \
-    --name=qbittorrent  \
-    -e WEBUIPORT=8080  \
-    -e PUID=1026 \
-    -e PGID=100 \
-    -e TZ=Asia/Shanghai \
-    -p 6881:6881  \
-    -p 6881:6881/udp  \
-    -p 8080:8080  \
-    -v /mnt/sdb1/btt:/config  \
-    -v /mnt/sdb1/btt:/downloads  \
-    --restart unless-stopped  \
-    superng6/qbittorrent:latest
-
-用户名 admin
-密码 adminadmin
 
 电视
 http://epg.51zmt.top:8000/e.xml
