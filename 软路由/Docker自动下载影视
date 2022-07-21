@@ -63,8 +63,52 @@ prowlarr 连接到 sonarr
 打开 http://192.168.11.1:9696/settings/applications
 添加sonarr ，在http://192.168.11.1:8989/settings/general中复制 ApiKey 粘贴在prowlarr
 
-sonarr添加 aira2 pro 下载
-http://192.168.11.1:8989/settings/downloadclients
+
+/dev/dri/card0
+/dev/dri/renderD128
+# cd /mnt/sdb1/aria2
+  (打开特权模式）
+ docker run -d \
+ --name=jellyfin \
+ -e TZ=Asia/Shanghai \
+ -p 8096:8096 \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/qbit:/media1 \
+ -v /mnt/sdb1/aria2:/media2 \
+ -v /opt/aliyun:/media3 \
+ --device= /dev/dri/renderD128 \
+ --device= /dev/dri/card0:/dev/dri/card0 \
+ --restart=unless-stopped \
+ nyanmisaka/jellyfin
+  
+  docker run -d \
+  --name=heimdall \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -p 7070:80 \
+  -p 8443:443 \
+  -v /opt/heimdall/appdata/config:/config \
+  --restart unless-stopped \
+ linuxserver/heimdall  
+ 
+docker run -d \
+ --name jellyfin \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/qbit:/media \
+ -p 8096:8096 \
+ --device= /dev/dri/renderD128 \
+ --device= /dev/dri/card0:/dev/dri/card0 \
+ --restart=unless-stopped \
+ jellyfin/jellyfin
+ 
+电视
+http://epg.51zmt.top:8000/e.xml
+https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml
+
+
 
 添加prowlarr
   
