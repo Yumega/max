@@ -86,22 +86,13 @@ prowlarr 连接到 sonarr
   --name=heimdall \
   -e PUID=1000 \
   -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
   -p 7070:80 \
   -p 8443:443 \
   -v /opt/heimdall/appdata/config:/config \
   --restart unless-stopped \
- linuxserver/heimdall  
+ lscr.io/linuxserver/heimdall:latest 
  
-docker run -d \
- --name jellyfin \
- -v /opt/docker/jellyfin/data:/config \
- -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdb1/qbit:/media \
- -p 8096:8096 \
- --device= /dev/dri/renderD128 \
- --device= /dev/dri/card0:/dev/dri/card0 \
- --restart=unless-stopped \
- jellyfin/jellyfin
  
 电视
 http://epg.51zmt.top:8000/e.xml
