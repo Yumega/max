@@ -6,7 +6,7 @@ docker run -d \
  --name jellyfin \
  -v /opt/docker/jellyfin/data:/config \
  -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdb1/aria2-downloads:/media \
+ -v /mnt/sdb1/qbit:/media \
  -p 8096:8096 \
  --device= /dev/dri/renderD128 \
  --device= /dev/dri/card0:/dev/dri/card0 \
@@ -21,7 +21,7 @@ docker run -d \
  -p 8096:8096 \
  -v /opt/docker/jellyfin/data:/config \
  -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdb1/aria2-downloads:/media1 \
+ -v /mnt/sdb1/qbit:/media1 \
  -v /mnt/sdb1/aria2:/media2 \
  -v /opt/aliyun:/media3 \
  --device= /dev/dri/renderD128 \
@@ -33,7 +33,7 @@ docker run -d \
   --name=heimdall \
   -e PUID=1000 \
   -e PGID=1000 \
-  -p 8080:80 \
+  -p 7070:80 \
   -p 8443:443 \
   -v /opt/heimdall/appdata/config:/config \
   --restart unless-stopped \
