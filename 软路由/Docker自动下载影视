@@ -76,7 +76,7 @@ prowlarr 连接到 sonarr
  -v /opt/jellyfin/cache:/cache \
  -v /mnt/sdb1/qbit:/media1 \
  -v /mnt/sdb1/aria2:/media2 \
- -v /opt/aliyun:/media3 \
+ -v /opt/aliyundrive:/media3 \
  --device= /dev/dri/renderD128 \
  --device= /dev/dri/card0:/dev/dri/card0 \
  --restart=unless-stopped \
