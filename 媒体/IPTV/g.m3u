@@ -1,0 +1,22 @@
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/wVVGZl9.png",Stingray Karaoke (1080p)
+https://dai.google.com/linear/hls/event/5bqbG8j7T_6_qMONC1SDsg/master.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/f7fe1378-d4a8-434e-8c1a-d7e001560404-small3x1_stirr_1219_epg_stingraypopadult_1920x1080.png?cb=eccbc87e4b5ce2fe28308fd9f2a7baf3",STIRR Stingray Pop Adult (1080p)
+https://ott-linear-channels.stingray.com/hls/stirr/104.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/ff902b0a-f978-495d-8b37-171eb5fee8a4-small3x1_STIRR_Logo_0720_Alternative_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c",STIRR Stingray Rock Alternative (1080p)
+https://ott-linear-channels.stingray.com/hls/stirr/102.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/b1d83dd9-b335-4871-89a1-b92cf2651b65-small3x1_STIRR_Logo_0720_StingrayLatinPop_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c",STIRR Stingray Today's Latin Pop (1080p)
+https://ott-linear-channels.stingray.com/hls/stirr/190.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/d2056e60-df7d-4fac-8533-19503d5af78e-small3x1_STIRR_Logo_0720_HipHopRB_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c",STIRR Stingray Urban Beats (1080p)
+https://ott-linear-channels.stingray.com/hls/stirr/133.m3u8
+#EXTINF:-1 group-title="Series" tvg-logo="https://i.imgur.com/1pxXEtP.png",STIRR The Asylum (1080p)
+https://dai.google.com/linear/hls/event/2r7F3DThT-C5YW21CUuGLQ/master.m3u8
+#EXTINF:-1 group-title="Culture" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/89b69784-d184-4cb4-84b8-4b6a059bb1d7-small3x1_STIRR_Logo_0320_BobRoss_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c",STIRR The Bob Ross Channel (1080p)
+https://dai.google.com/linear/hls/event/3dbJrQmVT_-psb-KBYuKQA/master.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc953ab6426646dbd7347b4",STIRR The First (1080p)
+https://dai.google.com/linear/hls/event/nX39-giHRPuKQiVAhua0Kg/master.m3u8
+#EXTINF:-1  tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/ed531a2a-04cd-4845-a419-cc46ed05333b-small3x1_STIRR_Logo_0320_Truly_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c",STIRR Truly (720p)
+https://dai.google.com/linear/hls/event/Xu-I6qGiSTKeu6glzS4BtQ/master.m3u8
+#EXTINF:-1 ,STIRR TV Mix (720p)
+https://dai.google.com/linear/hls/event/ZP8ZMv95Q0Gm9EiyYOGHAA/master.m3u8
+#EXTINF:-1 group-title="Movies" tvg-logo="https://i.imgur.com/SAfy1us.png",STIRR Westerns (720p)
+https://dai.google.com/linear/hls/event/YF2jfXh_QROPxoHEwp1Abw/master.m3u8
