@@ -2,16 +2,16 @@
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="Chinese",CCTV4K
 http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS%E6%96%B0%E9%97%BB.png" group-title="Chinese",TVBS新闻台
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVBS.svg/1598px-TVBS.svg.png" group-title="Chinese",TVBS新闻台
 http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="Chinese",东森亚洲新闻台
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/EBC_News_logo_20150706.jpg" group-title="Chinese",东森亚洲新闻台
 http://38.64.72.148/hls/modn/list/2026/chunklist0.m3u8
 
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="Chinese",凤凰中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="Chinese",凤凰资讯
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png" group-title="Chinese",凤凰资讯
 https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="Chinese",CCTV1
 http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/cctv1hd/2300000/mnf.m3u8
