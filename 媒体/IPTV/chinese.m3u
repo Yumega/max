@@ -8,6 +8,9 @@ http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/EBC_News_logo_20150706.jpg" group-title="Chinese",东森亚洲新闻台
 http://38.64.72.148/hls/modn/list/2026/chunklist0.m3u8
 
+#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" group-title="Chinese",东森超视
+http://61.219.170.95:18555/.m3u8
+
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="Chinese",凤凰中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 
