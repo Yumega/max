@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml"
+#EXTM3U 
 #EXTINF:-1 channel-id="samsung-USBA370000104" tvg-id="USBA370000104" tvg-chno="1005" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/06/67/USBA370000104_20220621T075722.png" group-title="News",CBS News
 https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8
 
