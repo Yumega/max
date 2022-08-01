@@ -41,8 +41,5 @@ https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f
 #EXTINF:-1, tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRWHI7mug39rDzqeoK22Lf9cjQdiWu2HOrz9Ixv=s900-c-k-c0x00ffffff-no-rj"group-title="Sports",One Golf
 http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 channel-id="samsung-USBB400000145" tvg-id="USBB400000145" tvg-chno="1155" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/39/USBB400000145_20220712T041424.png" group-title="Sports",GOLFPASS
-https://bit.ly/golfpassusa?/5.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/2560px-SBS_Golf_logo_2018.svg.png" group-title="Sports" ,SBS Golf
 http://itskoi.dothome.co.kr/sbs.php?id=S05
