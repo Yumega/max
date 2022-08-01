@@ -59,7 +59,7 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Global_News.svg/1200px-Global_News.svg.png" group-title="News" ,Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=2499968.m3u8
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/Channel_NewsAsia_logo_%28shape_only%29.svg"group-title="Sports",One Golf
+#EXTINF:-1, tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRWHI7mug39rDzqeoK22Lf9cjQdiWu2HOrz9Ixv=s900-c-k-c0x00ffffff-no-rj"group-title="Sports",One Golf
 http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 channel-id="samsung-USBB400000145" tvg-id="USBB400000145" tvg-chno="1155" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/39/USBB400000145_20220712T041424.png" group-title="Sports",GOLFPASS
