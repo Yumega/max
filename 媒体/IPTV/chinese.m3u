@@ -1,10 +1,13 @@
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVBS.svg/1598px-TVBS.svg.png" group-title="Chinese",TVBS新闻台
 http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
+
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/EBC_News_logo_20150706.jpg" group-title="Chinese",东森新闻台
 http://51.79.193.109:8080/hlsok/1ecdeb5a/index.m3u8
+
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png" group-title="Chinese",凤凰资讯
-http://61.219.170.95:18565/.m3u8
+https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
+
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETNews.png" group-title="Chinese",三立新闻台
 http://51.79.193.109:8080/hlsok/0ebc9684/index.m3u8
 
@@ -15,7 +18,7 @@ http://51.79.193.109:8080/hlsok/c23f3737/index.m3u8
 http://38.64.72.148/hls/modn/list/2026/chunklist0.m3u8
 
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="Chinese",凤凰中文
-http://61.219.170.95:18566/.m3u8
+https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86.png" group-title="Chinese",台视
 http://51.79.193.109:8080/hlsok/0610e13c/index.m3u8
