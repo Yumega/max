@@ -38,7 +38,7 @@ https://livecdn.fptplay.net/sdb/bbcnew_2000.stream/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Global_News.svg/1200px-Global_News.svg.png" group-title="News" ,Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=2499968.m3u8
 
-#EXTINF:-1, tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRWHI7mug39rDzqeoK22Lf9cjQdiWu2HOrz9Ixv=s900-c-k-c0x00ffffff-no-rj"group-title="Sports",One Golf
+#EXTINF:-1, tvg-logo="https://i.imgur.com/CKnSeT7.png" group-title="Sports",One Golf
 http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/2560px-SBS_Golf_logo_2018.svg.png" group-title="Sports" ,SBS Golf
