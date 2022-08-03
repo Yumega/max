@@ -1,32 +1,32 @@
 #EXTM3U
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVBS.svg/1598px-TVBS.svg.png" group-title="Chinese",TVBS新闻台
+#EXTINF:-1, tvg-id="6073" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVBS.svg/1598px-TVBS.svg.png" group-title="Chinese",TVBS新闻台
 http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EbcAsiaNews.png" group-title="Chinese",东森亚洲新闻台
+#EXTINF:-1, tvg-id="543" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EbcAsiaNews.png" group-title="Chinese",东森亚洲新闻台
 http://38.64.72.148:80/hls/modn/list/2026/chunklist0.m3u8
 
-#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E6%B0%91%E8%A7%86%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="Chinese",民视新闻台
+#EXTINF:-1, tvg-id="6071" tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E6%B0%91%E8%A7%86%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="Chinese",民视新闻台
 http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 
-#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%9C%E6%A3%AE%E6%96%B0%E9%97%BB.png" group-title="Chinese",东森财经新闻台
+#EXTINF:-1, tvg-id="6075" tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%9C%E6%A3%AE%E6%96%B0%E9%97%BB.png" group-title="Chinese",东森财经新闻台
 http://38.64.72.148:80/hls/modn/list/2021/chunklist0.m3u8
 
-#EXTINF:-1, tvg-logo="https://poster.starhubgo.com/Linear_channels2/806_1920x1080_HTV.png" group-title="Chinese",凤凰卫视资讯台
+#EXTINF:-1, tvg-id="142" tvg-logo="https://poster.starhubgo.com/Linear_channels2/806_1920x1080_HTV.png" group-title="Chinese",凤凰资讯
 https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
 
-#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="Chinese",三立新闻台
+#EXTINF:-1, tvg-id="6072" tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="Chinese",三立新闻台
 http://51.79.193.109:8080/hlsok/0ebc9684/index.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="Chinese",台视新闻台
+#EXTINF:-1, tvg-id="6143" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="Chinese",台视新闻台
 http://51.79.193.109:8080/hlsok/c23f3737/index.m3u8
 
-#EXTINF:-1, tvg-logo="https://poster.starhubgo.com/Linear_channels2/805_1920x1080_HTV.png" group-title="Chinese",凤凰卫视中文台
+#EXTINF:-1, tvg-id="141" tvg-logo="https://poster.starhubgo.com/Linear_channels2/805_1920x1080_HTV.png" group-title="Chinese",凤凰中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86.png" group-title="Chinese",台视综合台
+#EXTINF:-1, tvg-id="6145" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86.png" group-title="Chinese",台视综合台
 http://51.79.193.109:8080/hlsok/0610e13c/index.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/gt/PublicTV.png" group-title="Chinese",公视
+#EXTINF:-1, tvg-id="6031" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/PublicTV.png" group-title="Chinese",公视
 http://51.79.193.109:8080/hlsok/a98ccb72/index.m3u8
 
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="Chinese",CCTV13
@@ -37,9 +37,6 @@ http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="Chinese",CCTV1
 http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/cctv1hd/2300000/mnf.m3u8
-
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="Chinese",CCTV6
-http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/cctv6hd/2300000/mnf.m3u8
 
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/f5/HNTV_logo.png" group-title="Chinese",河南卫视
 http://111.12.101.22:6610/PLTV/77777777/224/3221225806/index.m3u8?servicetype=1&IASHttpSessionId=OTT
@@ -59,5 +56,5 @@ http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/zjwshd/
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="Chinese",深圳卫视
 http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/szwshd/2300000/mnf.m3u8
 
-#EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="Chinese",北京卫视
+#EXTINF:-1, tvg-id="30" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="Chinese",北京卫视
 http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/bjwshd/2300000/mnf.m3u8
