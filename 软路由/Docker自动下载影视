@@ -1,4 +1,15 @@
 docker run -d \
+  --name=snapdrop \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 8585:80 \
+  -p 7443:443 \
+  -v /opt/snapdrop/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/snapdrop:latest
+
+docker run -d \
   --name=sonarr \
   -e PUID=1000 \
   -e PGID=1000 \
