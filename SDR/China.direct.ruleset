@@ -8,6 +8,8 @@ DOMAIN-SUFFIX,fengshows.com
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,snapdrop.net
+DOMAIN,stun.l.google.com
 #局域网
 IP-CIDR,0.0.0.0/8,no-resolve
 IP-CIDR,10.0.0.0/8,no-resolve
