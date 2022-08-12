@@ -1,0 +1,3 @@
+ttyd 登录系统
+
+wget https://raw.githubusercontent.com/lone-wind/scripts/main/onlineupdate.sh && sh onlineupdate.sh
