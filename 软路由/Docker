@@ -1,4 +1,16 @@
 docker run -d \
+  --name=homeassistant \
+  --net=host \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 8123:8123 \
+  -v /opt/homeassistant/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/homeassistant:latest
+
+
+docker run -d \
   --name=snapdrop \
   -e PUID=1000 \
   -e PGID=1000 \
