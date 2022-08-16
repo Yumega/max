@@ -11,15 +11,15 @@ docker run -d \
 
 
 docker run -d \
-  --name=snapdrop \
+  --name=sickgear \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 8585:80 \
-  -p 7443:443 \
-  -v /opt/snapdrop/data:/config \
+  -p 8081:8081 \
+  -v /opt/sickgear/data:/config \
+  -v /opt/sickgear/data:/tv \
+  -v /mnt/sdb1/qbit:/downloads \
   --restart unless-stopped \
-  lscr.io/linuxserver/snapdrop:latest
+  lscr.io/linuxserver/sickgear:latest
 
 docker run -d \
   --name=sonarr \
@@ -123,6 +123,18 @@ https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml
 https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml
 
 
+
+docker run -d \
+  --name=jackett \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -e AUTO_UPDATE=true \
+  -p 9117:9117 \
+  -v /opt/prowlarr:/config \
+  -v /mnt/sdb1/qbit:/downloads  \
+  --restart unless-stopped \
+  lscr.io/linuxserver/jackett:latest
 
 添加prowlarr
   
