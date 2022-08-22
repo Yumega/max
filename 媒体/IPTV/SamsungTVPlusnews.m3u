@@ -26,17 +26,17 @@ https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 channel-id="pluto-5421f71da6af422839419cb3" tvg-id="5421f71da6af422839419cb3" tvg-chno="415" tvg-logo="https://images.pluto.tv/channels/5421f71da6af422839419cb3/colorLogoPNG.png" group-title="News",CNN
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5421f71da6af422839419cb3/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/55b285cd2665de274553d66f/colorLogoPNG.png" group-title="News" ,Sky News 
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/55b285cd2665de274553d66f/colorLogoPNG.png" group-title="News",Sky News 
 https://siloh.pluto.tv/lilo/production/SkyNews/master_1.m3u8
 
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png" group-title="News",DW News
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 #EXTINF:-1, tvg-logo="https://images-na.ssl-images-amazon.com/images/I/31TqBcQUlcL.png" group-title="News",Aljazeera English
-https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+https://raw.githubusercontent.com/etag2000/IPTV/YTlive/aljazeera.m3u8
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/BBC_World_News_2019.svg" group-title="News",BBC World News
-http://lionboxiptv.xyz:80/Remco43/ZmGq3KeZFB/868
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FRANCE_24_logo.svg/1200px-FRANCE_24_logo.svg.png" group-title="News",France24
+https://raw.githubusercontent.com/etag2000/IPTV/YTlive/france24.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Global_News.svg/1200px-Global_News.svg.png" group-title="News" ,Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=2499968.m3u8
