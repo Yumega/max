@@ -23,11 +23,8 @@ http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1, tvg-id="141" tvg-logo="https://poster.starhubgo.com/Linear_channels2/805_1920x1080_HTV.png" group-title="Chinese",凤凰中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 
-#EXTINF:-1, tvg-id="6145" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86.png" group-title="Chinese",台视综合台
-http://51.79.193.109:8080/hlsok/0610e13c/index.m3u8
-
-#EXTINF:-1, tvg-id="6031" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/PublicTV.png" group-title="Chinese",公视
-http://51.79.193.109:8080/hlsok/a98ccb72/index.m3u8
+#EXTINF:-1, tvg-id="6145" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/01/CTI_Official_Logo.png" group-title="Chinese",中天新闻台
+https://raw.githubusercontent.com/etag2000/IPTV/YTlive/ctitv.m3u8
 
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="Chinese",CCTV13
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221231636/index.m3u8
