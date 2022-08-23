@@ -15,7 +15,7 @@ http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/2021/chunklist0.m3u8
 
 #EXTINF:-1, tvg-id="142" tvg-logo="https://poster.starhubgo.com/Linear_channels2/806_1920x1080_HTV.png" group-title="Chinese",凤凰资讯
-https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
+https://github.com/Yumega/max/raw/master/%E5%AA%92%E4%BD%93/IPTV/YTB/Phoenixnews.m3u8
 
 #EXTINF:-1, tvg-id="6072" tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="Chinese",三立iNews新闻
 https://raw.githubusercontent.com/etag2000/IPTV/YTlive/setlive.m3u8
