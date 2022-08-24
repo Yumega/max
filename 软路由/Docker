@@ -8,6 +8,13 @@ docker run -d \
   -v /opt/homeassistant/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/homeassistant:latest
+ 
+  
+  docker run -d\
+  --name youtube-dl-web\
+  -p 5555:5555 \
+  -v /mnt/sdb1/aria2:/youtube_dl \
+  oldiy/youtube-dl-web
 
 docker run -d
 --name=youtubetv \
