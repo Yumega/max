@@ -101,7 +101,6 @@ sectigo.com
 uplynk.com
 pluto.tv
 plutotv.net
-onetrust.io
 cookielaw.org
 googleapis.com
 service-vod.clusters.pluto.tv
@@ -110,7 +109,17 @@ service-recommender.clusters.pluto.tv
 service-watchlist.clusters.pluto.tv
 service-preferences.clusters.pluto.tv
 service-stitcher-ipv4.clusters.pluto.tv
-
+radiotime.com
+tunein.com
+gateway.platform.tunein.com
+googleapis.com
+play.googleapis.com
+onetrust.io
+mobile-data.onetrust.io
+revenuecat.com
+api.revenuecat.com
+pki.goog
+ocsp.pki.goog
 
 ip///
 
