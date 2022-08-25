@@ -132,6 +132,12 @@ prowlarr 连接到 sonarr
  --restart=unless-stopped \
  jellyfin/jellyfin
  
+ 每晚的 21:30 重启 jelly
+30 21 * * * * docker restart jelly
+
+每早的 6:30 重启 jelly
+30 6 * * * * docker restart jelly
+ 
   
   docker run -d \
   --name=heimdall \
