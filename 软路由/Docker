@@ -114,11 +114,24 @@ prowlarr 连接到 sonarr
  -v /opt/jellyfin/cache:/cache \
  -v /mnt/sdb1/qbit:/media1 \
  -v /mnt/sdb1/aria2:/media2 \
- -v /opt/aliyundrive:/media3 \
+ -v /mnt/sdb1/Aliyun:/media3 \
  --device= /dev/dri/renderD128 \
  --device= /dev/dri/card0:/dev/dri/card0 \
  --restart=unless-stopped \
  nyanmisaka/jellyfin
+ 
+ docker run -d \
+ --name jelly \
+ --network host \
+ -e TZ=Asia/Shanghai \
+ -v /opt/jelly/config:/config \
+ -v /opt/jelly/cache:/cache \
+ -v /mnt/sdb1/Aliyun:/media1 \
+ -v /mnt/sdb1/aria2:/media2 \
+ -v /mnt/sdb1/qbit:/media3 \
+ --restart=unless-stopped \
+ jellyfin/jellyfin
+ 
   
   docker run -d \
   --name=heimdall \
