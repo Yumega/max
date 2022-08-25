@@ -1,3 +1,7 @@
 ttyd 登录系统
-
 wget https://raw.githubusercontent.com/lone-wind/scripts/main/onlineupdate.sh && sh onlineupdate.sh
+
+
+删除报错计划任务
+
+3 3 12 12 * /usr/bin/nginx-util 'check_ssl'
