@@ -16,7 +16,14 @@ docker run -d \
   --restart unless-stopped \
   alexta69/metube
   
-  
+  docker run -d \
+   --name navidrome \
+   -v /mnt/sdb1/Aliyun/music:/music \
+   -v /opt/navidrome/data:/data \
+   -p 4533:4533 \ 
+   -e ND_LOGLEVEL=error \
+   --restart=unless-stopped \
+   deluan/navidrome:latest
 
 docker run -d
 --name=livetv \
