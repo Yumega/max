@@ -45,7 +45,7 @@ http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/cctv1hd/2300000/mnf.m3u8
 
 #EXTINF:-1,tvg-id="47" tvg-name="河南卫视" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/f5/HNTV_logo.png" group-title="Chinese",河南卫视
-http://111.12.101.22:6610/PLTV/77777777/224/3221225806/index.m3u8?servicetype=1&IASHttpSessionId=OTT
+http://39.134.66.110/PLTV/88888888/224/3221225988/index.m3u8
 
 #EXTINF:-1, tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="Chinese",东方卫视
 http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/hddfws/2300000/mnf.m3u8
