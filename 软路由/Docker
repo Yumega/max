@@ -27,7 +27,7 @@ docker run -d \
    deluan/navidrome:latest
 (ND_ENABLETRANSCODINGCONFIG=true #option)
 https://www.navidrome.org/docs/usage/configuration-options/
-
+id yum m music
 
 docker run -d
 --name=livetv \
