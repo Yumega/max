@@ -1,3 +1,7 @@
+查看端口占用 netstat -pan | grep 9010
+
+
+
 docker run -d \
   --name=homeassistant \
   --net=host \
