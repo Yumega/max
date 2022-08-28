@@ -33,17 +33,6 @@ docker run -d
 zjyl1994/livetv:1.1
 
 docker run -d \
-  --name=sickgear \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -p 8081:8081 \
-  -v /opt/sickgear/data:/config \
-  -v /opt/sickgear/data:/tv \
-  -v /mnt/sdb1/qbit:/downloads \
-  --restart unless-stopped \
-  lscr.io/linuxserver/sickgear:latest
-
-docker run -d \
   --name=sonarr \
   -e PUID=1000 \
   -e PGID=1000 \
@@ -64,7 +53,6 @@ docker run -d \
   -v /mnt/sdb1/qbit:/downloads \
   --restart unless-stopped \
   lscr.io/linuxserver/radarr:latest
-    
     
    docker create  \
     --name=qbittorrent  \
@@ -112,7 +100,6 @@ prowlarr 连接到 sonarr
 /dev/dri/card0
 /dev/dri/renderD128
 # cd /mnt/sdb1/aria2
-  (打开特权模式）
  docker run -d \
  --name=jellyfin \
  -e TZ=Asia/Shanghai \
@@ -123,7 +110,6 @@ prowlarr 连接到 sonarr
  -v /mnt/sdb1/aria2:/media2 \
  -v /mnt/sdb1/Aliyun:/media3 \
  --device= /dev/dri/renderD128 \
- --device= /dev/dri/card0:/dev/dri/card0 \
  --restart=unless-stopped \
  nyanmisaka/jellyfin
  
@@ -188,6 +174,10 @@ docker run -d \
   -v /opt/prowlarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:develop
+  
+  
+-p 9696:80 would expose port 80 from inside the container to be accessible from the host's IP on port 9696 outside the container
+
 
 在管理界面 > 系统 > 计划任务，加入下面代码。每天5点和17点自动释放内存。
 
