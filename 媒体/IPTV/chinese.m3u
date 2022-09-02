@@ -17,6 +17,15 @@ https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
 #EXTINF:-1, tvg-id="6143" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="Chinese",台视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 
+#EXTINF:-1, tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/01/CTI_Official_Logo.png" group-title="Chinese",中天新闻台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
+
+#EXTINF:-1, tvg-id="6072" tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="Chinese",三立iNews新闻
+https://raw.githubusercontent.com/etag2000/IPTV/YTlive/setlive.m3u8
+
+#EXTINF:-1, tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="Chinese",民视新闻台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
+
 #EXTINF:-1, tvg-id="141" tvg-logo="https://poster.starhubgo.com/Linear_channels2/805_1920x1080_HTV.png" group-title="Chinese",凤凰中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 
@@ -64,11 +73,3 @@ http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/szwshd/
 
 #EXTINF:-1, tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="Chinese",北京卫视
 http://182.254.52.15/keonline.shanghai.liveplay.qq.com/live/program/live/bjwshd/2300000/mnf.m3u8
-
-#EXTINF:-1, tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/01/CTI_Official_Logo.png" group-title="Chinese",中天新闻台
-https://raw.githubusercontent.com/etag2000/IPTV/YTlive/ctinews.m3u8
-
-#EXTINF:-1, tvg-id="6072" tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="Chinese",三立iNews新闻
-https://raw.githubusercontent.com/etag2000/IPTV/YTlive/setlive.m3u8
-
-中天新聞2,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV22.m3u8
