@@ -23,9 +23,6 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
 #EXTINF:-1, tvg-id="6072" tvg-logo="https://raw.githubusercontent.com/badboys88888/photo/main/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="Chinese",三立iNews新闻
 https://raw.githubusercontent.com/etag2000/IPTV/YTlive/setlive.m3u8
 
-#EXTINF:-1, tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="Chinese",民视新闻台
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
-
 #EXTINF:-1, tvg-id="141" tvg-logo="https://poster.starhubgo.com/Linear_channels2/805_1920x1080_HTV.png" group-title="Chinese",凤凰中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 
