@@ -1,0 +1,68 @@
+#EXTINF:-1 tvg-id="" tvg-name="CCTV1" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv1.png" group-title="央视",CCTV1综合
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV2" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv2.png" group-title="央视",CCTV2财经
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV3" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv3.png" group-title="央视",CCTV3综艺
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv4.png" group-title="央视",CCTV4中文国际
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4EUO" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv4e.png" group-title="央视",CCTV4中文国际欧洲
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221231615/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4AME" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv4a.png" group-title="央视",CCTV4中文国际美洲
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221231654/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv5.png" group-title="央视",CCTV5体育
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv5+.png" group-title="央视",CCTV5+体育赛事
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV6" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv6.png" group-title="央视",CCTV6电影
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV7" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv7.png" group-title="央视",CCTV7国防军事
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV8" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv8.png" group-title="央视",CCTV8电视剧
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV9" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv9.png" group-title="央视",CCTV9记录
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV10" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv10.png" group-title="央视",CCTV10科教
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV11" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv11.png" group-title="央视",CCTV11戏曲
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221231711/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV12" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv12.png" group-title="央视",CCTV12社会与法
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV13" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv13.png" group-title="央视",CCTV13新闻
+http://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV14" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv14.png" group-title="央视",CCTV14少儿
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV15" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv15.png" group-title="央视",CCTV15音乐
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221231693/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv16.png" group-title="央视",CCTV16奥林匹克
+http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv17.png" group-title="央视",CCTV17农业农村
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv4K.png" group-title="央视",CCTV4K超高清
+http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="世界地理" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctvwg.png" group-title="央视",CCTV世界地理
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221231537/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cgtnn.png" group-title="央视",CGTN新闻
+http://live.cgtn.com/1000/prog_index.m3u8
