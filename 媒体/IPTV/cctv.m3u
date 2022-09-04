@@ -60,6 +60,3 @@ http://tptv.mobaibox.com/PLTV/3/224/3221228407/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctv4K.png" group-title="央视",CCTV4K超高清
 http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="世界地理" tvg-logo="https://github.com/vonliong/appletv/releases/download/logo/cctvwg.png" group-title="央视",CCTV世界地理
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221231537/index.m3u8
