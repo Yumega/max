@@ -1,13 +1,10 @@
 client-api.itunes.apple.com
-mzstatic.com
 aod.itunes.apple.com
 audio-ssl.itunes.apple.com
 audio.itunes.apple.com
 mvod.itunes.apple.com
 streamingaudio.itunes.apple.com
-blobstore.apple.com
 music.apple.com
-time.apple.com
 itsliveradio.apple.com
 tv.applemusic.com
 covers.webradio.tools
@@ -40,7 +37,17 @@ leanstream.co
 crooze.fm
 ihrhls.com
 sectigo.com
+radiotime.com
 tunein.com
+gateway.platform.tunein.com
+googleapis.com
+play.googleapis.com
+onetrust.io
+mobile-data.onetrust.io
+revenuecat.com
+api.revenuecat.com
+pki.goog
+ocsp.pki.goog
 telegram.org
 comments.app
 contest.com
@@ -60,7 +67,6 @@ tg.dev
 tx.me
 usercontent.dev
 telegra.ph
-twitter.com
 periscope.tv
 pscp.tv
 t.co
@@ -109,17 +115,7 @@ service-recommender.clusters.pluto.tv
 service-watchlist.clusters.pluto.tv
 service-preferences.clusters.pluto.tv
 service-stitcher-ipv4.clusters.pluto.tv
-radiotime.com
-tunein.com
-gateway.platform.tunein.com
-googleapis.com
-play.googleapis.com
-onetrust.io
-mobile-data.onetrust.io
-revenuecat.com
-api.revenuecat.com
-pki.goog
-ocsp.pki.goog
+
 
 ip///
 
