@@ -16,9 +16,9 @@ docker run -d \
   docker run -d \
   --name metube \
   -p 8081:8081 \
-  -v /mnt/sdb1/aria2/Tube:/downloads \
+  -v /mnt/sdb1/Tube:/downloads \
   --restart unless-stopped \
-  alexta69/metube
+  alexta69/metube:latest
   
   docker run -d \
    --name navidrome \
