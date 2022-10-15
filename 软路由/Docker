@@ -98,6 +98,15 @@ docker run -d \
     -v /mnt/sdb1/aria2:/downloads \
     p3terx/aria2-pro
     
+    
+    docker run -d \
+    --name=jdownloader-2 \
+    -p 5800:5800 \
+    -v /opt/jdownloader-2:/config:rw \
+    -v /mnt/sdb1/aria2/Downloads:/output:rw \
+    jlesage/jdownloader-2
+    
+    -v $HOME/Downloads:/output:rw \
 ------------------------------------------------------
 prowlarr 连接到 sonarr
 打开 http://192.168.11.1:9696/settings/applications
