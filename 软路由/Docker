@@ -81,16 +81,29 @@ docker run -d \
   用于传入连接的端口:59178
   在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
   
+  docker run -d \
+  --name=transmission \
+  -e TZ=Asia/Shanghai \
+  -e TRANSMISSION_WEB_HOME=/combustion-release/ \
+  -p 9091:9091 \
+  -p 51423:51423 \
+  -p 51423:51423/udp \
+  -v /opt/transmission:/config \
+  -v /mnt/sdb1/qbit:/downloads  \
+  -v /mnt/sdb1/qbit/watch/folder:/watch \
+  --restart unless-stopped \
+  lscr.io/linuxserver/transmission:latest
+  
   
   docker run -d \
   --name=transmission \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Asia/Shanghai \
-  -e TRANSMISSION_WEB_HOME=/kettu/ \
+  -e TRANSMISSION_WEB_HOME=/combustion-release/ \
   -p 9091:9091 \
-  -p 51413:51413 \
-  -p 51413:51413/udp \
+  -p 51423:51423 \
+  -p 51423:51423/udp \
   -v /opt/transmission:/config \
   -v /mnt/sdb1/qbit:/downloads  \
   -v /mnt/sdb1/qbit/watch/folder:/watch \
