@@ -82,6 +82,22 @@ docker run -d \
   在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
   
   
+  docker run -d \
+  --name=transmission \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -e TRANSMISSION_WEB_HOME=/kettu/ \
+  -p 9091:9091 \
+  -p 51413:51413 \
+  -p 51413:51413/udp \
+  -v /opt/transmission:/config \
+  -v /mnt/sdb1/qbit:/downloads  \
+  -v /mnt/sdb1/qbit/watch/folder:/watch \
+  --restart unless-stopped \
+  lscr.io/linuxserver/transmission:latest
+  
+  
     添加Aria2 pro(最大权限，存在不同文件夹)
   
    docker run -d \
