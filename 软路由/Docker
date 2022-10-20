@@ -20,6 +20,18 @@ docker run -d \
   --restart unless-stopped \
   alexta69/metube:latest
   
+docker run -d \
+--name=youtubedl \
+-p 8084:17442 \
+-v /opt/youtubedl/appdata:/app/appdata \
+-v /mnt/sdb1/YTB/audio:/app/audio \
+-v /opt/youtubedl/subscriptions:/app/subscriptions \
+-v /opt/youtubedl/users:/app/users \
+-v /mnt/sdb1/YTB/video:/app/video \
+--restart always \
+tzahi12345/youtubedl-material
+
+
   docker run -d \
    --name navidrome \
    -v /mnt/sdb1/Aliyun/music:/music \
