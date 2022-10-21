@@ -243,16 +243,6 @@ tieba.baidu.com###pagelet_frs-header\/pagelet\/head > div.head_main > div.head_c
 tieba.baidu.com###pagelet_frs-header\/pagelet\/head > div.head_main > div.head_content:last-child > div.card_top_wrap.clearfix.card_top_theme:nth-child(2)
 petalsearch.com##div.popup-container:nth-child(5)
 petalsearch.com###app > div.container:nth-child(3) > div.s-petal-toast
-reddit.com##+js(remove-class, scroll-disabled, body)
-reddit.com##+js(remove-class, m-blurred, .m-blurred)
-reddit.com##shreddit-comments-page-ad
-||reddit.com/account/sso
-reddit.com##shreddit-experience-tree
-reddit.com##.promotedlink
-reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
-reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
-reddit.com##.TopNav__promoButton
-reddit.com##.m-visible.TopNav__topButton.TopButton
 ujoy.net###nav-groups
 ujoy.net###content > div.topic-container.topic.topic-channel-225:nth-child(2) > div.topic-content:last-child > span > div.adEditor:nth-child(6) > div.left_name.right
 ujoy.net###content > div.topic-container:nth-child(3) > div.topic.topic-channel-225:nth-child(195) > div.topic-tag-group:last-child
