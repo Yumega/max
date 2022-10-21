@@ -25,12 +25,11 @@ docker run -d \
 -p 8084:17442 \
 -v /opt/youtubedl/appdata:/app/appdata \
 -v /mnt/sdb1/YTB/audio:/app/audio \
--v /opt/youtubedl/subscriptions:/app/subscriptions \
+-v /mnt/sdb1/YTB/subscriptions:/app/subscriptions \
 -v /opt/youtubedl/users:/app/users \
 -v /mnt/sdb1/YTB/video:/app/video \
 --restart always \
-tzahi12345/youtubedl-material
-
+tzahi12345/youtubedl-material:nightly
 
   docker run -d \
    --name navidrome \
