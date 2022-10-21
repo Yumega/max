@@ -1,12 +1,11 @@
 查看端口占用 netstat -pan | grep 9010
-
-
-  docker run -d \
-  --name metube \
-  -p 8081:8081 \
-  -v /mnt/sdb1/Tube:/downloads \
-  --restart unless-stopped \
-  alexta69/metube:latest
+  
+docker run -d \
+ --name metube \
+ -p 8081:8081 \
+ -v /mnt/sdb1/Tube:/downloads \
+ --restart unless-stopped \
+ alexta69/metube:latest
   
 docker run -d \
 --name=youtubedl \
@@ -28,8 +27,8 @@ tzahi12345/youtubedl-material:nightly
    -e ND_ENABLETRANSCODINGCONFIG=true \
    --restart=unless-stopped \
    deluan/navidrome:latest
+
 https://www.navidrome.org/docs/usage/configuration-options/
-id yum m music
 
 docker run -d \
   --name=sonarr \
