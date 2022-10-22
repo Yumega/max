@@ -76,7 +76,7 @@ docker run -d \
 ------------------------------------------------------
  
  docker run -d \
- --name jelly \
+ --name jellyfin \
  --network host \
  -e TZ=Asia/Shanghai \
  -v /opt/jelly/config:/config \
@@ -87,11 +87,11 @@ docker run -d \
  --restart=unless-stopped \
  jellyfin/jellyfin
  
-每晚21:30 重启 jelly
-30 21 * * * * docker restart jelly
+每晚21:30 重启 jellyfin
+30 21 * * * * docker restart jellyfin
 
-每早6:30 重启 jelly
-30 6 * * * * docker restart jelly
+每早6:30 重启 jellyfin
+30 6 * * * * docker restart jellyfin
  
   docker run -d \
   --name=heimdall \
@@ -109,13 +109,13 @@ docker run -d \
 30 6 * * * docker restart jelly
 明天早上6点半重启一次
 
-*/2  * * * * docker restart luci_20221019233706
+*/2  * * * * docker restart YTBlive
 （每隔2分钟重启一次）
 
-12 */3 * * * docker restart luci_20221019233706
+12 */3 * * * docker restart YTBlive
 （每隔3个小时的第12分钟重启一次）
 
-2 */3 * * * docker restart luci_20221019233706
+2 */3 * * * docker restart YTBlive
 （每隔3个小时的第2分钟重启一次）
 
 -------------------------------------------------------------------------------------------------
@@ -130,7 +130,7 @@ docker run -d \
 --restart always \
 tzahi12345/youtubedl-material:nightly    
     
-    
+
 docker run -d \
 --name=jdownloader-2 \
 -p 5800:5800 \
