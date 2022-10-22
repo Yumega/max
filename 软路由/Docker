@@ -19,6 +19,19 @@ docker run -d \
   --restart unless-stopped \
   lscr.io/linuxserver/webgrabplus:latest
   
+  
+  docker run -d \
+  --name=xteve \
+  --net=host \
+  --log-opt max-size=10m \
+  --log-opt max-file=3 \
+  -e TZ=Asia/Shanghai \
+  -v /opt/xteve/user/appdata/xteve/:/root/.xteve:rw \
+  -v /opt/xteve/user/appdata/xteve/_config:/config:rw \
+  -v /tmp/xteve/:/tmp/xteve:rw \
+  -v /opt/xteve/user/appdata/tvheadend/data/:/TVH \
+  alturismo/xteve
+  
 docker run -d \
 --name=youtubedl \
 -p 8084:17442 \
