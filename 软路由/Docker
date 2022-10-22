@@ -90,8 +90,8 @@ docker run -d \
   -p 9091:9091 \
   -p 51423:51423 \
   -p 51423:51423/udp \
-  -e PUID=1000 \
-  -e PGID=1000 \
+  -e PUID=1 \
+  -e PGID=1 \
   -v /opt/transmission:/config \
   -v /mnt/sdb1/qbit:/downloads  \
   -v /mnt/sdb1/qbit/watch/folder:/watch \
