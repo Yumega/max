@@ -6,42 +6,6 @@ docker run -d \
  -v /mnt/sdb1/Tube:/downloads \
  --restart unless-stopped \
  alexta69/metube:latest
- 
- docker run -d \
-  --name=webgrabplus \
-  --hostname=webgrabplus \
-  --mac-address=00:00:00:00:00:00 \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -v /opt/webgrabplus/config:/config \
-  -v /opt/webgrabplus/data:/data \
-  --restart unless-stopped \
-  lscr.io/linuxserver/webgrabplus:latest
-  
-  
-  docker run -d \
-  --name=xteve \
-  --net=host \
-  --log-opt max-size=10m \
-  --log-opt max-file=3 \
-  -e TZ=Asia/Shanghai \
-  -v /opt/xteve/user/appdata/xteve/:/root/.xteve:rw \
-  -v /opt/xteve/user/appdata/xteve/_config:/config:rw \
-  -v /tmp/xteve/:/tmp/xteve:rw \
-  -v /opt/xteve/user/appdata/tvheadend/data/:/TVH \
-  alturismo/xteve
-  
-docker run -d \
---name=youtubedl \
--p 8084:17442 \
--v /opt/youtubedl/appdata:/app/appdata \
--v /mnt/sdb1/YTB/audio:/app/audio \
--v /mnt/sdb1/YTB/subscriptions:/app/subscriptions \
--v /opt/youtubedl/users:/app/users \
--v /mnt/sdb1/YTB/video:/app/video \
---restart always \
-tzahi12345/youtubedl-material:nightly
 
   docker run -d \
    --name navidrome \
@@ -76,25 +40,6 @@ docker run -d \
   -v /mnt/sdb1/qbit:/downloads \
   --restart unless-stopped \
   lscr.io/linuxserver/radarr:latest
-    
-   docker create  \
-    --name=qbittorrent  \
-    -e WEBUIPORT=8080  \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e TZ=Asia/Shanghai \
-    -p 6888:6888  \
-    -p 6888:6888/udp  \
-    -p 8080:8080  \
-    -v /opt/qbittorrent:/config  \
-    -v /mnt/sdb1/qbit:/downloads  \
-    --restart unless-stopped  \
-    superng6/qbittorrent:latest 
-    id: max
-    pass:maxmax
-    
-  用于传入连接的端口:59178
-  在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
   
   docker run -d \
   --name=transmission \
@@ -128,34 +73,7 @@ docker run -d \
     -v /mnt/sdb1/aria2:/downloads \
     p3terx/aria2-pro
     
-    
-    docker run -d \
-    --name=jdownloader-2 \
-    -p 5800:5800 \
-    -v /opt/jdownloader-2:/config:rw \
-    -v /mnt/sdb1/aria2/Downloads:/output:rw \
-    jlesage/jdownloader-2
 ------------------------------------------------------
-prowlarr 连接到 sonarr
-打开 http://192.168.11.1:9696/settings/applications
-添加sonarr ，在http://192.168.11.1:8989/settings/general中复制 ApiKey 粘贴在prowlarr
-
-
-/dev/dri/card0
-/dev/dri/renderD128
-# cd /mnt/sdb1/aria2
- docker run -d \
- --name=jellyfin \
- -e TZ=Asia/Shanghai \
- -p 8096:8096 \
- -v /opt/docker/jellyfin/data:/config \
- -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdb1/qbit:/media1 \
- -v /mnt/sdb1/aria2:/media2 \
- -v /mnt/sdb1/Aliyun:/media3 \
- --device= /dev/dri/renderD128 \
- --restart=unless-stopped \
- nyanmisaka/jellyfin
  
  docker run -d \
  --name jelly \
@@ -187,34 +105,6 @@ prowlarr 连接到 sonarr
  lscr.io/linuxserver/heimdall:latest 
 
 
-docker run -d \
-  --name=jackett \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -e AUTO_UPDATE=true \
-  -p 9117:9117 \
-  -v /opt/prowlarr:/config \
-  -v /mnt/sdb1/qbit:/downloads  \
-  --restart unless-stopped \
-  lscr.io/linuxserver/jackett:latest
-
-添加prowlarr
-  
-  docker run -d \
-  --name=prowlarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 9696:9696 \
-  -v /opt/prowlarr/data:/config \
-  --restart unless-stopped \
-  lscr.io/linuxserver/prowlarr:develop
-  
-  
--p 9696:80 would expose port 80 from inside the container to be accessible from the host's IP on port 9696 outside the container
-
-
 在管理界面 > 系统 > 计划任务，加入下面代码。
 30 6 * * * docker restart jelly
 明天早上6点半重启一次
@@ -227,3 +117,87 @@ docker run -d \
 
 2 */3 * * * docker restart luci_20221019233706
 （每隔3个小时的第2分钟重启一次）
+
+-------------------------------------------------------------------------------------------------
+docker run -d \
+--name=youtubedl \
+-p 8084:17442 \
+-v /opt/youtubedl/appdata:/app/appdata \
+-v /mnt/sdb1/YTB/audio:/app/audio \
+-v /mnt/sdb1/YTB/subscriptions:/app/subscriptions \
+-v /opt/youtubedl/users:/app/users \
+-v /mnt/sdb1/YTB/video:/app/video \
+--restart always \
+tzahi12345/youtubedl-material:nightly    
+    
+    
+docker run -d \
+--name=jdownloader-2 \
+-p 5800:5800 \
+-v /opt/jdownloader-2:/config:rw \
+-v /mnt/sdb1/aria2/Downloads:/output:rw \
+jlesage/jdownloader-2   
+    
+
+/dev/dri/card0
+/dev/dri/renderD128
+# cd /mnt/sdb1/aria2
+ docker run -d \
+ --name=jellyfin \
+ -e TZ=Asia/Shanghai \
+ -p 8096:8096 \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/qbit:/media1 \
+ -v /mnt/sdb1/aria2:/media2 \
+ -v /mnt/sdb1/Aliyun:/media3 \
+ --device= /dev/dri/renderD128 \
+ --restart=unless-stopped \
+ nyanmisaka/jellyfin
+
+
+docker run -d \
+  --name=jackett \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -e AUTO_UPDATE=true \
+  -p 9117:9117 \
+  -v /opt/prowlarr:/config \
+  -v /mnt/sdb1/qbit:/downloads  \
+  --restart unless-stopped \
+  lscr.io/linuxserver/jackett:latest
+  
+docker create  \
+    --name=qbittorrent  \
+    -e WEBUIPORT=8080  \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e TZ=Asia/Shanghai \
+    -p 6888:6888  \
+    -p 6888:6888/udp  \
+    -p 8080:8080  \
+    -v /opt/qbittorrent:/config  \
+    -v /mnt/sdb1/qbit:/downloads  \
+    --restart unless-stopped  \
+    superng6/qbittorrent:latest 
+    id: max
+    pass:maxmax
+    
+  用于传入连接的端口:59178
+  在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
+  
+  
+  添加prowlarr
+  docker run -d \
+  --name=prowlarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 9696:9696 \
+  -v /opt/prowlarr/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/prowlarr:develop
+  
+  
+-p 9696:80 would expose port 80 from inside the container to be accessible from the host's IP on port 9696 outside the container
