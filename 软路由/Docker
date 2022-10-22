@@ -6,6 +6,18 @@ docker run -d \
  -v /mnt/sdb1/Tube:/downloads \
  --restart unless-stopped \
  alexta69/metube:latest
+ 
+ docker run -d \
+  --name=webgrabplus \
+  --hostname=webgrabplus \
+  --mac-address=00:00:00:00:00:00 \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -v /opt/webgrabplus/config:/config \
+  -v /opt/webgrabplus/data:/data \
+  --restart unless-stopped \
+  lscr.io/linuxserver/webgrabplus:latest
   
 docker run -d \
 --name=youtubedl \
