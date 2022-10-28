@@ -1,4 +1,15 @@
 查看端口占用 netstat -pan | grep 9010
+
+
+docker run -d \
+ --name bark \
+ -p 18080:8080 \
+ -v /opt/bark/bark-data:/data
+ --restart unless-stopped \
+ finab/bark-server
+ 
+ http://192.168.11.1:18080/
+ 
   
 docker run -d \
  --name metube \
