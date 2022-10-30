@@ -1,0 +1,3 @@
+安装软路由 
+1，用分区助手 擦除硬盘
+2，用balenaEtcher 安装openwrt到硬盘
