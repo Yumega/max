@@ -27,6 +27,19 @@ docker run -d \
    deluan/navidrome:latest
 https://www.navidrome.org/docs/usage/configuration-options/
 
+
+ docker run -d \
+ --name jellyseerr \
+ -e PUID=1000 \
+ -e PGID=1000 \
+ -e LOG_LEVEL=debug \
+ -e TZ=Asia/Shanghai \
+ -p 15055:5055 \
+ -v /opt/jellyseerr/config:/app/config \
+ --restart unless-stopped \
+ fallenbagel/jellyseerr:latest
+ 
+
 docker run -d \
   --name=sonarr \
   -e PUID=1000 \
@@ -201,5 +214,15 @@ docker create  \
   -v /opt/prowlarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:develop
+  
+docker run -d \
+  --name=overseerr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 15055:5055 \
+  -v /opt/overseerr/config:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/overseerr:latest
   
 -p 9696:80 would expose port 80 from inside the container to be accessible from the host's IP on port 9696 outside the container
