@@ -1,5 +1,5 @@
-查看端口占用 netstat -pan | grep 9010
-
+openwrt软路由下docker空间扩容教程：
+https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
 
 docker run -d \
  --name bark \
@@ -7,10 +7,8 @@ docker run -d \
  -v /opt/bark/bark-data:/data
  --restart unless-stopped \
  finab/bark-server
- 
  http://192.168.11.1:18080/
  
-  
 docker run -d \
  --name metube \
  -p 8081:8081 \
@@ -27,7 +25,6 @@ docker run -d \
    -e ND_ENABLETRANSCODINGCONFIG=true \
    --restart=unless-stopped \
    deluan/navidrome:latest
-
 https://www.navidrome.org/docs/usage/configuration-options/
 
 docker run -d \
@@ -68,9 +65,7 @@ docker run -d \
   --restart unless-stopped \
   lscr.io/linuxserver/transmission:latest
   
-  
  添加Aria2 pro(最大权限，存在不同文件夹)
-  
    docker run -d \
     --name aria2\
     --restart unless-stopped \
@@ -116,7 +111,6 @@ docker run -d \
   --restart unless-stopped \
  lscr.io/linuxserver/heimdall:latest 
 
-
 在管理界面 > 系统 > 计划任务，加入下面代码。
 30 6 * * * docker restart jelly
 明天早上6点半重启一次
@@ -141,7 +135,6 @@ docker run -d \
 -v /mnt/sdb1/YTB/video:/app/video \
 --restart always \
 tzahi12345/youtubedl-material:nightly    
-    
 
 docker run -d \
 --name=jdownloader-2 \
@@ -150,7 +143,7 @@ docker run -d \
 -v /mnt/sdb1/aria2/Downloads:/output:rw \
 jlesage/jdownloader-2   
     
-
+软路由解码
 /dev/dri/card0
 /dev/dri/renderD128
 # cd /mnt/sdb1/aria2
@@ -166,7 +159,6 @@ jlesage/jdownloader-2
  --device= /dev/dri/renderD128 \
  --restart=unless-stopped \
  nyanmisaka/jellyfin
-
 
 docker run -d \
   --name=jackett \
@@ -198,8 +190,7 @@ docker create  \
     
   用于传入连接的端口:59178
   在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
-  
-  
+   
   添加prowlarr
   docker run -d \
   --name=prowlarr \
@@ -210,6 +201,5 @@ docker create  \
   -v /opt/prowlarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:develop
-  
   
 -p 9696:80 would expose port 80 from inside the container to be accessible from the host's IP on port 9696 outside the container
