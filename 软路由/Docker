@@ -8,13 +8,6 @@ docker run -d \
  --restart unless-stopped \
  finab/bark-server
  http://192.168.11.1:18080/
- 
-docker run -d \
- --name metube \
- -p 8081:8081 \
- -v /mnt/sdb1/Tube:/downloads \
- --restart unless-stopped \
- alexta69/metube:latest
 
 docker run -d \
  --name metube \
@@ -24,6 +17,20 @@ docker run -d \
  --restart unless-stopped \
  alexta69/metube:latest
 (STATE_DIR: path to where the queue persistence files will be saved. Defaults to /downloads/.metube in the docker image)
+
+
+docker run -d \
+  --name=tubesync \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 14848:4848 \
+  -v /opt/tubesync/tubesync-config:/config \
+  -v /mnt/sdb1/qbit:/YTB  \
+  --restart unless-stopped \
+ ghcr.io/meeb/tubesync:latest
+
+
   docker run -d \
    --name navidrome \
    -v /mnt/sdb1/Aliyun/music:/music \
