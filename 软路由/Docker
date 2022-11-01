@@ -16,6 +16,14 @@ docker run -d \
  --restart unless-stopped \
  alexta69/metube:latest
 
+docker run -d \
+ --name metube \
+ -p 8081:8081 \
+ -v /mnt/sdb1/Tube:/downloads \
+ -e STATE_DIR=/opt/metube:/downloads \
+ --restart unless-stopped \
+ alexta69/metube:latest
+(STATE_DIR: path to where the queue persistence files will be saved. Defaults to /downloads/.metube in the docker image)
   docker run -d \
    --name navidrome \
    -v /mnt/sdb1/Aliyun/music:/music \
