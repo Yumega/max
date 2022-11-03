@@ -18,17 +18,11 @@ docker run -d \
  alexta69/metube:latest
 (STATE_DIR: path to where the queue persistence files will be saved. Defaults to /downloads/.metube in the docker image)
 
-
 docker run -d \
-  --name=tubesync \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 14848:4848 \
-  -v /opt/tubesync/tubesync-config:/config \
-  -v /mnt/sdb1/qbit:/YTB  \
-  --restart unless-stopped \
- ghcr.io/meeb/tubesync:latest
+--name=YTBlive \
+-e TZ=Asia/Shanghai \
+-p 8080:8080 \ 
+ghcr.io/jnewland/hlstube:latest
 
 
   docker run -d \
@@ -153,6 +147,17 @@ docker run -d \
 （每隔3个小时的第2分钟重启一次）
 
 -------------------------------------------------------------------------------------------------
+docker run -d \
+  --name=tubesync \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 14848:4848 \
+  -v /opt/tubesync/tubesync-config:/config \
+  -v /mnt/sdb1/qbit:/YTB  \
+  --restart unless-stopped \
+ ghcr.io/meeb/tubesync:latest
+
 docker run -d \
 --name=youtubedl \
 -p 8084:17442 \
