@@ -1,3 +1,10 @@
+tv.applemusic.com
+hls-amt.itunes.apple.com
+hls.itunes.apple.com
+np-edge.itunes.apple.com
+play-edge.itunes.apple.com
+uts-api.itunes.apple.com
+tv.apple.com
 client-api.itunes.apple.com
 aod.itunes.apple.com
 audio-ssl.itunes.apple.com
@@ -6,7 +13,6 @@ mvod.itunes.apple.com
 streamingaudio.itunes.apple.com
 music.apple.com
 itsliveradio.apple.com
-tv.applemusic.com
 covers.webradio.tools
 amp-api-edge.music.apple.com
 amp-api.music.apple.com
@@ -116,6 +122,16 @@ service-watchlist.clusters.pluto.tv
 service-preferences.clusters.pluto.tv
 service-stitcher-ipv4.clusters.pluto.tv
 tophub.today
+sytes.net
+foodieguide.com
+sinclairstoryline.com
+amazonaws.com
+channelnewsasia.com
+mediacorp.sg
+cloudflare.com
+amazontrust.com
+bootstrapcdn.com
+torrentapi.org
 
 ip///
 76.76.19.19
