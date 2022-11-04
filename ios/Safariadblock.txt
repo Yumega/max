@@ -35,7 +35,6 @@ tieba.baidu.com##.card_banner_link.card_banner
 pincong.rocks##div.aw-mod:nth-of-type(1)
 pincong.rocks##div:style(background-image: none !important)
 www.channelnewsasia.com##.c-picture--article-header
-##.ambox
 ||e.infogram.com^$subdocument
 m.thepaper.cn###bottomBanner
 m.thepaper.cn###moblink_moreread
@@ -44,10 +43,6 @@ m.thepaper.cn##.header_moblink
 ||*.*^$script,domain=thepaper.cn
 @@||file.thepaper.cn$script,domain=thepaper.cn
 xw.qq.com##.pic.jsx-303514326
-||*.*^$script,domain=baike.baidu.com
-@@||bdimg.com$script,domain=baike.baidu.com
-baike.baidu.com##.squareAni.square.super-layer-promote
-baike.baidu.com###mDoOLiU12
 ||*.*^$script,domain=channelnewsasia.com
 ||*.*^$script,domain=m.youtube.cn
 @@||youtube.com^$script,domain=m.youtube.com
@@ -247,8 +242,6 @@ ujoy.net###nav-groups
 ujoy.net###content > div.topic-container.topic.topic-channel-225:nth-child(2) > div.topic-content:last-child > span > div.adEditor:nth-child(6) > div.left_name.right
 ujoy.net###content > div.topic-container:nth-child(3) > div.topic.topic-channel-225:nth-child(195) > div.topic-tag-group:last-child
 pincong.rocks###aw-ajax-box > div.modal.fade.alert-box.aw-tips-box.in > div.modal-dialog > div.modal-content
-tiktok.com###app > div.tiktok-2p0lgb-DivContentContainer.e1nno0vb1:last-child > div.tiktok-zu44wt-DivFixedPageContainer.e1pecv670 > div.tiktok-12l8cv7-DivFlex0.e1pecv672:last-child > div.tiktok-a5lqug-DivFooterGuide.e1pecv674:first-child
-tiktok.com##div.tiktok-py8jux-DivModalContainer.e1gjoq3k0:last-child > div.tiktok-1bg0j8b-DivContentContainer.e1gjoq3k2:last-child > div.middle.tiktok-rkt89o-DivCtaGuideContainer.enx791q0
 m.youtube.com###player-shorts-container > shorts-page > shorts-carousel > div.carousel-wrapper > div.carousel-items > div.carousel-item:nth-child(2) > shorts-video:last-child > div.video-wrapper > div.layer.touch-controls:last-child > ytm-reel-player-overlay-renderer:last-child > div.reel-player-overlay-main-content:first-child > div.reel-player-overlay-metadata:first-child > ytm-reel-player-header-renderer > div.cbox:last-child
 moviefone.com###content-wrapper > div.mf-adsense-leaderboard.mf-adsense-mobile-leaderboard:first-child
 nbcnews.com###hfs-footer > footer.hfsf > div.inner
