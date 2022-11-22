@@ -1,13 +1,20 @@
 openwrt软路由下docker空间扩容教程：
 https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
-
-docker run -d \
- --name bark \
- -p 18080:8080 \
- -v /opt/bark/bark-data:/data
- --restart unless-stopped \
- finab/bark-server
- http://192.168.11.1:18080/
+ 
+ docker run -d --name fb \
+  --restart=unless-stopped \
+  -e PUID=0 \
+  -e PGID=0 \
+  -e WEB_PORT=8082 \
+  -e FB_AUTH_SERVER_ADDR=127.0.0.1 \
+  -p 18082:8082 \
+  -v /opt/fb/config:/config \
+  -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit \
+  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2 \
+  -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube \
+  --mount type=tmpfs,destination=/tmp \
+  80x86/filebrowser:2.9.4-amd64
+ 
 
 docker run -d \
  --name metube \
@@ -146,7 +153,20 @@ docker run -d \
 2 */3 * * * docker restart YTBlive
 （每隔3个小时的第2分钟重启一次）
 
+
+
+
+
 -------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+docker run -d \
+ --name bark \
+ -p 18080:8080 \
+ -v /opt/bark/bark-data:/data
+ --restart unless-stopped \
+ finab/bark-server
+ http://192.168.11.1:18080/
+
 docker run -d \
   --name=tubesync \
   -e PUID=1000 \
