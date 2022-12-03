@@ -9,6 +9,8 @@ docker run -d  --name="alist"
 -p 5244:5244 
 --restart=always
 xhofe/alist:latest
+
+http://192.168.11.1/dav 
  
  docker run -d --name fb \
   --restart=unless-stopped \
