@@ -1,5 +1,14 @@
 openwrt软路由下docker空间扩容教程：
 https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
+
+docker run -d  --name="alist" 
+-v /opt/alist/alist:/opt/alist/data 
+ -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2
+ -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube
+ -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit
+-p 5244:5244 
+--restart=always
+xhofe/alist:latest
  
  docker run -d --name fb \
   --restart=unless-stopped \
