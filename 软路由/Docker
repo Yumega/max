@@ -12,20 +12,6 @@ xhofe/alist:latest
 
 http://192.168.11.1/dav 
  
- docker run -d --name fb \
-  --restart=unless-stopped \
-  -e PUID=0 \
-  -e PGID=0 \
-  -e WEB_PORT=8082 \
-  -e FB_AUTH_SERVER_ADDR=127.0.0.1 \
-  -p 18082:8082 \
-  -v /opt/fb/config:/config \
-  -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit \
-  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2 \
-  -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube \
-  --mount type=tmpfs,destination=/tmp \
-  80x86/filebrowser:2.9.4-amd64
- 
 
 docker run -d \
  --name metube \
@@ -170,6 +156,27 @@ docker run -d \
 
 -------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
+
+docker run -itd -p 8080:8080 --restart=always --name server 239144498/streaming  
+
+
+
+
+ docker run -d --name fb \
+  --restart=unless-stopped \
+  -e PUID=0 \
+  -e PGID=0 \
+  -e WEB_PORT=8082 \
+  -e FB_AUTH_SERVER_ADDR=127.0.0.1 \
+  -p 18082:8082 \
+  -v /opt/fb/config:/config \
+  -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit \
+  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2 \
+  -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube \
+  --mount type=tmpfs,destination=/tmp \
+  80x86/filebrowser:2.9.4-amd64
+
+
 docker run -d \
  --name bark \
  -p 18080:8080 \
