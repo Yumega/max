@@ -1,21 +1,35 @@
 openwrt软路由下docker空间扩容教程：
 https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
 
-docker run -itd -p 8080:8080 --restart=always --name 4gtv 239144498/streaming  
-http://192.168.11.1:8080/docs
-http://192.168.11.1:8080/program.m3u
-
-
+----------------------------------------------------
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2
  -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube
- -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit
+ -v /mnt/sdb1/qbit:/myfiles/sdc1/qbit
 -p 5244:5244 
 --restart=always
 xhofe/alist:latest
 
-http://192.168.11.1/dav 
+http://192.168.11.1/dav
+
+logo:
+https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
+
+样式：
+<style
+type="text/css"> .footer { 
+display: none !important; } 
+.hope-c-PJLV-ihKMwLA-css {
+    height: 23px;
+}
+</style>
+
+挂载： 
+/myfiles/sdb1/Tube/
+/myfiles/sdb1/aria2/
+/myfiles/sdc1/qbit/
+-------------------------------------------
  
 docker run -d \
  --name metube \
@@ -161,6 +175,9 @@ docker run -d \
 -------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
+docker run -itd -p 8080:8080 --restart=always --name 4gtv 239144498/streaming  
+http://192.168.11.1:8080/docs
+http://192.168.11.1:8080/program.m3u
 
  docker run -d --name fb \
   --restart=unless-stopped \
