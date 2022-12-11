@@ -6,7 +6,7 @@ docker run -d  --name="alist"
 -v /opt/alist/alist:/opt/alist/data 
  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2
  -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube
- -v /mnt/sdb1/qbit:/myfiles/sdc1/qbit
+ -v /mnt/sdc1/qbit:/myfiles/sdc1/qbit
 -p 5244:5244 
 --restart=always
 xhofe/alist:latest
