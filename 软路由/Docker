@@ -2,6 +2,17 @@ openwrt软路由下docker空间扩容教程：
 https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
 
 ----------------------------------------------------
+
+docker run -d \
+  --name=freshrss \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -p 11080:80 \
+  -v /opt/freshrss/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/freshrss:latest
+  
+  
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2
