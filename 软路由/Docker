@@ -2,6 +2,7 @@ openwrt软路由下docker空间扩容教程：
 https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
 
 ----------------------------------------------------
+docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
 
 docker run -d \
   --name=freshrss \
