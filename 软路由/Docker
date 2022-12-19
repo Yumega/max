@@ -136,6 +136,14 @@ docker run -d \
     -v /mnt/sdb1/aria2:/downloads \
     p3terx/aria2-pro
     
+    
+    docker run -d \
+    --name ariang \
+    --restart unless-stopped \
+    --log-opt max-size=1m \
+    -p 6880:6880 \
+    p3terx/ariang
+    
 ------------------------------------------------------
  
  docker run -d \
