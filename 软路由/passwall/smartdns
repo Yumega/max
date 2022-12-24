@@ -1,3 +1,19 @@
+SmartDNS
+主要用于分流和DNS查询，国外走 Cloudflare DNS ove TLS/HTTPS ，国内延迟优先（但可能影响P2P下载，实测实际还好）。
+
+启用第一组服务器，选择作为dnsmasq上游，其余默认配置即可。
+启用第二组服务器，端口7913，跳过测速，跳过Nameserver规则（非常重要，否则会死循环），跳过双栈优选，跳过cache，其余设置保持默认。
+配置上游服务器，部分设置要填写后点编辑才能看到。
+国内上游填写你的运营商，额外填写一些国内常用的，例如阿里云，DNSPod等等，可以参考文末的配置，分组信息填写cn。
+国外上游填写1.1.1.1端口853，协议填写tls，分组信息填写passwall，额外的服务参数填写 -exclude-default-group
+
+Passwall
+DNS分流 smartdns
+国内分组名 cn
+过滤模式 通过UDP请求DNS 127.0.0.1:7913
+
+
+
 config smartdns
 	option server_name 'smartdns'
 	option port '6053'
