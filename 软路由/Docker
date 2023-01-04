@@ -154,7 +154,7 @@ docker run -d \
  -v /opt/jelly/cache:/cache \
  -v /mnt/sdb1/Aliyun:/media1 \
  -v /mnt/sdb1/aria2:/media2 \
- -v /mnt/sdb1/qbit:/media3 \
+ -v /mnt/sdc1/qbit:/media3 \
  --restart=unless-stopped \
  jellyfin/jellyfin
  
