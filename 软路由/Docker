@@ -2,16 +2,9 @@ openwrt软路由下docker空间扩容教程：
 https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
 
 ----------------------------------------------------
-docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
 
-docker run -d \
-  --name=freshrss \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -p 11080:80 \
-  -v /opt/freshrss/data:/config \
-  --restart unless-stopped \
-  lscr.io/linuxserver/freshrss:latest
+docker run -d --restart unless-stopped --privileged=true -p 5678:80 --name php-env youshandefeiyang/php-env
+docker cp /root/test/migu.php php-env:/var/www/html/
   
   
 docker run -d  --name="alist" 
@@ -194,6 +187,18 @@ docker run -d \
 
 -------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
+
+docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
+
+docker run -d \
+  --name=freshrss \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -p 11080:80 \
+  -v /opt/freshrss/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/freshrss:latest
+
 
 docker run -itd -p 8080:8080 --restart=always --name 4gtv 239144498/streaming  
 http://192.168.11.1:8080/docs
