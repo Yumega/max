@@ -7,9 +7,12 @@ docker run -d --restart unless-stopped --privileged=true -p 5678:80 --name php-e
 docker cp /root/test/migu.php php-env:/var/www/html/
 http://192.168.11.1:5678/migu.php
 
-http://192.168.11.1:5678/ghyx.php?id=CCTV1HD_6000
-
 http://192.168.11.1:5678/ghyx.php  
+
+docker run -d --name=ustvgo-iptv -p 6363:6363 --restart unless-stopped ghcr.io/interlark/ustvgo-iptv:latest
+
+
+
   
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
