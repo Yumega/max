@@ -56,6 +56,12 @@ docker run -d  --name="alist"
 --restart=always
 xhofe/alist:latest
 
+挂载： 
+/myfiles/sdc1/Tube/
+/myfiles/sdc1/aria2
+/myfiles/sdb1/qbit/
+
+
 http://192.168.11.1/dav
 
 logo:
@@ -70,10 +76,7 @@ display: none !important; }
 }
 </style>
 
-挂载： 
-/myfiles/sdb1/Tube/
-/myfiles/sdb1/aria2/
-/myfiles/sdc1/qbit/
+
 -------------------------------------------
  
 docker run -d \
