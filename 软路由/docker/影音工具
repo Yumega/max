@@ -37,12 +37,12 @@ docker run -d \
  --restart=unless-stopped \
  jellyfin/jellyfin
  
-在管理界面 > 系统 > 计划任务，加入下面代码。
-每晚21:30 重启 jellyfin
-30 21 * * * * docker restart jellyfin
-
+在管理界面 > 系统 > 计划任务，加入下面代码
 每早6:30 重启 jellyfin
 30 6 * * * * docker restart jellyfin
+
+每晚21:30 重启 jellyfin
+30 21 * * * * docker restart jellyfin
 
  docker run -d \
  --name jellyseerr \
