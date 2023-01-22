@@ -18,7 +18,6 @@ docker create  \
   在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
   
   
-   
 docker run -d \
  --name metube \
  -p 8081:8081 \
@@ -29,7 +28,6 @@ docker run -d \
 (STATE_DIR: path to where the queue persistence files will be saved. Defaults to /downloads/.metube in the docker image)
 
   
-   
  添加Aria2 pro(最大权限，存在不同文件夹)
    docker run -d \
     --name aria2\
@@ -45,7 +43,7 @@ docker run -d \
     -v /mnt/sdb1/aria2:/downloads \
     p3terx/aria2-pro
     
-    
+
     docker run -d \
     --name ariang \
     --restart unless-stopped \
@@ -70,3 +68,32 @@ docker run -d \
   --restart unless-stopped \
   lscr.io/linuxserver/transmission:latest
     
+   
+    docker run -d \
+  --name=tubesync \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 14848:4848 \
+  -v /opt/tubesync/tubesync-config:/config \
+  -v /mnt/sdb1/qbit:/YTB  \
+  --restart unless-stopped \
+ ghcr.io/meeb/tubesync:latest
+
+docker run -d \
+--name=youtubedl \
+-p 8084:17442 \
+-v /opt/youtubedl/appdata:/app/appdata \
+-v /mnt/sdb1/YTB/audio:/app/audio \
+-v /mnt/sdb1/YTB/subscriptions:/app/subscriptions \
+-v /opt/youtubedl/users:/app/users \
+-v /mnt/sdb1/YTB/video:/app/video \
+--restart always \
+tzahi12345/youtubedl-material:nightly    
+
+docker run -d \
+--name=jdownloader-2 \
+-p 5800:5800 \
+-v /opt/jdownloader-2:/config:rw \
+-v /mnt/sdb1/aria2/Downloads:/output:rw \
+jlesage/jdownloader-2   
