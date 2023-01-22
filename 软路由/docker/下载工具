@@ -1,5 +1,6 @@
 docker create  \
     --name=qbittorrent  \
+    --network host \
     -e WEBUIPORT=8080  \
     -e PUID=1000 \
     -e PGID=1000 \
@@ -10,7 +11,7 @@ docker create  \
     -v /opt/qbittorrent:/config  \
     -v /mnt/sdb1/qbit:/downloads  \
     --restart unless-stopped  \
-    superng6/qbittorrent:latest 
+    superng6/qbittorrent:latest  
     id: admin
     pass:adminadmin
     
