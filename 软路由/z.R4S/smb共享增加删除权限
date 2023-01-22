@@ -1,7 +1,0 @@
-Window+R  输入cmd 进入dos
-
-输入 ssh root@192.168.2.1 
-
-输入 chmod(空格) -R(空格)777(空格) /mnt/sda1
-
-Aria2 基本配置 ：用户名（用户组）选择 nobody 
