@@ -4,6 +4,16 @@ docker run -d \
 -p 13080:8080 \ 
 ghcr.io/jnewland/hlstube:latest
 
+*/2  * * * * docker restart YTBlive
+（每隔2分钟重启一次）
+
+12 */3 * * * docker restart YTBlive
+（每隔3个小时的第12分钟重启一次）
+
+2 */3 * * * docker restart YTBlive
+（每隔3个小时的第2分钟重启一次）
+
+
 
 docker run -d --restart unless-stopped --privileged=true -p 5678:80 --name php-env youshandefeiyang/php-env
 docker cp /root/test/migu.php php-env:/var/www/html/
