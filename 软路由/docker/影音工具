@@ -48,12 +48,21 @@ docker run -d \
  --restart=unless-stopped \
  jellyfin/jellyfin
  
+ 在管理界面 > 系统 > 计划任务，加入下面代码。
 每晚21:30 重启 jellyfin
 30 21 * * * * docker restart jellyfin
 
 每早6:30 重启 jellyfin
 30 6 * * * * docker restart jellyfin
 
+*/2  * * * * docker restart YTBlive
+（每隔2分钟重启一次）
+
+12 */3 * * * docker restart YTBlive
+（每隔3个小时的第12分钟重启一次）
+
+2 */3 * * * docker restart YTBlive
+（每隔3个小时的第2分钟重启一次）
   
   docker run -d \
    --name navidrome \
@@ -66,3 +75,60 @@ docker run -d \
    deluan/navidrome:latest
 
 https://www.navidrome.org/docs/usage/configuration-options/
+
+
+软路由解码
+/dev/dri/card0
+/dev/dri/renderD128
+# cd /mnt/sdb1/aria2
+ docker run -d \
+ --name=jellyfin \
+ -e TZ=Asia/Shanghai \
+ -p 8096:8096 \
+ -v /opt/docker/jellyfin/data:/config \
+ -v /opt/jellyfin/cache:/cache \
+ -v /mnt/sdb1/qbit:/media1 \
+ -v /mnt/sdb1/aria2:/media2 \
+ -v /mnt/sdb1/Aliyun:/media3 \
+ --device= /dev/dri/renderD128 \
+ --restart=unless-stopped \
+ nyanmisaka/jellyfin
+
+docker run -d \
+  --name=jackett \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -e AUTO_UPDATE=true \
+  -p 9117:9117 \
+  -v /opt/prowlarr:/config \
+  -v /mnt/sdb1/qbit:/downloads  \
+  --restart unless-stopped \
+  lscr.io/linuxserver/jackett:latest
+  
+
+   
+  添加prowlarr
+  docker run -d \
+  --name=prowlarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 9696:9696 \
+  -v /opt/prowlarr/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/prowlarr:develop
+  
+docker run -d \
+  --name=overseerr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 15055:5055 \
+  -v /opt/overseerr/config:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/overseerr:latest
+  
+-p 9696:80 would expose port 80 from inside the container to be accessible from the host's IP on port 9696 outside the container
+
+
