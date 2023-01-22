@@ -24,17 +24,6 @@ docker run -d \
   
   lscr.io/linuxserver/sonarr:latest
  
- docker run -d \
- --name jellyseerr \
- -e PUID=1000 \
- -e PGID=1000 \
- -e LOG_LEVEL=debug \
- -e TZ=Asia/Shanghai \
- -p 15055:5055 \
- -v /opt/jellyseerr/config:/app/config \
- --restart unless-stopped \
- fallenbagel/jellyseerr:latest
- 
  
   docker run -d \
  --name jellyfin \
@@ -48,21 +37,24 @@ docker run -d \
  --restart=unless-stopped \
  jellyfin/jellyfin
  
- 在管理界面 > 系统 > 计划任务，加入下面代码。
+在管理界面 > 系统 > 计划任务，加入下面代码。
 每晚21:30 重启 jellyfin
 30 21 * * * * docker restart jellyfin
 
 每早6:30 重启 jellyfin
 30 6 * * * * docker restart jellyfin
 
-*/2  * * * * docker restart YTBlive
-（每隔2分钟重启一次）
+ docker run -d \
+ --name jellyseerr \
+ -e PUID=1000 \
+ -e PGID=1000 \
+ -e LOG_LEVEL=debug \
+ -e TZ=Asia/Shanghai \
+ -p 15055:5055 \
+ -v /opt/jellyseerr/config:/app/config \
+ --restart unless-stopped \
+ fallenbagel/jellyseerr:latest
 
-12 */3 * * * docker restart YTBlive
-（每隔3个小时的第12分钟重启一次）
-
-2 */3 * * * docker restart YTBlive
-（每隔3个小时的第2分钟重启一次）
   
   docker run -d \
    --name navidrome \
