@@ -1,0 +1,75 @@
+docker run -d  --name="alist" 
+-v /opt/alist/alist:/opt/alist/data 
+ -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit
+ -v /mnt/sdc1/aria2:/myfiles/sdc1/aria2
+ -v /mnt/sdc1/Tube:/myfiles/sdc1/Tube
+-p 5244:5244 
+--restart=always
+xhofe/alist:latest
+
+alist设置：
+1，获取密码 docker exec -it ./alist ./alist admin 
+
+本地存储设置：
+挂载路径填写：/
+根文件夹路径填写：
+/myfiles/sdc1/Tube/
+/myfiles/sdc1/aria2
+/myfiles/sdb1/qbit/
+http://192.168.11.1/dav
+
+样式：
+logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
+
+自定义：
+<style
+type="text/css"> .footer { 
+display: none !important; } 
+.hope-c-PJLV-ihKMwLA-css {
+    height: 23px;
+}
+</style>
+
+docker run -d \
+  --name=heimdall \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 7070:80 \
+  -p 8443:443 \
+  -v /opt/heimdall/appdata/config:/config \
+  --restart unless-stopped \
+ lscr.io/linuxserver/heimdall:latest 
+ 
+ docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
+
+docker run -d \
+  --name=freshrss \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -p 11080:80 \
+  -v /opt/freshrss/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/freshrss:latest
+  
+  docker run -d --name fb \
+  --restart=unless-stopped \
+  -e PUID=0 \
+  -e PGID=0 \
+  -e WEB_PORT=8082 \
+  -e FB_AUTH_SERVER_ADDR=127.0.0.1 \
+  -p 18082:8082 \
+  -v /opt/fb/config:/config \
+  -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit \
+  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2 \
+  -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube \
+  --mount type=tmpfs,destination=/tmp \
+  80x86/filebrowser:2.9.4-amd64
+
+docker run -d \
+ --name bark \
+ -p 18080:8080 \
+ -v /opt/bark/bark-data:/data
+ --restart unless-stopped \
+ finab/bark-server
+ http://192.168.11.1:18080/
