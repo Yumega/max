@@ -1,0 +1,19 @@
+docker run -d \
+--name=YTBlive \
+-e TZ=Asia/Shanghai \
+-p 13080:8080 \ 
+ghcr.io/jnewland/hlstube:latest
+
+
+docker run -d --restart unless-stopped --privileged=true -p 5678:80 --name php-env youshandefeiyang/php-env
+docker cp /root/test/migu.php php-env:/var/www/html/
+http://192.168.11.1:5678/migu.php
+http://192.168.11.1:5678/ghyx.php  
+
+
+docker run -itd -p 8080:8080 --restart=always --name 4gtv 239144498/streaming  
+http://192.168.11.1:8080/docs
+http://192.168.11.1:8080/program.m3u
+
+
+docker run -d --name=ustvgo-iptv -p 6363:6363 --restart unless-stopped ghcr.io/interlark/ustvgo-iptv:latest
