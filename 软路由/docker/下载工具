@@ -1,0 +1,72 @@
+docker create  \
+    --name=qbittorrent  \
+    -e WEBUIPORT=8080  \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e TZ=Asia/Shanghai \
+    -p 6888:6888  \
+    -p 6888:6888/udp  \
+    -p 8080:8080  \
+    -v /opt/qbittorrent:/config  \
+    -v /mnt/sdb1/qbit:/downloads  \
+    --restart unless-stopped  \
+    superng6/qbittorrent:latest 
+    id: admin
+    pass:adminadmin
+    
+  用于传入连接的端口:59178
+  在QBittorrent中手动设置端口，应将其保留在49160和65534之间，因为其他程序使用了其他范围，或者它们可能被ISP阻止
+  
+  
+   
+docker run -d \
+ --name metube \
+ -p 8081:8081 \
+ -v /mnt/sdb1/Tube:/downloads \
+ -e STATE_DIR=/opt/metube:/downloads \
+ --restart unless-stopped \
+ alexta69/metube:latest
+(STATE_DIR: path to where the queue persistence files will be saved. Defaults to /downloads/.metube in the docker image)
+
+  
+   
+ 添加Aria2 pro(最大权限，存在不同文件夹)
+   docker run -d \
+    --name aria2\
+    --restart unless-stopped \
+    --log-opt max-size=1m \
+    --network host \
+    -e PUID= \
+    -e PGID= \
+    -e RPC_SECRET=token \
+    -e RPC_PORT=6800 \
+    -e LISTEN_PORT=31411 \
+    -v /opt/aria2:/config \
+    -v /mnt/sdb1/aria2:/downloads \
+    p3terx/aria2-pro
+    
+    
+    docker run -d \
+    --name ariang \
+    --restart unless-stopped \
+    --log-opt max-size=1m \
+    -p 6880:6880 \
+    p3terx/ariang
+    
+    
+  docker run -d \
+  --name=transmission \
+  -e TZ=Asia/Shanghai \
+  -e TRANSMISSION_WEB_HOME=/combustion-release/ \
+  -e PEERPORT=59178 \
+  -p 9091:9091 \
+  -p 51423:51423 \
+  -p 51423:51423/udp \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -v /opt/transmission:/config \
+  -v /mnt/sdb1/qbit:/downloads  \
+  -v /opt/transmission/watch/folder:/watch \
+  --restart unless-stopped \
+  lscr.io/linuxserver/transmission:latest
+    
