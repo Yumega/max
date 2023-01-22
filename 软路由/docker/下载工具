@@ -21,7 +21,7 @@ docker create  \
 docker run -d \
  --name metube \
  -p 8081:8081 \
- -v /mnt/sdb1/Tube:/downloads \
+ -v /mnt/sdc1/Tube:/downloads \
  -e STATE_DIR=/opt/metube:/downloads \
  --restart unless-stopped \
  alexta69/metube:latest
@@ -40,7 +40,7 @@ docker run -d \
     -e RPC_PORT=6800 \
     -e LISTEN_PORT=31411 \
     -v /opt/aria2:/config \
-    -v /mnt/sdb1/aria2:/downloads \
+    -v /mnt/sdc1/aria2:/downloads \
     p3terx/aria2-pro
     
 
@@ -87,7 +87,7 @@ docker run -d \
 -v /mnt/sdb1/YTB/audio:/app/audio \
 -v /mnt/sdb1/YTB/subscriptions:/app/subscriptions \
 -v /opt/youtubedl/users:/app/users \
--v /mnt/sdb1/YTB/video:/app/video \
+-v /mnt/sdc1/YTB/video:/app/video \
 --restart always \
 tzahi12345/youtubedl-material:nightly    
 
@@ -95,5 +95,5 @@ docker run -d \
 --name=jdownloader-2 \
 -p 5800:5800 \
 -v /opt/jdownloader-2:/config:rw \
--v /mnt/sdb1/aria2/Downloads:/output:rw \
+-v /mnt/sdc1/aria2/Downloads:/output:rw \
 jlesage/jdownloader-2   
