@@ -4,6 +4,8 @@ docker run -d \
 -p 13080:8080 \ 
 ghcr.io/jnewland/hlstube:latest
 
+http://192.168.11.1:13080/0MJacjd0eNg.m3u8
+
 在管理界面 > 系统 > 计划任务，加入下面代码
 */2  * * * * docker restart YTBlive
 （每隔2分钟重启一次）
