@@ -19,16 +19,13 @@ alist设置：
 /myfiles/sdb1/qbit/
 http://192.168.11.1/dav
 
-3，样式设置：
+3，自定义样式：
 logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
-
-自定义：
-<style
-type="text/css"> .footer { 
-display: none !important; } 
-.hope-c-PJLV-ihKMwLA-css {
-    height: 23px;
-}
+<style type="text/css">
+.body{zoom:1.2;}
+.hope-c-PJLV-idaMRbK-css {zoom: 1.2;height: 110px;}
+.footer { display: none !important; } 
+.hope-c-PJLV-ihKMwLA-css {height: 23px;}
 </style>
 
 
