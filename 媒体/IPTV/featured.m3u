@@ -13,7 +13,7 @@ http://192.168.11.1:13080/YvdcZ_jpLXE
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/TravelX.png",Travelxp NZ
 https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/cna.png"group-title="News",亚洲新闻
+#EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/cna.png",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/aljazeera.png",半岛新闻
 http://192.168.11.1:13080/GEumHK0hfdo
@@ -26,31 +26,32 @@ https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a82
 #EXTINF:-1 tvg-id="664" tvg-name="" tvg-logo="https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/bbc-wn_m.png",BBC新闻
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNNNews.png",CNN美国
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.ondemandchina.com/images/logo.png",华语影视
-https://newidco-ondemandchina-1-us.tcl.wurl.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png",河南卫视
 http://39.134.66.110/PLTV/88888888/224/3221225988/index.m3u8
 #EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png",浙江卫视
 http://39.134.66.110/PLTV/88888888/224/3221225959/index.m3u8
-#EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png",辽宁卫视
-http://192.168.11.1:5678/ghyx.php?id=LiaoNingHD_6000
+#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png",东方卫视
+http://39.134.66.110/PLTV/88888888/224/3221225672/index.m3u8
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png",江苏卫视
 http://39.134.66.110/PLTV/88888888/224/3221225503/index.m3u8
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png",湖南卫视
 http://39.134.66.110/PLTV/88888888/224/3221225506/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png",CCTV1
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png",CCTV综合
 http://39.134.66.110/PLTV/88888888/224/3221225816/index.m3u8
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png",CCTV13
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" ,CCTV国际
+http://39.134.66.110/PLTV/88888888/224/3221225797/index.m3u8
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png",CCTV新闻
 http://39.134.66.110/PLTV/88888888/224/3221225812/1.m3u8
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png",CCTV15
+#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png",CCTV音乐
 http://39.134.66.110/PLTV/88888888/224/3221225513/1.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/CHINAOD.png",China-OD
+https://newidco-ondemandchina-1-us.tcl.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/619b80acac5329000740c022/colorLogoPNG.png",Love Songs
 https://bit.ly/3twVIny?/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/youshandefeiyang/IPTV/logo/24DFCA13-4C67-4FEE-A413-2288F1FA94F6.jpeg",Love nature
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.docplus.com/icons/icon-96x96.png",Documentary
-https://bit.ly/DocumentarioPluto?/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/cinedigm_so_real_1.png",So Real
 https://soreal-localnow.cinedigm.com/playlist1080p.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/wildearth.png",Wild Planet
@@ -65,7 +66,7 @@ https://d1vp12yk4i8ou5.cloudfront.net/playlist720p.m3u8
 https://inwild-samsungau.amagi.tv/playlist720-p.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/xplore.webp",Xplore
 http://xlpore-samsungus.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/planet.png",Planet
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/planet.png",TCL星球
 https://answermedia-beautiful-planet-1-us.tcl.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://media.outdooramerica.com/uploads/2021/05/outdoor-america.png",Outdoor
 https://obsession-media.sinclair.wurl.com/manifest/3000.m3u8
