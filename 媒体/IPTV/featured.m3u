@@ -5,9 +5,9 @@ http://yuniptvunql.chinayungu.cn:65530/live/fhzw/index.m3u8
 http://yuniptvunql.chinayungu.cn:65530/live/fhzx/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/ztxw.png",中天新闻
 http://192.168.11.1:13080/_QbRXRnHMVY
-#EXTINF:-1 tvg-id="6073" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbs.png",TVBS新闻
+#EXTINF:-1 tvg-id="6073" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbsnews.jpg",TVBS新闻
 http://192.168.11.1:13080/2mCSYvcfhtc
-#EXTINF:-1 tvg-id="6074" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/TVBS56.png",TVBS
+#EXTINF:-1 tvg-id="6074" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbsHD.png",TVBS-HD
 http://192.168.11.1:13080/YvdcZ_jpLXE
 #EXTINF:-1,tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/TravelX.png",Travelxp EU
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
@@ -27,7 +27,7 @@ https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a82
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNNNews.png",CNN美国
 
 
-#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png",河南卫视
+#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/henantv.png",河南卫视
 http://39.134.66.110/PLTV/88888888/224/3221225988/index.m3u8
 #EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png",浙江卫视
 http://39.134.66.110/PLTV/88888888/224/3221225959/index.m3u8
