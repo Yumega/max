@@ -1,0 +1,18 @@
+#!url=https://raw.githubusercontent.com/Yumega/max/master/SDR/%E6%A8%A1%E5%9D%97/YTB.module
+#!name=YouTube
+#!desc=全面去广告
+[URL Rewrite]
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
+
+[Script]
+youtube-proto = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\?,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js
+youtube-player = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js
+youtube-fake = type=http-request,pattern=^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad,requires-body=0,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
+
+[MITM]
+hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, youtubei.googleapis.com
