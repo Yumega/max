@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/Yumega/max/master/SDR/%E6%A8%A1%E5%9D%97/Youtube.module
 #!name=YouTube
-#!desc=去廣告整合(>=iOS15)
+#!desc=去广告+画中画
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oaddata="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/tinygif.gif" _ REJECT-DICT
