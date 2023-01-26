@@ -5,6 +5,8 @@ https://github.com/DHDAXCW/OpenWRT_x86_x64/releases
 1，用分区助手 擦除分区
 2，用balenaEtcher 安装openwrt到硬盘
 
+修改软路由 登录ip vi /etc/config/network
+
 docker 扩容
 openwrt软路由下docker空间扩容
 https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
