@@ -1,3 +1,6 @@
+#!url=https://raw.githubusercontent.com/Yumega/max/master/SDR/%E6%A8%A1%E5%9D%97/spotify.module
+#!name=Spotify(>=iOS15)
+
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
 
