@@ -9,7 +9,10 @@ DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,snapdrop.net
-DOMAIN,stun.l.google.com
+#custom
+DOMAIN-SUFFIX,dnslify.com
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,microsofttranslator.com
 #局域网
 IP-CIDR,0.0.0.0/8,no-resolve
 IP-CIDR,10.0.0.0/8,no-resolve
@@ -25,6 +28,7 @@ IP-CIDR,198.18.0.0/15,no-resolve
 IP-CIDR,198.51.100.0/24,no-resolve
 IP-CIDR,203.0.113.0/24,no-resolve
 IP-CIDR,224.0.0.0/3,no-resolve
+IP-CIDR,255.255.255.255/32,no-resolve
 #wechat
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
@@ -168,10 +172,6 @@ DOMAIN-SUFFIX,mesu.g.aaplimg.com
 DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
 DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,ocsp.g.aaplimg.com
-#custom
-DOMAIN-SUFFIX,dnslify.com
-DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,microsofttranslator.com
 #QQ
 DOMAIN-SUFFIX,1700.cn
 DOMAIN-SUFFIX,17roco.com
