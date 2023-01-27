@@ -1,3 +1,20 @@
+
+docker create  \
+    --name=qbit  \
+    --network host \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e TZ=Asia/Shanghai \
+    -p 8080:8080  \
+    -v /opt/qbit:/config  \
+    -v /mnt/sdb1/qbit:/downloads  \
+    --restart unless-stopped  \
+    cr.hotio.dev/hotio/qbittorrent
+    
+    默认保存路径改为
+    /downloads
+
+
 docker create  \
     --name=qbittorrent  \
     --network host \
