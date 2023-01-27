@@ -1,0 +1,12 @@
+#!url=https://raw.githubusercontent.com/Yumega/max/master/SDR/%E6%A8%A1%E5%9D%97/Youtube.module
+#!name=YouTube
+#!desc=youtube后台播放
+# 仓库地址 https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule
+
+[URL Rewrite]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oaddata="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/tinygif.gif" _ REJECT-DICT
+
+[Script]
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting),requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
+[MITM]
+hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, youtubei.googleapis.com
