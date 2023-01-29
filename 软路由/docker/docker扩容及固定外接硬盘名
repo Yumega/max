@@ -9,3 +9,6 @@ https://docs.qq.com/doc/DZHBwYVNmY2tvY2dy
 查看docker磁盘占用情况
 docker system df
 docker system prune命令可以用于清理磁盘，删除关闭的容器、无用的数据卷和网络，以及 dangling 镜像(即无 tag 的镜像)
+
+改变docker容器 重启策略
+docker update --restart=always 容器名字或者容器ID
