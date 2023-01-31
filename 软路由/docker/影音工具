@@ -23,6 +23,16 @@ docker run -d \
   cr.hotio.dev/hotio/sonarr
   
   lscr.io/linuxserver/sonarr:latest
+  
+  docker run -d \
+  --name=prowlarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 9696:9696 \
+  -v /opt/prowlarr/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/prowlarr:latest
  
  
   docker run -d \
@@ -100,16 +110,6 @@ docker run -d \
   
 
    
-  添加prowlarr
-  docker run -d \
-  --name=prowlarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 9696:9696 \
-  -v /opt/prowlarr/data:/config \
-  --restart unless-stopped \
-  lscr.io/linuxserver/prowlarr:develop
   
 docker run -d \
   --name=overseerr \
