@@ -1,0 +1,7 @@
+
+#!name=bing搜索
+#!desc=bing搜索
+[MITM]
+hostname=www.bing.com
+[URL Rewrite]
+^https?:\/\/www\.bing\.com\/(search|new|web) url request-header (\r\nUser-Agent:.+?)\w+\/[\d\.]+(\r\n) request-header $1AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0$2
