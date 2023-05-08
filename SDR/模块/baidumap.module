@@ -1,0 +1,12 @@
+#!name=百度地图pro
+#!desc=百度地图pro
+
+[MITM]
+hostname=180.76.76.200, newclient.map.baidu.com, httpdns.baidubce.com
+
+[URL Rewrite]
+^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw url reject-200
+^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject-200
+^https?:\/\/httpdns\.baidubce\.com url reject-200
+^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing url reject-200
+^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic url reject-200
