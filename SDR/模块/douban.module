@@ -1,3 +1,5 @@
+#!name=豆瓣
+#!desc=豆瓣
 [MITM]
 hostname = m.douban.com
 
