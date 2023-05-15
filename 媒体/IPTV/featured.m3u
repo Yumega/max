@@ -4,7 +4,7 @@ http://yuniptvunql.chinayungu.cn:65530/live/fhzw/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/fhzx.png",凤凰资讯
 http://yuniptvunql.chinayungu.cn:65530/live/fhzx/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/ztxw.png",中天新闻
-http://192.168.11.1:13080/_QbRXRnHMVY
+http://192.168.11.1:13080/oIgbl7t0S_w
 #EXTINF:-1 tvg-id="6073" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbsnews.jpg",TVBS新闻
 http://192.168.11.1:13080/2mCSYvcfhtc
 #EXTINF:-1 tvg-id="6074" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbsHD.png",TVBS-HD
@@ -16,7 +16,7 @@ https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/cna.png",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/aljazeera.png",半岛新闻
-http://192.168.11.1:13080/GEumHK0hfdo
+http://192.168.11.1:13080/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="734" tvg-name="france24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/france24.png",法国24台
 http://192.168.11.1:13080/h3MuIUNCCzI
 #EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/dwnews.png",德国之声
