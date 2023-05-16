@@ -88,8 +88,6 @@ https://www.navidrome.org/docs/usage/configuration-options/
  -v /opt/docker/jellyfin/data:/config \
  -v /opt/jellyfin/cache:/cache \
  -v /mnt/sdb1/qbit:/media1 \
- -v /mnt/sdb1/aria2:/media2 \
- -v /mnt/sdb1/Aliyun:/media3 \
  --device= /dev/dri/renderD128 \
  --restart=unless-stopped \
  nyanmisaka/jellyfin
