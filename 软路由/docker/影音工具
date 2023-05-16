@@ -41,7 +41,7 @@ docker run -d \
  -e TZ=Asia/Shanghai \
  -v /opt/jellyfin/config:/config \
  -v /opt/jellyfin/cache:/cache \
- -v /mnt/sdc1/qbit:/media1 \
+ -v /mnt/sdb1/qbit:/media1 \
  --restart=unless-stopped \
  jellyfin/jellyfin
  
