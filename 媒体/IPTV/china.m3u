@@ -1,21 +1,21 @@
 #EXTM3U
 #EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/cctv/fyjc.png" group-title="央视",风云剧场
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002505/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002505/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/cctv/hjjc.png" group-title="央视",怀旧剧场
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002495/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002495/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6560" tvg-name="世界地理" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVshijiedili.png" ,世界地理
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002485/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002485/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6568" tvg-name="高尔夫网球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE13.jpg", 高网频道
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/ott.mobaibox.com/TVOD/3/224/3221228138/index.m3u8
 
 #EXTINF:-1 tvg-id="6244" tvg-name="求索记录" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/qiusuo/qsjl.png",求索纪录
-http://[2409:8087:4402:20:1:1216:401:37]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226114/index.m3u8
+#http://[2409:8087:4402:20:1:1216:401:37]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226114/index.m3u8
 #EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/qiusuo/qsdw.png",求索动物
-http://[2409:8087:4402:20:1:1216:401:42]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226118/index.m3u8
+#http://[2409:8087:4402:20:1:1216:401:42]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226118/index.m3u8
 #EXTINF:-1 tvg-id="6240" tvg-name="求索科学" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/qiusuo/qskx.png" ,求索科学
-http://[2409:8087:4402:20:1:1216:401:45]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226115/index.m3u8
+#http://[2409:8087:4402:20:1:1216:401:45]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226115/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/qiusuo/qssh.png" ,求索生活
-http://[2409:8087:4402:20:1:1216:401:44]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226116/index.m3u8
+#http://[2409:8087:4402:20:1:1216:401:44]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226116/index.m3u8
 #EXTINF:-1,tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/hmdh.png",黑莓动画
 http://[2409:8087:2001:20:2800:0:df6e:eb14]/wh7f454c46tw1548584423_1051491810/ott.mobaibox.com/PLTV/3/224/3221225555/index.m3u8?icpid=3&RTS=1676099650&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
 #EXTINF:-1,tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/hmdy.png",黑莓电影
@@ -75,9 +75,9 @@ http://lu1.cc/c/tv/sjtv/p/bjcd.php?id=bjxw
 #EXTINF:-1 tvg-id="河南都市" tvg-name="河南都市" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/henan/henands.png",河南都市
 http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226430/index.m3u8
 #EXTINF:-1 tvg-id="河南国际" tvg-name="河南国际" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/henan/henangj.png",河南国际
-http://[2409:8087:4400:20:1:70f:1011:16]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226434/index.m3u8
+#http://[2409:8087:4400:20:1:70f:1011:16]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226434/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/henan/henandsj.png",河南电视
-http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
+#http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/henan/henanxw.png",河南新闻
 http://[2409:8087:4402:20:1:1216:401:3b]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226544/index.m3u8
 #EXTINF:-1,tvg-id="江苏公共新闻" tvg-name="江苏公共新闻" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/jiangsu/jsggxw.png",江苏新闻
