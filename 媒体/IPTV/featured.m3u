@@ -46,7 +46,7 @@ http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/
 http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png",CCTV音乐
 http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226478/index.m3u8
-#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/henantv.png",河南卫视
+#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/henan/henantv.png",河南卫视
 http://[2409:8087:4402:20:1:1216:401:11]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png",浙江卫视
 http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226448/index.m3u8
@@ -70,7 +70,5 @@ https://d1vp12yk4i8ou5.cloudfront.net/playlist720p.m3u8
 https://inwild-samsungau.amagi.tv/playlist720-p.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/xplore.webp",Xplore
 http://xlpore-samsungus.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/planet.png",TCL星球
-https://answermedia-beautiful-planet-1-us.tcl.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://media.outdooramerica.com/uploads/2021/05/outdoor-america.png",Outdoor
 https://obsession-media.sinclair.wurl.com/manifest/3000.m3u8
