@@ -14,9 +14,8 @@ alist设置：
 2，本地存储设置：
 挂载路径填写：/
 根文件夹路径填写：
-/myfiles/sdc1/Tube/
-/myfiles/sdc1/aria2
-/myfiles/sdb1/qbit/
+/myfiles
+
 http://192.168.11.1/dav
 
 3，自定义样式：
