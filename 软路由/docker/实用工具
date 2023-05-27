@@ -1,7 +1,7 @@
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
  -v /mnt/sdb1/qbit:/myfiles/Cloud
- -v /mnt/sdc1/aria2:/myfiles/Aria
+ -v /mnt/sdc1/Udisk:/myfiles/Udisk
  -v /mnt/sdc1/Tube:/myfiles/Tube
 -p 5244:5244 
 --restart=always
