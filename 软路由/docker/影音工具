@@ -33,6 +33,7 @@ docker run -d \
   -v /opt/prowlarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:latest
+ 设置---应用程序----同步配置文件--自动搜索/手动搜索
  
  
   docker run -d \
