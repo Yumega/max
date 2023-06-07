@@ -1,0 +1,22 @@
+Eth1 （wan口）连接光猫 wide area network （黑线）
+
+硬理由 2.5G改为lan口
+
+查看网络命令：vi /etc/config/network
+
+安装包：
+https://github.com/DHDAXCW/OpenWRT_x86_x64/releases
+
+安装软路由 
+1，用分区助手 擦除分区
+2，用balenaEtcher 安装openwrt到硬盘
+
+docker 扩容
+openwrt软路由下docker空间扩容
+https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
+
+OpenWRT软路由固定外接硬盘路径
+https://docs.qq.com/doc/DZHBwYVNmY2tvY2dy
+
+获取公网IP和端口映射转发简单教程
+https://post.smzdm.com/p/awxqqwkg/
