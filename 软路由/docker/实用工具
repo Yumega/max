@@ -13,10 +13,11 @@ alist设置：
 
 2，本地存储设置：
 挂载路径填写：/
-根文件夹路径填写：
-/myfiles
+根文件夹路径填写：/myfiles
 
-http://192.168.11.1/dav
+3, webdav
+http://192.168.11.1:5244/dav
+
 
 3，自定义样式：
 logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
