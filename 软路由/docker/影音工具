@@ -35,6 +35,18 @@ docker run -d \
   lscr.io/linuxserver/prowlarr:latest
  设置---应用程序----同步配置文件--自动搜索/手动搜索
  
+ docker run -d \
+  --name=bazarr \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 6767:6767 \
+  -v /opt/bazarr/config:/config \
+  -v /mnt/sdb1/qbit/Movies:/movies \
+  -v /mnt/sdb1/qbit/TV show:/tv \
+  --restart unless-stopped \
+  lscr.io/linuxserver/bazarr:latest
+ 
  
   docker run -d \
  --name jellyfin \
