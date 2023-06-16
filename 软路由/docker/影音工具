@@ -43,7 +43,7 @@ docker run -d \
   -p 6767:6767 \
   -v /opt/bazarr/config:/config \
   -v /mnt/sdb1/qbit/Movies:/movies \
-  -v /mnt/sdb1/qbit/TV show:/tv \
+  -v /mnt/sdb1/qbit/TV:/tv \
   --restart unless-stopped \
   lscr.io/linuxserver/bazarr:latest
  
