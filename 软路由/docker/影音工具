@@ -7,9 +7,7 @@ docker run -d \
   -v /opt/radarr/data:/config \
   -v /mnt/sdb1/qbit:/downloads \
   --restart unless-stopped \
-cr.hotio.dev/hotio/radarr
-
- lscr.io/linuxserver/radarr:latest
+cr.hotio.dev/hotio/radarr:latest
 
 docker run -d \
   --name=sonarr \
