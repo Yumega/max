@@ -18,9 +18,7 @@ docker run -d \
   -v /opt/sonnarr/data:/config \
   -v /mnt/sdb1/qbit:/downloads \
   --restart unless-stopped \
-  cr.hotio.dev/hotio/sonarr
-  
-  lscr.io/linuxserver/sonarr:latest
+  cr.hotio.dev/hotio/sonarr:latest
   
   docker run -d \
   --name=prowlarr \
