@@ -65,6 +65,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb23]/wh7f454c46tw483903016_-67353299/ott.
 http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw511320337_-364940709/ott.mobaibox.com/PLTV/3/224/3221228176/index.m3u8?icpid=3&RTS=1668595305&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
 
 #EXTINF:-1 tvg-id="1880" tvg-name="BTV新闻" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/BTVxw.png",北京新闻
+http://192.168.11.1:35455/douyin/497532580914
 #EXTINF:-1 tvg-id="1873" tvg-name="BTV文艺" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/BTVwy.png",BTV文艺
 #EXTINF:-1 tvg-id="1874" tvg-name="BTV科教" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/BTVkj.png",BTV科教
 #EXTINF:-1 tvg-id="1875" tvg-name="BTV影视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/china/BTVys.png",BTV影视
