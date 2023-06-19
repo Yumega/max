@@ -4,8 +4,7 @@ http://yuniptvunql.chinayungu.cn:65530/live/fhzw/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/fhzx.png",凤凰资讯
 http://yuniptvunql.chinayungu.cn:65530/live/fhzx/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/ztxw.png",中天新闻
-http://sc2022.stream-link.org/tv2306.php?id=t03
-#http://192.168.11.1:35455/youtube/oIgbl7t0S_w
+http://192.168.11.1:35455/youtube/oIgbl7t0S_w
 #http://192.168.11.1:13080/YvdcZ_jpLXE
 #EXTINF:-1 tvg-id="6074" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbsHD.png",TVBS-56
 http://192.168.11.1:35455/youtube/YvdcZ_jpLXE
