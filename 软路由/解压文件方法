@@ -1,0 +1,5 @@
+1、将要解压的文件上传到linux系统的tmp临时文件夹下
+
+2、使用命令工具输入ssh root@192.168.1.1 ,后面的ip地址是linux的网卡地址. 登陆到linux系统后,输入cd /tmp 进入tmp文件夹
+
+3、输入这个命令 gzip  -d openwrt.img.gz    意思是解压openwrt.img.gz到tmp文件夹
