@@ -1,3 +1,6 @@
+全局流量
+tailscale up --advertise-exit-node
+
 1、下载软件
 将Tailscale软件包下载到指定目录。单击这里，找到最新的软件包，下载到本地。然后使用Winscp工具将下载的软件上传到OpenWrt的/tmp目录下，也可以找到下载链接，直接使用wget命令下载。
 wget https://github.com/adyanth/openwrt-tailscale-enabler/releases/download/v1.32.2-98e126e-autoupdate/openwrt-tailscale-enabler-v1.32.2-98e126e-autoupdate.tgz
