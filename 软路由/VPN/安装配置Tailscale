@@ -1,5 +1,7 @@
 全局流量
 tailscale up --advertise-exit-node
+或者
+tailscale up --advertise-exit-node --accept-dns=false --advertise-routes=192.168.11.0/24
 
 1、下载软件
 将Tailscale软件包下载到指定目录。单击这里，找到最新的软件包，下载到本地。然后使用Winscp工具将下载的软件上传到OpenWrt的/tmp目录下，也可以找到下载链接，直接使用wget命令下载。
@@ -25,7 +27,7 @@ tailscale up
 
 7、开启子网网路由
 在OpenWrt上输入以下命令，打开本地子路由。子网地址是OpenWrt的lan网络。
-tailscale up --advertise-routes=192.168.18.0/24 --accept-dns=false
+tailscale up --advertise-routes=192.168.11.0/24 --accept-dns=false
 
 8、添加接口
 在OpenWrt上新建一个接口，协议选静态地址，设备选tailscale0，地址为Taliscale管理页面上分配的地址，掩码255.0.0.0。防火墙区域选lan区域。
