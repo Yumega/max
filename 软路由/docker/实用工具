@@ -8,7 +8,6 @@ docker run -d  --name="alist"
 xhofe/alist:latest
 
 alist设置：
-
 1，获取密码 docker exec -it ./alist ./alist admin 
 
 2，本地存储设置：
@@ -18,8 +17,7 @@ alist设置：
 3, webdav
 http://192.168.11.1:5244/dav
 
-
-3，自定义样式：
+4，自定义样式：
 logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
 <style type="text/css">
 .body{zoom:1.2;}
@@ -27,6 +25,20 @@ logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
 .footer { display: none !important; } 
 .hope-c-PJLV-ihKMwLA-css {height: 23px;}
 </style>
+
+docker run -d \
+  --name=wps-office \
+  --security-opt seccomp=unconfined \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 3000:3000 \
+  -p 3001:3001 \
+  -v /opt/wps-office/config:/config \
+  --shm-size="1gb" \
+  --restart unless-stopped \
+  lscr.io/linuxserver/wps-office:latest
+
 
 
 docker run -d \
