@@ -26,6 +26,21 @@ logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
 .hope-c-PJLV-ihKMwLA-css {height: 23px;}
 </style>
 
+
+docker run -d \
+  --name=homeassistant \
+  --net=host \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -v /opt/homeassistant/data:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/homeassistant:latest
+
+添加sony音响
+Start the HA Songpal integration and when it asks for the ‘endpoint’, 
+enter the following: http://192.168.1.1:10000/sony 
+Change the IP 192.168.1.1 according.
+
 docker run -d \
   --name=wps-office \
   --security-opt seccomp=unconfined \
@@ -38,8 +53,6 @@ docker run -d \
   --shm-size="1gb" \
   --restart unless-stopped \
   lscr.io/linuxserver/wps-office:latest
-
-
 
 docker run -d \
   --name=heimdall \
