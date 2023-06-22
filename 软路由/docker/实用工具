@@ -1,3 +1,32 @@
+docker run -d \
+  --name=homeassistant \
+  --net=host \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -v /opt/homeassistant/data:/config \
+  -v /mnt/sdb1/qbit/Music:/media \
+  --restart unless-stopped \
+  lscr.io/linuxserver/homeassistant:latest
+
+添加sony音响
+Start the HA Songpal integration and when it asks for the ‘endpoint’, 
+enter the following: http://192.168.1.1:10000/sony 
+Change the IP 192.168.1.1 according.
+
+docker run -d \
+  --name=musicassistant \
+  --net=host \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -v /opt/musicassistant/data:/data \
+  -v /mnt/sdb1/qbit/Music:/media \
+  --restart unless-stopped \
+  ghcr.io/music-assistant/server:latest
+
+ --privileged (使用SMB需要)
+http://192.168.11.1:8095/
+
+
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
  -v /mnt/sdb1/qbit:/myfiles/Cloud
@@ -26,20 +55,6 @@ logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
 .hope-c-PJLV-ihKMwLA-css {height: 23px;}
 </style>
 
-
-docker run -d \
-  --name=homeassistant \
-  --net=host \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -v /opt/homeassistant/data:/config \
-  --restart unless-stopped \
-  lscr.io/linuxserver/homeassistant:latest
-
-添加sony音响
-Start the HA Songpal integration and when it asks for the ‘endpoint’, 
-enter the following: http://192.168.1.1:10000/sony 
-Change the IP 192.168.1.1 according.
 
 docker run -d \
   --name=wps-office \
