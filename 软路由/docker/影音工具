@@ -10,19 +10,6 @@ docker run -d \
 cr.hotio.dev/hotio/radarr:latest
 
 docker run -d \
-  --name=musicassistant \
-  --net=host \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -v /opt/musicassistant/data:/data \
-  -v /mnt/sdb1/qbit/Music:/media \
-  --restart unless-stopped \
-  ghcr.io/music-assistant/server:latest
-
- --privileged (使用SMB需要)
-http://192.168.11.1:8095/
-
-docker run -d \
   --name=sonarr \
   -e PUID=1000 \
   -e PGID=1000 \
