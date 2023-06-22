@@ -1,8 +1,7 @@
 docker run -d \
   --name=homeassistant \
+  --privileged \
   --net=host \
-  -e PUID=1000 \
-  -e PGID=1000 \
   -v /opt/homeassistant/data:/config \
   -v /mnt/sdb1/qbit/Music:/media \
   --restart unless-stopped \
@@ -15,9 +14,8 @@ Change the IP 192.168.1.1 according.
 
 docker run -d \
   --name=musicassistant \
+  --privileged \
   --net=host \
-  -e PUID=1000 \
-  -e PGID=1000 \
   -v /opt/musicassistant/data:/data \
   -v /mnt/sdb1/qbit/Music:/media \
   --restart unless-stopped \
