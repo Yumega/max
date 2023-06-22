@@ -20,10 +20,16 @@ docker run -d \
   -v /mnt/sdb1/qbit/Music:/media \
   --restart unless-stopped \
   ghcr.io/music-assistant/server:latest
+ 
+--privileged (使用SMB需要)
 
- --privileged (使用SMB需要)
-http://192.168.11.1:8095/
-
+在home assistant侧栏 添加 Music Assistant
+在configuration.yaml中添加
+panel_iframe:
+  music_assistant:   
+    title: "Music Assistant"   
+    url: "http://192.168.11.1:8095/#/home"   
+    icon: mdi:music
 
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
