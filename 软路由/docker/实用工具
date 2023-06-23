@@ -54,7 +54,18 @@ logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
 .hope-c-PJLV-ihKMwLA-css {height: 23px;}
 </style>
 
-
+docker run -d \
+  --name=heimdall \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -p 7070:80 \
+  -p 8443:443 \
+  -v /opt/heimdall/appdata/config:/config \
+  --restart unless-stopped \
+ lscr.io/linuxserver/heimdall:latest 
+ 
+ -------------------------------------------------------------------------
 docker run -d \
   --name=wps-office \
   --security-opt seccomp=unconfined \
@@ -68,19 +79,7 @@ docker run -d \
   --restart unless-stopped \
   lscr.io/linuxserver/wps-office:latest
 
-docker run -d \
-  --name=heimdall \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 7070:80 \
-  -p 8443:443 \
-  -v /opt/heimdall/appdata/config:/config \
-  --restart unless-stopped \
- lscr.io/linuxserver/heimdall:latest 
- 
- -------------------------------------------------------------------------
- 
+
 docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
 docker run -d \
   --name=freshrss \
