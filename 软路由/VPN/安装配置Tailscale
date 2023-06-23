@@ -25,10 +25,11 @@ ls /etc/rc.d/S*tailscale*
 tailscale up
 复制显示的地址，并在浏览器中打开，使用谷歌或微软帐号登录Tailscale的管理主页进行验证。
 
-7、开启子网网路由
+7、开启子网网路由（Subnet routes）
 在OpenWrt上输入以下命令，打开本地子路由。子网地址是OpenWrt的lan网络。
 tailscale up --advertise-routes=192.168.11.0/24 --accept-dns=false
 
+8、9步骤可以省略
 8、添加接口
 在OpenWrt上新建一个接口，协议选静态地址，设备选tailscale0，地址为Taliscale管理页面上分配的地址，掩码255.0.0.0。防火墙区域选lan区域。
 
