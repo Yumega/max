@@ -27,6 +27,3 @@ http://192.168.11.1:5678/ghyx.php
 docker run -itd -p 8080:8080 --restart=always --name 4gtv 239144498/streaming  
 http://192.168.11.1:8080/docs
 http://192.168.11.1:8080/program.m3u
-
-
-docker run -d --name=ustvgo-iptv -p 6363:6363 --restart unless-stopped ghcr.io/interlark/ustvgo-iptv:latest
