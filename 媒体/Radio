@@ -15,21 +15,8 @@ http://streams.fluxfm.de/john-reed/mp3-320
 
 DEFJAY
 https://icepool.silvacast.com/DEFJAY.mp3
-
 https://icepool.silvacast.com/ESCRADIO.mp3
 https://pool.radiopaloma.de/RP-Fresh.mp3‘
-
-戏曲广播
-https://stream.hndt.com/live/yule/playlist.m3u8
-
-大象资讯台
-https://stream.hndt.com/live/nongcun/playlist.m3u8
-
-星河音乐
-http://stream.hndt.com/live/1061/chunklist_w1955287116.m3u8
-
-河南网络戏曲
-http://stream.hndt.com/live/wangluoxiqu/playlist.m3u8
 
 Deep
 http://37.187.93.104:8589/deep
@@ -56,7 +43,6 @@ https://cdn280.ccdntech.com/live-http/_definst_/vod280_Live/needs/playlist.m3u8
 TR幸福电台
 https://live.tr-radio.com/live/live/playlist.m3u8
 
-
 Boss radio
 http://n02.radiojar.com/ehzvurp9tv8uv?rj-ttl=5&rj-tok=AAABfJEQ-o8Aoz1TnFn55vdjTw
 
@@ -68,3 +54,15 @@ http://shoutcast.beamfm.net:8504/stream?type=http&nocache=1686
 
 台湾古典
 https://www.radiotaiwan.tw/gb/classic-fm
+
+戏曲广播
+https://stream.hndt.com/live/yule/playlist.m3u8
+
+大象资讯台
+https://stream.hndt.com/live/nongcun/playlist.m3u8
+
+星河音乐
+http://stream.hndt.com/live/1061/chunklist_w1955287116.m3u8
+
+河南网络戏曲
+http://stream.hndt.com/live/wangluoxiqu/playlist.m3u8
