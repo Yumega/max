@@ -20,8 +20,6 @@ docker run -d \
   -v /mnt/sdb1/qbit/Music:/media \
   --restart unless-stopped \
   ghcr.io/music-assistant/server:latest
- 
---privileged (使用SMB需要)
 
 在home assistant侧栏 添加 Music Assistant
 在configuration.yaml中添加
@@ -42,14 +40,11 @@ xhofe/alist:latest
 
 alist设置：
 1，获取密码 docker exec -it ./alist ./alist admin 
-
 2，本地存储设置：
 挂载路径填写：/
 根文件夹路径填写：/myfiles
-
 3, webdav
 http://192.168.11.1:5244/dav
-
 4，自定义样式：
 logo: https://gitee.com/maxusys/jojo/raw/master/Dropbox.png
 <style type="text/css">
@@ -86,8 +81,7 @@ docker run -d \
  
  -------------------------------------------------------------------------
  
- docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
-
+docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
 docker run -d \
   --name=freshrss \
   -e PUID=1000 \
@@ -99,8 +93,6 @@ docker run -d \
   
   docker run -d --name fb \
   --restart=unless-stopped \
-  -e PUID=0 \
-  -e PGID=0 \
   -e WEB_PORT=8082 \
   -e FB_AUTH_SERVER_ADDR=127.0.0.1 \
   -p 18082:8082 \
