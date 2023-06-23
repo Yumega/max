@@ -67,7 +67,6 @@ docker run -d \
  --restart unless-stopped \
  fallenbagel/jellyseerr:latest
 
-  
   docker run -d \
    --name navidrome \
    -v /mnt/sdb1/qbit/Music:/music \
@@ -77,10 +76,10 @@ docker run -d \
    -e ND_ENABLETRANSCODINGCONFIG=true \
    --restart=unless-stopped \
    deluan/navidrome:latest
-
+设置选项
 https://www.navidrome.org/docs/usage/configuration-options/
 
-
+---------------------------------------------------------------------------------------
 软路由解码
 /dev/dri/card0
 /dev/dri/renderD128
