@@ -10,12 +10,10 @@ docker create  \
     --restart unless-stopped  \
     cr.hotio.dev/hotio/qbittorrent
     
-    默认保存路径改为
-    /downloads
-使用其他的网页界面
+默认保存路径改为 /downloads
+使用其他界面
 文件路径：
 /app/vuetorrent
-  
   
 docker run -d \
  --name metube \
@@ -24,9 +22,10 @@ docker run -d \
  -e STATE_DIR=/opt/metube:/downloads \
  --restart unless-stopped \
  alexta69/metube:latest
-(STATE_DIR: path to where the queue persistence files will be saved. Defaults to /downloads/.metube in the docker image)
+(STATE_DIR: path to where the queue persistence files will be saved.
+Defaults to /downloads/.metube in the docker image)
   
- 添加Aria2 pro(最大权限，存在不同文件夹)
+ 添加Aria2 pro
    docker run -d \
     --name aria2\
     --restart unless-stopped \
@@ -41,14 +40,15 @@ docker run -d \
     -v /mnt/sdb1/qbit:/downloads  \
     p3terx/aria2-pro
     
-Aria Web ui
+添加Aria2 Webui
     docker run -d \
     --name ariang \
     --restart unless-stopped \
     --log-opt max-size=1m \
     -p 6880:6880 \
     p3terx/ariang
-     
+
+--------------------------------------------------------------------------------------     
   docker run -d \
   --name=transmission \
   -e TZ=Asia/Shanghai \
@@ -65,7 +65,6 @@ Aria Web ui
   --restart unless-stopped \
   lscr.io/linuxserver/transmission:latest
     
-   
     docker run -d \
   --name=tubesync \
   -e PUID=1000 \
@@ -78,9 +77,9 @@ Aria Web ui
  ghcr.io/meeb/tubesync:latest
 
 docker run -d \
---name=youtubedl \
+--name=youtubed \
 -p 8084:17442 \
--v /opt/youtubedl/appdata:/app/appdata \
+-v /opt/youtubed/appdata:/app/appdata \
 -v /mnt/sdb1/YTB/audio:/app/audio \
 -v /mnt/sdb1/YTB/subscriptions:/app/subscriptions \
 -v /opt/youtubedl/users:/app/users \
