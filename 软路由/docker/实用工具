@@ -1,6 +1,6 @@
 docker run -d \
   --name=homeassistant \
-  --privileged \
+  --privileged=true \
   --net=host \
   -v /opt/homeassistant/data:/config \
   -v /mnt/sdb1/qbit/Music:/media \
@@ -14,7 +14,7 @@ Change the IP 192.168.1.1 according.
 
 docker run -d \
   --name=musicassistant \
-  --privileged \
+  --privileged=true \
   --net=host \
   -v /opt/musicassistant/data:/data \
   -v /mnt/sdb1/qbit/Music:/media \
