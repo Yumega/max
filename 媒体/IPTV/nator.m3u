@@ -4,23 +4,21 @@ http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ot
 #EXTINF:-1 tvg-id="142" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/fhzx.png",凤凰资讯
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8?icpid=3&RTS=1668336354&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/ztxw.png",中天新闻
-http://192.168.11.1:13080/youtube/oIgbl7t0S_w
+http://192.168.11.1:35455/youtube/oIgbl7t0S_w
 #EXTINF:-1 tvg-id="6074" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbsHD.png",TVBS-56
-http://192.168.11.1:13080/youtube/YvdcZ_jpLXE
+http://192.168.11.1:35455/youtube/YvdcZ_jpLXE
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png",央视新闻
 http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw259647455_-1559913959/ott.mobaibox.com/PLTV/3/224/3221228224/index.m3u8?icpid=3&RTS=1668595054&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/cna.png",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/aljazeera.png",半岛新闻
-http://192.168.11.1:13080/youtube/gCNeDWCI0vo
+http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="734" tvg-name="france24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/france24.png",法国24台
-http://192.168.11.1:13080/youtube/h3MuIUNCCzI
+http://192.168.11.1:35455/youtube/h3MuIUNCCzI
 #EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/dwnews.png",德国之声
-http://192.168.11.1:13080/youtube/pqabxBKzZ6M
-#EXTINF:-1 tvg-id=""tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/NBCnews.png",NBC新闻
+http://192.168.11.1:35455/youtube/pqabxBKzZ6M
 #EXTINF:-1 tvg-id="664" tvg-name="" tvg-logo="https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/bbc-wn_m.png",BBC新闻
-http://sc2022.stream-link.org/tv2306.php?id=e05
-#http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNNNews.png",CNN美国
 http://195.24.89.82/CNN_SD/index.m3u8
