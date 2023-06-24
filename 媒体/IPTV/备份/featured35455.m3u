@@ -5,7 +5,6 @@ http://yuniptvunql.chinayungu.cn:65530/live/fhzw/index.m3u8
 http://yuniptvunql.chinayungu.cn:65530/live/fhzx/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/ztxw.png",中天新闻
 http://192.168.11.1:35455/youtube/oIgbl7t0S_w
-#http://192.168.11.1:13080/YvdcZ_jpLXE
 #EXTINF:-1 tvg-id="6074" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/news/tvbsHD.png",TVBS-56
 http://192.168.11.1:35455/youtube/YvdcZ_jpLXE
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png",央视新闻
