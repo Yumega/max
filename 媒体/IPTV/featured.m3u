@@ -19,11 +19,9 @@ http://192.168.11.1:35455/youtube/h3MuIUNCCzI
 http://192.168.11.1:35455/youtube/pqabxBKzZ6M
 #EXTINF:-1 tvg-id="664" tvg-name="" tvg-logo="https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/bbc-wn_m.png",BBC新闻
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
-#http://sc2022.stream-link.org/tv2306.php?id=e05
 #https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNNNews.png",CNN美国
-http://sc2022.stream-link.org/tv2306.php?id=e07
-#http://195.24.89.82/CNN_SD/index.m3u8
+http://195.24.89.82/CNN_SD/index.m3u8
 #EXTINF:-1 tvg-id="6568" tvg-name="高尔夫网球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE13.jpg", 高网频道
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/ott.mobaibox.com/PLTV/3/224/3221228138/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/logo/music/PGA.png",PGA巡回
