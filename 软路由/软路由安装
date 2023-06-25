@@ -1,5 +1,6 @@
 安装包：
 https://github.com/DHDAXCW/OpenWRT_x86_x64/releases
+docker = 带docker
 
 安装软路由 
 1，用分区助手 擦除分区
@@ -13,15 +14,3 @@ https://docs.qq.com/doc/DZEVoVUh2bVFZa0pj
 
 OpenWRT软路由固定外接硬盘路径
 https://docs.qq.com/doc/DZHBwYVNmY2tvY2dy
-
-
-安装APP
-
-opkg -y update
-opkg -y install wget unzip
-cd /opt
-wget https://github.com/WDaan/VueTorrent/releases/download/v1.2.0/vuetorrent.zip
-
-unzip /opt/vuetorrent.zip
-
-mv /root/vuetorrent /opt
