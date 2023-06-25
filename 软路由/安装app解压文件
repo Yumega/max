@@ -1,0 +1,12 @@
+安装APP
+opkg -y update
+opkg -y install wget unzip
+cd /opt
+wget https://github.com/WDaan/VueTorrent/releases/download/v1.2.0/vuetorrent.zip
+unzip /opt/vuetorrent.zip
+mv /root/vuetorrent /opt
+
+
+unzip 命令用于解压 .zip 文件，而 gunzip 命令用户解压 .gz, .tar 等文件
+gzip  /opt/openwrt.img.gz
+gunzip  /opt/openwrt.img.gz
