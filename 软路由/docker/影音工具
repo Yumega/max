@@ -79,6 +79,12 @@ docker run -d \
 设置选项
 https://www.navidrome.org/docs/usage/configuration-options/
 
+安装vod2pod-RSS
+cd /opt
+wget https://github.com/madiele/vod2pod-rss/archive/refs/tags/v1.0.2.zip
+unzip /opt/v1.0.2.zip
+编辑 docker-compose.yml 
+docker compose up -d
 ---------------------------------------------------------------------------------------
 软路由解码
 /dev/dri/card0
@@ -94,39 +100,3 @@ https://www.navidrome.org/docs/usage/configuration-options/
  --device= /dev/dri/renderD128 \
  --restart=unless-stopped \
  nyanmisaka/jellyfin
-
-docker run -d \
-  --name=jackett \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -e AUTO_UPDATE=true \
-  -p 9117:9117 \
-  -v /opt/prowlarr:/config \
-  -v /mnt/sdb1/qbit:/downloads  \
-  --restart unless-stopped \
-  lscr.io/linuxserver/jackett:latest
-
-bazarr下载字幕
- docker run -d \
-  --name=bazarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 6767:6767 \
-  -v /opt/bazarr/config:/config \
-  -v /mnt/sdb1/qbit/Movies:/movies \
-  -v /mnt/sdb1/qbit/TV:/tv \
-  --restart unless-stopped \
-  lscr.io/linuxserver/bazarr:latest
-   
-docker run -d \
-  --name=overseerr \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 15055:5055 \
-  -v /opt/overseerr/config:/config \
-  --restart unless-stopped \
-  lscr.io/linuxserver/overseerr:latest
--p 9696:80 would expose port 80 from inside the container to be accessible from the host's IP on port 9696 outside the container
