@@ -5,7 +5,7 @@ cd /opt
 wget https://github.com/WDaan/VueTorrent/releases/download/v1.2.0/vuetorrent.zip
 unzip /opt/vuetorrent.zip
 mv /root/vuetorrent.zip /opt/ (把位于root目录下的vuetorrent.zip文件移动到opt目录下)
-
+mv /vod2pod /opt （把vod2pod文件夹及子文件移动到opt文件夹下）
 unzip 命令用于解压 .zip 文件，而 gunzip 命令用户解压 .gz, .tar 等文件
 gzip  /opt/openwrt.img.gz
 gunzip  /opt/openwrt.img.gz
