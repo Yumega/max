@@ -1,13 +1,3 @@
-docker run -d \
-  --name=homeassistant \
-  --privileged=true \
-  -e TZ=Asia/Shanghai \
-  --net=host \
-  -v /opt/homeassistant/data:/config \
-  -v /mnt/sdb1/qbit/Music:/media \
-  --restart unless-stopped \
-  lscr.io/linuxserver/homeassistant:latest
-
 version: '3'
 services:
   homeassistant:
@@ -20,6 +10,12 @@ services:
     restart: unless-stopped
     privileged: true
     network_mode: host
+
+挂载media 
+在configuration.yaml添加下面内容
+homeassistant:
+  media_dirs:
+    media: /media
 
 安装 HACS命令
 docker exec -it homeassistant bash
@@ -43,10 +39,15 @@ docker run -d \
 在home assistant侧栏 添加 Music Assistant
 在configuration.yaml中添加
 panel_iframe:
-  music_assistant:   
-    title: "Music Assistant"   
-    url: "http://192.168.11.1:8095/#/home"   
+  massmusic:   
+    title: "Music"   
+    url: "http://192.168.11.1:8095/#/albums"   
     icon: mdi:music
+  massradio:   
+    title: "Radio"   
+    url: "http://192.168.11.1:8095/#/radios"   
+    icon: mdi:radio
+
 
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
@@ -85,19 +86,6 @@ docker run -d \
  lscr.io/linuxserver/heimdall:latest 
  
  -------------------------------------------------------------------------
-docker run -d \
-  --name=wps-office \
-  --security-opt seccomp=unconfined \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Asia/Shanghai \
-  -p 3000:3000 \
-  -p 3001:3001 \
-  -v /opt/wps-office/config:/config \
-  --shm-size="1gb" \
-  --restart unless-stopped \
-  lscr.io/linuxserver/wps-office:latest
-
 
 docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
 docker run -d \
@@ -108,23 +96,13 @@ docker run -d \
   -v /opt/freshrss/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/freshrss:latest
-  
-  docker run -d --name fb \
-  --restart=unless-stopped \
-  -e WEB_PORT=8082 \
-  -e FB_AUTH_SERVER_ADDR=127.0.0.1 \
-  -p 18082:8082 \
-  -v /opt/fb/config:/config \
-  -v /mnt/sdb1/qbit:/myfiles/sdb1/qbit \
-  -v /mnt/sdb1/aria2:/myfiles/sdb1/aria2 \
-  -v /mnt/sdb1/Tube:/myfiles/sdb1/Tube \
-  --mount type=tmpfs,destination=/tmp \
-  80x86/filebrowser:2.9.4-amd64
 
 docker run -d \
- --name bark \
- -p 18080:8080 \
- -v /opt/bark/bark-data:/data
- --restart unless-stopped \
- finab/bark-server
- http://192.168.11.1:18080/
+  --name=homeassistant \
+  --privileged=true \
+  -e TZ=Asia/Shanghai \
+  --net=host \
+  -v /opt/homeassistant/data:/config \
+  -v /mnt/sdb1/qbit/Music:/media \
+  --restart unless-stopped \
+  lscr.io/linuxserver/homeassistant:latest
