@@ -10,4 +10,5 @@ docker compose version
 在docker目录创建XXX文件夹，在XXX文件夹新建docker-compose.yml文件，填写相关内容保存
 
 用下面命令安装XXX
+cd /opt/xxx/
 docker compose up -d
