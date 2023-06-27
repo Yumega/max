@@ -1,3 +1,5 @@
+停用tailscale
+/etc/init.d/tailscale disable
 全局流量
 tailscale up --advertise-exit-node
 或者
