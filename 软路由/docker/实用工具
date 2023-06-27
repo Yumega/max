@@ -1,11 +1,30 @@
 docker run -d \
   --name=homeassistant \
   --privileged=true \
+  -e TZ=Asia/Shanghai \
   --net=host \
   -v /opt/homeassistant/data:/config \
   -v /mnt/sdb1/qbit/Music:/media \
   --restart unless-stopped \
   lscr.io/linuxserver/homeassistant:latest
+
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - /opt/homeassistant:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /mnt/sdb1/qbit/Music:/media
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+
+安装 HACS命令
+docker exec -it homeassistant bash
+wget -O - https://get.hacs.xyz | bash -
+重启homeassistant ，在集成搜索HACS，并添加
 
 添加sony音响
 Start the HA Songpal integration and when it asks for the ‘endpoint’, 
