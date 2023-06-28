@@ -1,0 +1,1 @@
+按Windows+S，打开搜索框，输入cmd，搜到命令提示符后，选择“以管理员身份运行”，打开后输入：net user Guest /active:no 回车后会提示命令完成
