@@ -1,5 +1,4 @@
-停用tailscale
-/etc/init.d/tailscale disable
+
 全局流量
 tailscale up --advertise-exit-node
 或者
@@ -19,9 +18,15 @@ opkg install libustream-openssl ca-bundle kmod-tun
 4、设置开机启动，验证开机启动
 /etc/init.d/tailscale enable
 ls /etc/rc.d/S*tailscale*
+（开机直接启动会导致问题）
+停用tailscale
+/etc/init.d/tailscale disable
 
-5、启动tailscale
+启用tailscale
 /etc/init.d/tailscale start
+
+5、开机三分钟后启动tailscale
+sleep 180 && /etc/init.d/tailscale start （设置为计划任务，开机三分钟后启动）
 
 6、获取登录链接，配置路由
 tailscale up
