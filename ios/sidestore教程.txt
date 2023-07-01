@@ -35,8 +35,7 @@ jitterbugpair文件夹会产生[UDID].mobiledevicepairing文件，将其重命�
 
 在iPhone的 [设置] > [SideStore] > [Anisette URL]中输入在patr产生的链接
 
-2打开 Wireguard 并启用 SideStore开关
-
 五、手机安装Wireguard并配置
 手机端打开 https://sidestore.io  划到底部下载wiregurad config文件
 打开手机端wiregurad，导入配置，把config加进来
+打开 Wireguard 并启用 SideStore开关
