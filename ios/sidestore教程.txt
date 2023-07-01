@@ -1,0 +1,42 @@
+iPhone pairing失效重新配对
+1,打开sidestore选择setting，选择reset pairing file
+2,打开windows powershell 输入以下命令
+cd C:\Users\win8.1\Desktop\jitterbugpair
+ .\jitterbugpair.exe
+然后产生xxxxxx.mobiledevicepairing文件，传到iPhone
+3,启动sidestore APP,添加 xxxxxx.mobiledevicepairing
+
+初次安装教程：
+
+一，安装AltServer
+https://cdn.altstore.io/file/altstore/altinstaller.zip
+
+二，启动AltServer，shift+左键 安装SideStore
+https://github.com/SideStore/SideStore/releases
+https://sidestore.io (sidestore.ipa也可以在这里下载)
+
+三，下载Jitterbug，解压保存到桌面
+https://github.com/osy/Jitterbug/releases/
+
+打开windows powershell 输入以下命令
+cd C:\Users\win8.1\Desktop\jitterbugpair
+ .\jitterbugpair.exe
+
+jitterbugpair文件夹会产生[UDID].mobiledevicepairing文件，将其重命名为 [UDID].plist，传到iPhone
+
+启动sidestore APP,添加[UDID].plist
+
+四、创建部署 Anisette 服务器
+具体教程 https://docs.qq.com/doc/DZExVTWR3TU9CcUlY
+
+打开Patr官网：https://patr.cloud/ ，注册账号
+进入后台依次点击“Infrastructure”→“Deployments”，点击“Create deployment”按钮
+输入项目名称，来源选Docker Hub，镜像名输入dadoum/anisette-server，tag输入latest，地区选Singapore新加坡（实测只有新加坡免费）
+
+在iPhone的 [设置] > [SideStore] > [Anisette URL]中输入在patr产生的链接
+
+2打开 Wireguard 并启用 SideStore开关
+
+五、手机安装Wireguard并配置
+手机端打开 https://sidestore.io  划到底部下载wiregurad config文件
+打开手机端wiregurad，导入配置，把config加进来
