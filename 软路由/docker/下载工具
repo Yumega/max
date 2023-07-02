@@ -48,6 +48,22 @@ Defaults to /downloads/.metube in the docker image)
     -p 6880:6880 \
     p3terx/ariang
 
+docker-compose.yml
+services:
+  xunlei:
+    image: cnk3x/xunlei:latest
+    privileged: true
+    container_name: xunlei
+    hostname: mynas
+    network_mode: host
+    environment:
+      - XL_WEB_PORT=4321
+    volumes:
+      - /opt/sdb1/xunlei:/xunlei/data
+      - /mnt/sdb1/qbit:/downloads
+    restart: unless-stopped
+
+码：迅雷牛通
 --------------------------------------------------------------------------------------     
   docker run -d \
   --name=transmission \
