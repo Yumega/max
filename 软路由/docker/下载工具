@@ -59,7 +59,7 @@ services:
     environment:
       - XL_WEB_PORT=4321
     volumes:
-      - /opt/sdb1/xunlei:/xunlei/data
+      - /opt/xunlei:/xunlei/data
       - /mnt/sdb1/qbit:/downloads
     restart: unless-stopped
 
