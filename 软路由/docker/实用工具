@@ -1,19 +1,26 @@
+创建portainer
+1，输入命令
 docker volume create portainer_data
+2，创建容器
+docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always 
+-v /var/run/docker.sock:/var/run/docker.sock 
+-v portainer_data:/data portainer/portainer-ce:latest
 
-docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-
-version: '3'
+version: '2.1'
 services:
   homeassistant:
     container_name: homeassistant
-    image: "ghcr.io/home-assistant/home-assistant:stable"
+    image: "lscr.io/linuxserver/homeassistant:latest"
     volumes:
       - /opt/homeassistant:/config
-      - /etc/localtime:/etc/localtime:ro
       - /mnt/sdb1/qbit/Music:/media
     restart: unless-stopped
     privileged: true
     network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
 
 挂载media 
 在configuration.yaml添加下面内容
@@ -90,8 +97,11 @@ docker run -d \
  lscr.io/linuxserver/heimdall:latest 
  
  -------------------------------------------------------------------------
+docker run -d 
+--name rsshub 
+-p 1200:1200 
+diygod/rsshub:chromium-bundled
 
-docker run -d --name rsshub -p 1200:1200 diygod/rsshub:chromium-bundled
 docker run -d \
   --name=freshrss \
   -e PUID=1000 \
@@ -100,13 +110,3 @@ docker run -d \
   -v /opt/freshrss/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/freshrss:latest
-
-docker run -d \
-  --name=homeassistant \
-  --privileged=true \
-  -e TZ=Asia/Shanghai \
-  --net=host \
-  -v /opt/homeassistant/data:/config \
-  -v /mnt/sdb1/qbit/Music:/media \
-  --restart unless-stopped \
-  lscr.io/linuxserver/homeassistant:latest
