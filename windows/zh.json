@@ -13,7 +13,7 @@
       "rss": {
         "add": "添加",
         "cancel": "取消",
-        "help": "添加一个可创建播放列表的播客RSS链接，这将允许OwnTone管理订阅",
+        "help": "添加一个可生成播放列表的播客RSS链接，这将允许OwnTone管理订阅",
         "placeholder": "https://url-to-rss",
         "processing": "处理中…",
         "title": "添加播客RSS订阅链接"
@@ -35,9 +35,9 @@
       "duration": "时长",
       "mark-as-played": "标记为已播",
       "play": "播放",
-      "release-date": "发行时间",
+      "release-date": "发行日期",
       "remove-podcast": "移除播客",
-      "tracks": "曲目总数",
+      "tracks": "只曲目",
       "type": "类型",
       "year": "年份"
     },
@@ -45,18 +45,18 @@
       "add-next": "插播",
       "add": "最后播放",
       "added-on": "添加时间",
-      "albums": "专辑",
+      "albums": "张专辑",
       "play": "播放",
-      "tracks": "曲目总数",
+      "tracks": "只曲目",
       "type": "类型"
     },
     "composer": {
       "add-next": "插播",
       "add": "最后播放",
-      "albums": "专辑",
+      "albums": "张专辑",
       "duration": "时长",
       "play": "播放",
-      "tracks": "曲目总数"
+      "tracks": "只曲目"
     },
     "directory": {
       "add-next": "插播",
@@ -66,17 +66,17 @@
     "genre": {
       "add-next": "插播",
       "add": "最后播放",
-      "albums": "专辑",
+      "albums": "张专辑",
       "duration": "时长",
       "play": "播放",
-      "tracks": "曲目总数"
+      "tracks": "只曲目"
     },
     "playlist": {
       "add-next": "插播",
       "add": "最后播放",
       "play": "播放",
       "path": "路径",
-      "track-count": "曲目总数",
+      "track-count": "只曲目",
       "type": "类型",
       "save": {
         "cancel": "取消",
@@ -96,7 +96,7 @@
       "genre": "流派",
       "path": "路径",
       "play": "播放",
-      "position": "盘 / 曲目",
+      "position": "盘符 / 曲目",
       "quality": "质量",
       "remove": "移除",
       "samplerate": " {'|'} {rate} Hz",
@@ -107,9 +107,9 @@
     },
     "remote-pairing": {
       "cancel": "取消",
-      "pair": "远程配对",
+      "pair": "遥控配对",
       "pairing-code": "配对码",
-      "title": "请求远程配对"
+      "title": "请求遥控配对"
     },
     "spotify": {
       "album": {
@@ -117,7 +117,7 @@
         "add": "最后播放",
         "album-artist": "专辑艺人",
         "play": "播放",
-        "release-date": "发行时间",
+        "release-date": "发行日期",
         "type": "类型"
       },
       "artist": {
@@ -133,471 +133,472 @@
         "owner": "所有者",
         "path": "路径",
         "play": "播放",
-        "tracks": "曲目总数"
+        "tracks": "曲目"
       },
       "track": {
-        "add-next": "Add Next",
-        "add": "Add",
-        "album-artist": "Album Artist",
-        "album": "Album",
-        "duration": "Duration",
-        "path": "Path",
-        "play": "Play",
-        "position": "Disc / Track",
-        "release-date": "Release Date"
+        "add-next": "插播",
+        "add": "最后播放",
+        "album-artist": "专辑艺人",
+        "album": "专辑",
+        "duration": "时长",
+        "path": "路径",
+        "play": "播放",
+        "position": "盘符 / 曲目",
+        "release-date": "发行日期"
       }
     },
     "track": {
-      "add-next": "Add Next",
-      "add": "Add",
-      "added-on": "Added On",
-      "album-artist": "Album Artist",
-      "album": "Album",
+      "add-next": "插播",
+      "add": "最后播放",
+      "added-on": "添加时间",
+      "album-artist": "专辑艺人",
+      "album": "专辑",
       "bitrate": " {'|'} {rate} kbit/s",
       "channels": " {'|'} {channels}",
-      "comment": "Comment",
-      "composer": "Composer",
-      "duration": "Duration",
-      "genre": "Genre",
-      "mark-as-new": "Mark as new",
-      "mark-as-played": "Mark as played",
-      "path": "Path",
-      "play": "Play",
-      "position": "Disc / Track",
-      "quality": "Quality",
+      "comment": "评论",
+      "composer": "作曲家",
+      "duration": "时长",
+      "genre": "流派",
+      "mark-as-new": "标记为最新",
+      "mark-as-played": "标记为已播放",
+      "path": "路径",
+      "play": "播放",
+      "position": "盘符 / 曲目",
+      "quality": "质量",
       "rating-value": "{rating} / 10",
-      "rating": "Rating",
-      "release-date": "Release Date",
+      "rating": "评级",
+      "release-date": "发行日期",
       "samplerate": " {'|'} {rate} Hz",
-      "spotify-album": "album",
-      "spotify-artist": "artist",
-      "type": "Type",
-      "year": "Year"
+      "spotify-album": "专辑",
+      "spotify-artist": "艺人",
+      "type": "类型",
+      "year": "年份"
     },
     "update": {
-      "all": "Update everything",
-      "cancel": "Cancel",
-      "feeds": "Only update RSS feeds",
-      "info": "Scan for new, deleted and modified files",
-      "local": "Only update local library",
-      "progress": "Library update in progress…",
-      "rescan-metadata": "Rescan metadata of unmodified files",
-      "rescan": "Rescan",
-      "spotify": "Only update Spotify",
-      "title": "Library update"
+      "all": "更新所有内容",
+      "cancel": "取消",
+      "feeds": "仅更新RSS订阅内容",
+      "info": "扫描新的、删除的和修改的文件",
+      "local": "仅更新本地资料库",
+      "progress": "正在更新本地资料库…",
+      "rescan-metadata": "重新扫描未修改文件的元数据",
+      "rescan": "重新扫描",
+      "spotify": "仅更新Spotify",
+      "title": "资料库更新"
     }
   },
   "language": {
     "de": "German (Deutsch)",
     "en": "English",
-    "fr": "French (Français)"
+    "fr": "French (Français)",
+    "zh": "Chinese (中文)"
   },
   "list": {
     "albums": {
-      "info-1": "Permanently remove this podcast from your library?",
-      "info-2": "This will also remove the RSS playlist ",
-      "remove": "Remove",
-      "remove-podcast": "Remove podcast"
+      "info-1": "从资料库中永久移除该播客吗？",
+      "info-2": "这也将移除RSS播放列表 ",
+      "remove": "移除",
+      "remove-podcast": "移除播客"
     },
     "spotify": {
-      "not-playable-track": "Track is not playable",
-      "restriction-reason": ", restriction reason: {reason}"
+      "not-playable-track": "曲目无法播放",
+      "restriction-reason": ", 被限制原因: {reason}"
     }
   },
   "media": {
     "kind": {
-      "album": "Album",
-      "audiobook": "Audiobook",
-      "music": "Music",
-      "podcast": "Podcast"
+      "album": "专辑",
+      "audiobook": "有声读物",
+      "music": "音乐",
+      "podcast": "播客"
     }
   },
   "navigation": {
-    "about": "About",
-    "albums": "Albums",
-    "artists": "Artists",
-    "audiobooks": "Audiobooks",
+    "about": "关于",
+    "albums": "专辑",
+    "artists": "艺人",
+    "audiobooks": "有声读物",
     "now-playing": " - {album}",
-    "stream-error": "HTTP stream error: failed to load stream or stopped loading due to network problem",
-    "stream": "HTTP stream",
-    "volume": "Volume",
-    "files": "Files",
-    "genres": "Genres",
-    "music": "Music",
-    "playlists": "Playlists",
-    "podcasts": "Podcasts",
-    "radio": "Radio",
-    "search": "Search",
-    "settings": "Settings",
+    "stream-error": "HTTP流错误：流载入失败或者由于网络原因无法载入",
+    "stream": "HTTP流",
+    "volume": "音量",
+    "files": "文件",
+    "genres": "流派",
+    "music": "音乐",
+    "playlists": "播放列表",
+    "podcasts": "播客",
+    "radio": "广播电台",
+    "search": "搜索",
+    "settings": "设置",
     "spotify": "Spotify",
     "title": "OwnTone",
-    "update-library": "Update Library"
+    "update-library": "更新资料库"
   },
   "page": {
     "about": {
-      "albums": "Albums",
-      "artists": "Artists",
-      "built-with": "Web interface built with {bulma}, {mdi}, {vuejs}, {axios} and {others}.",
-      "compiled-with": "Compiled with support for {options}.",
-      "library": "Library",
-      "more": "more",
-      "total-playtime": "Total playtime",
-      "tracks": "Tracks",
-      "update": "Update",
-      "updated-on": "{time} ago",
-      "updated": "Updated",
-      "uptime": "Uptime",
-      "version": "Version {version}"
+      "albums": "专辑",
+      "artists": "艺人",
+      "built-with": "界面贡献者包括 {bulma}, {mdi}, {vuejs}, {axios} 和 {others}.",
+      "compiled-with": "编译支持来自于 {options}.",
+      "library": "资料库",
+      "more": "更多",
+      "total-playtime": "总播放时长",
+      "tracks": "曲目总数",
+      "update": "更新",
+      "updated-on": "{time} 前",
+      "updated": "更新于",
+      "uptime": "运行时长",
+      "version": "版本 {version}"
     },
     "album": {
-      "shuffle": "Shuffle",
-      "track-count": "{count} track|{count} tracks"
+      "shuffle": "随机播放",
+      "track-count": "{count} 只曲目|{count} 只曲目"
     },
     "albums": {
-      "count": "{count} album|{count} albums",
-      "filter": "Filter",
-      "hide-singles-help": "If active, hides singles and albums with tracks that only appear in playlists.",
-      "hide-singles": "Hide singles",
-      "hide-spotify-help": "If active, hides albums that only appear in your Spotify library.",
-      "hide-spotify": "Hide albums from Spotify",
-      "title": "Albums",
+      "count": "{count} 张专辑|{count} 张专辑",
+      "filter": "筛选",
+      "hide-singles-help": "如果激活，将隐藏仅在播放列表出现的单曲和专辑",
+      "hide-singles": "隐藏单曲",
+      "hide-spotify-help": "如果激活，将隐藏仅在Spotify资料库出现的专辑",
+      "hide-spotify": "隐藏来自Spotify的专辑",
+      "title": "专辑",
       "sort-by": {
-        "title": "Sort by",
-        "name": "Name",
-        "recently-added": "Recently added",
-        "recently-released": "Recently released"
+        "title": "排序方式",
+        "name": "名称",
+        "recently-added": "最近添加",
+        "recently-released": "最近发行"
       }
     },
     "artist": {
-      "album-count": "{count} album|{count} albums",
-      "shuffle": "Shuffle",
-      "track-count": "{count} track|{count} tracks",
+      "album-count": "{count} 张专辑|{count} 张专辑",
+      "shuffle": "随机播放",
+      "track-count": "{count} 只曲目|{count} 只曲目",
       "sort-by": {
-        "title": "Sort by",
-        "name": "Name",
-        "rating": "Rating",
-        "release-date": "Release date"
+        "title": "排序方式",
+        "name": "名称",
+        "rating": "评级",
+        "release-date": "发行日期"
       }
     },
     "artists": {
-      "count": "{count} artist|{count} artists",
-      "filter": "Filter",
+      "count": "{count} 位艺人|{count} 位艺人",
+      "filter": "筛选",
       "sort-by": {
-        "title": "Sort by",
-        "name": "Name",
-        "recently-added": "Recently added"
+        "title": "排序方式",
+        "name": "名称",
+        "recently-added": "最近添加"
       },
-      "hide-singles-help": "If active, hides artists that only appear on singles or playlists.",
-      "hide-singles": "Hide singles",
-      "hide-spotify-help": "If active, hides artists that only appear in your Spotify library.",
-      "hide-spotify": "Hide artists from Spotify",
-      "title": "Artists"
+      "hide-singles-help": "如果激活，将隐藏仅在播放列表出现的单曲和专辑",
+      "hide-singles": "隐藏单曲",
+      "hide-spotify-help": "如果激活，将隐藏仅在Spotify资料库出现的专辑",
+      "hide-spotify": "隐藏来自Spotify的艺人",
+      "title": "艺人"
     },
     "audiobooks": {
       "album": {
-        "play": "Play",
-        "track-count": "{count} track|{count} tracks"
+        "play": "播放",
+        "track-count": "{count} 只曲目|{count} 只曲目"
       },
       "albums": {
-        "count": "{count} audiobook|{count} audiobooks",
-        "title": "Audiobooks"
+        "count": "{count} 个有声读物|{count} 个有声读物",
+        "title": "有声读物"
       },
       "artist": {
-        "album-count": "{count} album|{count} albums",
-        "play": "Play"
+        "album-count": "{count} 张专辑|{count} 张专辑",
+        "play": "播放"
       },
       "artists": {
-        "count": "{count} author|{count} authors",
-        "title": "Authors"
+        "count": "{count} 位作者|{count} 位作者",
+        "title": "作者"
       },
       "tabs": {
-        "authors": "Authors",
-        "audiobooks": "Audiobooks"
+        "authors": "作者",
+        "audiobooks": "有声读物"
       }
     },
     "browse": {
-      "albums": "albums",
-      "show-more": "Show more",
-      "tracks": "tracks",
+      "albums": "专辑",
+      "show-more": "显示更多",
+      "tracks": "曲目",
       "recently-added": {
-        "albums": "albums",
-        "title": "Recently added"
+        "albums": "专辑",
+        "title": "最近添加"
       },
       "recently-played": {
-        "title": "Recently played",
-        "tracks": "tracks"
+        "title": "最近播放",
+        "tracks": "曲目"
       },
       "tabs": {
-        "albums": "Albums",
-        "artists": "Artists",
-        "browse": "Browse",
-        "composers": "Composers",
-        "genres": "Genres",
+        "albums": "专辑",
+        "artists": "艺人",
+        "browse": "浏览",
+        "composers": "作曲家",
+        "genres": "流派",
         "spotify": "Spotify"
       }
     },
     "composer": {
-      "album-count": "{count} album|{count} albums",
-      "shuffle": "Shuffle",
-      "track-count": "{count} track|{count} tracks",
+      "album-count": "{count} 张专辑|{count} 张专辑",
+      "shuffle": "随机播放",
+      "track-count": "{count} 只曲目|{count} 只曲目",
       "sort-by": {
-        "title": "Sort by",
-        "name": "Name",
-        "rating": "Rating"
+        "title": "排序方式",
+        "name": "名称",
+        "rating": "评级"
       }
     },
     "composers": {
-      "count": "{count} composer|{count} composers",
-      "title": "Composers"
+      "count": "{count} 位作曲家|{count} 位作曲家",
+      "title": "作曲家"
     },
     "files": {
-      "play": "Play",
-      "title": "Files"
+      "play": "播放",
+      "title": "文件"
     },
     "genre": {
-      "album-count": "{count} album|{count} albums",
-      "shuffle": "Shuffle",
-      "track-count": "{count} track|{count} tracks",
+      "album-count": "{count} 张专辑|{count} 张专辑",
+      "shuffle": "随机播放",
+      "track-count": "{count} 只曲目|{count} 只曲目",
       "sort-by": {
-        "title": "Sort by",
-        "name": "Name",
-        "rating": "Rating"
+        "title": "排序方式",
+        "name": "名称",
+        "rating": "评级"
       }
     },
     "genres": {
-      "count": "{count} genre|{count} genres",
-      "title": "Genres"
+      "count": "{count} 个流派|{count} 个流派",
+      "title": "流派"
     },
     "now-playing": {
-      "info": "Add some tracks by browsing your library",
-      "live": "Live",
-      "title": "Your play queue is empty"
+      "info": "浏览资料库添加曲目",
+      "live": "直播",
+      "title": "播放清单是空的"
     },
     "playlist": {
-      "length": "{length} tracks",
-      "shuffle": "Shuffle",
-      "track-count": "{count} track|{count} tracks"
+      "length": "{length} 曲目",
+      "shuffle": "随机播放",
+      "track-count": "{count} 只曲目|{count} 只曲目"
     },
     "playlists": {
-      "count": "{count} playlist|{count} playlists"
+      "count": "{count} 个播放列表|{count} 个播放列表"
     },
     "podcast": {
-      "play": "Play",
-      "remove": "Remove",
-      "remove-info-1": "Permanently remove this podcast from your library?",
-      "remove-info-2": "This will also remove the RSS playlist ",
-      "remove-podcast": "Remove podcast",
-      "track-count": "{count} track|{count} tracks"
+      "play": "播放",
+      "remove": "移除",
+      "remove-info-1": "从资料库中永久移除该播客？",
+      "remove-info-2": "这也将移除该播客RSS列表 ",
+      "remove-podcast": "移除播客",
+      "track-count": "{count} 只曲目|{count} 只曲目"
     },
     "podcasts": {
-      "add": "Add",
-      "count": "{count} podcast|{count} podcasts",
-      "mark-all-played": "Mark All Played",
-      "new-episodes": "New Episodes",
-      "title": "Podcasts",
-      "update": "Update"
+      "add": "最后播放",
+      "count": "{count} 个播客|{count} 个播客",
+      "mark-all-played": "全部标记为已播放",
+      "new-episodes": "最新单集",
+      "title": "播客",
+      "update": "更新"
     },
     "queue": {
-      "add-stream": "Add stream",
-      "clear": "Clear",
-      "count": "{count} track|{count} tracks",
-      "edit": "Edit",
-      "hide-previous": "Hide previous",
-      "title": "Queue",
-      "save": "Save"
+      "add-stream": "添加流",
+      "clear": "清除",
+      "count": "{count} 只曲目|{count} 只曲目",
+      "edit": "编辑",
+      "hide-previous": "隐藏历史",
+      "title": "清单",
+      "save": "保存"
     },
     "radio": {
-      "count": "{count} station|{count} stations",
-      "title": "Radio"
+      "count": "{count} 个电台|{count} 个电台",
+      "title": "广播电台"
     },
     "search": {
-      "albums": "Albums",
-      "artists": "Artists",
-      "audiobooks": "Audiobooks",
-      "composers": "Composers",
-      "expression": "expression",
-      "help": "Tip: you can search by a smart playlist query language {help} if you prefix it with {query}.",
-      "no-albums": "No albums found",
-      "no-artists": "No artists found",
-      "no-audiobooks": "No audiobooks found",
-      "no-composers": "No composers found",
-      "no-playlists": "No playlists found",
-      "no-podcasts": "No podcasts found",
-      "no-tracks": "No tracks found",
-      "placeholder": "Search",
-      "playlists": "Playlists",
-      "podcasts": "Podcasts",
-      "show-albums": "Show the album|Show all {count} albums",
-      "show-artists": "Show the artist|Show all {count} artists",
-      "show-audiobooks": "Show the audiobook|Show all {count} audiobooks",
-      "show-composers": "Show the composer|Show all {count} composers",
-      "show-playlists": "Show the playlist|Show all {count} playlists",
-      "show-podcasts": "Show the podcast|Show all {count} podcasts",
-      "show-tracks": "Show the track|Show all {count} tracks",
-      "tracks": "Tracks",
+      "albums": "专辑",
+      "artists": "艺人",
+      "audiobooks": "有声读物",
+      "composers": "作曲家",
+      "expression": "表达式",
+      "help": "提示：如果您使用 {query} 前缀，则可以通过智能播放列表查询语言 {help} 进行搜索",
+      "no-albums": "没有发现专辑",
+      "no-artists": "没有发现艺人",
+      "no-audiobooks": "没有发现有声书",
+      "no-composers": "没有发现作曲家",
+      "no-playlists": "没有发现播放列表",
+      "no-podcasts": "没有发现播客",
+      "no-tracks": "没有发现曲目",
+      "placeholder": "搜索",
+      "playlists": "播放列表",
+      "podcasts": "播客",
+      "show-albums": "显示专辑|显示所有 {count} 个专辑",
+      "show-artists": "显示艺人|显示所有 {count} 位艺人",
+      "show-audiobooks": "显示有声书|显示所有 {count} 本有声书",
+      "show-composers": "显示作曲家|显示所有 {count} 位作曲家",
+      "show-playlists": "显示播放列表|显示所有 {count} 个播放列表",
+      "show-podcasts": "显示播客|显示所有 {count} 个播客",
+      "show-tracks": "显示曲目|显示所有 {count} 只曲目",
+      "tracks": "曲目总数",
       "tabs": {
-        "library": "Library",
+        "library": "资料库",
         "spotify": "Spotify"
       }
     },
     "settings": {
       "artwork": {
-        "artwork": "Artwork",
+        "artwork": "封面",
         "coverartarchive": "Cover Art Archive",
         "discogs": "Discogs",
-        "explanation-1": "OwnTone supports PNG and JPEG artwork which is either placed as separate image files in the library, embedded in the media files or made available online by radio stations.",
-        "explanation-2": "In addition to that, you can enable fetching artwork from the following artwork providers:",
+        "explanation-1": "OwnTone支持PNG和 JPEG封面，这些封面可以作为单独的图像文件放置在库中或嵌入到媒体文件中，也可以通过广播电台在线提供",
+        "explanation-2": "除此之外，您还可以从以下素材提供者获取封面:",
         "spotify": "Spotify"
       },
       "devices": {
-        "no-active-pairing": "No active pairing request.",
-        "pairing-code": "Pairing code",
-        "pairing-request": "Remote pairing request from ",
-        "pairing": "Remote Pairing",
-        "send": "Send",
-        "speaker-pairing-info": "If your speaker requires pairing then activate it below and enter the PIN that it displays.",
-        "speaker-pairing": "Speaker pairing and device verification",
-        "verification-code": "Verification code",
-        "verify": "Verify"
+        "no-active-pairing": "没有活跃的配对请求",
+        "pairing-code": "配对代码",
+        "pairing-request": "远程配对请求来自于 ",
+        "pairing": "遥控配对",
+        "send": "发送",
+        "speaker-pairing-info": "如果您的扬声器需要配对，请在下面输入它显示的 PIN以激活",
+        "speaker-pairing": "扬声器配对和设备验证",
+        "verification-code": "验证码",
+        "verify": "验证"
       },
       "general": {
-        "album-lists": "Album Lists",
-        "audiobooks": "Audiobooks",
-        "files": "Files",
-        "genres": "Genres",
-        "language": "Language",
-        "music": "Music",
-        "navigation-item-selection-info": "If you select more items than can be shown on your screen then the burger menu will disappear.",
-        "navigation-item-selection": "Select the top navigation bar menu items",
-        "navigation-items": "Navigation Bar",
-        "now-playing-page": "Now playing page",
-        "playlists": "Playlists",
-        "podcasts": "Podcasts",
-        "radio": "Radio",
-        "recently-added-page-info": "Limit the number of albums shown on the \"Recently Added\" page",
-        "recently-added-page": "Recently added page",
-        "search": "Search",
-        "show-composer-genres-info-1": "Comma separated list of genres the composer should be displayed on the \"Now playing page\"",
-        "show-composer-genres-info-2": "Leave empty to always show the composer.",
-        "show-composer-genres-info-3": "The genre tag of the current track is matched by checking, if one of the defined genres are included. For example setting to \"classical, soundtrack\" will show the composer for tracks with a genre tag of \"Contemporary Classical\"",
-        "show-composer-genres": "Show composer only for listed genres",
-        "show-composer-info": "If enabled the composer of the current playing track is shown on the \"Now playing page\"",
-        "show-composer": "Show composer",
-        "show-coverart": "Show cover artwork in album list",
-        "show-path": "Show filepath on the \"Now playing\" page"
+        "album-lists": "专辑列表",
+        "audiobooks": "有声读物",
+        "files": "文件",
+        "genres": "流派",
+        "language": "语言",
+        "music": "音乐",
+        "navigation-item-selection-info": "如果您选择的项目多于屏幕上可以显示的项目，则侧边栏菜单将会消失",
+        "navigation-item-selection": "选择顶部导航栏菜单项",
+        "navigation-items": "导航条",
+        "now-playing-page": "“正在播放”页面",
+        "playlists": "播放列表",
+        "podcasts": "播客",
+        "radio": "广播电台",
+        "recently-added-page-info": "限制“最近添加”页面上显示的专辑数量",
+        "recently-added-page": "“最近添加”页面",
+        "search": "搜索",
+        "show-composer-genres-info-1": "以逗号分隔流派，作曲家会在“正在播放的页面”上显示",
+        "show-composer-genres-info-2": "留空以始终显示作曲家",
+        "show-composer-genres-info-3": "通过检查是否包含定义的流派之一来匹配当前曲目的流派标签。例如，设置为“古典、原声带”将显示流派标签为“当代古典”的曲目的作曲家",
+        "show-composer-genres": "仅显示列出的流派的作曲家",
+        "show-composer-info": "如果启用，当前播放曲目的作曲家将显示在“正在播放页面”上",
+        "show-composer": "显示作曲家",
+        "show-coverart": "在专辑列表中显示封面艺术作品",
+        "show-path": "在“正在播放”页面显示文件路径"
       },
       "services": {
         "lastfm": {
-          "grant-access": "Login with your Last.fm username and password to enable scrobbling",
-          "info": "OwnTone will not store your Last.fm username/password, only the session key. The session key does not expire.",
+          "grant-access": "使用您的 Last.fm 用户名和密码登录以启用记录功能",
+          "info": "OwnTone不会存储您的 Last.fm 用户名/密码，仅存储会话密钥。会话密钥不会过期",
           "title": "Last.fm",
-          "no-support": "OwnTone was built without support for Last.fm.",
-          "stop-scrobbling": "Stop scrobbling"
+          "no-support": "OwnTone的构建没有来自Last.fm的官方支持",
+          "stop-scrobbling": "停止记录"
         },
         "spotify": {
-          "no-support": "OwnTone was either built without support for Spotify or libspotify is not installed.",
-          "logged-as": "Logged in as ",
-          "requirements": "You must have a Spotify premium account.",
-          "scopes": "Access to the Spotify Web API enables scanning of your Spotify library. Required scopes are: ",
-          "user": "Access granted for ",
-          "authorize": "Authorize Web API access",
-          "credentials": " - Login with your Spotify username and password",
-          "grant-access": "Grant access to the Spotify Web API",
-          "help-1": "libspotify enables OwnTone to play Spotify tracks.",
-          "help-2": "OwnTone will not store your password, but will still be able to log you in automatically afterwards, because libspotify saves a login token.",
-          "reauthorize": "Please reauthorize Web API access to grant OwnTone the following additional access rights: ",
+          "no-support": "OwnTone的构建没有来自 Spotify 官方的支持，也未安装 libspotify",
+          "logged-as": "登录为 ",
+          "requirements": "您必须拥有 Spotify付费帐户",
+          "scopes": "访问 Spotify Web API 可以扫描您的 Spotify库。 所需范围是： ",
+          "user": "授予访问权限",
+          "authorize": "授权 Web API 访问",
+          "credentials": " - 使用您的 Spotify 用户名和密码登录",
+          "grant-access": "授予对 Spotify Web API 的访问权限",
+          "help-1": "libspotify 使 OwnTone 能够播放 Spotify 曲目",
+          "help-2": "OwnTone 不会存储您的密码，但之后仍然能够自动登录，因为 libspotify 会保存登录令牌",
+          "reauthorize": "请重新授权 Web API 访问权限，以授予 OwnTone 以下附加访问权限：",
           "title": "Spotify"
         },
-        "login": "Login",
-        "logout": "Logout",
-        "password": "Password",
-        "username": "Username"
+        "login": "登入",
+        "logout": "退出",
+        "password": "密码",
+        "username": "用户名"
       },
       "tabs": {
-        "artwork": "Artwork",
-        "general": "General",
-        "online-services": "Online Services",
-        "remotes-and-outputs": "Remotes and Outputs"
+        "artwork": "封面",
+        "general": "概览",
+        "online-services": "在线服务",
+        "remotes-and-outputs": "遥控和输出"
       }
     },
     "spotify": {
       "album": {
-        "shuffle": "Shuffle",
-        "track-count": "{count} track|{count} tracks"
+        "shuffle": "随机播放",
+        "track-count": "{count} 只曲目|{count} 只曲目"
       },
       "artist": {
-        "album-count": "{count} album|{count} albums",
-        "shuffle": "Shuffle"
+        "album-count": "{count} 张专辑|{count} 张专辑",
+        "shuffle": "随机播放"
       },
       "browse": {
-        "featured-playlists": "Featured Playlists",
-        "new-releases": "New Releases",
-        "show-more": "Show More"
+        "featured-playlists": "特色列表",
+        "new-releases": "最新发行",
+        "show-more": "显示更多"
       },
       "playlist": {
-        "count": "{count} track|{count} tracks",
-        "shuffle": "Shuffle"
+        "count": "{count} 只曲目|{count} 只曲目",
+        "shuffle": "随机播放"
       },
       "search": {
-        "albums": "Albums",
-        "artists": "Artists",
-        "no-albums": "No albums found",
-        "no-artists": "No artists found",
-        "no-playlists": "No playlists found",
-        "no-tracks": "No tracks found",
-        "placeholder": "Search",
-        "playlists": "Playlists",
-        "show-all-albums": "Show the album|Show all {count} albums",
-        "show-all-artists": "Show the artist|Show all {count} artists",
-        "show-all-playlists": "Show the playlist|Show all {count} playlists",
-        "show-all-tracks": "Show the track|Show all {count} tracks",
-        "tracks": "Tracks"
+        "albums": "专辑",
+        "artists": "艺人",
+        "no-albums": "没有发现专辑",
+        "no-artists": "没有发现艺人",
+        "no-playlists": "没有发现播放列表",
+        "no-tracks": "没有发现曲目",
+        "placeholder": "搜索",
+        "playlists": "播放列表",
+        "show-all-albums": "显示专辑|显示所有 {count} 个专辑",
+        "show-all-artists": "显示艺人|显示所有 {count} 位艺人",
+        "show-all-playlists": "显示播放列表|显示所有 {count} 个播放列表",
+        "show-all-tracks": "显示曲目|显示所有 {count} 只曲目",
+        "tracks": "曲目"
       }
     }
   },
   "playlist": {
     "type": {
-      "plain": "Plain",
-      "smart": "Smart"
+      "plain": "简单",
+      "smart": "智能"
     }
   },
   "player": {
     "button": {
-      "consume": "Clear history",
-      "pause": "Pause",
-      "play": "Play",
-      "repeat": "Repeat all tracks",
-      "repeat-off": "Read tracks once",
-      "repeat-once": "Repeat current track",
-      "seek-backward": "Seek backward in the track",
-      "seek-forward": "Seek forward in the track",
-      "shuffle": "Play tracks randomly",
-      "shuffle-disabled": "Play tracks in order",
-      "skip-backward": "Skip to previous track",
-      "skip-forward": "Skip to next track",
-      "stop": "Stop"
+      "consume": "清除历史",
+      "pause": "暂停",
+      "play": "播放",
+      "repeat": "重复播放所有曲目",
+      "repeat-off": "所有曲目仅播放一遍",
+      "repeat-once": "重复当前曲目",
+      "seek-backward": "在当前曲目后退",
+      "seek-forward": "在当前曲目前进",
+      "shuffle": "随机播放曲目",
+      "shuffle-disabled": "按顺序播放曲目",
+      "skip-backward": "播放上一首",
+      "skip-forward": "播放下一首",
+      "stop": "停止"
     }
   },
   "setting": {
-    "not-saved": " (error saving setting)",
-    "saved": " (setting saved)"
+    "not-saved": " (设置保存错误)",
+    "saved": " (设置已保存)"
   },
   "server": {
-    "connection-failed": "Failed to connect to OwnTone server",
-    "missing-port": "Missing websocket port",
-    "request-failed": "Request failed (status: {status} {cause} {url})",
-    "queue-saved": "Queue saved to playlist {name}",
-    "appended-tracks": "{count} track appended to the queue|{count} tracks appended to the queue",
-    "empty-queue": "Queue is empty"
+    "connection-failed": "无法连接到 OwnTone 服务器",
+    "missing-port": "缺少 websocket 端口",
+    "request-failed": "请求失败 (状态: {status} {cause} {url})",
+    "queue-saved": "清单以添加到播放列表 {name}",
+    "appended-tracks": "已附加到队列的 {count} 只曲目|已附加到队列的 {count} 只曲目",
+    "empty-queue": "清单是空的"
   },
   "group-by-list": {
-    "today": "Today",
-    "last-week": "Last week",
-    "last-month": "Last month"
+    "today": "今日",
+    "last-week": "上周",
+    "last-month": "上月"
   },
   "filter": {
-    "mono": "mono",
-    "stereo": "stereo",
-    "channels": "{count} channel|{count} channels"
+    "mono": "单声道",
+    "stereo": "立体声",
+    "channels": "{count} 信道|{count} 信道"
   }
 }
