@@ -1,139 +1,139 @@
 {
   "data": {
     "kind": {
-      "file": "File",
-      "url": "URL",
+      "file": "文件",
+      "url": "链接",
       "spotify": "Spotify",
-      "pipe": "Stream"
+      "pipe": "流"
     }
   },
   "dialog": {
-    "cancel": "Cancel",
+    "cancel": "取消",
     "add": {
       "rss": {
-        "add": "Add",
-        "cancel": "Cancel",
-        "help": "Adding a podcast includes creating an RSS playlist, that will allow OwnTone to manage the podcast subscription.",
+        "add": "添加",
+        "cancel": "取消",
+        "help": "添加一个可创建播放列表的播客RSS链接，这将允许OwnTone管理订阅",
         "placeholder": "https://url-to-rss",
-        "processing": "Processing…",
-        "title": "Add Podcast RSS feed URL"
+        "processing": "处理中…",
+        "title": "添加播客RSS订阅链接"
       },
       "stream": {
-        "add": "Add",
-        "cancel": "Cancel",
-        "loading": "Loading…",
+        "add": "添加",
+        "cancel": "取消",
+        "loading": "加载中…",
         "placeholder": "https://url-to-stream",
-        "play": "Play",
-        "title": "Add Stream URL"
+        "play": "播放",
+        "title": "添加流链接"
       }
     },
     "album": {
-      "add-next": "Add Next",
-      "add": "Add",
-      "added-on": "Added on",
-      "artist": "Album artist",
-      "duration": "Duration",
-      "mark-as-played": "Mark as played",
-      "play": "Play",
-      "release-date": "Release date",
-      "remove-podcast": "Remove podcast",
-      "tracks": "Track count",
-      "type": "Type",
-      "year": "Year"
+      "add-next": "插播",
+      "add": "最后播放",
+      "added-on": "添加时间",
+      "artist": "专辑艺人",
+      "duration": "时长",
+      "mark-as-played": "标记为已播",
+      "play": "播放",
+      "release-date": "发行时间",
+      "remove-podcast": "移除播客",
+      "tracks": "曲目总数",
+      "type": "类型",
+      "year": "年份"
     },
     "artist": {
-      "add-next": "Add Next",
-      "add": "Add",
-      "added-on": "Added On",
-      "albums": "Albums",
-      "play": "Play",
-      "tracks": "Tracks",
-      "type": "Type"
+      "add-next": "插播",
+      "add": "最后播放",
+      "added-on": "添加时间",
+      "albums": "专辑",
+      "play": "播放",
+      "tracks": "曲目总数",
+      "type": "类型"
     },
     "composer": {
-      "add-next": "Add Next",
-      "add": "Add",
-      "albums": "Albums",
-      "duration": "Duration",
-      "play": "Play",
-      "tracks": "Tracks"
+      "add-next": "插播",
+      "add": "最后播放",
+      "albums": "专辑",
+      "duration": "时长",
+      "play": "播放",
+      "tracks": "曲目总数"
     },
     "directory": {
-      "add-next": "Add Next",
-      "add": "Add",
-      "play": "Play"
+      "add-next": "插播",
+      "add": "最后播放",
+      "play": "播放"
     },
     "genre": {
-      "add-next": "Add Next",
-      "add": "Add",
-      "albums": "Albums",
-      "duration": "Duration",
-      "play": "Play",
-      "tracks": "Tracks"
+      "add-next": "插播",
+      "add": "最后播放",
+      "albums": "专辑",
+      "duration": "时长",
+      "play": "播放",
+      "tracks": "曲目总数"
     },
     "playlist": {
-      "add-next": "Add Next",
-      "add": "Add",
-      "play": "Play",
-      "path": "Path",
-      "track-count": "Track Count",
-      "type": "Type",
+      "add-next": "插播",
+      "add": "最后播放",
+      "play": "播放",
+      "path": "路径",
+      "track-count": "曲目总数",
+      "type": "类型",
       "save": {
-        "cancel": "Cancel",
-        "playlist-name": "Playlist name",
-        "save": "Save",
-        "saving": "Saving…",
-        "title": "Save queue to playlist"
+        "cancel": "取消",
+        "playlist-name": "播放列表名称",
+        "save": "保存",
+        "saving": "保存中…",
+        "title": "保存播放清单到列表"
       }
     },
     "queue-item": {
-      "album-artist": "Album Artist",
-      "album": "Album",
+      "album-artist": "专辑艺人",
+      "album": "专辑",
       "bitrate": " {'|'} {rate} kbit/s",
       "channels": " {'|'} {channels}",
-      "composer": "Composer",
-      "duration": "Duration",
-      "genre": "Genre",
-      "path": "Path",
-      "play": "Play",
-      "position": "Disc / Track",
-      "quality": "Quality",
-      "remove": "Remove",
+      "composer": "作曲家",
+      "duration": "时长",
+      "genre": "流派",
+      "path": "路径",
+      "play": "播放",
+      "position": "盘 / 曲目",
+      "quality": "质量",
+      "remove": "移除",
       "samplerate": " {'|'} {rate} Hz",
-      "spotify-album": "album",
-      "spotify-artist": "artist",
-      "type": "Type",
-      "year": "Year"
+      "spotify-album": "专辑",
+      "spotify-artist": "艺人",
+      "type": "类型",
+      "year": "年份"
     },
     "remote-pairing": {
-      "cancel": "Cancel",
-      "pair": "Pair Remote",
-      "pairing-code": "Pairing code",
-      "title": "Remote pairing request"
+      "cancel": "取消",
+      "pair": "远程配对",
+      "pairing-code": "配对码",
+      "title": "请求远程配对"
     },
     "spotify": {
       "album": {
-        "add-next": "Add Next",
-        "add": "Add",
-        "album-artist": "Album Artist",
-        "play": "Play",
-        "release-date": "Release Date",
-        "type": "Type"
+        "add-next": "插播",
+        "add": "最后播放",
+        "album-artist": "专辑艺人",
+        "play": "播放",
+        "release-date": "发行时间",
+        "type": "类型"
       },
       "artist": {
-        "add-next": "Add Next",
-        "add": "Add",
-        "genres": "Genres",
-        "play": "Play",
-        "popularity": "Popularity / Followers"
+        "add-next": "插播",
+        "add": "最后播放",
+        "genres": "流派",
+        "play": "播放",
+        "popularity": "流行度 / 粉丝数"
       },
       "playlist": {
-        "add-next": "Add Next",
-        "add": "Add",
-        "owner": "Owner",
-        "path": "Path",
-        "play": "Play",
-        "tracks": "Tracks"
+        "add-next": "插播",
+        "add": "最后播放",
+        "owner": "所有者",
+        "path": "路径",
+        "play": "播放",
+        "tracks": "曲目总数"
       },
       "track": {
         "add-next": "Add Next",
