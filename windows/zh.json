@@ -300,7 +300,7 @@
         "track-count": "{count} 只曲目|{count} 只曲目"
       },
       "albums": {
-        "count": "{count} 个有声读物|{count} 个有声读物",
+        "count": "{count} 本有声读物|{count} 本有声读物",
         "title": "有声读物"
       },
       "artist": {
