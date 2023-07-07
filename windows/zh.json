@@ -435,7 +435,7 @@
       "show-playlists": "显示播放列表|显示所有 {count} 个播放列表",
       "show-podcasts": "显示播客|显示所有 {count} 个播客",
       "show-tracks": "显示曲目|显示所有 {count} 只曲目",
-      "tracks": "曲目总数",
+      "tracks": "曲目",
       "tabs": {
         "library": "资料库",
         "spotify": "Spotify"
