@@ -2,12 +2,10 @@ m.bilibili.com###app > div.video > div.m-video-new.sticky > div.launch-app-btn.m
 m.bilibili.com###app > div.video > div.m-video-new.sticky > div.m-navbar:first-child > div.right:last-child > div.launch-app-btn.m-nav-openapp:last-child
 m.bilibili.com###bilibiliPlayer > div.mplayer.mplayer-callAppMode.mplayer-wide > div.mplayer-display.mplayer-control-bar-hide:last-child
 
-||*.*^$script,domain=m.youtube.com
 @@||youtube.com^$script,domain=m.youtube.com
 m.youtube.com###player-shorts-container > shorts-page > shorts-carousel > div.carousel-wrapper > div.carousel-items > div.carousel-item:nth-child(2) > shorts-video:last-child > div.video-wrapper > div.layer.touch-controls:last-child > ytm-reel-player-overlay-renderer:last-child > div.reel-player-overlay-main-content:first-child > div.reel-player-overlay-metadata:first-child > ytm-reel-player-header-renderer > div.cbox:last-child
 google.com.tw###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child > div.uysxde.L5bprf
 google.com###stUuGf > div > div.vSyRff.VDgVie.kqLqDd.GJyMZe.SNco2.vKW4md:last-child > div.jnyxRd.TpRPV
-
 
 www.douyin.com##.a863cbaaffe537635d0f8cc2af289789-scss
 www.douyin.com##._2e1d83c3e628de59d28036fa441a8076-scss
@@ -54,7 +52,6 @@ zh.m.wikipedia.org##.ambox
 zh.m.wikipedia.org##.reference
 zh.m.wikipedia.org##.footer-content.post-content
 zh.m.wikipedia.org###asn-dismissable-notice
-
 
 baijiahao.baidu.com###content_wrapper > div.headDeflectorContainer:first-child
 baijiahao.baidu.com###page_wrapper > div.other > div.uukjsi6a_zpZccrqYiI3k._3RmxTKlPzuCkzYl1ZqE2yE.undefined._2a6i5UuooMxf9NjjWZLRkN:nth-child(6)
