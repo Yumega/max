@@ -18,10 +18,11 @@ docker create  \
 docker run -d \
  --name metube \
  -p 8081:8081 \
- -v /mnt/sdc1/Tube:/downloads \（保存路径，sdb1或者sdc1）
+ -v /mnt/sdc1/Tube:/downloads \
  -e STATE_DIR=/opt/metube:/downloads \
  --restart unless-stopped \
  alexta69/metube:latest
+（保存路径，sdb1或者sdc1）
 (STATE_DIR: path to where the queue persistence files will be saved.
 Defaults to /downloads/.metube in the docker image)
   
