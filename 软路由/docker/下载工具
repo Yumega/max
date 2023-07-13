@@ -18,7 +18,7 @@ docker create  \
 docker run -d \
  --name metube \
  -p 8081:8081 \
- -v /mnt/sdc1/Tube:/downloads \
+ -v /mnt/sdc1/Tube:/downloads \（保存路径，sdb1或者sdc1）
  -e STATE_DIR=/opt/metube:/downloads \
  --restart unless-stopped \
  alexta69/metube:latest
