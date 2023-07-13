@@ -6,6 +6,7 @@ m.bilibili.com###bilibiliPlayer > div.mplayer.mplayer-callAppMode.mplayer-wide >
 m.youtube.com###player-shorts-container > shorts-page > shorts-carousel > div.carousel-wrapper > div.carousel-items > div.carousel-item:nth-child(2) > shorts-video:last-child > div.video-wrapper > div.layer.touch-controls:last-child > ytm-reel-player-overlay-renderer:last-child > div.reel-player-overlay-main-content:first-child > div.reel-player-overlay-metadata:first-child > ytm-reel-player-header-renderer > div.cbox:last-child
 google.com.tw###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child > div.uysxde.L5bprf
 google.com###stUuGf > div > div.vSyRff.VDgVie.kqLqDd.GJyMZe.SNco2.vKW4md:last-child > div.jnyxRd.TpRPV
+bard.google.com##.ng-tns-c4127223560-1.capabilities-disclaimer
 
 www.douyin.com##.a863cbaaffe537635d0f8cc2af289789-scss
 www.douyin.com##._2e1d83c3e628de59d28036fa441a8076-scss
