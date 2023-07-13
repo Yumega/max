@@ -3,8 +3,16 @@ docker run -d \
 -e TZ=Asia/Shanghai \
 -p 13080:8080 \ 
 ghcr.io/jnewland/hlstube:latest
-
 http://192.168.11.1:13080/0MJacjd0eNg.m3u8
+
+docker run -d \
+--name allinone \ 
+--restart unless-stopped \ 
+--privileged=true \
+-p 35455:35455 \ 
+youshandefeiyang/allinone
+http://192.168.11.1:35455/youtube/oIgbl7t0S_w
+
 
 在管理界面 > 系统 > 计划任务，加入下面代码
 */2  * * * * docker restart YTBlive
@@ -15,7 +23,6 @@ http://192.168.11.1:13080/0MJacjd0eNg.m3u8
 
 2 */3 * * * docker restart YTBlive
 （每隔3个小时的第2分钟重启一次）
-
 
 
 docker run -d --restart unless-stopped --privileged=true -p 5678:80 --name php-env youshandefeiyang/php-env
