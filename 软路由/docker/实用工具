@@ -1,6 +1,3 @@
-Whoogle:
-docker run --publish 5000:5000 --detach --name whoogle-search benbusby/whoogle-search:latest
-
 docker run -d \
   --name=musicassistant \
   --privileged=true \
@@ -98,6 +95,44 @@ wget -O - https://get.hacs.xyz | bash -
 Start the HA Songpal integration and when it asks for the ‘endpoint’, 
 enter the following: http://192.168.1.1:10000/sony 
 Change the IP 192.168.1.1 according.
+
+docker run -d \
+    --name whoogle-search\
+    --network host \
+    --restart=always \
+    -e WHOOGLE_RESULTS_PER_PAGE=30 \
+    -e WHOOGLE_CONFIG_LANGUAGE=lang_zh-CN \
+    -e WHOOGLE_CONFIG_NEW_TAB=true \
+    benbusby/whoogle-search:latest
+
+https://search.sainnhe.dev/
+
+.footer,#adv-search-label.adv-search { display: none !important; }
+:root {
+    /* LIGHT THEME COLORS */
+    --whoogle-page-bg: #eee8d5;
+    --whoogle-element-bg: #002b36;
+    --whoogle-logo: #002b36;
+    --whoogle-text: #002b36;
+    --whoogle-contrast-text: #eee8d5;
+    --whoogle-secondary-text: #3b4252;
+    --whoogle-result-bg: #fff;
+    --whoogle-result-title: #268bd2;
+    --whoogle-result-url: #5f8700;
+    --whoogle-result-visited: #2aa198;
+
+    /* DARK THEME COLORS */
+    --whoogle-dark-page-bg: #002b36;
+    --whoogle-dark-element-bg: #eee8d5;
+    --whoogle-dark-logo: #eee8d5;
+    --whoogle-dark-text: #eee8d5;
+    --whoogle-dark-contrast-text: #002b36;
+    --whoogle-dark-secondary-text: #eee8d5;
+    --whoogle-dark-result-bg: #073642;
+    --whoogle-dark-result-title: #3aa6f2;
+    --whoogle-dark-result-url: #38d5c9;
+    --whoogle-dark-result-visited: #2aa198;
+}
 
  -------------------------------------------------------------------------
 docker run -d 
