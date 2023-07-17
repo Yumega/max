@@ -86,6 +86,10 @@ www.baidu.com##.c-invoke-show-class__NcU4a.c-line-clamp1
 www.baidu.com##.c-zk-first-card.c-zk-container.c-sigma-container.zk-kg-header__2B3nM._3borM.c-container > ._2x_-s
 www.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap
 www.baidu.com##.c-gap-bottom-tiny.three-image__3glM7.c-row
+tieba.baidu.com##.nav-bar-bottom
+tieba.baidu.com##.more-btn-desc
+tieba.baidu.com##.bottom-guide-box
+tieba.baidu.com##.tb-forum-user__right
 m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child
 m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child > a.open-app-a:last-child > button.open-app
 m.ithome.com##div.open-app-banner:last-child
