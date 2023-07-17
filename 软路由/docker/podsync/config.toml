@@ -1,0 +1,39 @@
+[server]
+port = 9080
+hostname = "http://192.168.11.1:9080"
+[storage]
+  [storage.local]
+  data_dir = "/app/data"
+
+[tokens]
+youtube = "xxxxxxxxxxAIzaSyCcptKK1Exxxxxxxxxxxxx"
+
+[feeds]
+    [feeds.cpk]
+    url = "https://www.youtube.com/channel/UCwb7avxK-L5vPjMC1ZIGayw"
+    page_size = 2
+    update_period = "2h"
+    quality = "high"
+    format = "audio"
+    clean = { keep_last = 3 }
+    [feeds.wza]
+    url = "https://www.youtube.com/channel/UCBKDRq35-L8xev4O7ZqBeLg"
+    page_size = 2
+    update_period = "2h"
+    quality = "high"
+    format = "audio"
+    clean = { keep_last = 3 }
+    filters = { min_duration = 360 }
+    youtube_dl_args = ["--match-filter", "!is_live"]
+[downloader]
+# Optional, auto update youtube-dl every 24 hours
+self_update = true
+timeout = 15
+
+[log]
+filename = "podsync.log"
+max_size = 50
+max_age = 2
+max_backups = 1
+compress = true
+debug = false
