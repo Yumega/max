@@ -34,12 +34,18 @@ https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
 
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-specific.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-unbreak.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-unbreak.txt 出错
 
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-social.txt
 
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-android-specific.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-sugarcoat.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-sugarcoat.txt 出错
 
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-firstparty.txt
+
+手机
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/antiadblock.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/general_elemhide.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_web.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/general_url.txt
