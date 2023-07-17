@@ -98,16 +98,19 @@ Change the IP 192.168.1.1 according.
 
 docker run -d \
     --name whoogle-search\
+    --privileged=true \
     --network host \
     --restart=always \
-    -e WHOOGLE_RESULTS_PER_PAGE=30 \
+    -e WHOOGLE_CONFIG_STYLE=".logo-div,.footer,.mobile-logo.logo-link,.adv-search,.xeDNfc {display: none !important;}"
+    -e WHOOGLE_RESULTS_PER_PAGE=25 \
     -e WHOOGLE_CONFIG_LANGUAGE=lang_zh-CN \
     -e WHOOGLE_CONFIG_NEW_TAB=true \
+    -e WHOOGLE_TOR_SERVICE=0 \
     benbusby/whoogle-search:latest
-
 https://search.sainnhe.dev/
 
-.footer,#adv-search-label.adv-search { display: none !important; }
+.logo-div,.footer,.mobile-logo.logo-link,.adv-search {display: none !important;}
+
 :root {
     /* LIGHT THEME COLORS */
     --whoogle-page-bg: #eee8d5;
@@ -133,7 +136,6 @@ https://search.sainnhe.dev/
     --whoogle-dark-result-url: #38d5c9;
     --whoogle-dark-result-visited: #2aa198;
 }
-
  -------------------------------------------------------------------------
 docker run -d 
 --name rsshub 
