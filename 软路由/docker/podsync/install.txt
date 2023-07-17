@@ -1,0 +1,7 @@
+docker run -d \
+--name podsync \
+-e TZ=Asia/Shanghai \
+-p 9080:9080 \
+-v /opt/podsync/data:/app/data/ \
+-v /opt/podsync/config.toml:/app/config.toml \
+mxpv/podsync:latest
