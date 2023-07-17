@@ -10,7 +10,7 @@ m.bilibili.com##.list-view__state
 @@||youtube.com^$script,domain=m.youtube.com
 google.com.tw###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child > div.uysxde.L5bprf
 google.com###stUuGf > div > div.vSyRff.VDgVie.kqLqDd.GJyMZe.SNco2.vKW4md:last-child > div.jnyxRd.TpRPV
-bard.google.com##.ng-tns-c4127223560-1.capabilities-disclaimer
+bard.google.com##.capabilities-disclaimer
 moviefone.com###content-wrapper > div.mf-adsense-leaderboard.mf-adsense-mobile-leaderboard:first-child
 subhd.tv##div.fixed-bottom:first-child
 m.sohu.com###artFloatDiscuss
