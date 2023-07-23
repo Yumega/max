@@ -1,0 +1,11 @@
+{
+  "instances": [
+    {
+      "app": "Invidious",
+      "region": "Asia",
+      "country": "China",
+      "flag": "CN",
+      "url": "http://172.19.0.3:3000/"
+    }
+  ]
+}
