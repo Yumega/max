@@ -137,6 +137,17 @@ https://search.sainnhe.dev/
     --whoogle-dark-result-visited: #2aa198;
 }
  -------------------------------------------------------------------------
+docker run -d \
+--name=firefox \
+-e TZ=Asia/Hong_Kong \
+-e DISPLAY_WIDTH=1366 \
+-e DISPLAY_HEIGHT=768 \
+-e KEEP_APP_RUNNING=1 \
+-e ENABLE_CJK_FONT=1 \
+-p 5800:5800 \
+-v /opt/firefox/appdata/firefox:/config:rw \
+jlesage/firefox
+
 docker run -d 
 --name rsshub 
 -p 1200:1200 
