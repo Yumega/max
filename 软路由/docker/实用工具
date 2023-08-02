@@ -1,4 +1,17 @@
 docker run -d \
+  --name=resilio \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Hong_Kong \
+  -p 8888:8888 \
+  -p 55555:55555 \
+  -v /opt/resilio/config:/config \
+  -v /mnt/sdc1/Udisk:/downloads \
+  -v /mnt/sdc1/Udisk:/sync \
+  --restart unless-stopped \
+  lscr.io/linuxserver/resilio-sync:latest
+
+docker run -d \
   --name=musicassistant \
   --privileged=true \
   --net=host \
