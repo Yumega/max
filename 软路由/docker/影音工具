@@ -19,6 +19,11 @@ docker run -d \
   -v /mnt/sdb1/qbit:/downloads \
   --restart unless-stopped \
 cr.hotio.dev/hotio/radarr:latest
+
+标准影片格式
+{Movie Title:ZH} ({Release Year}) {Quality Full}
+影片文件夹格式
+{Movie Title:ZH} ({Release Year})
   
   docker run -d \
   --name=prowlarr \
