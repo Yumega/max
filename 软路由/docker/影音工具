@@ -72,6 +72,22 @@ docker run -d \
  --restart unless-stopped \
  fallenbagel/jellyseerr:latest
 
+docker run -d \
+    -v /opt/chinesesubfinder/config:/config \
+    -v /mnt/sdb1/qbit:/media\ 
+    -e PUID=0 \
+    -e PGID=0 \
+    -e PERMS=true        \
+    -e TZ=Asia/Shanghai  \
+    -e UMASK=022         \
+    -p 19035:19035 \
+    -p 19037:19037  \
+    --name chinesesubfinder \
+    --hostname chinesesubfinder \
+    --log-driver "json-file" \
+    --log-opt "max-size=100m"  \
+allanpk716/chinesesubfinder:latest-lite
+
   docker run -d \
    --name navidrome \
    -v /mnt/sdb1/qbit/Music:/music \
