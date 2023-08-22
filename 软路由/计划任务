@@ -1,0 +1,5 @@
+3 3 12 12 * /usr/bin/nginx-util 'check_ssl'
+30 6 * * * docker restart jellyfin
+30 7 * * * docker restart jellyseerr
+35 7 * * * docker restart invidious-db
+40 7 * * * docker restart invidious
