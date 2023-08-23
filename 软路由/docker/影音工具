@@ -1,7 +1,7 @@
 docker run -d \
   --name=sonarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
+  -e PUID=0 \
+  -e PGID=0 \
   -e TZ=Asia/Shanghai \
   -p 8989:8989 \
   -v /opt/sonnarr/data:/config \
@@ -11,8 +11,8 @@ docker run -d \
 
 docker run -d \
   --name=radarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
+  -e PUID=0 \
+  -e PGID=0 \
   -e TZ=Asia/Shanghai \
   -p 7878:7878 \
   -v /opt/radarr/data:/config \
@@ -27,8 +27,8 @@ cr.hotio.dev/hotio/radarr:latest
   
   docker run -d \
   --name=prowlarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
+  -e PUID=0 \
+  -e PGID=0 \
   -e TZ=Asia/Shanghai \
   -p 9696:9696 \
   -v /opt/prowlarr/data:/config \
@@ -63,8 +63,8 @@ docker run -d \
 
  docker run -d \
  --name jellyseerr \
- -e PUID=1000 \
- -e PGID=1000 \
+ -e PUID=0 \
+ -e PGID=0 \
  -e LOG_LEVEL=debug \
  -e TZ=Asia/Shanghai \
  -p 15055:5055 \
