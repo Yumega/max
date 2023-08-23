@@ -63,8 +63,8 @@ docker run -d \
 
  docker run -d \
  --name jellyseerr \
- -e PUID=0 \
- -e PGID=0 \
+ -e PUID=1000 \
+ -e PGID=1000 \
  -e LOG_LEVEL=debug \
  -e TZ=Asia/Shanghai \
  -p 15055:5055 \
@@ -75,8 +75,8 @@ docker run -d \
 docker run -d \
     -v /opt/chinesesubfinder/config:/config \
     -v /mnt/sdb1/qbit:/media\ 
-    -e PUID=0 \
-    -e PGID=0 \
+    -e PUID=1000 \
+    -e PGID=1000 \
     -e PERMS=true        \
     -e TZ=Asia/Shanghai  \
     -e UMASK=022         \
@@ -93,6 +93,8 @@ allanpk716/chinesesubfinder:latest-lite
    -v /mnt/sdb1/qbit/Music:/music \
    -v /opt/navidrome/data:/data \
    -p 4533:4533 \ 
+   -e PUID=1000 \
+   -e PGID=1000 \
    -e ND_LOGLEVEL=error \
    -e ND_ENABLETRANSCODINGCONFIG=true \
    --restart=unless-stopped \
