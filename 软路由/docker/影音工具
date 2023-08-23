@@ -1,7 +1,7 @@
 docker run -d \
   --name=sonarr \
-  -e PUID=0 \
-  -e PGID=0 \
+  -e PUID=1000 \
+  -e PGID=1000 \
   -e TZ=Asia/Shanghai \
   -p 8989:8989 \
   -v /opt/sonnarr/data:/config \
@@ -11,8 +11,8 @@ docker run -d \
 
 docker run -d \
   --name=radarr \
-  -e PUID=0 \
-  -e PGID=0 \
+  -e PUID=1000 \
+  -e PGID=1000 \
   -e TZ=Asia/Shanghai \
   -p 7878:7878 \
   -v /opt/radarr/data:/config \
