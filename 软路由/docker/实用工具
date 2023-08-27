@@ -70,7 +70,10 @@ docker run -d \
  lscr.io/linuxserver/heimdall:latest 
 
 anisette
-docker run -d -v lib_cache:/opt/anisette/ --restart=always -p 6161:6161 --name anisette dadoum/anisette-server:latest  
+docker run -d -v lib_cache:/opt/anisette/ --restart=always -p 6161:6161 --name anisette dadoum/anisette-server:latest
+
+omnisette
+docker run -d --restart always --name omnisette -p 6969:80 --volume omnisette_data:/opt/omnisette-server/lib ghcr.io/sidestore/omnisette-server:latest
 
 创建portainer
 1，输入命令
