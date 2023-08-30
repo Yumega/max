@@ -48,10 +48,13 @@ docker run -d \
   docker run -d \
  --name jellyfin \
  --network host \
+ -e PUID=0 \
+ -e PGID=0 \
  -e TZ=Asia/Shanghai \
  -v /opt/jellyfin/config:/config \
  -v /opt/jellyfin/cache:/cache \
  -v /mnt/sdb1/qbit:/media1 \
+ -v /mnt/sdc1/Alidisk:/media2 \
  --restart=unless-stopped \
  lscr.io/linuxserver/jellyfin:latest
  
