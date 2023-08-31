@@ -54,7 +54,7 @@ docker run -d \
  -v /opt/jellyfin/config:/config \
  -v /opt/jellyfin/cache:/cache \
  -v /mnt/sdb1/qbit:/media1 \
- -v /mnt/sdc1/Alidisk:/media2 \
+ -v /opt/Adrive:/media2 \
  --restart=unless-stopped \
  lscr.io/linuxserver/jellyfin:latest
  
