@@ -56,6 +56,12 @@ DOMAIN-SUFFIX,ntslive.net
 DOMAIN-SUFFIX,cogecolive.com
 DOMAIN-SUFFIX,routinehub.co
 DOMAIN-SUFFIX,cableav.tv
+# NAME: tiktok
+DOMAIN-KEYWORD,byteicdn.com
+DOMAIN-KEYWORD,app-measurement.com
+DOMAIN-KEYWORD,appsflyer.com
+DOMAIN-KEYWORD,tiktokcdn
+DOMAIN-KEYWORD,tiktokv
 # NAME: News
 DOMAIN-KEYWORD,voa
 DOMAIN-KEYWORD,bbcfmt
