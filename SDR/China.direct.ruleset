@@ -8,6 +8,8 @@ DOMAIN-SUFFIX,snapdrop.net
 DOMAIN-SUFFIX,dnslify.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,microsofttranslator.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,ip.cn
 #局域网
 IP-CIDR,0.0.0.0/8,no-resolve
