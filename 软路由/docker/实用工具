@@ -32,6 +32,8 @@ panel_iframe:
     url: "http://192.168.11.1:8095/#/radios"   
     icon: mdi:radio
 
+docker run --name linkding -p 9490:9090 -v /opt/linkding:/etc/linkding/data -d sissbruecker/linkding:latest
+docker exec -it linkding python manage.py createsuperuser --username=xxx --email=xxx@xxx.com
 
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
