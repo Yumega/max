@@ -177,8 +177,9 @@ www.cnn.com##div.hFujui.Grid-sc-1kcyc0j-0:nth-of-type(2)
 www.cnn.com###footer-nav-container
 www.vox.com##.tab-bar-fixed.c-tab-bar
 www.vox.com##.c-footer
-gayfun.net###float_content_left
-gayfun.net##[href="javascript:hide_float_left()"]
+sexgayplus.com##.float-ck
+blphoto.net##.float-ck
+gayfun.net##.float-ck
 @@||breakingnews.ie$script,domain=breakingnews.ie
 @@||ampproject.org$script,domain=breakingnews.ie
 www.breakingnews.ie##.md\:mb-4.md\:block.hidden
