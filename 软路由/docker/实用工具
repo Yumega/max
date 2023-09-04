@@ -34,6 +34,10 @@ panel_iframe:
 
 docker run --name linkding -p 9490:9090 -v /opt/linkding:/etc/linkding/data -d sissbruecker/linkding:latest
 docker exec -it linkding python manage.py createsuperuser --username=xxx --email=xxx@xxx.com
+anisette
+docker run -d -v lib_cache:/opt/anisette/ --restart=always -p 6161:6161 --name anisette dadoum/anisette-server:latest
+omnisette
+docker run -d --restart always --name omnisette -p 6969:80 --volume omnisette_data:/opt/omnisette-server/lib ghcr.io/sidestore/omnisette-server:latest
 
 docker run -d  --name="alist" 
 -v /opt/alist/alist:/opt/alist/data 
@@ -70,12 +74,6 @@ docker run -d \
   -v /opt/heimdall/appdata/config:/config \
   --restart unless-stopped \
  lscr.io/linuxserver/heimdall:latest 
-
-anisette
-docker run -d -v lib_cache:/opt/anisette/ --restart=always -p 6161:6161 --name anisette dadoum/anisette-server:latest
-
-omnisette
-docker run -d --restart always --name omnisette -p 6969:80 --volume omnisette_data:/opt/omnisette-server/lib ghcr.io/sidestore/omnisette-server:latest
 
 创建portainer
 1，输入命令
