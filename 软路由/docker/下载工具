@@ -61,7 +61,7 @@ services:
       - XL_WEB_PORT=4321
     volumes:
       - /opt/xunlei:/xunlei/data
-      - /mnt/sdb1/qbit:/downloads
+      - /mnt/sdb1/qbit:/xunlei/downloads 
     restart: unless-stopped
 
 码：迅雷牛通
