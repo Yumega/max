@@ -1,14 +1,17 @@
 美国之音
 https://www.icloud.com/shortcuts/356968d98bed467693f64d1fa2ec9000
 
+法廣
+https://www.icloud.com/shortcuts/3a42983f649842d8aa998872ff6a2c6d
+
+ic之音
+https://www.icloud.com/shortcuts/a83ac9b5e67d411fba02c92b4fc7fec4
+
 星河音乐
 https://www.icloud.com/shortcuts/80a8c7ac8d1b4c62883b92230b6f28c8
 
 easy crooze
 https://www.icloud.com/shortcuts/199caeb86127441fbecc57502e496808
-
-法廣
-https://www.icloud.com/shortcuts/3a42983f649842d8aa998872ff6a2c6d
 
 R&B
 https://www.icloud.com/shortcuts/6cedbc16369f42b6a4f73992681ea53a
@@ -45,9 +48,6 @@ https://www.icloud.com/shortcuts/22a0ea83ff2e4f5181b7e5b3d0ca8002
 巴赫
 https://www.icloud.com/shortcuts/8dac7b74753e46519afcaedc61ab36aa
 
-ic之音
-https://www.icloud.com/shortcuts/a83ac9b5e67d411fba02c92b4fc7fec4
-
 Classique
 https://www.icloud.com/shortcuts/66bd9a0f66dd46468206b38027610870
 
@@ -56,6 +56,9 @@ https://www.icloud.com/shortcuts/a39d8a0fedc2439a9731c96e1288725f
 
 台北爱乐
 https://www.icloud.com/shortcuts/b0ecead9cc724ad4a1d8c179306fe6fd
+
+古典KUSC
+https://www.icloud.com/shortcuts/b180ee3bf25f47f3b21d939158ba8cbd
 
 kr nature
 https://www.icloud.com/shortcuts/e5d145e13edd4f4789f2cee973b39cad
