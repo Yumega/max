@@ -52,6 +52,9 @@ https://www.icloud.com/shortcuts/8dac7b74753e46519afcaedc61ab36aa
 ic之音
 https://www.icloud.com/shortcuts/a83ac9b5e67d411fba02c92b4fc7fec4
 
+Classique
+https://www.icloud.com/shortcuts/66bd9a0f66dd46468206b38027610870
+
 台北爱乐
 https://www.icloud.com/shortcuts/b0ecead9cc724ad4a1d8c179306fe6fd
 
@@ -63,3 +66,5 @@ https://www.icloud.com/shortcuts/a36c69fa93964d318793325d32742cdf
 
 kr friends
 https://www.icloud.com/shortcuts/ae91052a2dc442ee90310aca423e0f0c
+kr smooth
+https://www.icloud.com/shortcuts/83758a9fcbce4f76aee209986efe47dd
