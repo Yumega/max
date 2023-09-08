@@ -1,15 +1,11 @@
 美国之音
 https://www.icloud.com/shortcuts/356968d98bed467693f64d1fa2ec9000
 
-
 星河音乐
 https://www.icloud.com/shortcuts/80a8c7ac8d1b4c62883b92230b6f28c8
 
 easy crooze
 https://www.icloud.com/shortcuts/199caeb86127441fbecc57502e496808
-
-family97.7
-https://www.icloud.com/shortcuts/d2d9ddeaa26e47f5b7901245663815dd
 
 法廣
 https://www.icloud.com/shortcuts/3a42983f649842d8aa998872ff6a2c6d
@@ -55,6 +51,9 @@ https://www.icloud.com/shortcuts/a83ac9b5e67d411fba02c92b4fc7fec4
 Classique
 https://www.icloud.com/shortcuts/66bd9a0f66dd46468206b38027610870
 
+古典97.7（很卡）
+https://www.icloud.com/shortcuts/a39d8a0fedc2439a9731c96e1288725f
+
 台北爱乐
 https://www.icloud.com/shortcuts/b0ecead9cc724ad4a1d8c179306fe6fd
 
@@ -66,5 +65,6 @@ https://www.icloud.com/shortcuts/a36c69fa93964d318793325d32742cdf
 
 kr friends
 https://www.icloud.com/shortcuts/ae91052a2dc442ee90310aca423e0f0c
+
 kr smooth
 https://www.icloud.com/shortcuts/83758a9fcbce4f76aee209986efe47dd
