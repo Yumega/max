@@ -34,7 +34,7 @@ Defaults to /downloads/.metube in the docker image)
     --network host \
     -e PUID=1000 \
     -e PGID=1000 \
-    -e RPC_SECRET=token \
+    -e RPC_SECRET=a \
     -e RPC_PORT=6800 \
     -e LISTEN_PORT=31411 \
     -v /opt/aria2:/config \
