@@ -111,6 +111,62 @@ wget https://github.com/madiele/vod2pod-rss/archive/refs/tags/v1.0.2.zip
 unzip /opt/v1.0.2.zip
 编辑 docker-compose.yml 
 docker compose up -d
+
+
+version: "3.7"
+services:
+  stash:
+    container_name: stash
+    image: ghcr.io/hotio/stash
+    ports:
+      - "9999:9999"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Asia/Hong_Kong
+    volumes:
+      - /opt/stash:/config
+      - /mnt/sdb1/qbit:/adultmovies
+
+version: '3'
+services:
+  music-tag:
+    image: xhongc/music_tag_web:1.2.6
+    container_name: music-tag-web
+    ports:
+      - "8001:8001"
+    volumes:
+      - /mnt/sdb1/qbit/Music:/app/media:z
+    command: /start
+    restart: always
+
+version: "3"
+services:
+  downloader:
+    image: registry.cn-hangzhou.aliyuncs.com/music_downloader/qq_flac_music_downloader
+    container_name: qq-music
+    volumes:
+      - /mnt/sdb1/qbit:/workspace/music
+    ports:
+      - 8899:8899
+    restart: always
+
+version: '3.3'
+services:
+ deemix:
+  image: registry.gitlab.com/bockiii/deemix-docker
+  container_name: Deemix
+  volumes:
+   - /mnt/sdb1/qbit:/downloads
+   - /opt/deemix/config/location:/config
+  environment:
+   - PUID=1000
+   - PGID=1000
+   - UMASK_SET=022
+   - DEEMIX_SINGLE_USER=true
+  ports:
+   - 6595:6595
 ---------------------------------------------------------------------------------------
 软路由解码
 /dev/dri/card0
