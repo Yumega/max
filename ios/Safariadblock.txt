@@ -1,5 +1,8 @@
 ! Title: 自定义过滤
 reddit.com##shreddit-app.overflow-x-hidden.xs\:overflow-visible.v2.pt-\[var\(--page-y-padding\)\]:nth-child(3) > reddit-header-small.nd\:visible.top-0.left-0.right-0.h-header-large.z-\[3\].fixed.theme-beta:nth-child(6) > header.v2.hui.bg-neutral-background.border-b-sm.border-t-0.border-l-0.border-r-0.border-solid.border-neutral-border-weak.flex.pointer-events-auto:first-child > nav.flex.justify-between.items-center.h-header-small.px-md.flex-1 > div.flex.items-center.flex-1.justify-end.relative:last-child > div.mr-xs:nth-child(2) > shreddit-async-loader > xpromo-top-button
+video.h5.weibo.cn##footer
+video.h5.weibo.cn##.card-wrap
+video.h5.weibo.cn##.m-btn-text-orange.m-btn-white.m-btn
 imgsed.com##.container.page-user > .block-h12
 imgsed.com##div.block-h12:nth-of-type(3)
 imgsed.com##.block-sulvo
