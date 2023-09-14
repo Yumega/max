@@ -11,6 +11,8 @@ m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-float-openapp.launch-app-btn
 m.bilibili.com##.visible-open-app-btn
 m.bilibili.com##.list-view__state
+www.themoviedb.org##.ott_item
+themoviedb.org##.ott_item
 @@||youtube.com^$script,domain=m.youtube.com
 google.com.tw###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child > div.uysxde.L5bprf
 google.com###stUuGf > div > div.vSyRff.VDgVie.kqLqDd.GJyMZe.SNco2.vKW4md:last-child > div.jnyxRd.TpRPV
