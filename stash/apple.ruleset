@@ -1,41 +1,41 @@
-DOMAIN-KEYWORD,aod.itunes.apple.com,Apple
-DOMAIN-KEYWORD,audio-ssl.itunes.apple.com,Apple
-DOMAIN-KEYWORD,audio.itunes.apple.com,Apple
-DOMAIN-KEYWORD,mvod.itunes.apple.com,Apple
-DOMAIN-KEYWORD,streamingaudio.itunes.apple.com,Apple
-DOMAIN-KEYWORD,blobstore.apple.com,Apple
-DOMAIN-KEYWORD,music.apple.com,Apple
-DOMAIN-KEYWORD,time.apple.com,Apple
-DOMAIN-KEYWORD,itsliveradio.apple.com,Apple
-DOMAIN-KEYWORD,tv.applemusic.com,Apple
-DOMAIN-KEYWORD,covers.webradio.tools,Apple
-DOMAIN-KEYWORD,amp-api-edge.music.apple.com,Apple
-DOMAIN-KEYWORD,amp-api.music.apple.com,Apple
-DOMAIN-KEYWORD,init.itunes.apple.com,Apple
-DOMAIN-KEYWORD,client-api.itunes.apple.com,Apple
-DOMAIN-KEYWORD,itsliveradiobackup.apple.com,Apple
-DOMAIN-KEYWORD,cma.itunes.apple.com,Apple
-DOMAIN-KEYWORD,radio-activity.itunes.apple.com,Apple
-DOMAIN-KEYWORD,radio.itunes.apple.com,Apple
-DOMAIN-KEYWORD,amp-api.podcasts.apple.com,Apple
-DOMAIN-KEYWORD,news-assets.apple.com,Apple
-DOMAIN-SUFFIX,dribbcast.com,Apple
-DOMAIN-SUFFIX,ihrhls.com,Apple
-DOMAIN-SUFFIX,akamaistream.net,Apple
-DOMAIN-SUFFIX,streamguys.com,Apple
-DOMAIN-SUFFIX,streamguys1.com,Apple
-DOMAIN-SUFFIX,streamtheworld.com,Apple
-DOMAIN-SUFFIX,houstonpublicmedia.org,Apple
-DOMAIN-SUFFIX,soundvideostar.com,Apple
-DOMAIN-SUFFIX,akamaihd.net,Apple
-DOMAIN-SUFFIX,pdst.fm,Apple
-DOMAIN-SUFFIX,podtrac.com,Apple
-DOMAIN-SUFFIX,soundon.fm,Apple
-DOMAIN-SUFFIX,radiotime.com,Apple
-DOMAIN-SUFFIX,radiojar.com,Apple
-DOMAIN-SUFFIX,ic975.com,Apple
-DOMAIN-SUFFIX,leanstream.co
-DOMAIN-SUFFIX,crooze.fm
-DOMAIN-SUFFIX,infomaniak.ch
-DOMAIN-SUFFIX,silvacast.com
-DOMAIN-SUFFIX,defjay.com
+- DOMAIN-KEYWORD,aod.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,audio-ssl.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,audio.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,mvod.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,streamingaudio.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,blobstore.apple.com,AppleMusic
+- DOMAIN-KEYWORD,music.apple.com,AppleMusic
+- DOMAIN-KEYWORD,time.apple.com,AppleMusic
+- DOMAIN-KEYWORD,itsliveradio.apple.com,AppleMusic
+- DOMAIN-KEYWORD,tv.applemusic.com,AppleMusic
+- DOMAIN-KEYWORD,covers.webradio.tools,AppleMusic
+- DOMAIN-KEYWORD,amp-api-edge.music.apple.com,AppleMusic
+- DOMAIN-KEYWORD,amp-api.music.apple.com,AppleMusic
+- DOMAIN-KEYWORD,init.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,client-api.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,itsliveradiobackup.apple.com,AppleMusic
+- DOMAIN-KEYWORD,cma.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,radio-activity.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,radio.itunes.apple.com,AppleMusic
+- DOMAIN-KEYWORD,amp-api.podcasts.apple.com,AppleMusic
+- DOMAIN-KEYWORD,news-assets.apple.com,AppleMusic
+- DOMAIN-SUFFIX,dribbcast.com,AppleMusic
+- DOMAIN-SUFFIX,ihrhls.com,AppleMusic
+- DOMAIN-SUFFIX,akamaistream.net,AppleMusic
+- DOMAIN-SUFFIX,streamguys.com,AppleMusic
+- DOMAIN-SUFFIX,streamguys1.com,AppleMusic
+- DOMAIN-SUFFIX,streamtheworld.com,AppleMusic
+- DOMAIN-SUFFIX,houstonpublicmedia.org,AppleMusic
+- DOMAIN-SUFFIX,soundvideostar.com,AppleMusic
+- DOMAIN-SUFFIX,akamaihd.net,AppleMusic
+- DOMAIN-SUFFIX,pdst.fm,AppleMusic
+- DOMAIN-SUFFIX,podtrac.com,AppleMusic
+- DOMAIN-SUFFIX,soundon.fm,AppleMusic
+- DOMAIN-SUFFIX,radiotime.com,AppleMusic
+- DOMAIN-SUFFIX,radiojar.com,AppleMusic
+- DOMAIN-SUFFIX,ic975.com,AppleMusic
+- DOMAIN-SUFFIX,leanstream.co
+- DOMAIN-SUFFIX,crooze.fm
+- DOMAIN-SUFFIX,infomaniak.ch
+- DOMAIN-SUFFIX,silvacast.com
+- DOMAIN-SUFFIX,defjay.com
