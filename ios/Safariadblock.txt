@@ -4,12 +4,19 @@ www.theguardian.com##.header-top-nav__cta-bar
 www.theguardian.com##.immersive-header-container
 www.theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container > .fc-container__inner
 www.theguardian.com##.u-cf.l-footer
+www.theguardian.com##.dcr-1d5d3o3 > gu-island
+www.theguardian.com##.remote-banner.site-message--banner
+www.theguardian.com##.header-top-nav__logo
+www.theguardian.com##.header-top-nav__full-width
 video.h5.weibo.cn##footer
 video.h5.weibo.cn##.card-wrap
 video.h5.weibo.cn##.m-btn-text-orange.m-btn-white.m-btn
 imgsed.com##.container.page-user > .block-h12
 imgsed.com##div.block-h12:nth-of-type(3)
 imgsed.com##.block-sulvo
+pan.xunlei.com##.openMobileXunlei.td-button
+pan.xunlei.com##.client-download
+pan.xunlei.com##.search-in-app
 m.bilibili.com##.home-float-openapp.launch-app-btn
 m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-float-openapp.launch-app-btn
