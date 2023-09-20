@@ -1,4 +1,5 @@
 payload:
+- "+.bing.com"
 - "+.0emm.com"
 - "+.1e100.net"
 - "+.1ucrs.com"
