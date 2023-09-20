@@ -42,3 +42,4 @@ payload:
 - "radio.itunes.apple.com"
 - "amp-api.podcasts.apple.com"
 - "news-assets.apple.com"
+- "playerservices.streamtheworld.com"
