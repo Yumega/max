@@ -1,3 +1,14 @@
+#局域网
+deemix.u
+linkding.u
+stash.u
+music.u
+ytb.u
+sonarr.u
+radarr.u
+jellyseer.u
+alist.u
+#国内网站
 appldnld-cdn.apple.com.akadns.net
 appldnld-cdn.origin-apple.com.akadns.net
 appldnld.apple.com.mwcname.com
