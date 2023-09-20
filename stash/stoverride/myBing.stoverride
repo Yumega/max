@@ -1,0 +1,11 @@
+name: Bing
+desc: 强制bing走国际
+#!author: me
+
+http:
+
+  header-rewrite:
+    - ^https?:\/\/www\.bing\.com\/(search|new|web) url request-header (\r\nUser-Agent:.+?)\w+\/[\d\.]+(\r\n) request-header $1AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0$2
+
+  mitm:
+    - "www.bing.com"
