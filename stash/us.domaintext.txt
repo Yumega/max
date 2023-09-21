@@ -14,7 +14,6 @@
 .clusters.pluto.tv
 .wnyc.org
 .houstonpublicmedia.org
-.msn.com.cn
 .msn.com
 .msn.com.nsatc.net
 .msn.com.tw
