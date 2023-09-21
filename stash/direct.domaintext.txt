@@ -713,7 +713,6 @@ vsmarketplacebadge.apphb.com
 .microsoftonline-p.net
 .microsoftonline-p.net.cn
 .microsoftonline.cn
-.microsoftonline.com
 .microsoftpartnercommunity.com
 .microsoftpartnersolutions.com
 .microsoftreactor.cn
