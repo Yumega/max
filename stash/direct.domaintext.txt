@@ -19,8 +19,6 @@ ip.cn
 .pstatp.com
 
 #####icloud/AppStore
-courier.push.apple.com
-.push.apple.com
 .autonavi.com
 .idmsa.apple.com
 .gsa.apple.com
@@ -42,6 +40,8 @@ apps.apple.com
 itunes.apple.com
 weather-data.apple.com
 api.smoot.apple.cn
+courier.push.apple.com
+.push.apple.com
 .aaplimg.com
 .appleicloud.cn
 .apple.com.cn
