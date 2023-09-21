@@ -1,8 +1,6 @@
 payload:
 - "+.iheart.com"
 - "+.tunein.com"
-- "+.wnyc.org"
-- "+.houstonpublicmedia.org"
 - "+.dribbcast.com"
 - "+.ihrhls.com"
 - "+.akamaistream.net"
