@@ -782,11 +782,6 @@ vsmarketplacebadge.apphb.com
 .msminico.cn
 .msminico.com.cn
 .msn.cn
-.msn.com
-.msn.com.cn
-.msn.com.nsatc.net
-.msn.com.tw
-.msn.net
 .msnewskids.com
 .msnewskids.net
 .msnewskids.org
