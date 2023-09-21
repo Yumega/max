@@ -9,15 +9,17 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
+anti-ad.net
+ip.cn
 .fengshows.com
 .douyincdn.com
 .snapdrop.net
 .dnslify.com
 .greasyfork.org
 .pstatp.com
-.ip.cn
 
 #####icloud/AppStore
+.push.apple.com
 .autonavi.com
 .idmsa.apple.com
 .gsa.apple.com
