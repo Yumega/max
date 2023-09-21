@@ -19,6 +19,7 @@ ip.cn
 .pstatp.com
 
 #####icloud/AppStore
+courier.push.apple.com
 .push.apple.com
 .autonavi.com
 .idmsa.apple.com
