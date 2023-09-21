@@ -1,12 +1,11 @@
 payload:
-- "bing.com"
+- "+.bing.net"
 - "+.bing.com"
 - "+.sinclairstoryline.com"
 - "+.stirr.com"
 - "+.hwcdn.net"
 - "+.sectigo.com"
 - "+.uplynk.com"
-- "pluto.tv"
 - "+.pluto.tv"
 - "+.plutotv.net"
 - "+.cookielaw.org"
