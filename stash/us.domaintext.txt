@@ -1,11 +1,13 @@
 www.bing.com
+www2.bing.com
 sr.bing.com
 th.bing.com
 r.bing.com
 stirr.com
 .microsoftonline.com
-.bing.net
 .bing.com
+.bing.net
+.mm.bing.net
 .sinclairstoryline.com
 .stirr.com
 .akamaized.net
