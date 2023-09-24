@@ -486,6 +486,8 @@ DOMAIN-SUFFIX,mesu.g.aaplimg.com
 DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
 DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,ocsp.g.aaplimg.com
+DOMAIN-KEYWORD,courier.push.apple.com
+DOMAIN-KEYWORD,apac-china-courier
 #QQ
 DOMAIN-SUFFIX,1700.cn
 DOMAIN-SUFFIX,17roco.com
