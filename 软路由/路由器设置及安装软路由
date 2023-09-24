@@ -1,5 +1,3 @@
-Eth1 （wan口）连接光猫 wide area network （黑线）
-
 硬理由 2.5G改为lan口
 
 查看网络命令：vi /etc/config/network
