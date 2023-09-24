@@ -1,9 +1,11 @@
+paypal.com
 pstatp.com
 dl.wechat.com
 sglong.wechat.com
 sgminorshort.wechat.com
 sgshort.wechat.com
 tencentmap.wechat.com
+identity.apple.com
 guzzoni.apple.com
 push.apple.com
 api.push.apple.com
@@ -167,7 +169,6 @@ biing.com
 binads.com
 binb.com
 binf.com
-bing.com
 bing123.com
 bing135.com
 bing4.com
@@ -324,7 +325,6 @@ microsoftlinc.com
 microsoftmxfilantropia.com
 microsoftonline-p.com
 microsoftonline-p.net
-microsoftonline.com
 microsoftpartnercommunity.com
 microsoftpartnersolutions.com
 microsoftready.com
@@ -370,7 +370,6 @@ msidentity.com
 msignitechina.com
 msinnovationchallenge.com
 msn.cn
-msn.com
 msnkids.com
 msnmaps.com
 msocdn.com
@@ -526,3 +525,5 @@ hicloud.com
 dyndns.com
 douyucdn.cn
 douyucdn2.cn
+test-ipv6.com
+kef.com
