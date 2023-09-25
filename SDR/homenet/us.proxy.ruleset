@@ -1,6 +1,9 @@
 #Bing
 DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-SUFFIX,microsoft-falcon.io
+DOMAIN-KEYWORD,location.microsoft.com
+DOMAIN-KEYWORD,events.data.microsoft.com
+DOMAIN-KEYWORD,tiles.virtualearth.net
 
 #Spotify
 DOMAIN-KEYWORD,audio4-ak-spotify-com.akamaized.net
