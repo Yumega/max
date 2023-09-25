@@ -82,13 +82,16 @@ DOMAIN-SUFFIX,silvacast.com
 DOMAIN-SUFFIX,defjay.com
 USER-AGENT,AppleCoreMedia*
 
-#stirr
+#Stirr/plutoTV
 DOMAIN-KEYWORD,auth.adobe.com
 DOMAIN-KEYWORD,sinclairstoryline.com
 DOMAIN-KEYWORD,ocsp.digicert.com
 DOMAIN-KEYWORD,firebaseapp.com
 DOMAIN-KEYWORD,consent.trustarc.com
 DOMAIN-KEYWORD,amazontrust.com
-DOMAIN-KEYWORD,s3.amazonaws.com
+DOMAIN-KEYWORD,amazonaws.com
 DOMAIN-KEYWORD,stirr.com
 DOMAIN-KEYWORD,uplynk.com
+DOMAIN-SUFFIX,pluto.tv
+DOMAIN-SUFFIX,plutotv.net
+DOMAIN-SUFFIX,cookielaw.org
