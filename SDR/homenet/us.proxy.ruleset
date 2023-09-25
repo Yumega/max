@@ -1,4 +1,7 @@
 #Bing
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-SUFFIX,microsoft-falcon.io
 DOMAIN-KEYWORD,location.microsoft.com
