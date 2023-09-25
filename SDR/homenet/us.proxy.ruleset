@@ -1,3 +1,7 @@
+#Bing
+DOMAIN-SUFFIX,microsoftapp.net
+DOMAIN-SUFFIX,microsoft-falcon.io
+
 #Spotify
 DOMAIN-KEYWORD,audio4-ak-spotify-com.akamaized.net
 DOMAIN-KEYWORD,heads-ak-spotify-com.akamaized.net
