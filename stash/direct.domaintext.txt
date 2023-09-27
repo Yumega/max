@@ -18,6 +18,20 @@ ip.cn
 .greasyfork.org
 .pstatp.com
 
+#微信
+.qlogo.cn
+.qpic.cn
+.servicewechat.com
+.tenpay.com
+.wechat.com
+.wechatlegal.net
+.wechatpay.com
+.weixin.com
+.weixin.qq.com
+.weixinbridge.com
+.weixinsxy.com
+.wxapp.tc.qq.com
+
 #####icloud/AppStore
 .autonavi.com
 .idmsa.apple.com
