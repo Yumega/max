@@ -1,3 +1,5 @@
 .uc.cn
 tanx.com.gds.alibabadns.com
 app-site-association.cdn-apple.com
+bdmap1.ifeng.com
+bd3rd.ifeng.com
