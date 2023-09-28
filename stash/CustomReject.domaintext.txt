@@ -3,3 +3,8 @@ tanx.com.gds.alibabadns.com
 app-site-association.cdn-apple.com
 bdmap1.ifeng.com
 bd3rd.ifeng.com
+api.iclient.ifeng.com
+survey.news.ifeng.com
+uww6.ifeng.com
+bm7c.ifeng.com
+i.flive.ifeng.com
