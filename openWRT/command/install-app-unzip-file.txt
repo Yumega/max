@@ -5,6 +5,8 @@ opkg -y install wget unzip
 在opt目录下下载vuetorrent.zip
 cd /opt
 wget https://github.com/WDaan/VueTorrent/releases/download/v1.2.0/vuetorrent.zip
+
+解压vuetorrent.zip
 unzip /opt/vuetorrent.zip
 
 把位于root目录下的vuetorrent.zip文件移动到opt目录下
