@@ -210,6 +210,7 @@ www.breakingnews.ie##.flex.bg-gray-900.justify-center.items-center.text-yellow-5
 www.breakingnews.ie##.flex-1 > .lg\:mt-0.mt-4.mb-4.space-x-4.items-center.flex
 www.breakingnews.ie##.gap-4.lg\:grid-cols-3.md\:grid-cols-2.grid > .relative.justify-center.flex-col.items-center.w-full.flex.py-2.bg-gray-100
 www.ssm.fun##.cAnnouncementsFloat.cAnnouncements
+www.ssm.fun##.cAnnouncements
 www.ssm.fun##li.ipsDataItem:nth-of-type(2)
 www.ghacks.net##.comment-respond
 www.ghacks.net##.ghacks-sidebar
