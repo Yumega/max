@@ -1,0 +1,1 @@
+mv /tmp/upload/owntone.conf  /opt/owntone/data/owntone.conf
