@@ -1,0 +1,22 @@
+opkg update 
+
+opkg install avahi-utils avahi-daemon-service-http avahi-daemon-service-ssh avahi-dbus-daemon
+
+##启动服务
+/etc/init.d/avahi-daemon start 
+
+##默认自启动
+/etc/init.d/avahi-daemon enable
+
+-restart 重启动
+-stop 停止
+-disable 默认不自启动
+
+
+## 发现所有已注册的服务
+avahi-browse -a -r
+
+## 发现某个类型的服务的返回包
+avahi-browse -r "xxx"
+
+-xxx是指服务类型，如_http._tcp
