@@ -1,4 +1,5 @@
 ! Title: 自定义过滤
+www.bing.com###b-scopeListItem-convups
 reddit.com##shreddit-app.overflow-x-hidden.xs\:overflow-visible.v2.pt-\[var\(--page-y-padding\)\]:nth-child(3) > reddit-header-small.nd\:visible.top-0.left-0.right-0.h-header-large.z-\[3\].fixed.theme-beta:nth-child(6) > header.v2.hui.bg-neutral-background.border-b-sm.border-t-0.border-l-0.border-r-0.border-solid.border-neutral-border-weak.flex.pointer-events-auto:first-child > nav.flex.justify-between.items-center.h-header-small.px-md.flex-1 > div.flex.items-center.flex-1.justify-end.relative:last-child > div.mr-xs:nth-child(2) > shreddit-async-loader > xpromo-top-button
 www.theguardian.com##.header-top-nav__cta-bar
 www.theguardian.com##.immersive-header-container
@@ -108,6 +109,9 @@ tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.more-btn-desc
 tieba.baidu.com##.bottom-guide-box
 tieba.baidu.com##.tb-forum-user__right
+baike.baidu.com##.qtqy-container
+baike.baidu.com##.tashuo-list
+baike.baidu.com##.cSQWSrwEDN7
 m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child
 m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child > a.open-app-a:last-child > button.open-app
 m.ithome.com##div.open-app-banner:last-child
@@ -212,6 +216,8 @@ www.breakingnews.ie##.gap-4.lg\:grid-cols-3.md\:grid-cols-2.grid > .relative.jus
 www.ssm.fun##.cAnnouncementsFloat.cAnnouncements
 www.ssm.fun##.cAnnouncements
 www.ssm.fun##li.ipsDataItem:nth-of-type(2)
+www.ssm.fun##.ipsSpacer_bottom.ipsBox
+www.ssm.fun###ipsLayout_mainArea > [href^="https://repo.o2cdn.icu/redir/"]
 www.ghacks.net##.comment-respond
 www.ghacks.net##.ghacks-sidebar
 www.ghacks.net###site-footer
