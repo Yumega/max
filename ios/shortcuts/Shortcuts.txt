@@ -55,8 +55,8 @@ https://www.icloud.com/shortcuts/a4de78c6990841628019ac109f38b281
 识歌在Spotify/YouTube搜索：
 https://www.icloud.com/shortcuts/7baa361b998541d0a6d94ded88e62040
 
-識曲同步至Spotify：
-https://www.icloud.com/shortcuts/2e8672e3b9454f948ce457e05bb2d035
+識曲同步至Spotify播放列表：
+https://www.icloud.com/shortcuts/31112bdca90141b28aa1eb2393de4d09
 
 識曲在百度搜索：
 https://www.icloud.com/shortcuts/80be51d7ced843978fa1411cae0f5ed8
