@@ -1,5 +1,5 @@
 .uc.cn
-r3.o.lencr.org
+.ifeng.com
 tanx.com.gds.alibabadns.com
 app-site-association.cdn-apple.com
 bdmap1.ifeng.com
