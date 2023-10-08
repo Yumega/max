@@ -1,5 +1,7 @@
 .uc.cn
 .ifeng.com
+.163.com
+.126.net
 tanx.com.gds.alibabadns.com
 app-site-association.cdn-apple.com
 bdmap1.ifeng.com
