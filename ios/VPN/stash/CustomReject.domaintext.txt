@@ -1,3 +1,8 @@
+ocsp.apple.com
+ocsp.int-x3.letsencrypt.org
+world-gen.g.aaplimg.com
+mesu.apple.com
+gdmf.apple.com
 .uc.cn
 .ifeng.com
 .163.com
