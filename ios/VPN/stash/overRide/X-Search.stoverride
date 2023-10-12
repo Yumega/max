@@ -80,11 +80,11 @@ http:
     # tgd xxx (t.me/gdsharing 搜索 Google Drive 资源)
     - ^https:\/\/duckduckgo.com\/\?q=tgd(\+|%20)([^&]+).+ https://t.me/s/gdsharing?q=$2 302
 
-    # tal xxx (t.me/shareAliyun 搜索阿里云盘资源)
-    - ^https:\/\/duckduckgo.com\/\?q=tal(\+|%20)([^&]+).+ https://t.me/s/shareAliyun?q=$2 302
+    # alyp xxx (t.me/shareAliyun 搜索阿里云盘资源)
+    - ^https:\/\/duckduckgo.com\/\?q=alyp(\+|%20)([^&]+).+ https://t.me/s/shareAliyun?q=$2 302
 
-    # tal2 xxx (t.me/YunPanPan 搜索阿里云盘资源)
-    - ^https:\/\/duckduckgo.com\/\?q=tal2(\+|%20)([^&]+).+ https://t.me/s/YunPanPan?q=$2 302
+    # alyp2 xxx (t.me/YunPanPan 搜索阿里云盘资源)
+    - ^https:\/\/duckduckgo.com\/\?q=alyp2(\+|%20)([^&]+).+ https://t.me/s/YunPanPan?q=$2 302
 
     # rut xxx (Google 搜索 rutracker)
     - ^https:\/\/duckduckgo.com\/\?q=rut(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=rutracker.org 302
@@ -109,21 +109,6 @@ http:
 
     # uus (App Store 临时换切至美国区) 感谢 @mieqq
     - ^https:\/\/duckduckgo.com\/\?q=uus&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
-    
-    # hhk (App Store 临时切换至香港区)
-    - ^https:\/\/duckduckgo.com\/\?q=hhk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
-
-    # ttw (App Store 临时切换至台湾区)
-    - ^https:\/\/duckduckgo.com\/\?q=ttw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
-    
-    # jjp (App Store 临时切换至日本区)
-    - ^https:\/\/duckduckgo.com\/\?q=jjp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
-    
-    # kkr (App Store 临时切换至韩国区)
-    - ^https:\/\/duckduckgo.com\/\?q=kkr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc= 302
-    
-    # ttr (App Store 临时切换至土耳其区)
-    - ^https:\/\/duckduckgo.com\/\?q=ttr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
-    
+  
     # xxx （无指令默认为必应）
-    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.bing.com/search?q=$1 302
+    - ^https:\/\/duckduckgo.com\/\?q=\+([^&]+).+ https://www.bing.com/search?q=$1 302
