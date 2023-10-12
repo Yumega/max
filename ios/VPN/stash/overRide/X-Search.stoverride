@@ -9,9 +9,6 @@ http:
   mitm:
     - "duckduckgo.com"
   rewrite:
-    # xxx （无指令默认为 Google）
-    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.bing.com/search?q=$3 302
-
     # wk xxx (Wikipedia 中文)
     - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
@@ -129,7 +126,6 @@ http:
     # ttr (App Store 临时切换至土耳其区)
     - ^https:\/\/duckduckgo.com\/\?q=ttr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 
-    
   script:
     # dlc xxx (DeepL 译至中)
     - match: ^https:\/\/duckduckgo.com\/\?q=dlc(\+|%20)([^&]+).+
