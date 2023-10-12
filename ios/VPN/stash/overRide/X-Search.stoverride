@@ -10,7 +10,7 @@ http:
     - "duckduckgo.com"
   rewrite:
     # xxx （无指令默认为 Google）
-    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.bing.com/search?q=$1 302
+    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.bing.com/search?q=$3 302
 
     # wk xxx (Wikipedia 中文)
     - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
@@ -25,7 +25,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
     
     # gg xxx (谷歌)
-    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$3&num=100 302
+    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
     
     # tou xxx (头条)
     - ^https:\/\/duckduckgo.com\/\?q=tou\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
