@@ -12,9 +12,6 @@ http:
     # xxx （无指令默认为 Google）
     - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.bing.com/search?q=$1 302
 
-    # wiki xxx (Wikipedia)
-    - ^https:\/\/duckduckgo.com\/\?q=wiki(\+|%20)([^&]+).+ https://wikipedia.org/wiki/$2 302
-
     # wk xxx (Wikipedia 中文)
     - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
@@ -23,9 +20,6 @@ http:
     
     # tmdb xxx (TheMovieDB)
     - ^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.themoviedb.org/search/movie?query=$1 302
-
-    # mg xxx (Magi)
-    - ^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2 302
 
     # bd xxx (百度)
     - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
