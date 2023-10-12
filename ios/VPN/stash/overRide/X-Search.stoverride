@@ -16,19 +16,19 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
     # bk xxx (百度百科)
-    - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://baike.baidu.com/item/$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=bk(\+|%20)([^&]+).+ https://baike.baidu.com/item/$2 302
     
     # tmdb xxx (TheMovieDB)
-    - ^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.themoviedb.org/search/movie?query=$1 302
+    - ^https:\/\/duckduckgo.com\/\?q=tmdb\+([^&]+).+ https://www.themoviedb.org/search/movie?query=$1 302
 
     # bd xxx (百度)
     - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
     
     # gg xxx (谷歌)
-    - ^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://www.google.com/search?q=$3&num=100 302
+    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$3&num=100 302
     
     # tou xxx (头条)
-    - ^https:\/\/duckduckgo.com\/\?q=tt\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
+    - ^https:\/\/duckduckgo.com\/\?q=tou\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
     
     # yh xxx (油猴搜索)
     - ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
@@ -43,19 +43,19 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=gi(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
 
     # dd xxx (拼多多)
-    - ^https:\/\/duckduckgo.com\/\?q=yd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
 
     # fz xxx (Google 译至中)
-    - ^https:\/\/duckduckgo.com\/\?q=trc(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=fz(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$2 302
 
     # fy xxx (Google 译至英)
-    - ^https:\/\/duckduckgo.com\/\?q=tre(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=fy(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$2 302
 
     # ytb xxx (YouTube)
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
     
     # bl xxx (哔哩哔哩)
-    - ^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+ https://m.bilibili.com/search?keyword=$1 302
+    - ^https:\/\/duckduckgo.com\/\?q=bl\+([^&]+).+ https://m.bilibili.com/search?keyword=$1 302
     
     # ph  xxx (PornHub)
     - ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
@@ -76,7 +76,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
 
     # tt xxx (Twitter)
-    - ^https:\/\/duckduckgo.com\/\?q=tw(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
 
     # gd xxx (Google 搜索 Google Drive 资源)
     - ^https:\/\/duckduckgo.com\/\?q=gd(\+|%20)([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$2 302
