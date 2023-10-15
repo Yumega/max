@@ -1,0 +1,16 @@
+屏蔽AppleTV上Youtube广告
+1，在TTYD输入
+docker run --rm -it \
+--net=host \
+-v /opt/iSponsorBlockTV:/app/data \
+ghcr.io/dmunozv04/isponsorblocktv \
+--setup
+打开窗口配置
+
+2，在docker新建容器
+docker run -d \
+--name iSponsorBlock \
+--net=host \
+--restart=unless-stopped \
+-v /opt/iSponsorBlockTV:/app/data \
+ghcr.io/dmunozv04/isponsorblocktv
