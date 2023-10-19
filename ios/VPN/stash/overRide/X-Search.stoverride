@@ -8,11 +8,11 @@ http:
   mitm:
     - "duckduckgo.com"
   rewrite:
-    # wk xxx (Wikipedia 中文)
-    - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
+    # wj xxx (Wikipedia 中文)
+    - ^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
     # bk xxx (百度百科)
-    - ^https:\/\/duckduckgo.com\/\?q=bk(\+|%20)([^&]+).+ https://baike.baidu.com/item/$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=bk(\+|%20)([^&]+).+ https://baike.baidu.hk/item/$2 302
     
     # tmdb xxx (TheMovieDB)
     - ^https:\/\/duckduckgo.com\/\?q=tmdb\+([^&]+).+ https://www.themoviedb.org/search?query=$1 302
@@ -23,50 +23,29 @@ http:
     # gg xxx (谷歌)
     - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
     
-    # tou xxx (头条)
-    - ^https:\/\/duckduckgo.com\/\?q=tou\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
-    
-    # yh xxx (油猴搜索)
-    - ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
-
-    # gh xxx (GitHub)
-    - ^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+ https://github.com/search?q=$2 302
+    # to xxx (头条)
+    - ^https:\/\/duckduckgo.com\/\?q=to\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
    
-    # gc xxx (GitHub Code)
-    - ^https:\/\/duckduckgo.com\/\?q=gc\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
+    # gh xxx (GitHub Code)
+    - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
 
-    # gi xxx (Google 图片)
-    - ^https:\/\/duckduckgo.com\/\?q=gi(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
+    # gt xxx (Google 图片)
+    - ^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
 
     # dd xxx (拼多多)
     - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
 
-    # fz xxx (Google 译至中)
-    - ^https:\/\/duckduckgo.com\/\?q=fz(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$2 302
-
-    # fy xxx (Google 译至英)
-    - ^https:\/\/duckduckgo.com\/\?q=fy(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$2 302
+    # fy xxx (Google 译至中)
+    - ^https:\/\/duckduckgo.com\/\?q=fy(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$2 302
 
     # ytb xxx (YouTube)
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
-    
-    # bl xxx (哔哩哔哩)
-    - ^https:\/\/duckduckgo.com\/\?q=bl\+([^&]+).+ https://m.bilibili.com/search?keyword=$1 302
-    
-    # ph  xxx (PornHub)
-    - ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 
     # db xxx (豆瓣)
     - ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
 
-    # zh xxx (知乎)
-    - ^https:\/\/duckduckgo.com\/\?q=zh(\+|%20)([^&]+).+ https://www.zhihu.com/search?q=$2 302
-
     # wb xxx (微博)
     - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
-    
-    # wx xxx (微信)
-    - ^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
 
     # rd xxx (Reddit)
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
@@ -74,29 +53,20 @@ http:
     # tt xxx (Twitter)
     - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ twitter://search?query=$2 302
 
-    # gd xxx (Google 搜索 Google Drive 资源)
-    - ^https:\/\/duckduckgo.com\/\?q=gd(\+|%20)([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$2 302
+    # alyp2 xxx (搜索阿里云盘资源)
+    - ^https:\/\/duckduckgo.com\/\?q=alyp2(\+|%20)([^&]+).+ https://yunpan1.cc/t/video1?q=$2 302
 
-    # tgd xxx (t.me/gdsharing 搜索 Google Drive 资源)
-    - ^https:\/\/duckduckgo.com\/\?q=tgd(\+|%20)([^&]+).+ https://t.me/s/gdsharing?q=$2 302
+    # alyp xxx (搜索阿里云盘资源)
+    - ^https:\/\/duckduckgo.com\/\?q=alyp(\+|%20)([^&]+).+ https://upyunso.com/search.html?page=1&keyword=$2 302
 
-    # alyp xxx (t.me/shareAliyun 搜索阿里云盘资源)
-    - ^https:\/\/duckduckgo.com\/\?q=alyp(\+|%20)([^&]+).+ https://t.me/s/shareAliyun?q=$2 302
-
-    # alyp2 xxx (t.me/YunPanPan 搜索阿里云盘资源)
-    - ^https:\/\/duckduckgo.com\/\?q=alyp2(\+|%20)([^&]+).+ https://t.me/s/YunPanPan?q=$2 302
-
-    # rut xxx (Google 搜索 rutracker)
-    - ^https:\/\/duckduckgo.com\/\?q=rut(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=rutracker.org 302
+    # bt xxx (Bt搜索)
+    - ^https:\/\/duckduckgo.com\/\?q=bt(\+|%20)([^&]+).+ https://bitsearch.to/search?q=$2 302
     
     # zdm xxx (什么值得买)
     - ^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
     
     # jd xxx (京东)
     - ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"} 302
-    
-    # tb xxx (淘宝)
-    - ^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
     
     # ddg xxx (还原 DuckDuckGo)
     - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
