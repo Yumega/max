@@ -15,13 +15,21 @@ docker create  \
 文件路径：
 /app/vuetorrent
   
-docker run -d \
- --name metube \
- -p 8081:8081 \
- -v /mnt/sdc1/Tube:/downloads \
- -e STATE_DIR=/opt/metube:/downloads \
- --restart unless-stopped \
- alexta69/metube:latest
+version: "3"
+services:
+  metube:
+    image: ghcr.io/alexta69/metube
+    container_name: metube
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    volumes:
+      - /mnt/sdc1/Udisk/下载:/downloads
+      - /opt/metube/cookies:/cookies
+    environment:
+      - STATE_DIR=/opt/metube:/downloads
+      - YTDL_OPTIONS={"cookiefile":"/cookies/cookies.txt"}
+
 （保存路径，sdb1或者sdc1）
 (STATE_DIR: path to where the queue persistence files will be saved.
 Defaults to /downloads/.metube in the docker image)
