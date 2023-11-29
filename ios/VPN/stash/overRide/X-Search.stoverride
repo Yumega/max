@@ -60,7 +60,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=alyp(\+|%20)([^&]+).+ https://upyunso.com/search.html?page=1&keyword=$2 302
 
     # bt xxx (Bt搜索)
-    - ^https:\/\/duckduckgo.com\/\?q=bt(\+|%20)([^&]+).+ https://bitsearch.to/search?q=$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=bt(\+|%20)([^&]+).+ https://www.btdig.com/search?q=$2 302
     
     # zdm xxx (什么值得买)
     - ^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
