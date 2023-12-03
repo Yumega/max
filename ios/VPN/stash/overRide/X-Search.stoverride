@@ -27,7 +27,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
 
     # dd xxx (拼多多)
-    - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2
+    - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
     
     # ytb xxx (YouTube)
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
@@ -39,7 +39,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
 
     # tt xxx (Twitter)
-    - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ twitter://search?query=$2 
+    - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ twitter://search?query=$2 302
     
     # alyp xxx (搜索阿里云盘资源)
     - ^https:\/\/duckduckgo.com\/\?q=alyp(\+|%20)([^&]+).+ https://upyunso.com/search.html?page=1&keyword=$2 302
@@ -51,7 +51,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"} 302
     
     # ddg xxx (DuckDuckGo)
-    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$
+    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$ 302
     
     # gh xxx (GitHub Code)
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
