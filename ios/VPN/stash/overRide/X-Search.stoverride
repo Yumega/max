@@ -21,28 +21,19 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
     
     # gg xxx (谷歌)
-    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
+    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 
     
-    # to xxx (头条)
-    - ^https:\/\/duckduckgo.com\/\?q=to\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
-   
     # gh xxx (GitHub Code)
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
 
-    # gt xxx (Google 图片)
-    - ^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
+    # st xxx (Google 图片)
+    - ^https:\/\/duckduckgo.com\/\?q=st(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
 
     # dd xxx (拼多多)
-    - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
-
-    # fy xxx (Google 译至中)
-    - ^https:\/\/duckduckgo.com\/\?q=fy(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$2 302
-
+    - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 
+    
     # ytb xxx (YouTube)
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
-
-    # db xxx (豆瓣)
-    - ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
 
     # wb xxx (微博)
     - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
@@ -51,34 +42,19 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
 
     # tt xxx (Twitter)
-    - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ twitter://search?query=$2 302
-
-    # alyp2 xxx (搜索阿里云盘资源)
-    - ^https:\/\/duckduckgo.com\/\?q=alyp2(\+|%20)([^&]+).+ https://yunpan1.cc/t/video1?q=$2 302
-
+    - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ twitter://search?query=$2 
+    
     # alyp xxx (搜索阿里云盘资源)
     - ^https:\/\/duckduckgo.com\/\?q=alyp(\+|%20)([^&]+).+ https://upyunso.com/search.html?page=1&keyword=$2 302
 
     # bt xxx (Bt搜索)
     - ^https:\/\/duckduckgo.com\/\?q=bt(\+|%20)([^&]+).+ https://www.btdig.com/search?q=$2 302
     
-    # zdm xxx (什么值得买)
-    - ^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
-    
     # jd xxx (京东)
     - ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"} 302
     
     # ddg xxx (还原 DuckDuckGo)
-    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
-    
-    # ios xxx (Apple Store应用搜索)
-    - ^https:\/\/duckduckgo.com\/\?q=ios\+([^&]+).+ https://www.qimai.cn/search/index/search/$1 302
-
-    # ccn (App Store 临时切换至中国区) 感谢 @mieqq
-    - ^https:\/\/duckduckgo.com\/\?q=ccn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
-
-    # uus (App Store 临时换切至美国区) 感谢 @mieqq
-    - ^https:\/\/duckduckgo.com\/\?q=uus&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
+    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$
   
     # xxx (必应)
     - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.bing.com/search?q=$3&num=100 302
