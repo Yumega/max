@@ -4,7 +4,6 @@ world-gen.g.aaplimg.com
 mesu.apple.com
 gdmf.apple.com
 .uc.cn
-.ifeng.com
 .163.com
 .126.net
 tanx.com.gds.alibabadns.com
