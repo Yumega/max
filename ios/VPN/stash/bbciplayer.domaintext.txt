@@ -1,0 +1,2 @@
+.bbci.co.uk
+vs-hls-pushb-uk-live.akamaized.net
