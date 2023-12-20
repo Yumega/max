@@ -10,6 +10,8 @@
 .bbcfmt.s.llnwi.net
 .bbci.co
 .bbci.co.uk
+.files.bbci.co.uk
+.api.bbci.co.uk
 .bbcmedia.co.uk
 .bbcpersian.com
 .bbcverticals.com
