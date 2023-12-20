@@ -1,3 +1,4 @@
+.akamaized.net
 .bbc-reporting-api.app
 .bbc.co
 .bbc.co.uk
