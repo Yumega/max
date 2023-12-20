@@ -25,7 +25,6 @@ stirr.com
 firebaseapp.com
 .trustarc.com
 .sinclairstoryline.com
-.akamaized.net
 .amazonaws.com
 .amazontrust.com
 .auth.adobe.com
