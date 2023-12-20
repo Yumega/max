@@ -1,2 +1,15 @@
+.bbc-reporting-api.app
+.bbc.co
+.bbc.co.uk
+.bbc.com
+.bbc.in
+.bbc.net.uk
+.bbcchinese.com
+.bbcfmt.hs.llnwd.net
+.bbcfmt.s.llnwi.net
+.bbci.co
 .bbci.co.uk
-vs-hls-pushb-uk-live.akamaized.net
+.bbcmedia.co.uk
+.bbcpersian.com
+.bbcverticals.com
+.bidi.net.uk
