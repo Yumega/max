@@ -19,8 +19,9 @@ http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 http://192.168.11.1:35455/youtube/tkDUSYHoKxE
 #EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/dwnews.png",德国之声
 http://192.168.11.1:35455/youtube/pqabxBKzZ6M
-#EXTINF:-1 tvg-id="664" tvg-name="" tvg-logo="https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/bbc-wn_m.png",BBC新闻
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbcnews.png",BBC News
+https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNNNews.png",CNN美国
 http://195.24.89.82/CNN_SD/index.m3u8
@@ -74,5 +75,3 @@ https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="BBCFour.uk" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc4.png",BBC Four
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbcnews.png",BBC News
-https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
