@@ -9,8 +9,8 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
-anti-ad.net
-ip.cn
+.anti-ad.net
+.ip.cn
 .fengshows.com
 .douyincdn.com
 .snapdrop.net
@@ -31,7 +31,10 @@ ip.cn
 .weixinbridge.com
 .weixinsxy.com
 .wxapp.tc.qq.com
-
+.tencent-cloud.net
+.xy-asia.com
+.iot-tencent.com
+.gtimg.com
 #####icloud/AppStore
 .autonavi.com
 .idmsa.apple.com
