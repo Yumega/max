@@ -1,10 +1,10 @@
 #stream
 .houstonpublicmedia.
 .wnyc.org
-
 #Bing
 .bing.com.cn
 .bingads.com
+.bingapis.com
 .bingagencyawards.com
 .bingapistatistics.com
 .bingsandbox.com
@@ -47,7 +47,6 @@ r.bing.com
 .msn.net
 .microsoftapp.net
 .microsoft-falcon.io
-
 #Stirr/plutoTV
 stirr.com
 .stirr.com
