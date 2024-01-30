@@ -12,6 +12,7 @@
 .bingworld.com
 .bluehatnights.com
 .dictate.ms
+.appcenter.ms
 .ditu.live.com
 .flipwithsurface.com
 .masalladeloslimites.com
@@ -26,6 +27,11 @@
 .sprinklesapp.com
 www.bing.com
 www2.bing.com
+gateway.bingviz.microsoft.net
+gateway.bingviz.microsoftapp.net
+odc.officeapps.live.com
+self.events.data.microsoft.com
+services.bingapis.com
 .microsoft.com
 tiles.virtualearth.net
 sr.bing.com
@@ -39,6 +45,8 @@ r.bing.com
 .msn.com.nsatc.net
 .msn.com.tw
 .msn.net
+.microsoftapp.net
+.microsoft-falcon.io
 
 #Stirr/plutoTV
 stirr.com
