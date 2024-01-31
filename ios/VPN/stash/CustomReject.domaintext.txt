@@ -5,7 +5,6 @@ mesu.apple.com
 gdmf.apple.com
 news.163.com
 .uc.cn
-.126.net
 tanx.com.gds.alibabadns.com
 app-site-association.cdn-apple.com
 bdmap1.ifeng.com
