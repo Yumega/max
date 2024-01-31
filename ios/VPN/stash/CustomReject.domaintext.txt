@@ -3,8 +3,8 @@ ocsp.int-x3.letsencrypt.org
 world-gen.g.aaplimg.com
 mesu.apple.com
 gdmf.apple.com
+news.163.com
 .uc.cn
-.163.com
 .126.net
 tanx.com.gds.alibabadns.com
 app-site-association.cdn-apple.com
