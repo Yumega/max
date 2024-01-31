@@ -21,7 +21,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=tmdb\+([^&]+).+ https://www.themoviedb.org/search?query=$1 302
 
     # bd xxx (百度)
-    - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://g9.baidu.com/s?word=$2 302
     
     # gg xxx (谷歌)
     - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
