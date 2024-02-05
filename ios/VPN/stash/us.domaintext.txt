@@ -32,7 +32,6 @@ gateway.bingviz.microsoftapp.net
 odc.officeapps.live.com
 self.events.data.microsoft.com
 services.bingapis.com
-.microsoft.com
 tiles.virtualearth.net
 sr.bing.com
 th.bing.com
