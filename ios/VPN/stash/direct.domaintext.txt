@@ -17,7 +17,6 @@ alist.u
 .dnslify.com
 .greasyfork.org
 .pstatp.com
-
 #微信
 .qlogo.cn
 .qpic.cn
@@ -35,7 +34,7 @@ alist.u
 .xy-asia.com
 .iot-tencent.com
 .gtimg.com
-#####icloud/AppStore
+##icloud/AppStore
 .autonavi.com
 .idmsa.apple.com
 .gsa.apple.com
@@ -74,8 +73,7 @@ courier.push.apple.com
 .mwcloudcdn.com
 .mwcname.com
 .apple-cloudkit.com
-
-#########ios升级
+##ios升级
 appldnld-cdn.apple.com.akadns.net
 appldnld-cdn.origin-apple.com.akadns.net
 appldnld.apple.com.mwcname.com
@@ -153,8 +151,7 @@ xp.g.aaplimg.com
 .ocsp-lb.apple.com.akadns.net
 .ocsp.apple.com
 .ocsp.g.aaplimg.com
-
-#######Microsoft
+##Microsoft
 vsmarketplacebadge.apphb.com
 .21vbc.com
 .21vbluecloud.com
@@ -766,3 +763,18 @@ vsmarketplacebadge.apphb.com
 .sharepoint.com
 .sharepointonline.com
 .spoprod-a.akamaihd.net
+#cloudflare中国
+.cf-ns.com
+.cf-ns.net
+.cf-ns.site
+.cf-ns.tech
+.cftest5.cn
+.cftest6.cn
+.cftest7.com
+.cftest8.com
+.cloudflare-cn.com
+.cloudflarecn.net
+.cloudflareinsights-cn.com
+.cloudflareprod.com
+.cloudflarestaging.com
+.cloudflarestoragegw.com
