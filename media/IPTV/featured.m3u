@@ -26,6 +26,8 @@ https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 http://195.24.89.82/CNN_SD/index.m3u8
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henantv.png",河南卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb17]/wh7f454c46tw1784575403_-1712002709/ott.mobaibox.com/PLTV/3/224/3221228221/index.m3u8?icpid=3&RTS=1669700385&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png",辽宁卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb16]/ott.mobaibox.com/PLTV/3/224/3221227485/index.m3u8
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png",东方卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw2542426131_1585848046/ott.mobaibox.com/PLTV/3/224/3221227511/index.m3u8?icpid=3&RTS=1668597336&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png",江苏卫视
