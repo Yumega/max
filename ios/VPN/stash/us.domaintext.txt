@@ -1,6 +1,9 @@
-#stream
+#livestream
 .houstonpublicmedia.
 .wnyc.org
+.cdninstagram.com
+.instagr.am
+.instagram.com
 #Bing
 .bing.com.cn
 .bingads.com
