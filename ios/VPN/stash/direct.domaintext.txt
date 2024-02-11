@@ -9,6 +9,7 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
+.trust-provider.cn
 .irisdt.cn
 .time.apple.com
 .anti-ad.net
@@ -19,6 +20,7 @@ alist.u
 .dnslify.com
 .greasyfork.org
 .pstatp.com
+sdk.open.talk.gepush.com
 #微信
 .qlogo.cn
 .qpic.cn
