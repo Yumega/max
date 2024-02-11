@@ -27,7 +27,6 @@
 .streamingaudio.itunes.apple.com
 .blobstore.apple.com
 .music.apple.com
-.time.apple.com
 .itsliveradio.apple.com
 .tv.applemusic.com
 .covers.webradio.tools
