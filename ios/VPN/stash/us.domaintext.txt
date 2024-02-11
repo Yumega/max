@@ -105,7 +105,6 @@
 .cloudflarestaging.com
 .cloudflarestoragegw.com
 #Stirr/plutoTV
-stirr.com
 .stirr.com
 .firebaseapp.com
 .trustarc.com
