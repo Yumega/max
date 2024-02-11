@@ -772,13 +772,13 @@
 .foofle.com
 .froogle.com
 .fuchsia.dev
-265.com
-2mdn-cn.net
-accounts.googlers.com
-admob-cn.com
-app-measurement-cn.com
-apps5.oingo.com
-avail.googleflights.net
+.265.com
+.2mdn-cn.net
+.accounts.googlers.com
+.admob-cn.com
+.app-measurement-cn.com
+.apps5.oingo.com
+.avail.googleflights.net
 clickserve.cc-dt.com
 dartsearch-cn.net
 distribution.qatp1.net
@@ -832,4 +832,3 @@ update.crashlytics.com
 www.destinationurl.com
 www.pxcc.com
 www.recaptcha.net
-www.google.com
