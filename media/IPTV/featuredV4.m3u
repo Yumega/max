@@ -1,18 +1,4 @@
 #EXTM3U
-#EXTINF:-1,tvg-id="" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视",CCTV4K 25FP
-http://1.14.131.61:5828/cctv4k.php
-#EXTINF:-1,tvg-id="" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视",CCTV4K 50FP
-http://1.14.131.61:5678/gd4k.php
-#EXTINF:-1,tvg-id="" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视",CCTV4K 50FP
-http://kjsp.aikan.miguvideo.com/PLTV/88888888/224/3221233679/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视",CCTV4K 50FP
-http://1.14.131.61:8765/av3a4k50fps.php
-#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视",CCTV8K 50FP
-http://1.14.131.61:8654/av3a8k50fps.php
-#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视",移动8K 50FP
-http://kjsp.aikan.miguvideo.com/PLTV/88888888/224/3221233652/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视",移动8K 50FP
-http://kjsp.aikan.miguvideo.com/PLTV/88888888/224/3221235532/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/619b80acac5329000740c022/colorLogoPNG.png",欧美歌曲
 https://bit.ly/3twVIny?/playlist.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png",凤凰资讯
