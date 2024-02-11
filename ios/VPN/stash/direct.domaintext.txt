@@ -9,6 +9,7 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
+.irisdt.cn
 .time.apple.com
 .anti-ad.net
 .ip.cn
