@@ -21,6 +21,9 @@ alist.u
 .dnslify.com
 .greasyfork.org
 .pstatp.com
+.sinaimg.cn
+.t.sinajs.cn
+.3.cn
 #微信
 .qlogo.cn
 .qpic.cn
