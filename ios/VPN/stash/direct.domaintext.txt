@@ -9,6 +9,7 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
+.guzzoni.apple.com
 .trust-provider.cn
 .irisdt.cn
 .blued.cn
