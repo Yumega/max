@@ -1,16 +1,4 @@
-.ocsp.apple.com
-.ocsp.int-x3.letsencrypt.org
-.world-gen.g.aaplimg.com
 .mesu.apple.com
-.gdmf.apple.com
 .news.163.com
 .uc.cn
 .tanx.com.gds.alibabadns.com
-.app-site-association.cdn-apple.com
-.bdmap1.ifeng.com
-.bd3rd.ifeng.com
-.api.iclient.ifeng.com
-.survey.news.ifeng.com
-.uww6.ifeng.com
-.bm7c.ifeng.com
-.i.flive.ifeng.com
