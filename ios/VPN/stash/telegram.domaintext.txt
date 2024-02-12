@@ -15,3 +15,5 @@
 .tg.dev
 .tx.me
 .usercontent.dev
+api.imem.app
+api.swiftgram.app
