@@ -42,3 +42,4 @@
 .news-assets.apple.com
 .musicstatus.itunes.apple.com
 .bookkeeper.itunes.apple.com
+.comm-main.ess.apple.com
