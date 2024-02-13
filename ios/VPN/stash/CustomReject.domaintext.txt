@@ -2,3 +2,4 @@
 .news.163.com
 .uc.cn
 .tanx.com.gds.alibabadns.com
+.anythinktech.com
