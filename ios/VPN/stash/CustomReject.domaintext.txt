@@ -3,3 +3,6 @@
 .uc.cn
 .tanx.com.gds.alibabadns.com
 .anythinktech.com
+.bdstatic.com
+dig.bdurl.net
+i.snssdk.com
