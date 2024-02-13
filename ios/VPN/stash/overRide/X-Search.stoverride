@@ -11,8 +11,8 @@ http:
     # wj xxx (Wikipedia 中文)
     - ^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
-    # st xxx (Google 图片)
-    - ^https:\/\/duckduckgo.com\/\?q=st(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
+    # gt xxx (Google 图片)
+    - ^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
 
     # bk xxx (百度百科)
     - ^https:\/\/duckduckgo.com\/\?q=bk(\+|%20)([^&]+).+ https://baike.baidu.hk/item/$2 302
