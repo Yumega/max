@@ -908,6 +908,7 @@ update.crashlytics.com
 www.destinationurl.com
 www.pxcc.com
 www.recaptcha.net
+ocsp.pki.goog
 #Bing
 .bing.com.cn
 .bingads.com
