@@ -86,8 +86,6 @@ m.baidu.com##.c-invoke-class.c-blocka > .c-img-wrapper
 m.baidu.com###wenda_inquiry
 m.baidu.com###relativewords > div.rw-list-container.rw-list-container2:last-child > div.c-line-clamp1:last-child
 m.baidu.com###page-ft > div.se-ft-promlink:last-child
-m.baidu.com###results > div.c-result.result:nth-child(11) > div.c-result-content:first-child > article.c-container._2OjhF.card-container__2Eq6d 
-> section._1xHp2:first-child > div.c-line-clamp1.c-invoke-willshow-class.baidu-d20__2mZIw:last-child
 m.baidu.com##div:nth-of-type(6)
 m.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap >.c-line-ivkmask.c-line-clamp1 >.c-color-gray
 m.baidu.com##.rw-list-container2.rw-list-container >.c-line-clamp1 > .c-color-gray
