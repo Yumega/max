@@ -1,7 +1,6 @@
 ! Title: Safari自定义过滤
 www.bing.com###b-scopeListItem-convups
 www.bing.com###b_results > li.b_ans
-reddit.com##shreddit-app.overflow-x-hidden.xs\:overflow-visible.v2.pt-\[var\(--page-y-padding\)\]:nth-child(3) > reddit-header-small.nd\:visible.top-0.left-0.right-0.h-header-large.z-\[3\].fixed.theme-beta:nth-child(6) > header.v2.hui.bg-neutral-background.border-b-sm.border-t-0.border-l-0.border-r-0.border-solid.border-neutral-border-weak.flex.pointer-events-auto:first-child > nav.flex.justify-between.items-center.h-header-small.px-md.flex-1 > div.flex.items-center.flex-1.justify-end.relative:last-child > div.mr-xs:nth-child(2) > shreddit-async-loader > xpromo-top-button
 www.theguardian.com##.header-top-nav__cta-bar
 www.theguardian.com##.immersive-header-container
 www.theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container > .fc-container__inner
@@ -29,11 +28,11 @@ themoviedb.org##.ott_item
 @@||youtube.com^$script,domain=m.youtube.com
 google.com.tw###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child > div.uysxde.L5bprf
 google.com###stUuGf > div > div.vSyRff.VDgVie.kqLqDd.GJyMZe.SNco2.vKW4md:last-child > div.jnyxRd.TpRPV
-bard.google.com##.capabilities-disclaimer
+gemini.google.com##.ng-tns-c1791137076-1.gmat-caption
 moviefone.com###content-wrapper > div.mf-adsense-leaderboard.mf-adsense-mobile-leaderboard:first-child
 subhd.tv##div.fixed-bottom:first-child
 m.sohu.com###artFloatDiscuss
-search.m.smzdm.com##div.foot-banner:nth-child(4)
+search.m.smzdm.com##div.foot-banner
 post.m.smzdm.com##.logo-download
 post.m.smzdm.com##.footer-banner-wrap
 post.m.smzdm.com##.app-position
