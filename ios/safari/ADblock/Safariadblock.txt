@@ -227,3 +227,19 @@ news.ifeng.com##.index_link_wek7z
 news.ifeng.com##.index_hot_box_FPW2f
 news.ifeng.com##.index_share_box_jNCcV
 news.ifeng.com##.index_content_lfS9V > .index_list_NG--Y
+news.ifeng.com##p.detailPic:nth-of-type(1)
+news.ifeng.com##p.detailPic:nth-of-type(9)
+news.ifeng.com##p.detailPic:nth-of-type(6)
+news.ifeng.com##.clearfix.index_vote_box_51Kyv
+news.ifeng.com##.index_copyRight_A74B5
+news.ifeng.com##.index_box_SLKjW
+news.ifeng.com##.index_pic_box_9bSil
+news.ifeng.com##.index_rightContent_Caqe0 > .index_title_tvlj0
+news.ifeng.com##.clearfix.index_list_wz7MS > li
+news.ifeng.com##.piaohong-AMj_4nQg
+www.ifeng.com##.top_img-uGqownCA
+www.ifeng.com##html,body:style(background:none !important)
+news.ifeng.com##html,body:style(background:none !important)
+news.ifeng.com##.clearfix.vote_box-3Jd0QwU2
+news.ifeng.com##.index_select_share_-JwH0
+news.ifeng.com##.index_bottom_box_CCgoj
