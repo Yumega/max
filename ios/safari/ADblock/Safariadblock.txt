@@ -41,9 +41,6 @@ post.m.smzdm.com##.J_copy.btn-open-app
 post.m.smzdm.com##.footer-wrap
 m.mydrivers.com###header > div.moreinfo:last-child
 m.mydrivers.com##div.box:first-child > div.cnewsinfo.cnewsinfo2:nth-child(14)
-www.appav1.buzz##body > div > div > div
-appav1.buzz###lefttd
-appav1.buzz###rightd
 avple.tv###WE72lsyO
 1337x.to##main.container:nth-child(4) > div.row > div.col-9.page-content.trending-torrent-explore:last-child > center:nth-child(2) > div.l7a4a09f1c2e0a94d0c5ccb5552b4282daef40e42 > a > img
 1337x.to##main.container:nth-child(4) > div.row > div.col-9.page-content.trending-torrent-explore:last-child > center:nth-child(7) > div.l7a4a09f1c2e0a94d0c5ccb5552b4282daef40e42 > a > img
@@ -72,8 +69,6 @@ mbd.baidu.com##.uukjsi6a_zpZccrqYiI3k
 mbd.baidu.com##._3RkCqLmiQurtlRa6HuaH16
 mbd.baidu.com##._1-nFvWd71g07irMlxzeVz_
 mbd.baidu.com##.contentImg
-||*.*^$script,domain=mbd.baidu.com
-||*.*^$script,domain=baijiahao.baidu.com
 baijiahao.baidu.com##.headDeflectorContainer
 baijiahao.baidu.com##.newHeadDeflectorContainer
 baijiahao.baidu.com##.wxUnfoldText
@@ -104,10 +99,6 @@ www.baidu.com##.c-invoke-show-class__NcU4a.c-line-clamp1
 www.baidu.com##.c-zk-first-card.c-zk-container.c-sigma-container.zk-kg-header__2B3nM._3borM.c-container > ._2x_-s
 www.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap
 www.baidu.com##.c-gap-bottom-tiny.three-image__3glM7.c-row
-tieba.baidu.com##.nav-bar-bottom
-tieba.baidu.com##.more-btn-desc
-tieba.baidu.com##.bottom-guide-box
-tieba.baidu.com##.tb-forum-user__right
 baike.baidu.com##.qtqy-container
 baike.baidu.com##.tashuo-list
 baike.baidu.com##.cSQWSrwEDN7
