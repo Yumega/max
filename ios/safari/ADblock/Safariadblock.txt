@@ -1,5 +1,6 @@
 ! Title: Safari自定义过滤
 www.bing.com###b-scopeListItem-convups
+bing.com###b_pag_chat_btn_container
 www.bing.com###b_results > li.b_ans
 www.theguardian.com##.header-top-nav__cta-bar
 www.theguardian.com##.immersive-header-container
