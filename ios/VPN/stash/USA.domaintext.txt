@@ -1,6 +1,7 @@
 #livestream
 .houstonpublicmedia.
 .wnyc.org
+.twimg.com
 #spotify
 .audio4-ak-spotify-com.akamaized.net
 .heads-ak-spotify-com.akamaized.net
