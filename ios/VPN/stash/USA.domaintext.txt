@@ -73,6 +73,7 @@
 .bookkeeper.itunes.apple.com
 .comm-main.ess.apple.com
 .ess.apple.com
+gsas.apple.com
 #google
 .g-tun.com
 .g.cn
