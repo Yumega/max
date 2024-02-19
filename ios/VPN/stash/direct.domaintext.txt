@@ -9,6 +9,7 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
+itunes.apple.com
 iphone-ld.apple.com
 ocsp2.apple.com
 ocsp.apple.com
