@@ -1,3 +1,5 @@
+name: rule-providers和rules
+desc: 规则列表
 rule-providers:
   广告屏蔽规则:
     behavior: domain-text
