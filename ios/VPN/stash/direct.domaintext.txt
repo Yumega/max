@@ -9,6 +9,10 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
+mzstorekit.itunes.apple.com
+static.gc.apple.com
+init.gc.apple.com
+ocsp.digicert.cn
 itunes.apple.com
 iphone-ld.apple.com
 ocsp2.apple.com
