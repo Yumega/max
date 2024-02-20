@@ -5,3 +5,4 @@
 .bdstatic.com
 dig.bdurl.net
 i.snssdk.com
+js.hs-scripts.com
