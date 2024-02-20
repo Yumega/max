@@ -36,6 +36,44 @@ dns:
   nameserver-policy:
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter: ['*.push.apple.com', '*.lan', '*.weixin.qq.com', '*.wechatlegal.net', '*.wechatpay.com', '*.weixin.com', '*.servicewechat.com', '*.blued.cn', '*.irisdt.cn', '*.sinaimg.cn', '*.qlogo.cn', +.stun.*.*, +.stun.*.*.*, +.stun.*.*.*.*, +.stun.*.*.*.*.*, localhost.*.qq.com, localhost.*.weixin.qq.com, '*.logon.battlenet.com.cn', '*.logon.battle.net', '*.blzstatic.cn', music.163.com, '*.music.163.com', '*.126.net', musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, '*.kuwo.cn', api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, '*.y.qq.com', streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, '*.music.migu.cn', music.migu.cn, proxy.golang.org, '*.mcdn.bilivideo.cn', '*.cmpassport.com', id6.me, open.e.189.cn, mdn.open.wo.cn, opencloud.wostore.cn, auth.wosms.cn, '*.jegotrip.com.cn', '*.icitymobile.mobi', pool.ntp.org, '*.pool.ntp.org', ntp.*.com, time.*.com, 'ntp?.*.com', 'time?.*.com', time.*.gov, time.*.edu.cn, '*.ntp.org.cn', PDC._msDCS.*.*, DC._msDCS.*.*, GC._msDCS.*.*, '*.local', '*.msftncsi.com', '*.msftconnecttest.com']
+proxy-groups:
+  - name: "USA"
+    type: select
+    interval: 1200
+    proxies:
+      - "C28-s1"
+      - "C28美国"
+      - "C76美国"
+    icon: https://raw.githubusercontent.com/fanmingming/Rules/main/Country/US.png
+  - name: "Telegram"
+    type: select
+    interval: 1200
+    proxies:
+      - "C28-s1"
+      - "C28美国"
+      - "C76美国"
+      - "C28日本"
+      - "C76日本"
+    icon: https://raw.githubusercontent.com/fanmingming/Rules/main/Filter/Telegram.png
+  - name: "BBCiplayer"
+    type: select
+    interval: 1200
+    proxies:
+      - "英国S3"
+      - "英国S4"
+    icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/iplayer.png
+  - name: "Final"
+    type: select
+    interval: 1200
+    proxies:
+      - "DIRECT"
+      - "C28-s1"
+      - "C28日本"
+      - "C76日本"
+      - "C28美国"
+      - "英国S3"
+      - "英国S4"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
 rule-providers:
   广告屏蔽规则:
     behavior: domain-text
