@@ -1,5 +1,41 @@
-name: rule-providers和rules
+name: 规则
 desc: 规则列表
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: silent
+http:
+  force-http-engine:
+    - '*:80'
+    - '*:4480'
+    - '*:9102'
+script:
+  shortcuts:
+    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
+hosts:
+  'deemix.u': 172.20.0.2
+  'linkding.u': 172.24.0.2
+  'music.u': 172.26.0.2
+  'sonarr.u': 172.29.0.2
+  'radarr.u': 172.30.0.2
+  'jellyseer.u': 172.32.0.2
+  'alist.u': 172.34.0.2
+  'app-measurement.com': 127.0.0.1
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:53
+  skip-cert-verify: true
+  default-nameserver:
+    - 119.29.29.29
+  nameserver:
+    - 119.29.29.29
+    - 182.254.116.116
+  nameserver-policy:
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ['*.push.apple.com', '*.lan', '*.weixin.qq.com', '*.wechatlegal.net', '*.wechatpay.com', '*.weixin.com', '*.servicewechat.com', '*.blued.cn', '*.irisdt.cn', '*.sinaimg.cn', '*.qlogo.cn', +.stun.*.*, +.stun.*.*.*, +.stun.*.*.*.*, +.stun.*.*.*.*.*, localhost.*.qq.com, localhost.*.weixin.qq.com, '*.logon.battlenet.com.cn', '*.logon.battle.net', '*.blzstatic.cn', music.163.com, '*.music.163.com', '*.126.net', musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, '*.kuwo.cn', api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, '*.y.qq.com', streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, '*.music.migu.cn', music.migu.cn, proxy.golang.org, '*.mcdn.bilivideo.cn', '*.cmpassport.com', id6.me, open.e.189.cn, mdn.open.wo.cn, opencloud.wostore.cn, auth.wosms.cn, '*.jegotrip.com.cn', '*.icitymobile.mobi', pool.ntp.org, '*.pool.ntp.org', ntp.*.com, time.*.com, 'ntp?.*.com', 'time?.*.com', time.*.gov, time.*.edu.cn, '*.ntp.org.cn', PDC._msDCS.*.*, DC._msDCS.*.*, GC._msDCS.*.*, '*.local', '*.msftncsi.com', '*.msftconnecttest.com']
 rule-providers:
   广告屏蔽规则:
     behavior: domain-text
