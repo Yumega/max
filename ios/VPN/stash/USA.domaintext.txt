@@ -2,6 +2,9 @@
 .houstonpublicmedia.
 .wnyc.org
 .twimg.com
+.albtls.t.co
+.t.co
+.digicert.com
 #spotify
 .audio4-ak-spotify-com.akamaized.net
 .heads-ak-spotify-com.akamaized.net
