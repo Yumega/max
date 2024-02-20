@@ -1,10 +1,12 @@
 #livestream
-.houstonpublicmedia.
+.houstonpublicmedia.org
 .wnyc.org
+.digicert.com
+#twitter
 .twimg.com
 .albtls.t.co
 .t.co
-.digicert.com
+.pscp.tv
 #spotify
 .audio4-ak-spotify-com.akamaized.net
 .heads-ak-spotify-com.akamaized.net
