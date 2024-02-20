@@ -1,3 +1,48 @@
+rule-providers:
+  广告屏蔽规则:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
+    interval: 86400
+  自定义屏蔽规则:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/CustomReject.domaintext.txt
+    interval: -1
+  自定义ip屏蔽规则:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/CustomReject.ipcidrtext.txt
+    interval: -1
+  美国域名规则:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/USA.domaintext.txt
+    interval: -1
+  美国ip规则:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/USA.ipcidrtext.txt
+    interval: -1
+  电报域名规则:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/telegram.domaintext.txt
+    interval: -1
+  电报ip规则:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/telegram.ipcidrtext.txt
+    interval: -1
+  BBCiplayer域名规则:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/bbciplayer.domaintext.txt
+    interval: -1
+  域名直连规则:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/direct.domaintext.txt
+    interval: -1
+  局域网ip段直连规则:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/Localip.ipcidrtext.txt
+    interval: -1
+  ip段直连规则:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/direct.ipcidrtext.txt
+    interval: -1
 rules:
   - RULE-SET,域名直连规则,DIRECT,no-track
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
