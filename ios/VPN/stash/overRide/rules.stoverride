@@ -13,6 +13,7 @@ rules:
   - IP-ASN,59930,Telegram,no-resolve,no-track
   - IP-ASN,62014,Telegram,no-resolve,no-track
   - IP-ASN,62041,Telegram,no-resolve,no-track
+  - IP-ASN,8075,DIRECT,no-resolve # 微软
   - IP-ASN,3598,DIRECT,no-resolve # 微软
   - IP-ASN,63314,DIRECT,no-resolve # 微软
   - IP-ASN,8070,DIRECT,no-resolve # 微软
