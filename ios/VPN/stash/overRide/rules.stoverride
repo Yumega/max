@@ -5,14 +5,25 @@ rules:
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
   - RULE-SET,美国域名规则,USA,no-track
   - RULE-SET,美国ip规则,USA,no-resolve,no-track
-  - IP-ASN,6185,DIRECT,no-resolve # Apple
-  - IP-ASN,714,DIRECT,no-resolve # Apple
+  - IP-ASN,6185,DIRECT,no-resolve,no-track # Apple
+  - IP-ASN,714,DIRECT,no-resolve,no-track # Apple
   - IP-ASN,396982,USA,no-resolve,no-track # 谷歌云
   - IP-ASN,211157,Telegram,no-resolve,no-track
   - IP-ASN,44907,Telegram,no-resolve,no-track
   - IP-ASN,59930,Telegram,no-resolve,no-track
   - IP-ASN,62014,Telegram,no-resolve,no-track
   - IP-ASN,62041,Telegram,no-resolve,no-track
+  - IP-ASN,8075,DIRECT,no-resolve # 微软
+  - IP-ASN,3598,DIRECT,no-resolve # 微软
+  - IP-ASN,63314,DIRECT,no-resolve # 微软
+  - IP-ASN,8070,DIRECT,no-resolve # 微软
+  - IP-ASN,12076,DIRECT,no-resolve # 微软
+  - IP-ASN,35106,DIRECT,no-resolve # 微软
+  - IP-ASN,6584,DIRECT,no-resolve # 微软
+  - IP-ASN,8068,DIRECT,no-resolve # 微软
+  - IP-ASN,398961,DIRECT,no-resolve # 微软
+  - IP-ASN,59067,DIRECT,no-resolve,no-track # 微软中国
+  - IP-ASN,58862,DIRECT,no-resolve,no-track # 微软中国
   - IP-ASN,13414,USA,no-resolve,no-track # Twitter
   - IP-ASN,35995,USA,no-resolve,no-track # Twitter
   - IP-ASN,63179,USA,no-resolve,no-track # Twitter
@@ -306,8 +317,6 @@ rules:
   - IP-ASN,4249,DIRECT,no-resolve,no-track
   - IP-ASN,52898,DIRECT,no-resolve,no-track
   - IP-ASN,264425,DIRECT,no-resolve,no-track
-  - IP-ASN,59067,DIRECT,no-resolve,no-track
-  - IP-ASN,58862,DIRECT,no-resolve,no-track
   - IP-ASN,23842,DIRECT,no-resolve,no-track
   - IP-ASN,40065,DIRECT,no-resolve,no-track
   - IP-ASN,9392,DIRECT,no-resolve,no-track
