@@ -9,6 +9,9 @@ radarr.u
 jellyseer.u
 alist.u
 #自定义
+.update.microsoft.com
+settings-win.data.microsoft.com
+vortex-win.data.microsoft.com
 mzstorekit.itunes.apple.com
 static.gc.apple.com
 init.gc.apple.com
