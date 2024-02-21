@@ -8,7 +8,6 @@ sonarr.u
 radarr.u
 jellyseer.u
 alist.u
-.gov.cn
 #自定义
 mzstorekit.itunes.apple.com
 static.gc.apple.com
