@@ -2,7 +2,6 @@
 .houstonpublicmedia.org
 .wnyc.org
 .digicert.com
-.duckduckgo.com
 #bing
 .bing.com
 .bing.com.cn
