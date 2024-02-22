@@ -506,7 +506,6 @@
 .statics-marketingsites-wcus-ms-com.akamaized.net
 .successwithteams.com
 .surface.com
-.svc.ms
 .sway-cdn.com
 .sway-extensions.com
 .sway.com
