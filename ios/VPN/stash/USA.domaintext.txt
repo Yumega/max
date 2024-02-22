@@ -12,6 +12,8 @@
 .bingsandbox.com
 .bingvisualsearch.com
 .bingworld.com
+.azure.com
+.azure.net
 #copilot
 .api.microsoftapp.net
 .bing-shopping.microsoft-falcon.io
