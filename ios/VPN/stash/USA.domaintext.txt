@@ -24,6 +24,7 @@
 .msn.net
 .gateway.bingviz.microsoft.net
 .gateway.bingviz.microsoftapp.net
+.svc.ms
 api.msn.com
 assets.msn.com
 copilot.microsoft.com
