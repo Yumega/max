@@ -1,9 +1,9 @@
 name: 规则
 desc: 规则列表
 rules:
-  - RULE-SET,域名直连规则,DIRECT,no-track
+  - RULE-SET,域名直连规则,DIRECT
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
-  - RULE-SET,美国域名规则,USA,no-track
+  - RULE-SET,美国域名规则,USA
   - RULE-SET,美国ip规则,USA,no-resolve,no-track
   - IP-ASN,6185,DIRECT,no-resolve,no-track # Apple
   - IP-ASN,714,DIRECT,no-resolve,no-track # Apple
@@ -29,7 +29,7 @@ rules:
   - RULE-SET,BBCiplayer域名规则,BBCiplayer,no-track
   - RULE-SET,局域网ip段直连规则,DIRECT,no-resolve
   - RULE-SET,ip段直连规则,DIRECT,no-resolve,no-track
-  - RULE-SET,微软直连规则,DIRECT,no-track
+  - RULE-SET,微软直连规则,DIRECT
   - IP-ASN,59067,DIRECT,no-resolve,no-track # 微软中国
   - IP-ASN,58862,DIRECT,no-resolve,no-track # 微软中国
   - IP-ASN,56041,DIRECT,no-resolve,no-track
