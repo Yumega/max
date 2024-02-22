@@ -76,6 +76,7 @@ login.microsoftonline.com
 .microsoft-falcon.io
 .myhomemsn.com
 .s-msn.com
+.ecs.office.com
 browser.events.data.microsoft.com
 #twitter
 .twimg.com
