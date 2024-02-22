@@ -51,8 +51,6 @@
 .azure-sphere.com
 .azure-test.net
 .azure.cn
-.azure.com
-.azure.net
 .azurecomcdn.net
 .azurecomm.net
 .azurecontainer.io
