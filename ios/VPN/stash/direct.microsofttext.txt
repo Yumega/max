@@ -417,7 +417,6 @@
 .msxiaoice.com
 .msxiaona.cn
 .mwf-service.akamaized.net
-.myhomemsn.com
 .mymicrosoft.com
 .nextechafrica.net
 .nuget.org
@@ -487,7 +486,6 @@
 .s-microsoft.com
 .s-msedge.net
 .s-msft.com
-.s-msn.com
 .sankie.net
 .sclive.net
 .serverlesslibrary.net
