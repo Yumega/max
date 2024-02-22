@@ -34,6 +34,7 @@ r.bing.com
 self.events.data.microsoft.com
 services.bingapis.com
 www.bing.com
+create.microsoft.com
 designer.microsoft.com
 designerapp.officeapps.live.com
 sapphire.api.microsoftapp.net
