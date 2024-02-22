@@ -38,9 +38,9 @@ services.bingapis.com
 www.bing.com
 create.microsoft.com
 designer.microsoft.com
-designerapp.officeapps.live.com
-sapphire.api.microsoftapp.net
 login.microsoftonline.com
+.designerapp.officeapps.live.com
+.sapphire.api.microsoftapp.net
 .bing-shopping.microsoft-falcon.io
 .bingapis.com
 .bingviz.com
