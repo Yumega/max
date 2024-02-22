@@ -39,6 +39,7 @@ www.bing.com
 create.microsoft.com
 designer.microsoft.com
 login.microsoftonline.com
+.designerapp.osi.office.net
 .designerapp.officeapps.live.com
 .sapphire.api.microsoftapp.net
 .bing-shopping.microsoft-falcon.io
