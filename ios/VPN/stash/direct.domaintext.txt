@@ -20,6 +20,7 @@ itunes.apple.com
 iphone-ld.apple.com
 ocsp2.apple.com
 ocsp.apple.com
+swallow.apple.com
 .guzzoni.apple.com
 .trust-provider.cn
 .irisdt.cn
