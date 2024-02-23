@@ -128,7 +128,9 @@ browser.events.data.microsoft.com
 .soundvideostar.com
 .akamaihd.net
 .pdst.fm
+.chrt.fm
 .podtrac.com
+.podbean.com
 .soundon.fm
 .radiotime.com
 .radiojar.com
