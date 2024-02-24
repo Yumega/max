@@ -34,13 +34,9 @@ https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
 
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-specific.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-unbreak.txt 出错
-
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-social.txt
 
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-android-specific.txt
-
-https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-sugarcoat.txt 出错
 
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-firstparty.txt
 
