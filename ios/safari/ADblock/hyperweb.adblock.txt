@@ -2,7 +2,7 @@ https://anti-ad.net/easylist.txt
 
 https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 
-https://raw.githubusercontent.com/Yumega/max/master/ios/Safariadblock.txt
+https://raw.githubusercontent.com/Yumega/max/master/ios/safari/ADblock/Safariadblock.txt
 
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
 
