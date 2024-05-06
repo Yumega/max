@@ -24,10 +24,10 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?word=$2 302
     
     # by xxx (必应)
-    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.bing.com/search?q=$1 302
+    - ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://www.bing.com/search?q=$1 302
 
-    # dd xxx (拼多多)
-    - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
+    # pdd xxx (拼多多)
+    - ^https:\/\/duckduckgo.com\/\?q=pdd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
     
     # ytb xxx (YouTube)
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
