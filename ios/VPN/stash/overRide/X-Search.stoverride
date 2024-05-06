@@ -23,8 +23,8 @@ http:
     # bd xxx (百度)
     - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?word=$2 302
     
-    # gg xxx (谷歌)
-    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
+    # by xxx (必应)
+    - ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.bing.com/search?q=$3&num=100 302
 
     # dd xxx (拼多多)
     - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
@@ -56,5 +56,5 @@ http:
     # gh xxx (GitHub Code)
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
   
-    # xxx (必应)
-    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.bing.com/search?q=$3&num=100 302
+    # xxx (谷歌)
+    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$1 302
