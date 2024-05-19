@@ -35,6 +35,7 @@ tailscale up
 7、开启子网网路由（Subnet routes）
 在OpenWrt上输入以下命令，打开本地子路由。子网地址是OpenWrt的lan网络。
 tailscale up --advertise-routes=192.168.11.0/24 --accept-dns=false
+tailscale up --accept-dns=false --advertise-routes=192.168.11.0/24,172.26.0.0/24 --advertise-exit-node
 
 8、9步骤可以省略
 8、添加接口
