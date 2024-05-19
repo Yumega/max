@@ -1,4 +1,5 @@
-
+删除Tailscale
+/usr/bin/tailscale, /usr/bin/tailscaled, /etc/init.d/tailscale  /tmp/tailscale*
 全局流量
 tailscale up --advertise-exit-node
 或者
