@@ -9,7 +9,7 @@ http://192.168.11.1:35455/youtube/oIgbl7t0S_w
 #EXTINF:-1 tvg-id="6074" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" ,TVBS-56
 http://192.168.11.1:35455/youtube/YvdcZ_jpLXE
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png",央视新闻
-http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw259647455_-1559913959/ott.mobaibox.com/PLTV/3/224/3221228224/index.m3u8?icpid=3&RTS=1668595054&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6000054BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTWDyIgRkFJBAHMhA2ayG0SuXozn3alq9%2BUx7ZLG1w9awc14iEUxQ5VsTsr5pEBsmF56tXUfsukRUpygmTCKvAI
 #EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cna.png" ,亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" ,半岛新闻
