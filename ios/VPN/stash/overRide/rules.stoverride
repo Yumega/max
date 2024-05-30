@@ -3,6 +3,7 @@ desc: 规则列表
 rules:
   - RULE-SET,域名直连规则,DIRECT,no-track
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
+  - RULE-SET,必须走美国代理规则,必须走美国代理,no-track
   - RULE-SET,美国域名规则,USA,no-track
   - RULE-SET,美国ip规则,USA,no-resolve,no-track
   - IP-ASN,6185,DIRECT,no-resolve,no-track # Apple
