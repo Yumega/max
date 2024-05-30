@@ -1,13 +1,5 @@
 #局域网
-deemix.u
-linkding.u
-stash.u
-music.u
-ytb.u
-sonarr.u
-radarr.u
-jellyseer.u
-alist.u
+koohigh.v6.rocks
 #自定义
 .update.microsoft.com
 settings-win.data.microsoft.com
