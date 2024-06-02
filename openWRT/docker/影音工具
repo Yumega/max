@@ -47,7 +47,7 @@ docker run -d \
  
   docker run -d \
  --name jellyfin \
- --network host \
+ -p 8096:8096 \
  -e PUID=0 \
  -e PGID=0 \
  -e TZ=Asia/Shanghai \
