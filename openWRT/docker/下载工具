@@ -40,10 +40,16 @@ Defaults to /downloads/.metube in the docker image)
     --restart unless-stopped \
     --log-opt max-size=1m \
     --network host \
+    -e TZ=Asia/Shanghai \
     -e PUID=1000 \
     -e PGID=1000 \
+    -e UMASK_SET=022 \
     -e RPC_SECRET=a \
     -e RPC_PORT=6800 \
+    -p 6800:6800 \
+    -p 6888:6888 \
+    -p 6888:6888/udp \
+    -e IPV6_MODE=true \
     -e LISTEN_PORT=31411 \
     -v /opt/aria2:/config \
     -v /mnt/sdb1/qbit:/downloads  \
