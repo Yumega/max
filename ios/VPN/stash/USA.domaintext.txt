@@ -1,3 +1,4 @@
+.mixpanel.com
 #twitter
 .twimg.com
 .albtls.t.co
