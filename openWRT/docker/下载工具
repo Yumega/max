@@ -52,7 +52,7 @@ Defaults to /downloads/.metube in the docker image)
     -e IPV6_MODE=true \
     -e LISTEN_PORT=31411 \
     -v /opt/aria2:/config \
-    -v /mnt/sdb1/qbit:/downloads  \
+    -v /mnt/sdb1/qbit/下载:/downloads  \
     p3terx/aria2-pro
     
 添加Aria2 Webui
