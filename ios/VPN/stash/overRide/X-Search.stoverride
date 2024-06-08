@@ -57,4 +57,4 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
   
     # xxx (谷歌)
-    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&num=100 302
+    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3 302
