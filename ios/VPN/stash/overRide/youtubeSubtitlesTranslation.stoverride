@@ -1,13 +1,7 @@
-name: |-
-  YouTube字幕翻译
-desc: |-
-  字幕增强及双语翻译，放在YouTube去广告之下
-icon: |-
-  https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
-homepage: |-
-  https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
-date: |-
-  2023-10-17 15:50:40
+name: YouTube字幕翻译
+desc: 字幕增强及双语翻译，放在YouTube去广告之下
+icon: https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
+category: 工具
 
 http:
   mitm:
