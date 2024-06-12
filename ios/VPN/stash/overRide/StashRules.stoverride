@@ -3,6 +3,7 @@ desc: stash规则列表
 category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
 rules:
+  - SCRIPT,quic,REJECT,no-track
   - RULE-SET,中国域名直连集,DIRECT,no-track
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
   - RULE-SET,苹果音乐和Bing集,苹果音乐和Bing代理,no-track
@@ -31,7 +32,6 @@ rules:
   - RULE-SET,局域网ip段直连规则集,DIRECT,no-resolve
   - RULE-SET,ip段直连规则集,DIRECT,no-resolve,no-track
   - RULE-SET,微软直连规则集,DIRECT,no-track
-  - SCRIPT,quic,REJECT,no-track
   - RULE-SET,广告屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
