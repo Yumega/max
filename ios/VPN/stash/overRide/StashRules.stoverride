@@ -37,6 +37,44 @@ rules:
   - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
   - IP-ASN,59067,DIRECT,no-resolve,no-track # 微软中国
   - IP-ASN,58862,DIRECT,no-resolve,no-track # 微软中国
+  - DOMAIN-KEYWORD,v6.rocks,DIRECT
+  - DOMAIN-KEYWORD,a.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,b.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,c.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,d.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,e.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,f.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,g.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,h.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,i.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,j.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,k.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,l.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,m.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,n.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,o.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,p.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,q.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,r.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,s.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,t.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,u.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,v.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,w.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,x.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,y.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,z.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,0.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,1.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,2.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,3.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,4.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,5.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,6.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,7.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,8.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,9.cn,DIRECT,no-track
+  - DOMAIN-KEYWORD,paypal,DIRECT,no-track
   - IP-ASN,56041,DIRECT,no-resolve,no-track
   - IP-ASN,4808,DIRECT,no-resolve,no-track
   - IP-ASN,45090,DIRECT,no-resolve,no-track
