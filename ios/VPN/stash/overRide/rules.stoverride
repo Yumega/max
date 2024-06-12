@@ -1,5 +1,5 @@
-name: 规则
-desc: 规则列表
+name: Stash-rules
+desc: stash规则列表
 category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
 rules:
