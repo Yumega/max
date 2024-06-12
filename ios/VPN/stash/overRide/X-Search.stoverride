@@ -7,7 +7,7 @@ desc: 快捷切换搜索引擎
 http:
   mitm:
     - "duckduckgo.com"
-  rewrite:
+  url-rewrite:
     # wj xxx (Wikipedia 中文)
     - ^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
