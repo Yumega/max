@@ -3,36 +3,38 @@ desc: stash规则列表
 category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
 rules:
-  - RULE-SET,域名直连规则,DIRECT,no-track
+  - RULE-SET,中国域名直连集,DIRECT,no-track
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
-  - RULE-SET,必须走美国代理规则,必须走美国代理,no-track
-  - RULE-SET,美国域名规则,USA,no-track
-  - RULE-SET,美国ip规则,USA,no-resolve,no-track
+  - RULE-SET,苹果音乐和Bing集,苹果音乐和Bing代理,no-track
+  - RULE-SET,美国域名集,美国域名代理,no-track
+  - RULE-SET,美国ip集,美国域名代理,no-resolve,no-track
+  - RULE-SET,电报域名集,Telegram代理,no-track
+  - RULE-SET,电报ip集,Telegram代理,no-resolve,no-track
+  - IP-ASN,211157,Telegram代理,no-resolve,no-track
+  - IP-ASN,44907,Telegram代理,no-resolve,no-track
+  - IP-ASN,59930,Telegram代理,no-resolve,no-track
+  - IP-ASN,62014,Telegram代理,no-resolve,no-track
+  - IP-ASN,62041,Telegram代理,no-resolve,no-track
   - IP-ASN,6185,DIRECT,no-resolve,no-track # Apple
   - IP-ASN,714,DIRECT,no-resolve,no-track # Apple
-  - IP-ASN,396982,USA,no-resolve,no-track # 谷歌云
-  - IP-ASN,211157,Telegram,no-resolve,no-track
-  - IP-ASN,44907,Telegram,no-resolve,no-track
-  - IP-ASN,59930,Telegram,no-resolve,no-track
-  - IP-ASN,62014,Telegram,no-resolve,no-track
-  - IP-ASN,62041,Telegram,no-resolve,no-track
-  - IP-ASN,13414,USA,no-resolve,no-track # Twitter
-  - IP-ASN,35995,USA,no-resolve,no-track # Twitter
-  - IP-ASN,63179,USA,no-resolve,no-track # Twitter
-  - IP-ASN,32934,USA,no-resolve,no-track # Facebook
-  - IP-ASN,54115,USA,no-resolve,no-track # Facebook
-  - IP-ASN,63293,USA,no-resolve,no-track # Facebook
-  - DOMAIN-KEYWORD,spotify.com,USA,no-track
-  - DOMAIN-KEYWORD,-spotify-,USA,no-track
-  - DOMAIN-KEYWORD,-uk-live,BBCiplayer,no-track
+  - IP-ASN,396982,美国域名代理,no-resolve,no-track # 谷歌云
+  - IP-ASN,13414,美国域名代理,no-resolve,no-track # Twitter
+  - IP-ASN,35995,美国域名代理,no-resolve,no-track # Twitter
+  - IP-ASN,63179,美国域名代理,no-resolve,no-track # Twitter
+  - IP-ASN,32934,美国域名代理,no-resolve,no-track # Facebook
+  - IP-ASN,54115,美国域名代理,no-resolve,no-track # Facebook
+  - IP-ASN,63293,美国域名代理,no-resolve,no-track # Facebook
+  - DOMAIN-KEYWORD,spotify.com,美国域名代理,no-track
+  - DOMAIN-KEYWORD,-spotify-,美国域名代理,no-track
+  - DOMAIN-KEYWORD,-uk-live,BBCiplayer代理,no-track
+  - RULE-SET,BBCiplayer域名集,BBCiplayer代理,no-track
+  - RULE-SET,局域网ip段直连规则集,DIRECT,no-resolve
+  - RULE-SET,ip段直连规则集,DIRECT,no-resolve,no-track
+  - RULE-SET,微软直连规则集,DIRECT,no-track
   - SCRIPT,quic,REJECT,no-track
-  - RULE-SET,广告屏蔽规则,REJECT,no-track
-  - RULE-SET,自定义屏蔽规则,REJECT,no-track
-  - RULE-SET,自定义ip屏蔽规则,REJECT,no-resolve,no-track
-  - RULE-SET,BBCiplayer域名规则,BBCiplayer,no-track
-  - RULE-SET,局域网ip段直连规则,DIRECT,no-resolve
-  - RULE-SET,ip段直连规则,DIRECT,no-resolve,no-track
-  - RULE-SET,微软直连规则,DIRECT,no-track
+  - RULE-SET,广告屏蔽规则集,REJECT,no-track
+  - RULE-SET,自定义屏蔽规则集,REJECT,no-track
+  - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
   - IP-ASN,59067,DIRECT,no-resolve,no-track # 微软中国
   - IP-ASN,58862,DIRECT,no-resolve,no-track # 微软中国
   - IP-ASN,56041,DIRECT,no-resolve,no-track
