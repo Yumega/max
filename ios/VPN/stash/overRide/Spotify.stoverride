@@ -5,17 +5,18 @@ icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/spoti
 http:
   mitm:
     - "spclient.wg.spotify.com"
+    - "*.spotify.com"
   script:
     - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
       name: smile_spotify
       type: response
       require-body: true
       binary-mode: true
-      timeout: 60
+      timeout: 10
     - match: ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
       name: smile_spotify_json
       type: request
-      timeout: 60
+      timeout: 10
 
 script-providers:
   smile_spotify:
