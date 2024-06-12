@@ -1,6 +1,6 @@
 name: weibo
 desc: 微博去广告
-category: 工具
+category: 去广告
 icon: https://raw.githubusercontent.com/deezertidal/private/main/icons/weiboad.png
 http:
   mitm:
