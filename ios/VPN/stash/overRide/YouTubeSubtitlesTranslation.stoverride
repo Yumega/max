@@ -1,0 +1,67 @@
+name: |-
+  YouTube字幕翻译
+desc: |-
+  字幕增强及双语翻译，放在YouTube去广告之下
+icon: |-
+  https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
+homepage: |-
+  https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+date: |-
+  2023-10-17 15:50:40
+
+http:
+  mitm:
+    - "www.youtube.com"
+    - "m.youtube.com"
+    - "tv.youtube.com"
+    - "youtubei.googleapis.com"
+    - "-redirector*.googlevideo.com"
+    - "*.googlevideo.com"
+
+  url-rewrite:
+# 使用reject-img方法以减少开销
+    - >-
+      ^https?:\/\/([\w-]+)\.googlevideo\.com\/initplayback(\?.*oad=.+)$ - reject-img
+
+  script:
+# 字幕翻译
+    - match: ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player
+      name: "YouTube播放器响应_15"
+      type: response
+      require-body: true
+      timeout: 30
+
+    - match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player
+      name: "YouTube播放器响应_15"
+      type: response
+      require-body: true
+      timeout: 30
+
+    - match: ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext
+      name: "YouTube字幕请求_17"
+      type: request
+      require-body: false
+
+    - match: ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=(Official|External)
+      name: "YouTube字幕合成响应_18"
+      type: response
+      require-body: true
+
+    - match: ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate
+      name: "YouTube字幕翻译响应_19"
+      type: response
+      require-body: true
+
+script-providers:
+  "YouTube播放器响应_15":
+    url: https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Script/lodepuly/YouTube/YouTube_Player_response.js
+    interval: 86400
+  "YouTube字幕请求_17":
+    url: https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Script/lodepuly/YouTube/YouTube_TimedText_request.js
+    interval: 86400
+  "YouTube字幕合成响应_18":
+    url: https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Script/lodepuly/YouTube/YouTube_Subtitles_Composite_response.js
+    interval: 86400
+  "YouTube字幕翻译响应_19":
+    url: https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Script/lodepuly/YouTube/YouTube_Subtitles_Translate_response.js
+    interval: 86400
