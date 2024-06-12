@@ -1,5 +1,3 @@
-#局域网
-koohigh.v6.rocks
 #自定义
 .update.microsoft.com
 settings-win.data.microsoft.com
