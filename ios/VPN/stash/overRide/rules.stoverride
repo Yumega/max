@@ -1,5 +1,7 @@
 name: 规则
 desc: 规则列表
+category: 工具
+icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
 rules:
   - RULE-SET,域名直连规则,DIRECT,no-track
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
