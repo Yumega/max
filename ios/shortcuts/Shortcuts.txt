@@ -1,14 +1,22 @@
 linkding 
 https://www.icloud.com/shortcuts/9f99f1710407406cac977f866f479f45
+Bolt下载
+https://www.icloud.com/shortcuts/e936200f376f46919d31995c19db3557
+
+发至电脑
+https://www.icloud.com/shortcuts/38b4622cc8444a3fb5b24a1cd7b794cf
+
+复至手机
+https://www.icloud.com/shortcuts/e936200f376f46919d31995c19db3557
 
 clipboard共享到电脑
 https://www.icloud.com/shortcuts/aefffbca096c4e06b13e97c6b4238e19
 
-发送到电脑
-https://www.icloud.com/shortcuts/38b4622cc8444a3fb5b24a1cd7b794cf
-
 clipboard复制到手机
 https://www.icloud.com/shortcuts/8dcfee3a05cb4fd3a258363c58ad0dfb
+
+复制到手机
+https://www.icloud.com/shortcuts/e936200f376f46919d31995c19db3557
 
 发送alist文件在aria2下载
 https://www.icloud.com/shortcuts/93dbd66fb49a40878b4eca17fa53a3a6
