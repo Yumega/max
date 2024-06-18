@@ -9,7 +9,6 @@
 .x1337x.eu
 .x1337x.se
 .x1337x.ws
-
 #cloudflare
 .cf-ipfs.com
 .cloudflare-dns.com
@@ -56,20 +55,4 @@
 .cloudflareprod.com
 .cloudflarestaging.com
 .cloudflarestoragegw.com
-
-#Stirr/plutoTV
-.stirr.com
-.firebaseapp.com
-.trustarc.com
-.sinclairstoryline.com
-.amazonaws.com
-.amazontrust.com
-.auth.adobe.com
-.hwcdn.net
-.sectigo.com
-.uplynk.com
-.pluto.tv
-.plutotv.net
-.cookielaw.org
-.clusters.pluto.tv
 
