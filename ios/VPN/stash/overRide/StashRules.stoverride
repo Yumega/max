@@ -16,6 +16,7 @@ rules:
   - IP-ASN,714,DIRECT,no-resolve,no-track # Apple中国
   - RULE-SET,域名直连规则集,DIRECT,no-track
   - RULE-SET,ip段含局域网直连规则集,DIRECT,no-resolve,no-track
+  - DOMAIN-KEYWORD,757191.xyz,DIRECT
 
 #代理策略
   - RULE-SET,必应域名集,必应代理策略,no-track
