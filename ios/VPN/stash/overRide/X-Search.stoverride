@@ -56,7 +56,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"} 302
     
     # ddg xxx (DuckDuckGo)
-    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$ 302
+    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
     
     # gh xxx (GitHub Code)
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
