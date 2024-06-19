@@ -10,9 +10,6 @@ http:
   mitm:
     - "duckduckgo.com"
   url-rewrite:
-    # xxx (默认谷歌搜索)
-    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&pws=0&gl=CN 302
-    
     # wj xxx (Wikipedia中文)
     - ^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
@@ -54,12 +51,15 @@ http:
     
     # jd xxx (京东)
     - ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"} 302
-    
-    # ddg xxx (DuckDuckGo)
-    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
-    
+
     # gh xxx (GitHub Code)
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
 
     # wbwy xxx (微博网页)
     - ^https:\/\/duckduckgo.com\/\?q=wbwy(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
+
+    # ddg xxx (DuckDuckGo)
+    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
+
+    # xxx (默认谷歌搜索)
+    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&pws=0&gl=CN 302
