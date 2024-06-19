@@ -10,10 +10,13 @@ http:
   mitm:
     - "duckduckgo.com"
   url-rewrite:
-    # wj xxx (Wikipedia 中文)
+    # xxx (默认谷歌搜索)
+    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&pws=0&gl=CN 302
+    
+    # wj xxx (Wikipedia中文)
     - ^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
-    # gt xxx (Google 图片)
+    # gt xxx (Google图片)
     - ^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
 
     # bk xxx (百度百科)
@@ -30,9 +33,6 @@ http:
     
     # ytb xxx (YouTube)
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
-
-    # wbwy xxx (微博网页)
-    - ^https:\/\/duckduckgo.com\/\?q=wbwy(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
 
     # wb xxx (微博)
     - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ weibointernational://searchall?q=$2 302
@@ -60,6 +60,6 @@ http:
     
     # gh xxx (GitHub Code)
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
-  
-    # xxx (谷歌)
-    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&pws=0&gl=CN 302
+
+    # wbwy xxx (微博网页)
+    - ^https:\/\/duckduckgo.com\/\?q=wbwy(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
