@@ -32,7 +32,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
 
     # wbwy xxx (微博网页)
-    - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=wbwy(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
 
     # wb xxx (微博)
     - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ weibointernational://searchall?q=$2 302
