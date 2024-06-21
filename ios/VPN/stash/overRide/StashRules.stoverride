@@ -2,6 +2,7 @@ name: Stash-rules
 desc: stash规则列表
 category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
+#最后一行是（MATCH,漏网之鱼策略）
 rules:
 #屏蔽广告
   - SCRIPT,quic,REJECT,no-track
@@ -53,7 +54,6 @@ rules:
 
   - DOMAIN-KEYWORD,-uk-live,BBCiplayer代理策略,no-track
   - RULE-SET,BBCiplayer域名集,BBCiplayer代理策略,no-track
-  - MATCH,漏网之鱼策略
 
 #直连规则
   - IP-ASN,59067,DIRECT,no-resolve,no-track # 微软中国
@@ -914,3 +914,4 @@ rules:
   - IP-ASN,140855,DIRECT,no-resolve,no-track
   - IP-ASN,140854,DIRECT,no-resolve,no-track
   - IP-ASN,146734,DIRECT,no-resolve,no-track
+  - MATCH,漏网之鱼策略
