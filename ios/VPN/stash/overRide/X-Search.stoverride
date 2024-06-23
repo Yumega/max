@@ -55,6 +55,9 @@ http:
     # gh xxx (GitHub Code)
     - ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
 
+    # zm xxx (字幕搜索)
+    - ^https:\/\/duckduckgo.com\/\?q=zm(\+|%20)([^&]+).+ https://subhdtw.com/search/$2 302
+
     # wbwy xxx (微博网页)
     - ^https:\/\/duckduckgo.com\/\?q=wbwy(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
 
