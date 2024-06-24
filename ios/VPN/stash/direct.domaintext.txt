@@ -1,4 +1,4 @@
-#包含微信、腾讯、iOS升级、腾讯、贝宝、微软中国
+#包含微信、腾讯、iOS升级、腾讯、贝宝、微软中国、cloudflare中国
 #自定义
 .update.microsoft.com
 settings-win.data.microsoft.com
@@ -89,6 +89,7 @@ swallow.apple.com
 .mwcname.com
 .apple-cloudkit.com
 
+
 ##ios升级
 .appldnld-cdn.apple.com.akadns.net
 .appldnld-cdn.origin-apple.com.akadns.net
@@ -167,6 +168,22 @@ swallow.apple.com
 .ocsp-lb.apple.com.akadns.net
 .ocsp.apple.com
 .ocsp.g.aaplimg.com
+
+#cloudflare中国
+.cf-ns.com
+.cf-ns.net
+.cf-ns.site
+.cf-ns.tech
+.cftest5.cn
+.cftest6.cn
+.cftest7.com
+.cftest8.com
+.cloudflare-cn.com
+.cloudflarecn.net
+.cloudflareinsights-cn.com
+.cloudflareprod.com
+.cloudflarestaging.com
+.cloudflarestoragegw.com
 
 #腾讯
 .1700.cn
