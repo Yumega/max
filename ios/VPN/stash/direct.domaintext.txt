@@ -1,6 +1,9 @@
 #包含微信、腾讯、iOS升级、腾讯、贝宝、微软中国、cloudflare中国
 #自定义
 .update.microsoft.com
+.dl.delivery.mp.microsoft.com
+.delivery.mp.microsoft.com
+tlu.dl.delivery.mp.microsoft.com
 settings-win.data.microsoft.com
 vortex-win.data.microsoft.com
 mzstorekit.itunes.apple.com
