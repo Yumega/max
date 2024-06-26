@@ -32,6 +32,16 @@ swallow.apple.com
 .t.sinajs.cn
 .3.cn
 
+#wise
+.wise.com
+.mixpanel.com
+app-analytics-services.com
+.datatheorem.com
+.googleapis.com
+.singular.net
+.authy.com
+.braze.eu
+
 #微信
 .qlogo.cn
 .qpic.cn
