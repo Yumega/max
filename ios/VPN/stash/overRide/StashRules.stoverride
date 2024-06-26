@@ -15,7 +15,7 @@ rules:
   - IP-ASN,132203,DIRECT,no-resolve,no-track # 微信
   - IP-ASN,6185,DIRECT,no-resolve,no-track # Apple中国
   - IP-ASN,714,DIRECT,no-resolve,no-track # Apple中国
-  - RULE-SET,域名直连规则集,DIRECT
+  - RULE-SET,域名直连规则集,DIRECT,no-track
   - RULE-SET,ip段含局域网直连规则集,DIRECT,no-resolve,no-track
   - DOMAIN-KEYWORD,757191.xyz,DIRECT
 
