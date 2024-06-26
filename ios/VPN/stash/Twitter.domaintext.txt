@@ -30,3 +30,5 @@
 .cnnarabic.com
 .cnnlabs.com
 .cnnmoney.ch
+.cnbc.com
+.cnbcfm.com
