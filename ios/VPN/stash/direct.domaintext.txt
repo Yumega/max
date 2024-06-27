@@ -29,9 +29,7 @@ swallow.apple.com
 .mixpanel.com
 app-analytics-services.com
 .datatheorem.com
-.googleapis.com
 .singular.net
-.authy.com
 .braze.eu
 
 #微信
