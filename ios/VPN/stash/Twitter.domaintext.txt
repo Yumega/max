@@ -34,5 +34,7 @@
 .cnbcfm.com
 #中央社
 .cna.com.tw
+#其他
 .discogs.com
 .musicbrainz.org
+.githubusercontent.com
