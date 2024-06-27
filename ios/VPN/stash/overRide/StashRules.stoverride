@@ -16,7 +16,7 @@ rules:
   - IP-ASN,6185,DIRECT,no-track # Apple中国
   - IP-ASN,714,DIRECT,no-track # Apple中国
   - RULE-SET,域名直连规则集,DIRECT,no-track
-  - RULE-SET,ip段含局域网直连规则集,DIRECT,no-resolve,no-track
+  - RULE-SET,局域网ip直连规则集,DIRECT,no-resolve,no-track
 #代理策略
   - RULE-SET,必应域名集,必应代理策略,no-track
   - RULE-SET,苹果音乐域名集,苹果音乐代理策略,no-track
