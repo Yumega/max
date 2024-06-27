@@ -38,3 +38,4 @@
 .discogs.com
 .musicbrainz.org
 .githubusercontent.com
+.ipinfo.io
