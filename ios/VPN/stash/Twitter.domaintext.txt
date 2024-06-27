@@ -34,3 +34,5 @@
 .cnbcfm.com
 #中央社
 .cna.com.tw
+.discogs.com
+.musicbrainz.org
