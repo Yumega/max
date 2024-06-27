@@ -32,3 +32,5 @@
 .cnnmoney.ch
 .cnbc.com
 .cnbcfm.com
+#中央社
+.cna.com.tw
