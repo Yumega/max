@@ -12,6 +12,7 @@ rules:
 #直连集合
   - RULE-SET,域名直连规则集,DIRECT
   - GEOIP,CN,DIRECT
+  - GEOSITE,cn,DIRECT
   - IP-ASN,132203,DIRECT # 微信
   - IP-ASN,6185,DIRECT # Apple中国
   - IP-ASN,714,DIRECT # Apple中国
