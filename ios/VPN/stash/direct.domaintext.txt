@@ -15,7 +15,9 @@ ocsp2.apple.com
 ocsp.apple.com
 swallow.apple.com
 .guzzoni.apple.com
-.time.apple.com
+time.apple.com
+captive.apple.com
+e.crashlytics.com
 .anti-ad.net
 .fengshows.com
 .douyincdn.com
