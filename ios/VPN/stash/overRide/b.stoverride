@@ -1,5 +1,5 @@
-name: Stash-rules
-desc: stash规则列表
+name: bStash-rules
+desc: bstash规则列表
 category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
 #最后一行是（MATCH,漏网之鱼策略），no-resolve本地DNS不解析的意思，局域网地址和代理地址不需要本地dns解析
