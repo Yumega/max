@@ -38,7 +38,15 @@ rules:
   - DOMAIN-KEYWORD,-uk-live,BBCiplayer代理策略,no-track
   - RULE-SET,BBCiplayer域名集,BBCiplayer代理策略,no-track
 
-#直连规则
+#直连集合
+  - RULE-SET,域名直连规则集,DIRECT
+  - GEOIP,CN,DIRECT
+  - GEOSITE,cn,DIRECT
+  - IP-ASN,132203,DIRECT # 微信
+  - IP-ASN,6185,DIRECT # Apple中国
+  - IP-ASN,714,DIRECT # Apple中国
+  - RULE-SET,局域网ip直连规则集,DIRECT,no-resolve,no-track
+  - GEOIP,lan,DIRECT,no-resolve,no-track
   - DOMAIN-KEYWORD,57191.xyz,DIRECT
   - DOMAIN-KEYWORD,push-apple.com,DIRECT
   - DOMAIN-KEYWORD,.cn,DIRECT
@@ -863,13 +871,4 @@ rules:
   - IP-ASN,140855,DIRECT
   - IP-ASN,140854,DIRECT
   - IP-ASN,146734,DIRECT
-#直连集合
-  - RULE-SET,域名直连规则集,DIRECT
-  - GEOIP,CN,DIRECT
-  - GEOSITE,cn,DIRECT
-  - IP-ASN,132203,DIRECT # 微信
-  - IP-ASN,6185,DIRECT # Apple中国
-  - IP-ASN,714,DIRECT # Apple中国
-  - RULE-SET,局域网ip直连规则集,DIRECT,no-resolve,no-track
-  - GEOIP,lan,DIRECT,no-resolve,no-track
   - MATCH,漏网之鱼策略
