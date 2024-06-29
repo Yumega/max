@@ -12,3 +12,8 @@ js.hs-scripts.com
 .uww6.ifeng.com
 .bm7c.ifeng.com
 .i.flive.ifeng.com
+#安全
+.staticfile.net
+.bootcdn.net
+.bootcss.com
+.polyfill.io
