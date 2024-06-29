@@ -9,16 +9,8 @@ rules:
   - RULE-SET,广告屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
-#直连集合
-  - RULE-SET,域名直连规则集,DIRECT
-  - GEOIP,CN,DIRECT,no-resolve
-  - GEOSITE,cn,DIRECT
-  - IP-ASN,132203,DIRECT,no-resolve # 微信
-  - IP-ASN,6185,DIRECT,no-resolve # Apple中国
-  - IP-ASN,714,DIRECT,no-resolve # Apple中国
-  - RULE-SET,局域网ip直连规则集,DIRECT,no-resolve,no-track
-  - GEOIP,lan,DIRECT,no-resolve,no-track
 #代理策略
+  - DOMAIN-KEYWORD,surfshark.com,苹果音乐代理策略
   - RULE-SET,必应域名集,必应代理策略,no-track
   - RULE-SET,苹果音乐域名集,苹果音乐代理策略,no-track
   - RULE-SET,Spotify域名集,Spotify代理策略,no-track
@@ -47,7 +39,15 @@ rules:
   - DOMAIN-KEYWORD,-uk-live,BBCiplayer代理策略,no-track
   - RULE-SET,BBCiplayer域名集,BBCiplayer代理策略,no-track
 
-#直连规则
+#直连集合
+  - RULE-SET,域名直连规则集,DIRECT
+  - GEOIP,CN,DIRECT,no-resolve
+  - GEOSITE,cn,DIRECT
+  - IP-ASN,132203,DIRECT,no-resolve # 微信
+  - IP-ASN,6185,DIRECT,no-resolve # Apple中国
+  - IP-ASN,714,DIRECT,no-resolve # Apple中国
+  - RULE-SET,局域网ip直连规则集,DIRECT,no-resolve,no-track
+  - GEOIP,lan,DIRECT,no-resolve,no-track
   - DOMAIN-KEYWORD,57191.xyz,DIRECT
   - DOMAIN-KEYWORD,push-apple.com,DIRECT
   - DOMAIN-KEYWORD,.cn,DIRECT
