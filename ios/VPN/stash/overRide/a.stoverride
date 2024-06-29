@@ -1,0 +1,54 @@
+name: qStash-rules
+desc: qstash规则列表
+category: 工具
+icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
+#最后一行是（MATCH,漏网之鱼策略），no-resolve本地DNS不解析的意思，局域网地址和代理地址不需要本地dns解析
+rules:
+#屏蔽广告
+  - SCRIPT,quic,REJECT,no-track
+  - RULE-SET,广告屏蔽规则集,REJECT,no-track
+  - RULE-SET,自定义屏蔽规则集,REJECT,no-track
+  - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
+#直连集合
+  - RULE-SET,域名直连规则集,DIRECT
+  - GEOIP,CN,DIRECT,no-resolve
+  - GEOSITE,cn,DIRECT
+  - IP-ASN,132203,DIRECT,no-resolve # 微信
+  - IP-ASN,6185,DIRECT,no-resolve # Apple中国
+  - IP-ASN,714,DIRECT,no-resolve # Apple中国
+  - RULE-SET,局域网ip直连规则集,DIRECT,no-resolve,no-track
+  - GEOIP,lan,DIRECT,no-resolve,no-track
+#代理策略
+  - RULE-SET,必应域名集,必应代理策略,no-track
+  - RULE-SET,苹果音乐域名集,苹果音乐代理策略,no-track
+  - RULE-SET,Spotify域名集,Spotify代理策略,no-track
+  - RULE-SET,Spotifyip集,Spotify代理策略,no-resolve,no-track
+  - DOMAIN-KEYWORD,spotify.com,Spotify代理策略,no-track
+  - DOMAIN-KEYWORD,-spotify-,Spotify代理策略,no-track
+  - RULE-SET,谷歌域名集,谷歌代理策略,no-track
+  - RULE-SET,谷歌ip集,谷歌代理策略,no-resolve,no-track
+  - RULE-SET,推特域名集,推特代理策略,no-track
+  - RULE-SET,推特ip集,推特代理策略,no-resolve,no-track
+  - IP-ASN,13414,推特代理策略,no-resolve,no-track # Twitter
+  - IP-ASN,35995,推特代理策略,no-resolve,no-track # Twitter
+  - IP-ASN,63179,推特代理策略,no-resolve,no-track # Twitter
+  - RULE-SET,Meta域名集,Meta代理策略,no-track
+  - RULE-SET,Metaip集,Meta代理策略,no-resolve,no-track
+  - IP-ASN,32934,Meta代理策略,no-resolve,no-track # Facebook
+  - IP-ASN,54115,Meta代理策略,no-resolve,no-track # Facebook
+  - IP-ASN,63293,Meta代理策略,no-resolve,no-track # Facebook
+  - RULE-SET,Telegram域名集,Telegram代理策略,no-track
+  - RULE-SET,Telegramip集,Telegram代理策略,no-resolve,no-track
+  - IP-ASN,211157,Telegram代理策略,no-resolve,no-track
+  - IP-ASN,44907,Telegram代理策略,no-resolve,no-track
+  - IP-ASN,59930,Telegram代理策略,no-resolve,no-track
+  - IP-ASN,62014,Telegram代理策略,no-resolve,no-track
+  - IP-ASN,62041,Telegram代理策略,no-resolve,no-track
+  - DOMAIN-KEYWORD,-uk-live,BBCiplayer代理策略,no-track
+  - RULE-SET,BBCiplayer域名集,BBCiplayer代理策略,no-track
+
+#直连规则
+  - DOMAIN-KEYWORD,57191.xyz,DIRECT
+  - DOMAIN-KEYWORD,push-apple.com,DIRECT
+  - DOMAIN-KEYWORD,.cn,DIRECT
+  - MATCH,漏网之鱼策略 
