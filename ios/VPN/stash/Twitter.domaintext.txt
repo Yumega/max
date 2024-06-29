@@ -40,3 +40,5 @@
 .githubusercontent.com
 .github.com
 .ipinfo.io
+.portablesubmarines.com
+.jjcruises.com
