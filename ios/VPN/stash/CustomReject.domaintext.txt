@@ -25,6 +25,7 @@ js.hs-scripts.com
 httpdns.alicdn.com
 httpdns-api.aliyuncs.com
 httpdns-sc.aliyuncs.com
+httpdns.c.cdnhwc2.com
 httpsdns.baidu.com
 httpdns.baidu.com
 httpdns.baidubce.com
