@@ -8,14 +8,7 @@ homepage: "https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-DNS"
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
 category: "🍟 Fries"
 
-# 类似于 /etc/hosts, 仅支持配置单个 IP
 hosts:
-# '*.clash.dev': 127.0.0.1
-# '.dev': 127.0.0.1
-# 'alpha.clash.dev': '::1'
-# test.com: [1.1.1.1, 2.2.2.2]
-# clash.lan: clash # clash 为特别字段，将加入本地所有网卡的地址
-# baidu.com: google.com # 只允许配置一个别名
   # > IPv6
   "ip6-localhost": "::1" # IPv6 Localhost
   "ip6-loopback": "::1" # IPv6 Loopback
@@ -57,7 +50,6 @@ hosts:
 # DNS配置
 dns:
   prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
-  # 配置查询域名使用的 DNS 服务器
   nameserver-policy:
     # > Modify Contents
     "blog.google": "119.29.29.29" # Google Blog
@@ -73,82 +65,11 @@ dns:
     "stun?.l.google.com": system # Google STUN
 
     # > Router Admin Panel
-    "+.id.ui.direct": system # Ubiquiti Unifi Network App
-    # "unifi.ui.com": system # Ubiquiti Unifi Portal
-    "unifi.local": system # Ubiquiti Unifi OS
-    # "network.unifi.ui.com": system # Ubiquiti Unifi Controller
-    "amplifi.lan": system # Ubiquiti Amplifi Router
-    "router.synology.com": system # Synology Router
-    "sila.razer.com": system # Razer Sila Router
-    "router.asus.com": system # Asus Router
-    "routerlogin.net": system # Netgear Router
-    "orbilogin.com": system # Netgear Obri Router
-    "www.LinksysSmartWiFi.com": system # Linksys Router
-    "LinksysSmartWiFi.com": system # Linksys Router
-    "myrouter.local": system # Linksys Router
-    "instant.arubanetworks.com": system # Aurba Router
-    "setmeup.arubanetworks.com": system # Aurba Router
-    "www.miwifi.com": system # 小米 Mi WiFi Router
-    "miwifi.com": system # 小米 Mi WiFi Router
-    "mediarouter.home": system # 华为 Huawei Router
-    "tplogin.cn": system # TP-Link Router
-    "tplinklogin.net": system # TP-Link Router
-    "tplinkwifi.net": system # TP-Link Router
-    "melogin.cn": system # 水星 MERCURY Router
-    "falogin.cn": system # 迅捷 FAST Router
-    "tendawifi.com": system # 腾达 Tenda Router
-    "leike.cc": system # 磊科 Netcore Router
     "zte.home": system # 中兴 ZTE Router
-    "p.to": system # 斐讯 PHICOMM Router
-    "phicomm.me": system # 斐讯 PHICOMM Router
-    "hiwifi.com": system # 极路由 HiWiFi Router
-    "peiluyou.com": system # 迅雷路由
-    "_hotspot_.m2m": system # M2M routers at MiFi Hotspot
-    "hotspot.cslwifi.com": system # csl Wi-Fi
 
     # > Apple
-    # refer: https://support.apple.com/zh-cn/HT210060
     "networking.apple": "https://doh.dns.apple.com/dns-query" # Apple
-    # "+.apple.com": "https://doh.dns.apple.com/dns-query" # Apple.com
     "+.icloud.com": "https://doh.dns.apple.com/dns-query" # iCloud.com
-
-    # > Alphabet
-    # refer: https://developers.google.com/speed/public-dns/docs/doh?hl=zh-cn
-    # "+.google" = "https://dns.google/dns-query" # Google
-    # "+.google.com" = "https://dns.google/dns-query" # Google
-    # "+.google.com.??": "https://dns.google/dns-query" # Google
-    # "+.goog": "https://dns.google/dns-query" # Google sites
-    # "+.gstatic.com": "https://dns.google/dns-query" # Google 静态资源
-    # "+.ggpht.com": "https://dns.google/dns-query" # Google Photos
-    # "+.googleusercontent.com": "https://dns.google/dns-query" # Google 用户上传数据
-    # "+.googleapis.com": "https://dns.google/dns-query" # Google APIs
-    # "+.1e100.net": "https://dns.google/dns-query" # Google backbone
-    # "+.youtube": "https://dns.google/dns-query" # Youtube sites
-    # "+.youtube.com": "https://dns.google/dns-query" # Youtube
-    # "+.ytimg.com": "https://dns.google/dns-query" # Youtube 图片
-    # "+.googlevideo.com": "https://dns.google/dns-query" # Youtube Video
-    # "+.gvt?.com": "https://dns.google/dns-query" # Google Video Thumbnails
-    # "+.recaptcha.net": "https://dns.google/dns-query" # reCaptcha
-    # "+.gmail.com": "https://dns.google/dns-query" # Gmail
-    # "+.googlesource.com": "https://dns.google/dns-query" # Google Source
-    # "+.googleadservices.com": "https://dns.google/dns-query" # Google AD Services
-    # "+.doubleclick.net": "https://dns.google/dns-query" # DoubleClick
-    # "+.adsense.com": "https://dns.google/dns-query" # AdSense
-    # "+.adsensecustomsearchads.com": "https://dns.google/dns-query" # AdSense Custom Search Ads
-    # "+.adsenseformobileapps.com": "https://dns.google/dns-query" # AdSense for mobile apps
-    # "+.gle": "https://dns.google/dns-query" # Google shortened URLs
-    # "goo.gl": "https://dns.google/dns-query" # Google URL Shortener
-
-    # > Cloudflare
-    # refer: https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/make-api-requests/
-    # "+.cloudflare.com": "https://cloudflare-dns.com/dns-query" # Cloudflare
-    # "+.cloudflarestream.com": "https://cloudflare-dns.com/dns-query" # Cloudflare Stream
-    # "+.cloudflareclient.com": "https://cloudflare-dns.com/dns-query" # Cloudflare Client
-    # "+.cloudflareinsights.com": "https://cloudflare-dns.com/dns-query" # Cloudflare Web Analytics
-    # "+.every1dns.net": "https://cloudflare-dns.com/dns-query" # Cloudflare
-    # "+.cloudflaressl.com": "https://cloudflare-dns.com/dns-query" # Cloudflare SSL Certificate
-    # "+.cloudflare-dns.com": "https://cloudflare-dns.com/dns-query" # Cloudflare DNS
-    # "+.workers.dev": "https://cloudflare-dns.com/dns-query" # CloudFlare Workers
 
     # > 阿里巴巴
     # refer: https://www.alidns.com
@@ -282,6 +203,7 @@ dns:
     "+.bytetos.com": "180.184.1.1" # 字节跳动 TOS
     "+.bytexservice.com": "180.184.1.1" # 飞书企业服务平台
     "+.douyin.com": "180.184.1.1" # 抖音
+    "+.douyincdn.com": "180.184.1.1" # 抖音
     "+.douyinpic.com": "180.184.1.1" # 抖音 静态资源
     "+.douyinstatic.com": "180.184.1.1" # 抖音 静态资源
     "+.douyinvod.com": "180.184.1.1" # 抖音 静态资源
@@ -318,42 +240,18 @@ dns:
     "upos-sz-mirrorcos??.bilivideo.com": "https://doh.pub/dns-query" # BiliBili upos视频服务器（腾讯云）
     "upos-sz-upcdnbd??.bilivideo.com": "180.76.76.76" # BiliBili upos视频服务器（百度云）
     "upos-sz-upcdntx.bilivideo.com": "https://doh.pub/dns-query" # BiliBili upos视频服务器（腾讯云）
-
-    # > 🇨🇳 CHN
-    # CNNIC SDNS
-    # "+.gov.cn": "1.2.4.8" # 中国政府网
-    # "+.政务": "1.2.4.8" # 中国政府网
-
-    # > 🇭🇰 HKG
-    # PCCW Enterprises Limited
-    # "+.pccw.com": "dns1.pccw.com" # 电讯盈科
-    # "+.1010.com.hk": "dns1.pccw.com" # 1O1O
-    # "+.hkcsl.com": "dns1.pccw.com" # csl.
-    # "+.theclub.com.hk": "dns1.pccw.com" # The CLUB by HKT
-    # "+.now.com": "dns2.pccw.com" # now.com
-    # "+.nowe.com": "dns2.pccw.com" # Now E
-    # "+.now-tv.com": "dns2.pccw.com" # Now TV
-    # "+.moov.hk": "dns3.pccw.com" # MOOV
-    # "+.viu.com": "dns3.pccw.com" # viu
-    # "+.viu.tv": "dns3.pccw.com" # viu tv
-    # Hong Kong Cable Television Limited
-    # "+.hkcable.com.hk": "dns1.hkcable.com.hk" # Hong Kong Cable Television Limited
-    # "+.i-cable.com": "dns2.hkcable.com.hk" # i-CABLE
-    # "+.cabletv.com.hk": "dns2.hkcable.com.hk" # CABLE TV Service
-    # KDDI Hong Kong Limited
-    # "+.hk.kddi.com": "apple.kdd.net.hk" # KDDI Hong Kong
+     "+.blued.cn": "114.114.114.114"
+     "+.irisdt.cn": "114.114.114.114"
 
     # > 🇹🇼 TWN
     # 中华电信
     "+.cht.com.tw ": "https://dns.hinet.net/dns-query" # 中华电信
     "+.hinet.net": "https://dns.hinet.net/dns-query" # 中华电信HiNet
     "+.emome.net": "https://dns.hinet.net/dns-query" # 中华电信emome
-    # So-net
-    # "so-net.net.tw": "ns1.so-net.net.tw" # So-net Entertainment Taiwan
-    # "so-net.tw": "ns1.so-net.net.tw" # So-net Entertainment Taiwan
-    # Taiwan Network Information Center
     "+.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
     "+.taipei": "https://dns.twnic.tw/dns-query" # TWNIC DNS
+    "+.rti.org.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
+    "+.cna.com.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
 
     # > 🇺🇸 USA
     # Hurricane Electric
