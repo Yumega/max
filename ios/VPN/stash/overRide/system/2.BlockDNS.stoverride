@@ -1,4 +1,4 @@
-name: "Block HTTPDNS"
+name: No2:Block HTTPDNS
 desc: 阻止常见的 HTTPDNS 服务器
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
 category: "系统"
