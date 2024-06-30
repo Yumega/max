@@ -2,9 +2,9 @@ name: No2:Block HTTPDNS
 desc: 阻止常见的 HTTPDNS 服务器
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
 category: "系统"
-  mitm:
+mitm:
     - 119.29.29.29
-  url-rewrite:
+url-rewrite:
     # Baidu
     - ^http:\/\/180\.76\.76\.112\/v4\/resolve - reject
     - ^http:\/\/180\.76\.76\.220\/v4\/resolve - reject
