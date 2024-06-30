@@ -2,11 +2,6 @@ name: No3:Rules
 desc: Stash rules 列表
 category: 系统
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
-script:
-  shortcuts:
-    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
-    instagram-quic: network == 'udp' and dst_port == 443 and match_geosite('instagram') # 匹配 Instagram 的 QUIC
-    youtube-quic: network == 'udp' and dst_port == 443 and match_geosite('youtube') # 匹配 Youtube 的 QUIC
 rules:
 #屏蔽策略
   - RULE-SET,广告屏蔽规则集,REJECT,no-track
