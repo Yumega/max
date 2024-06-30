@@ -2,6 +2,15 @@ name: No1:DNS enhanced
 desc: 域名按所属DNS进行分流解析
 category: 系统
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
+http:
+  force-http-engine:
+    - '*:80'
+    - '*:4480'
+    - '*:9102'
+    - 119.29.29.29:80
+    - dns.weixin.qq.com:80
+    - dns.weixin.qq.com:8080
+    - dns.weixin.qq.com:443
 hosts:
   "ip6-localhost": "::1" # IPv6 Localhost
   "ip6-loopback": "::1" # IPv6 Loopback
@@ -213,6 +222,7 @@ dns:
     "upos-sz-upcdntx.bilivideo.com": "https://doh.pub/dns-query" # BiliBili upos视频服务器（腾讯云）
     "+.blued.cn": "114.114.114.114"
     "+.irisdt.cn": "114.114.114.114"
+    "+.shuzilm.cn": "114.114.114.114"
     "+.cht.com.tw ": "https://dns.hinet.net/dns-query" # 中华电信
     "+.hinet.net": "https://dns.hinet.net/dns-query" # 中华电信HiNet
     "+.emome.net": "https://dns.hinet.net/dns-query" # 中华电信emome
