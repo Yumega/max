@@ -1,5 +1,6 @@
 #包含wise、微信、腾讯、iOS升级、腾讯、微软中国、cloudflare中国、谷歌cn、京东、中国银行
 #自定义
+.tdweilai.top
 .update.microsoft.com
 .dl.delivery.mp.microsoft.com
 .delivery.mp.microsoft.com
@@ -25,11 +26,11 @@ e.crashlytics.com
 .dnslify.com
 .greasyfork.org
 .pstatp.com
+app-analytics-services.com
 
 #wise
 .wise.com
 .mixpanel.com
-app-analytics-services.com
 .datatheorem.com
 .singular.net
 .braze.eu
