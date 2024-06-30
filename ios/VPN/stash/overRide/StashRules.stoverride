@@ -2,6 +2,10 @@ name: Rules
 desc: Stash rules 列表
 category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
+script:
+  shortcuts:
+    quic: network == 'udp' and (dst_port == 443 or dst_port == 80 or dst_port == 4483 or dst_port == 9305)
+    instagram-quic: network == 'udp' and dst_port == 443 and match_geosite('instagram') # 匹配 Instagram 的 QUIC
 rules:
 #屏蔽策略
   - SCRIPT,quic,REJECT,no-resolve,no-track
