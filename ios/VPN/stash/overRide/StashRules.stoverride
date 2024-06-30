@@ -5,14 +5,16 @@ icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.
 script:
   shortcuts:
     quic: network == 'udp' and (dst_port == 443 or dst_port == 80 or dst_port == 4483 or dst_port == 9305)
-    instagram-quic: network == 'udp' and dst_port == 443 and match_geosite('instagram') # 匹配 Instagram 的 QUIC
+    instagram-quic: network == 'udp' and dst_port == 443 and dst_port == 80 and match_geosite('instagram') # 匹配 Instagram 的 QUIC
+    youtube-quic: network == 'udp' and dst_port == 443 and dst_port == 80 and match_geosite('youtube') # 匹配 Instagram 的 QUIC
 rules:
 #屏蔽策略
-  - SCRIPT,quic,REJECT,no-resolve,no-track
-  - SCRIPT,instagram-quic,REJECT,no-resolve,no-track
   - RULE-SET,广告屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
+  - SCRIPT,quic,REJECT,no-resolve,no-track
+  - SCRIPT,instagram-quic,REJECT,no-resolve,no-track
+  - SCRIPT,instagram-youtube,REJECT,no-resolve,no-track
 #代理策略
   - RULE-SET,必应域名集,必应代理策略,no-track
   - RULE-SET,苹果音乐域名集,苹果音乐代理策略,no-track
