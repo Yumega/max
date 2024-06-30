@@ -3,9 +3,12 @@ desc: Stash rules 列表
 category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
 rules:
-#屏蔽广告
+#屏蔽策略
   - SCRIPT,quic,REJECT,no-track
   - SCRIPT,instagram-quic,REJECT,no-track
+  - SCRIPT,facebook-quic,REJECT,no-track
+  - SCRIPT,youtube-quic,REJECT,no-track
+  - SCRIPT,google-quic,REJECT,no-track
   - RULE-SET,广告屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义屏蔽规则集,REJECT,no-track
   - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
@@ -38,7 +41,7 @@ rules:
   - DOMAIN-KEYWORD,-uk-live,BBCiplayer代理策略,no-track
   - RULE-SET,BBCiplayer域名集,BBCiplayer代理策略,no-track
 
-#直连集合
+#直连策略
   - RULE-SET,域名直连规则集,DIRECT
   - GEOIP,CN,DIRECT,no-resolve
   - GEOSITE,cn,DIRECT
