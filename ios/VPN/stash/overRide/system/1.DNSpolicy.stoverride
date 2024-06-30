@@ -201,6 +201,7 @@ dns:
     "+.blued.cn": "114.114.114.114"
     "+.irisdt.cn": "114.114.114.114"
     "+.shuzilm.cn": "114.114.114.114"
+    "+.bldimg.com": "114.114.114.114"
     "+.cht.com.tw ": "https://dns.hinet.net/dns-query" # 中华电信
     "+.hinet.net": "https://dns.hinet.net/dns-query" # 中华电信HiNet
     "+.emome.net": "https://dns.hinet.net/dns-query" # 中华电信emome
