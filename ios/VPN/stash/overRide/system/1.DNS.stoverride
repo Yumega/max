@@ -11,6 +11,11 @@ http:
     - dns.weixin.qq.com:80
     - dns.weixin.qq.com:8080
     - dns.weixin.qq.com:443
+script:
+  shortcuts:
+    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
+    instagram-quic: network == 'udp' and dst_port == 443 and match_geosite('instagram') # 匹配 Instagram 的 QUIC
+    youtube-quic: network == 'udp' and dst_port == 443 and match_geosite('youtube') # 匹配 Youtube 的 QUIC
 hosts:
   "ip6-localhost": "::1" # IPv6 Localhost
   "ip6-loopback": "::1" # IPv6 Loopback
