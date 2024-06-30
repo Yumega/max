@@ -4,7 +4,7 @@ category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
 rules:
 #屏蔽策略
-  - SCRIPT,quic,REJECT,no-track
+  - SCRIPT,quic,REJECT,no-resolve,no-track
   - SCRIPT,instagram-quic,REJECT,no-track
   - SCRIPT,facebook-quic,REJECT,no-track
   - SCRIPT,youtube-quic,REJECT,no-track
