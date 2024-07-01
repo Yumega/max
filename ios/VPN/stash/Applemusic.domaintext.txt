@@ -1,4 +1,5 @@
 #podcast
+www.apple.com
 fpinit.itunes.apple.com
 inappcheck.itunes.apple.com
 entitlements-edge.itunes.apple.com
