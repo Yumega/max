@@ -42,3 +42,4 @@
 .ipinfo.io
 .portablesubmarines.com
 .jjcruises.com
+cloudflare-dns.com
