@@ -36,17 +36,6 @@ hosts:
 dns:
   prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
   nameserver-policy:
-    "blog.google": "119.29.29.29" # Google Blog
-    "googletraveladservices.com": "119.29.29.29" # Google Flights
-    "dl.google.com": "119.29.29.29" # Google Download
-    "dl.l.google.com": "119.29.29.29" # Google Download
-    "clientservices.googleapis.com": "119.29.29.29" # Google Chrome
-    "update.googleapis.com": "119.29.29.29" # Google Update
-    "translate.googleapis.com": "119.29.29.29" # Google Translate
-    "fonts.googleapis.com": "119.29.29.29" # Google Fonts
-    "fonts.gstatic.com": "119.29.29.29" # Google Fonts
-    "stun.l.google.com": system # Google STUN
-    "stun?.l.google.com": system # Google STUN
     "zte.home": system # 中兴 ZTE Router
     "xp.apple.com": "https://doh.dns.apple.com/dns-query" # Apple
     "+.xp.apple.com": "https://doh.dns.apple.com/dns-query" # Apple
