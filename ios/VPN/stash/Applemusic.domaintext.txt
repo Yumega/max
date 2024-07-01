@@ -1,3 +1,7 @@
+#podcast
+fpinit.itunes.apple.com
+inappcheck.itunes.apple.com
+
 #直播源必须美国
 .houstonpublicmedia.org
 .wnyc.org
@@ -69,4 +73,3 @@
 .comm-main.ess.apple.com
 .ess.apple.com
 gsas.apple.com
-fpinit.itunes.apple.com
