@@ -1,4 +1,4 @@
-name: No1:DNS分流
+name: No2:DNS分流
 desc: 域名按所属DNS进行分流解析
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
 category: 系统
