@@ -8,7 +8,7 @@ proxy-groups:
   - name: "全局最优代理"
     icon: null
     type: url-test
-    interval: 300
+    interval: 600
     proxies:
       - C28日本
       - C76日本
@@ -26,7 +26,7 @@ proxy-groups:
   - name: "美国最优代理"
     icon: null
     type: url-test
-    interval: 300
+    interval: 600
     proxies:
       - C28美国
       - C76美国
@@ -40,7 +40,7 @@ proxy-groups:
   - name: "英国最优代理"
     icon: null
     type: url-test
-    interval: 300
+    interval: 600
     proxies:
       - 英国S3
       - 英国S4
@@ -50,19 +50,19 @@ proxy-groups:
   - name: "美国代理策略"
     icon: https://raw.githubusercontent.com/fanmingming/Rules/main/Country/US.png
     type: select
-    interval: 90000
+    interval: 3600
     proxies:
       - 美国最优代理
   - name: "英国代理策略"
     icon: https://raw.githubusercontent.com/fanmingming/Rules/main/Country/UK.png
     type: select
-    interval: 90000
+    interval: 3600
     proxies:
       - 英国最优代理
   - name: "漏网之鱼策略"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
     type: select
-    interval: 90000
+    interval: 600
     proxies:
       - 全局最优代理
 
@@ -71,38 +71,39 @@ rule-providers:
   广告屏蔽规则集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
-    interval: 86400
+    interval: 3600
   自定义屏蔽规则集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/CustomReject.domaintext.txt
-    interval: 90000
+    interval: 3600
   自定义ip屏蔽规则集:
     behavior: ipcidr
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/CustomReject.ipcidr.txt
-    interval: 90000
+    interval: 3600
   
 #各类服务规则集
   美国域名集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/USA.domaintext.txt
-    interval: 90000
+    interval: 3600
   美国ip集:
     behavior: ipcidr
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/USA.ipcidr.txt
-    interval: 90000
+    interval: 3600
   英国域名集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/UK.domaintext.txt
-    interval: 90000
+    interval: 3600
+
   #直连规则集-(界面不显示)
   域名直连规则集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/direct.domaintext.txt
-    interval: 90000
+    interval: 3600
   ip直连规则集:
     behavior: ipcidr
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/direct.ipcidr.txt
-    interval: 90000
+    interval: 3600
 
 rules:
 #屏蔽策略
