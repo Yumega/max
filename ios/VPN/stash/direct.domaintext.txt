@@ -12,6 +12,7 @@
 .typekit.net
 .adobe.com
 .orvibo.com
+doh.dns.apple.com
 #wise
 .wise.com
 .mixpanel.com
