@@ -39,6 +39,7 @@
 .musicbrainz.org
 .githubusercontent.com
 .github.com
+.githubassets.com
 .ipinfo.io
 .portablesubmarines.com
 .jjcruises.com
