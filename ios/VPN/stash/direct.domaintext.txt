@@ -1,5 +1,6 @@
 #包含wise、微信、腾讯、iOS升级、微软中国、cloudflare中国、谷歌cn、京东、中国银行
 #自定义
+.weshineapp.com
 .ip.plus
 .anti-ad.net
 .fengshows.com
