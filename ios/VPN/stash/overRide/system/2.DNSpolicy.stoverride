@@ -48,6 +48,8 @@ dns:
     "stun.l.google.com": system # Google STUN
     "stun?.l.google.com": system # Google STUN
     "zte.home": system # 中兴 ZTE Router
+    "xp.apple.com": "https://doh.dns.apple.com/dns-query" # Apple
+    "+.xp.apple.com": "https://doh.dns.apple.com/dns-query" # Apple
     "networking.apple": "https://doh.dns.apple.com/dns-query" # Apple
     "+.icloud.com": "https://doh.dns.apple.com/dns-query" # iCloud.com
     "+.alibaba.cn": "https://dns.alidns.com/dns-query" # 阿里巴巴
