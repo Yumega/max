@@ -41,7 +41,7 @@ rules:
 
 #直连策略
   - RULE-SET,域名直连规则集,DIRECT,no-track
-  - GEOIP,CN,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT,no-resolve,no-track
   - GEOSITE,cn,DIRECT,no-track
   - IP-ASN,132203,DIRECT,no-resolve # 微信
   - IP-ASN,6185,DIRECT,no-resolve # Apple中国
