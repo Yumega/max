@@ -10,6 +10,7 @@
 .pstatp.com
 .typekit.net
 .adobe.com
+.orvibo.com
 #wise
 .wise.com
 .mixpanel.com
