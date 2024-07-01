@@ -1,7 +1,8 @@
-name: No1:easyRules
+name: No2:easyRules
 desc: Stash rules 列表
-category: 系统
+category: Easystash
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/rule.png
+
 rules:
 #屏蔽策略
   - SCRIPT,quic,REJECT,no-resolve,no-track
