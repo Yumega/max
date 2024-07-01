@@ -1,26 +1,6 @@
 #包含wise、微信、腾讯、iOS升级、腾讯、微软中国、cloudflare中国、谷歌cn、京东、中国银行
 #自定义
-.bldimg.com
-.wswebpic.com
-.huajiao.com
-.update.microsoft.com
-.dl.delivery.mp.microsoft.com
-.delivery.mp.microsoft.com
-tlu.dl.delivery.mp.microsoft.com
-settings-win.data.microsoft.com
-vortex-win.data.microsoft.com
-mzstorekit.itunes.apple.com
-static.gc.apple.com
-init.gc.apple.com
-itunes.apple.com
-iphone-ld.apple.com
-ocsp2.apple.com
-ocsp.apple.com
-swallow.apple.com
-.guzzoni.apple.com
-time.apple.com
-captive.apple.com
-e.crashlytics.com
+.ip.plus
 .anti-ad.net
 .fengshows.com
 .douyincdn.com
@@ -28,7 +8,6 @@ e.crashlytics.com
 .dnslify.com
 .greasyfork.org
 .pstatp.com
-app-analytics-services.com
 
 #wise
 .wise.com
@@ -52,6 +31,23 @@ app-analytics-services.com
 .xy-asia.com
 .iot-tencent.com
 .gtimg.com
+.blued.cn
+.bldimg.com
+.wswebpic.com
+.huajiao.com
+
+#Apple
+static.gc.apple.com
+init.gc.apple.com
+itunes.apple.com
+iphone-ld.apple.com
+ocsp2.apple.com
+ocsp.apple.com
+swallow.apple.com
+.guzzoni.apple.com
+time.apple.com
+captive.apple.com
+e.crashlytics.com
 
 ##icloud/苹果商店
 .smoot.apple.com
@@ -588,6 +584,15 @@ app-analytics-services.com
 .yux.team
 .ywurl.com
 
+#微软自定义
+.update.microsoft.com
+.dl.delivery.mp.microsoft.com
+.delivery.mp.microsoft.com
+tlu.dl.delivery.mp.microsoft.com
+settings-win.data.microsoft.com
+vortex-win.data.microsoft.com
+mzstorekit.itunes.apple.com
+app-analytics-services.com
 #微软
 .vsmarketplacebadge.apphb.com
 .21vbc.com
