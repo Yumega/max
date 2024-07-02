@@ -115,6 +115,8 @@ rules:
   #代理策略
   - RULE-SET,美国域名集,美国代理策略,no-track
   - RULE-SET,美国ip集,美国代理策略,no-resolve,no-track
+  - GEOSITE,category-social-media-!cn,全局最优代理
+  - GEOSITE,google,全局最优代理
   - RULE-SET,英国域名集,英国代理策略,no-track
   - DOMAIN-KEYWORD,-uk-live,英国代理策略,no-track
   #直连策略
