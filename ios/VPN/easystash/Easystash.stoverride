@@ -68,10 +68,6 @@ proxy-groups:
 
 rule-providers:
   #屏蔽规则集-(界面不显示)
-  Reject屏蔽广告集:
-    behavior: domain-text
-    url: https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
-    interval: 3600
   Reject屏蔽域名集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.domaintext.txt
@@ -79,6 +75,10 @@ rule-providers:
   Reject屏蔽ip集:
     behavior: ipcidr
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.ipcidr.txt
+    interval: 3600
+  Reject屏蔽广告集(自动):
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
     interval: 3600
   
 #各类服务规则集
@@ -108,9 +108,9 @@ rule-providers:
 rules:
 #屏蔽策略
   - SCRIPT,quic,REJECT,no-resolve,no-track
-  - RULE-SET,Reject屏蔽广告集,REJECT,no-track
   - RULE-SET,Reject屏蔽域名集,REJECT,no-track
   - RULE-SET,Reject屏蔽ip集,REJECT,no-resolve,no-track
+  - RULE-SET,Reject屏蔽广告集(自动),REJECT,no-track
 #代理策略
   - RULE-SET,美国域名集,美国代理策略,no-track
   - RULE-SET,美国ip集,美国代理策略,no-resolve,no-track
