@@ -58,11 +58,6 @@ proxy-groups:
     type: select
     proxies:
       - 英国最优代理
-  - name: "漏网之鱼策略"
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
-    type: select
-    proxies:
-      - 全局最优代理
 rule-providers:
   #屏蔽规则集-(界面不显示)
   Reject屏蔽域名集(手动):
@@ -133,4 +128,4 @@ rules:
   - IP-ASN,714,DIRECT,no-resolve # Apple中国
   - IP-ASN,6185,DIRECT,no-resolve # Apple中国
   - GEOIP,CN,DIRECT,no-resolve,no-track
-  - MATCH,漏网之鱼策略
+  - MATCH,全局最优代理
