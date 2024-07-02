@@ -176,7 +176,7 @@ dns:
     "+.toutiaocloud.com": "180.184.1.1" # 头条云
     "+.toutiaopage.com": "180.184.1.1" # 今日头条 建站
     "+.wukong.com": "180.184.1.1" # 悟空
-    "+.zijieapi.com": "180.184.1.1" # 字节跳动 API
+    "+.zijieapi.com": "https://doh.18bit.cn/dns-query" # 字节跳动 API（去广告）
     "+.zijieimg.com": "180.184.1.1" # 字节跳动 图片服务
     "+.zjbyte.com": "180.184.1.1" # 今日头条 网页版
     "+.zjcdn.com": "180.184.1.1" # 字节跳动 CDN
