@@ -133,7 +133,5 @@ rules:
   - RULE-SET,Direct直连ip集(手动),DIRECT,no-resolve,no-track
   - RULE-SET,Direct直连ipv4集,DIRECT,no-resolve,no-track
   - RULE-SET,Direct直连ipv6集,DIRECT,no-resolve,no-track
-  - IP-ASN,714,DIRECT,no-resolve # Apple中国
-  - IP-ASN,6185,DIRECT,no-resolve # Apple中国
   - GEOIP,CN,DIRECT,no-resolve,no-track
   - MATCH,全局最优代理
