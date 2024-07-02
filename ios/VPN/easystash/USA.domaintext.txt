@@ -1,5 +1,6 @@
 #包含苹果音乐、苹果podcast、plutoTV、必应、Spotify
-
+.discogs.com
+.musicbrainz.org
 #podcast
 www.apple.com
 fpinit.itunes.apple.com
