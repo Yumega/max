@@ -68,17 +68,17 @@ proxy-groups:
 
 rule-providers:
   #屏蔽规则集-(界面不显示)
-  广告屏蔽规则集:
+  Reject屏蔽广告集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
     interval: 3600
-  自定义屏蔽规则集:
+  Reject屏蔽域名集:
     behavior: domain-text
-    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/CustomReject.domaintext.txt
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.domaintext.txt
     interval: 3600
-  自定义ip屏蔽规则集:
+  Reject屏蔽ip集:
     behavior: ipcidr
-    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/CustomReject.ipcidr.txt
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.ipcidr.txt
     interval: 3600
   
 #各类服务规则集
@@ -96,37 +96,33 @@ rule-providers:
     interval: 3600
 
   #直连规则集-(界面不显示)
-  域名直连规则集:
+  Direct直连域名集:
     behavior: domain-text
-    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/direct.domaintext.txt
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.domaintext.txt
     interval: 3600
-  ip直连规则集:
+  Direct直连ip集:
     behavior: ipcidr
-    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/direct.ipcidr.txt
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.txt
     interval: 3600
 
 rules:
 #屏蔽策略
   - SCRIPT,quic,REJECT,no-resolve,no-track
-  - RULE-SET,广告屏蔽规则集,REJECT,no-track
-  - RULE-SET,自定义屏蔽规则集,REJECT,no-track
-  - RULE-SET,自定义ip屏蔽规则集,REJECT,no-resolve,no-track
+  - RULE-SET,Reject屏蔽广告集,REJECT,no-track
+  - RULE-SET,Reject屏蔽域名集,REJECT,no-track
+  - RULE-SET,Reject屏蔽ip集,REJECT,no-resolve,no-track
 #代理策略
   - RULE-SET,美国域名集,美国代理策略,no-track
   - RULE-SET,美国ip集,美国代理策略,no-resolve,no-track
-  - DOMAIN-KEYWORD,spotify.com,美国代理策略,no-track
-  - DOMAIN-KEYWORD,-spotify-,美国代理策略,no-track
   - RULE-SET,英国域名集,英国代理策略,no-track
   - DOMAIN-KEYWORD,-uk-live,英国代理策略,no-track
 #直连策略
-  - RULE-SET,域名直连规则集,DIRECT,no-track
+  - RULE-SET,Direct直连域名集,DIRECT,no-track
+  - RULE-SET,Direct直连ip集,DIRECT,no-resolve,no-track
   - GEOIP,CN,DIRECT,no-resolve,no-track
   - GEOSITE,cn,DIRECT,no-track
-  - IP-ASN,132203,DIRECT,no-resolve # 微信
   - IP-ASN,6185,DIRECT,no-resolve # Apple中国
   - IP-ASN,714,DIRECT,no-resolve # Apple中国
-  - RULE-SET,ip直连规则集,DIRECT,no-resolve,no-track
   - GEOIP,lan,DIRECT,no-resolve,no-track
-  - DOMAIN-KEYWORD,57191.xyz,DIRECT
   - DOMAIN-KEYWORD,push-apple.com,DIRECT
   - MATCH,漏网之鱼策略 
