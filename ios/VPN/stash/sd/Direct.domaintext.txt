@@ -1,5 +1,6 @@
 #包含wise、微信、腾讯、iOS升级、微软中国、cloudflare中国、京东、中国银行
 #自定义
+doh.dns.apple.com
 .weshineapp.com
 .ip.plus
 .anti-ad.net
@@ -12,17 +13,15 @@
 .typekit.net
 .adobe.com
 .orvibo.com
-doh.dns.apple.com
 .757191.xyz
 .xkww3n.cyou
-
+.guwendao.net
 #wise
 .wise.com
 .mixpanel.com
 .datatheorem.com
 .singular.net
 .braze.eu
-
 #微软自定义
 .update.microsoft.com
 .dl.delivery.mp.microsoft.com
