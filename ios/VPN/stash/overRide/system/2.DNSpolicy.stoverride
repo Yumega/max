@@ -17,6 +17,11 @@ hosts:
   "doh.360.cn": "23.6.48.18" # https://doh.360.cn/dns-query
   "dot.360.cn": "101.198.198.198" # dot.360.cn:853
   "dns.twnic.tw": "101.101.101.101" # https://dns.twnic.tw/dns-query
+  "dns.weixin.qq.com": "127.0.0.1"
+  "dns.weixin.qq.com.cn": "127.0.0.1"
+  "httpdns.alicdn.com": "127.0.0.1"
+  "dns.weibo.cn": "127.0.0.1"
+
 dns:
   prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
   nameserver-policy:
