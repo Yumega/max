@@ -122,11 +122,11 @@ rules:
   - GEOSITE,category-social-media-!cn,全局最优代理,no-track
   - GEOSITE,google,全局最优代理,no-track
   - GEOSITE,telegram,全局最优代理,no-track
-  - RULE-SET,外网ip集(手动),全局最优代理,no-resolve
+  - RULE-SET,外网ip集(手动),全局最优代理,no-resolve,no-track
   - RULE-SET,英国域名集,英国代理策略,no-track
   - DOMAIN-KEYWORD,-uk-live,英国代理策略,no-track
   #直连策略
-  - DOMAIN-KEYWORD,push-apple.com,DIRECT
+  - DOMAIN-KEYWORD,push-apple.com,DIRECT,no-track
   - RULE-SET,Direct直连域名集(手动),DIRECT,no-track
   - RULE-SET,Direct直连域名集,DIRECT,no-track
   - GEOSITE,cn,DIRECT,no-track
