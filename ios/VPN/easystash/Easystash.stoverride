@@ -22,6 +22,7 @@ proxy-groups:
       - 76SS1
       - 76SS2
     hidden: true
+    lazy: true
   - name: "美国最优代理"
     icon: null
     type: url-test
@@ -36,6 +37,7 @@ proxy-groups:
       - 76SS1
       - 76SS2
     hidden: true
+    lazy: true
   - name: "英国最优代理"
     icon: null
     type: url-test
