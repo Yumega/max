@@ -194,9 +194,6 @@ dns:
     "+.shuzilm.cn": "114.114.114.114"
     "+.bldimg.com": "114.114.114.114"
     "+.wswebpic.com": "114.114.114.114"
-    "+.cht.com.tw ": "https://dns.hinet.net/dns-query" # 中华电信
-    "+.hinet.net": "https://dns.hinet.net/dns-query" # 中华电信HiNet
-    "+.emome.net": "https://dns.hinet.net/dns-query" # 中华电信emome
     "+.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
     "+.taipei": "https://dns.twnic.tw/dns-query" # TWNIC DNS
     "+.rti.org.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
