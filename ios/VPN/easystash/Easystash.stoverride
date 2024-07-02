@@ -68,15 +68,15 @@ proxy-groups:
 
 rule-providers:
   #屏蔽规则集-(界面不显示)
-  Reject屏蔽域名集:
+  Reject屏蔽域名集(手动):
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.domaintext.txt
     interval: 3600
-  Reject屏蔽ip集:
+  Reject屏蔽ip集(手动):
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.ipcidr.text.txt
     interval: 3600
-  Reject屏蔽广告集(自动):
+  Reject屏蔽广告集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
     interval: 3600
@@ -96,23 +96,23 @@ rule-providers:
     interval: 3600
 
   #直连规则集-(界面不显示)
-  Direct直连域名集:
+  Direct直连域名集(手动):
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.domaintext.txt
     interval: 3600
-  Direct直连域名集(自动):
+  Direct直连域名集:
     behavior: domain-text
     url: https://rules.xkww3n.cyou/text/domestic.txt
     interval: 3600
-  Direct直连ip集:
+  Direct直连ip集(手动):
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.text.txt
     interval: 3600
-  Direct直连ipv4集(自动):
+  Direct直连ipv4集:
     behavior: ipcidr-text
     url: https://rules.xkww3n.cyou/text/domestic_ip.txt
     interval: 3600
-  Direct直连ipv6集(自动):
+  Direct直连ipv6集:
     behavior: ipcidr-text
     url: https://rules.xkww3n.cyou/text/domestic_ip6.txt
     interval: 3600
@@ -120,20 +120,20 @@ rule-providers:
 rules:
 #屏蔽策略
   - SCRIPT,quic,REJECT,no-resolve,no-track
-  - RULE-SET,Reject屏蔽域名集,REJECT,no-track
-  - RULE-SET,Reject屏蔽ip集,REJECT,no-resolve,no-track
-  - RULE-SET,Reject屏蔽广告集(自动),REJECT,no-track
+  - RULE-SET,Reject屏蔽域名集(手动),REJECT,no-track
+  - RULE-SET,Reject屏蔽ip集(手动),REJECT,no-resolve,no-track
+  - RULE-SET,Reject屏蔽广告集,REJECT,no-track
 #代理策略
   - RULE-SET,美国域名集,美国代理策略,no-track
   - RULE-SET,美国ip集,美国代理策略,no-resolve,no-track
   - RULE-SET,英国域名集,英国代理策略,no-track
   - DOMAIN-KEYWORD,-uk-live,英国代理策略,no-track
 #直连策略
+  - RULE-SET,Direct直连域名集(手动),DIRECT,no-track
   - RULE-SET,Direct直连域名集,DIRECT,no-track
-  - RULE-SET,Direct直连域名集(自动),DIRECT,no-track
-  - RULE-SET,Direct直连ip集,DIRECT,no-resolve,no-track
-  - RULE-SET,Direct直连ipv4集(自动),DIRECT,no-resolve,no-track
-  - RULE-SET,Direct直连ipv6集(自动),DIRECT,no-resolve,no-track
+  - RULE-SET,Direct直连ip集(手动),DIRECT,no-resolve,no-track
+  - RULE-SET,Direct直连ipv4集,DIRECT,no-resolve,no-track
+  - RULE-SET,Direct直连ipv6集,DIRECT,no-resolve,no-track
   - GEOIP,CN,DIRECT,no-resolve,no-track
   - GEOSITE,cn,DIRECT,no-track
   - IP-ASN,6185,DIRECT,no-resolve # Apple中国
