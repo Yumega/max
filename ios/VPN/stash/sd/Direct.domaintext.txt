@@ -14,7 +14,7 @@
 .orvibo.com
 doh.dns.apple.com
 .757191.xyz
-
+.xkww3n.cyou
 #wise
 .wise.com
 .mixpanel.com
