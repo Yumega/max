@@ -13,6 +13,8 @@
 .adobe.com
 .orvibo.com
 doh.dns.apple.com
+.757191.xyz
+
 #wise
 .wise.com
 .mixpanel.com
