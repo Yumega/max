@@ -50,13 +50,13 @@ proxy-groups:
   - name: "美国代理策略"
     icon: https://raw.githubusercontent.com/fanmingming/Rules/main/Country/US.png
     type: select
-    interval: 3600
+    interval: 600
     proxies:
       - 美国最优代理
   - name: "英国代理策略"
     icon: https://raw.githubusercontent.com/fanmingming/Rules/main/Country/UK.png
     type: select
-    interval: 3600
+    interval: 600
     proxies:
       - 英国最优代理
   - name: "漏网之鱼策略"
@@ -71,51 +71,51 @@ rule-providers:
   Reject屏蔽域名集(手动):
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.domaintext.txt
-    interval: 3600
+    interval: 86000
   Reject屏蔽ip集(手动):
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.ipcidr.text.txt
-    interval: 3600
+    interval: 86000
   Reject屏蔽广告集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
-    interval: 3600
+    interval: 86000
   
 #各类服务规则集
   美国域名集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/USA.domaintext.txt
-    interval: 3600
+    interval: 86000
   美国ip集:
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/USA.ipcidr.text.txt
-    interval: 3600
+    interval: 86000
   英国域名集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/UK.domaintext.txt
-    interval: 3600
+    interval: 86000
 
   #直连规则集-(界面不显示)
   Direct直连域名集(手动):
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.domaintext.txt
-    interval: 3600
+    interval: 86000
   Direct直连域名集:
     behavior: domain-text
     url: https://rules.xkww3n.cyou/text/domestic.txt
-    interval: 3600
+    interval: 86000
   Direct直连ip集(手动):
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.text.txt
-    interval: 3600
+    interval: 86000
   Direct直连ipv4集:
     behavior: ipcidr-text
     url: https://rules.xkww3n.cyou/text/domestic_ip.txt
-    interval: 3600
+    interval: 86000
   Direct直连ipv6集:
     behavior: ipcidr-text
     url: https://rules.xkww3n.cyou/text/domestic_ip6.txt
-    interval: 3600
+    interval: 86000
 
 rules:
 #屏蔽策略
