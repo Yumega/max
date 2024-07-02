@@ -72,7 +72,7 @@ rule-providers:
   Reject屏蔽ip集(手动):
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.ipcidr.text.txt
-    interval: 86000
+    interval: 86400
   Reject屏蔽广告集:
     behavior: domain-text
     url: https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
