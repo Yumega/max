@@ -73,8 +73,8 @@ rule-providers:
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.domaintext.txt
     interval: 3600
   Reject屏蔽ip集:
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.ipcidr.txt
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Reject.ipcidr.text.txt
     interval: 3600
   Reject屏蔽广告集(自动):
     behavior: domain-text
@@ -87,8 +87,8 @@ rule-providers:
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/USA.domaintext.txt
     interval: 3600
   美国ip集:
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/USA.ipcidr.txt
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/easystash/USA.ipcidr.text.txt
     interval: 3600
   英国域名集:
     behavior: domain-text
@@ -101,8 +101,8 @@ rule-providers:
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.domaintext.txt
     interval: 3600
   Direct直连ip集:
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.txt
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.text.txt
     interval: 3600
   Direct直连域名集(自动):
     behavior: domain-text
