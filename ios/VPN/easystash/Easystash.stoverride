@@ -104,6 +104,10 @@ rule-providers:
     behavior: ipcidr
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.txt
     interval: 3600
+  Direct直连域名集(自动):
+    behavior: domain-text
+    url: https://rules.xkww3n.cyou/text/domestic.txt
+    interval: 3600
 
 rules:
 #屏蔽策略
@@ -119,6 +123,7 @@ rules:
 #直连策略
   - RULE-SET,Direct直连域名集,DIRECT,no-track
   - RULE-SET,Direct直连ip集,DIRECT,no-resolve,no-track
+  - RULE-SET,Direct直连域名集(自动),DIRECT,no-track
   - GEOIP,CN,DIRECT,no-resolve,no-track
   - GEOSITE,cn,DIRECT,no-track
   - IP-ASN,6185,DIRECT,no-resolve # Apple中国
