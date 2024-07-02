@@ -100,13 +100,21 @@ rule-providers:
     behavior: domain-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.domaintext.txt
     interval: 3600
+  Direct直连域名集(自动):
+    behavior: domain-text
+    url: https://rules.xkww3n.cyou/text/domestic.txt
+    interval: 3600
   Direct直连ip集:
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.text.txt
     interval: 3600
-  Direct直连域名集(自动):
-    behavior: domain-text
-    url: https://rules.xkww3n.cyou/text/domestic.txt
+  Direct直连ipv4集(自动):
+    behavior: ipcidr-text
+    url: https://rules.xkww3n.cyou/text/domestic_ip.txt
+    interval: 3600
+  Direct直连ipv6集(自动):
+    behavior: ipcidr-text
+    url: https://rules.xkww3n.cyou/text/domestic_ip6.txt
     interval: 3600
 
 rules:
@@ -122,12 +130,13 @@ rules:
   - DOMAIN-KEYWORD,-uk-live,英国代理策略,no-track
 #直连策略
   - RULE-SET,Direct直连域名集,DIRECT,no-track
-  - RULE-SET,Direct直连ip集,DIRECT,no-resolve,no-track
   - RULE-SET,Direct直连域名集(自动),DIRECT,no-track
+  - RULE-SET,Direct直连ip集,DIRECT,no-resolve,no-track
+  - RULE-SET,Direct直连ipv4集(自动),DIRECT,no-resolve,no-track
+  - RULE-SET,Direct直连ipv6集(自动),DIRECT,no-resolve,no-track
   - GEOIP,CN,DIRECT,no-resolve,no-track
   - GEOSITE,cn,DIRECT,no-track
   - IP-ASN,6185,DIRECT,no-resolve # Apple中国
   - IP-ASN,714,DIRECT,no-resolve # Apple中国
-  - GEOIP,lan,DIRECT,no-resolve,no-track
   - DOMAIN-KEYWORD,push-apple.com,DIRECT
   - MATCH,漏网之鱼策略 
