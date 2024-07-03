@@ -1,5 +1,4 @@
 #广告
-i.instagram.com
 graph.facebook.com
 .b0.upaiyun.com
 .news.163.com
