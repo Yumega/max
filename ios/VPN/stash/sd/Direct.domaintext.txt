@@ -54,6 +54,8 @@ app-analytics-services.com
 .huajiao.com
 
 #Apple
+pd.itunes.apple.com
+pd-itunes.apple.com
 static.gc.apple.com
 init.gc.apple.com
 itunes.apple.com
