@@ -178,12 +178,12 @@ dns:
     "upos-sz-mirrorcos??.bilivideo.com": "https://doh.pub/dns-query" # BiliBili upos视频服务器（腾讯云）
     "upos-sz-upcdnbd??.bilivideo.com": "180.76.76.76" # BiliBili upos视频服务器（百度云）
     "upos-sz-upcdntx.bilivideo.com": "https://doh.pub/dns-query" # BiliBili upos视频服务器（腾讯云）
-    "+.blued.cn": "114.114.114.114"
-    "+.irisdt.cn": "114.114.114.114"
-    "+.shuzilm.cn": "114.114.114.114"
-    "+.bldimg.com": "114.114.114.114"
-    "+.wswebpic.com": "114.114.114.114"
-    "dualstack-restios.amap.com": "114.114.114.114"
+    "+.blued.cn": "https://doh.360.cn/dns-query"
+    "+.irisdt.cn": "https://doh.360.cn/dns-query"
+    "+.shuzilm.cn": "https://doh.360.cn/dns-query"
+    "+.bldimg.com": "https://doh.360.cn/dns-query"
+    "+.wswebpic.com": "https://doh.360.cn/dns-query"
+    "dualstack-restios.amap.com": "https://doh.360.cn/dns-query"
     "+.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
     "+.rti.org.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
     "+.cna.com.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
