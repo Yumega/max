@@ -67,6 +67,7 @@ swallow.apple.com
 time.apple.com
 captive.apple.com
 e.crashlytics.com
+identity.apple.com
 
 ##icloud/苹果商店
 .smoot.apple.com
