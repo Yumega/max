@@ -13,7 +13,6 @@ hosts:
   "cloudflare-dns.com": "104.16.249.249" # https://cloudflare-dns.com/dns-query
   "dns.alidns.com": "223.5.5.5" # https://dns.alidns.com/dns-query
   "doh.pub": "1.12.12.12" # https://doh.pub/dns-query
-  "dot.360.cn": "101.198.198.198" # dot.360.cn:853
   "dns.twnic.tw": "101.101.101.101" # https://dns.twnic.tw/dns-query
   "dns.weixin.qq.com": "127.0.0.1"
   "dns.weixin.qq.com.cn": "127.0.0.1"
@@ -108,24 +107,6 @@ dns:
     "+.bcehost.com": "180.76.76.76" # 百度智能云 主机
     "+.bcehosts.com": "180.76.76.76" # 百度智能云 主机
     "dwz.cn": "180.76.76.76" # 百度短网址
-    "+.360.cn": "https://doh.360.cn/dns-query" # 360安全中心
-    "+.360safe.com": "https://doh.360.cn/dns-query" # 360安全卫士
-    "+.360kuai.com": "https://doh.360.cn/dns-query" # 360快资讯
-    "+.so.com": "https://doh.360.cn/dns-query" # 360搜索
-    "+.360webcache.com": "https://doh.360.cn/dns-query" # 360网页快照服务
-    "+.qihuapi.com": "https://doh.360.cn/dns-query" # 奇虎api
-    "+.qhimg.com": "https://doh.360.cn/dns-query" # 360图床
-    "+.qhimgs.com": "https://doh.360.cn/dns-query" # 360图床
-    "+.qhimgs?.com": "https://doh.360.cn/dns-query" # 360图床
-    "+.qhmsg.com": "https://doh.360.cn/dns-query" # 360
-    "+.qhres.com": "https://doh.360.cn/dns-query" # 奇虎静态资源
-    "+.qhres?.com": "https://doh.360.cn/dns-query" # 奇虎静态资源
-    "+.dhrest.com": "https://doh.360.cn/dns-query" # 导航静态文件
-    "+.qhupdate.com": "https://doh.360.cn/dns-query" # 360
-    "+.yunpan.cn": "https://doh.360.cn/dns-query" # 360安全云盘
-    "+.yunpan.com.cn": "https://doh.360.cn/dns-query" # 360安全云盘
-    "+.yunpan.com": "https://doh.360.cn/dns-query" # 360安全云盘
-    "urlqh.cn": "https://doh.360.cn/dns-query" # 360短网址
     "+.amemv.com": "180.184.1.1" # 艾特迷
     "+.bdxiguaimg.com": "180.184.1.1" # 西瓜 图片服务
     "+.bdxiguastatic.com": "180.184.1.1" # 西瓜 静态资源
