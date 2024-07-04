@@ -3,13 +3,13 @@
 .musicbrainz.org
 #podcast
 www.apple.com
-fpinit.itunes.apple.com
-inappcheck.itunes.apple.com
-entitlements-edge.itunes.apple.com
-lookup-api.apple.com
-podcasts.apple.com
-podcast.apple.com
-.podcasts.apple.com
+#fpinit.itunes.apple.com
+#inappcheck.itunes.apple.com
+#entitlements-edge.itunes.apple.com
+#lookup-api.apple.com
+#podcasts.apple.com
+#podcast.apple.com
+#.podcasts.apple.com
 
 #直播源必须美国
 .houstonpublicmedia.org
