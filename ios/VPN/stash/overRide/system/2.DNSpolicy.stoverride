@@ -183,6 +183,7 @@ dns:
     "+.shuzilm.cn": "114.114.114.114"
     "+.bldimg.com": "114.114.114.114"
     "+.wswebpic.com": "114.114.114.114"
+    "dualstack-restios.amap.com": "114.114.114.114"
     "+.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
     "+.rti.org.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
     "+.cna.com.tw": "https://dns.twnic.tw/dns-query" # TWNIC DNS
