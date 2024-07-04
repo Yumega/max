@@ -18,11 +18,10 @@ hosts:
   "dns.weixin.qq.com.cn": "127.0.0.1"
   "httpdns.alicdn.com": "127.0.0.1"
   "dns.weibo.cn": "127.0.0.1"
-  "doh.dns.apple.com": "17.253.86.163"
 dns:
-  prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
   nameserver-policy:
     "zte.home": system # 中兴 ZTE Router
+    "+.icloud.com": "https://223.5.5.5/dns-query" # iCloud.com
     "+.alibaba.cn": "https://dns.alidns.com/dns-query" # 阿里巴巴
     "+.alibaba.com.cn": "https://dns.alidns.com/dns-query" # 阿里巴巴
     "+.china.alibaba.com": "https://dns.alidns.com/dns-query" # Alibaba 中国
