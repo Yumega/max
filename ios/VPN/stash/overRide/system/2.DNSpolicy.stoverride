@@ -13,21 +13,17 @@ hosts:
   "cloudflare-dns.com": "104.16.249.249" # https://cloudflare-dns.com/dns-query
   "dns.alidns.com": "223.5.5.5" # https://dns.alidns.com/dns-query
   "doh.pub": "1.12.12.12" # https://doh.pub/dns-query
-  "dot.pub": "1.12.12.12" # dot.pub:853
-  "doh.360.cn": "23.6.48.18" # https://doh.360.cn/dns-query
   "dot.360.cn": "101.198.198.198" # dot.360.cn:853
   "dns.twnic.tw": "101.101.101.101" # https://dns.twnic.tw/dns-query
   "dns.weixin.qq.com": "127.0.0.1"
   "dns.weixin.qq.com.cn": "127.0.0.1"
   "httpdns.alicdn.com": "127.0.0.1"
   "dns.weibo.cn": "127.0.0.1"
-
+  "doh.dns.apple.com": "17.253.86.163"
 dns:
   prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
   nameserver-policy:
     "zte.home": system # 中兴 ZTE Router
-    "xp.apple.com": "https://doh.dns.apple.com/dns-query" # Apple
-    "+.xp.apple.com": "https://doh.dns.apple.com/dns-query" # Apple
     "networking.apple": "https://doh.dns.apple.com/dns-query" # Apple
     "+.icloud.com": "https://doh.dns.apple.com/dns-query" # iCloud.com
     "+.alibaba.cn": "https://dns.alidns.com/dns-query" # 阿里巴巴
