@@ -131,7 +131,7 @@ rules:
   - RULE-SET,Direct直连域名集(手动),DIRECT,no-track
   - RULE-SET,Direct直连域名集,DIRECT,no-track
   - GEOSITE,cn,DIRECT,no-track
-  - GEOSITE,private,DIRECT
+  - GEOSITE,private,DIRECT,no-track
   - RULE-SET,Direct直连ip集(手动),DIRECT,no-resolve,no-track
   - RULE-SET,Direct直连ipv4集,DIRECT,no-resolve,no-track
   - RULE-SET,Direct直连ipv6集,DIRECT,no-resolve,no-track
