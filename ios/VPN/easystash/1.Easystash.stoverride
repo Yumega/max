@@ -98,6 +98,7 @@ rule-providers:
     behavior: domain-text
     url: https://rules.xkww3n.cyou/text/domestic.txt
     interval: 86400
+  #上面来源 https://github.com/xkww3n/Rules/wiki/%E8%A7%84%E5%88%99%E9%9B%86%E5%88%97%E8%A1%A8
   Direct直连ip集(手动):
     behavior: ipcidr-text
     url: https://raw.githubusercontent.com/Yumega/max/master/ios/VPN/stash/sd/Direct.ipcidr.text.txt
@@ -130,6 +131,7 @@ rules:
   - RULE-SET,Direct直连域名集(手动),DIRECT,no-track
   - RULE-SET,Direct直连域名集,DIRECT,no-track
   - GEOSITE,cn,DIRECT,no-track
+  - GEOSITE,private,DIRECT
   - RULE-SET,Direct直连ip集(手动),DIRECT,no-resolve,no-track
   - RULE-SET,Direct直连ipv4集,DIRECT,no-resolve,no-track
   - RULE-SET,Direct直连ipv6集,DIRECT,no-resolve,no-track
