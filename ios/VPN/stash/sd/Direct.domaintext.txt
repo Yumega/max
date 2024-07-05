@@ -17,6 +17,7 @@ cloudflare-dns.com
 .757191.xyz
 .xkww3n.cyou
 .guwendao.net
+.aliyuncs.com
 #wise
 .wise.com
 .mixpanel.com
