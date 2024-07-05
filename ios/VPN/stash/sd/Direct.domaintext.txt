@@ -1,4 +1,5 @@
 #包含wise、微信、腾讯、iOS升级、微软中国、cloudflare中国、京东、中国银行
+.cloudflare.com
 #自定义
 doh.dns.apple.com
 cloudflare-dns.com
