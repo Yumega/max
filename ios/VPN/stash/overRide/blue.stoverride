@@ -1,6 +1,6 @@
 name: 蓝子
 desc: 蓝子去广告
-category: 工具
+category: 去广告
 icon: https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/Doraemon/Doraemon-1076.png
 http:
   mitm:
