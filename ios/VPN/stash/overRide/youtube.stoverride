@@ -4,29 +4,34 @@ category: 去广告
 icon: https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
 http:
   mitm:
-    - "*.googlevideo.com"
+    - "rr*.googlevideo.com"
     - "youtubei.googleapis.com"
 
   url-rewrite:
     - >-
-      ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-200
+      ^https:\/\/rr[\w-]+\.googlevideo\.com\/initplayback\? - reject-dict
 
   script:
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)
-      name: "YouTube请求_12"
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|get_watch|next|player|reel\/reel_watch_sequence)
+      name: "youtube.request.preview_5"
       type: request
       require-body: true
+      max-size: -1
       binary-mode: true
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)
-      name: "YouTube响应_13"
+      timeout: 60
+
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(account\/get_setting|browse|get_watch|guide|next|player|reel\/reel_watch_sequence|search)
+      name: "youtube.response.preview_6"
       type: response
       require-body: true
+      max-size: -1
       binary-mode: true
+      timeout: 60
 
 script-providers:
-  "YouTube请求_12":
-    url: https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Script/lodepuly/YouTube/YouTube_remove_ads_request.js
+  "youtube.request.preview_5":
+    url: https://github.com/Maasea/sgmodule/raw/master/Script/Youtube/dist/youtube.request.preview.js
     interval: 86400
-  "YouTube响应_13":
-    url: https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Script/lodepuly/YouTube/YouTube_remove_ads_response.js
+  "youtube.response.preview_6":
+    url: https://github.com/Maasea/sgmodule/raw/master/Script/Youtube/dist/youtube.response.preview.js
     interval: 86400
