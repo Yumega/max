@@ -1,0 +1,27 @@
+name: 抖音增强
+desc: 抖音下载去水印
+category: 工具
+icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/douyin.PNG
+http:
+  mitm:
+    - "api*.amemv.com"
+    - "aweme.snssdk.com"
+
+  url-rewrite:
+    - >-
+      ^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/ - reject-200
+    - >-
+      ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/ https://aweme.snssdk.com/aweme/v1/ 302
+
+  script:
+    - match: ^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?
+      name: "douyin_12"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "douyin_12":
+    url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/douyin/douyin.js
+    interval: 86400
