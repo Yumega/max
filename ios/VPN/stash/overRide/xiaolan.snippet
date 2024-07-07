@@ -1,0 +1,4 @@
+hostname = social.blued.cn
+^https?:\/\/social\.blued\.cn\/users\/recommend url reject-dict
+^https?:\/\/social\.blued\.cn\/users\/no_auth\/benefit url reject-dict
+^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=2 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/blued.js
