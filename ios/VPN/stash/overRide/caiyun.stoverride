@@ -4,19 +4,14 @@ category: 工具
 icon: https://raw.githubusercontent.com/Yumega/max/master/media/logo/stash/caiyun.png
 http:
   mitm:
-    - "*.caiyunapp.com"
-    - "*.cyapi.com"
     - "*.cyapi.cn"
-    - "*.caiyunapp.cn"
   script:
-    - match: ^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$
-      name: caiyuntianqipro1
+    - match: ^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user)
+      name: "caiyun_3"
       type: response
       require-body: true
-      timeout: 10
-  rewrite:
-    - ^https:\/\/ad\.caiyunapp\.com\/ - reject
+      max-size: 0
 script-providers:
-  caiyuntianqipro1:
-    url: https://raw.githubusercontent.com/WeiRen0/Scripts/main/cytq.js
+  "caiyun_3":
+    url: https://raw.githubusercontent.com/mikoycc/Storage/main/ovr/CaiYun/cy.js
     interval: 86400
