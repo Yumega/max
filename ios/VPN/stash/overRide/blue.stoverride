@@ -1,0 +1,23 @@
+name: 蓝子
+desc: 蓝子去广告
+category: 工具
+icon: https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/Doraemon/Doraemon-1076.png
+http:
+  mitm:
+    - "social.blued.cn"
+  url-rewrite:
+    - >-
+      ^https?:\/\/social\.blued\.cn\/users\/recommend - reject-dict
+    - >-
+      ^https?:\/\/social\.blued\.cn\/users\/no_auth\/benefit - reject-dict
+  script:
+    - match: ^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=2
+      name: "blued_3"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+script-providers:
+  "blued_3":
+    url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/blued.js
+    interval: 86400
