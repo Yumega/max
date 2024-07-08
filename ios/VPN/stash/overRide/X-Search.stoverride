@@ -29,8 +29,10 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://www.bing.com/search?q=$1 302
     
     # ytb xxx (YouTube)
-    - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
-
+    - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ youtube:///results?q=$2 302
+  
+    # ytbw xxx (YouTubeWeb)
+    - ^https:\/\/duckduckgo.com\/\?q=ytbw(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
     # wb xxx (微博)
     - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ weibointernational://searchall?q=$2 302
 
