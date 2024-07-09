@@ -1,6 +1,11 @@
 #包含苹果音乐、苹果podcast、plutoTV、必应、Spotify
-.discogs.com
-.musicbrainz.org
+###bt
+torrentapi.org
+bitsearch.to
+.libtorrent.org
+.bittorrent.com
+.aelitis.com
+
 #podcast
 www.apple.com
 #fpinit.itunes.apple.com
@@ -107,6 +112,8 @@ www.apple.com
 .comm-main.ess.apple.com
 .ess.apple.com
 gsas.apple.com
+.discogs.com
+.musicbrainz.org
 
 #bing
 .bing.com
