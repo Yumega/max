@@ -17,6 +17,9 @@ js.hs-scripts.com
 .i.flive.ifeng.com
 
 #安全
+hub5idx.v6.shub.sandai.net
+hub5emu.v6.shub.sandai.net
+hub5btmain.v6.shub.sandai.net
 .staticfile.net
 .bootcdn.net
 .bootcss.com
