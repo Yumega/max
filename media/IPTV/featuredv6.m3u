@@ -6,7 +6,8 @@ https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/lovesongs.png" ,欧美音乐
 https://bit.ly/3twVIny?/playlist.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" ,凤凰资讯
-http://192.168.11.1:35455/youtube/HFib76ySpbU
+http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.flv
+#http://192.168.11.1:35455/youtube/HFib76ySpbU
 #EXTINF:-1 tvg-id="141" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" ,凤凰中文
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" ,中天新闻
 http://192.168.11.1:35455/youtube/oIgbl7t0S_w
