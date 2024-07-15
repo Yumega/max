@@ -30,7 +30,7 @@ http://172.20.0.2:8000/channel/bbc-world-news-hd-live-stream
 #https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" ,半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
-#EXTINF:-1 tvg-id="France24(French).us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" ,法国24台
+#EXTINF:-1 tvg-id="France24English.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" ,法国24台
 http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/dwnews.png" ,德国之声
 http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
