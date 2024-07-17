@@ -99,13 +99,6 @@
       "searchable": 1
     },
     {
-      "key": "U酷资源",
-      "name": "🐝U酷资源",
-      "protocol": "VOD",
-      "ext": "https://api.ukuapi.com/api.php/provide/vod/",
-      "searchable": 1
-    },
-    {
       "key": "光速资源",
       "name": "🐝光速资源",
       "protocol": "VOD",
@@ -134,20 +127,6 @@
       "searchable": 1
     },
     {
-      "key": "飞速资源",
-      "name": "🐝飞速资源",
-      "protocol": "VOD",
-      "ext": "https://www.feisuzyapi.com/api.php/provide/vod/",
-      "searchable": 1
-    },
-    {
-      "key": "百度资源",
-      "name": "🐝百度资源",
-      "protocol": "VOD",
-      "ext": "https://api.apibdzy.com/api.php/provide/vod/",
-      "searchable": 0
-    },
-    {
       "key": "天空资源",
       "name": "🐝天空资源",
       "protocol": "VOD",
@@ -169,7 +148,7 @@
       "searchable": 1
     },
     {
-      "key": "飞速资源1",
+      "key": "飞速资源",
       "name": "🐝飞速资源1",
       "protocol": "VOD",
       "ext": "http://fszy1.com/api.php/provide/vod/",
