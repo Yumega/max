@@ -161,6 +161,13 @@
       "ext": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
       "searchable": 1
     },
+        {
+      "key": "暴风影音",
+      "name": "🐝暴风影音",
+      "protocol": "VOD",
+      "ext": "https://app.bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1
+    },
     {
       "key": "飞速资源1",
       "name": "🐝飞速资源1",
