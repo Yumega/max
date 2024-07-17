@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="TravelxpEurope.uk" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文体",Travelxp
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文旅体育",Travelxp NZ
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文体",Travelxp NZ
 #https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzakLoveSongs.us" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/lovesongs.png" group-title="文体",欧美音乐
 https://bit.ly/3twVIny?/playlist.m3u8
@@ -19,14 +19,10 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="CNN.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="新闻",CNN美国
 http://172.20.0.2:8000/channel/cnn-live-stream
-#https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="新闻",CNN国际
-#https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
+https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.it" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="新闻",BBC新闻
 http://172.20.0.2:8000/channel/bbc-world-news-hd-live-stream
-#https://jmp2.uk/SamsungTVPlus/US4000033L.m3u8
-#https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="新闻",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="France24English.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="新闻",法国24台
@@ -35,10 +31,10 @@ http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
 http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 #EXTINF:-1 tvg-id="CBSNews247(English).it" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cbsnews.png" group-title="新闻",CBS新闻
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a6b92f6e22a617379789618/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henantv.png",河南卫视
+#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henantv.png" group-title="卫视",河南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
 #EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视",辽宁卫视
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",东方卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
