@@ -1,0 +1,83 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="MSNBC" tvg-name="MSNBC" tvg-logo="https://assets.livednow.com/logo/MSNBC.png" group-title="新闻", MSNBC
+http://192.168.11.1:5600/thetv/msnbc
+
+#EXTINF:-1 tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://assets.livednow.com/logo/CNBC.png" group-title="新闻", CNBC
+http://192.168.11.1:5600/thetv/cnbc
+
+#EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://assets.livednow.com/logo/CNN.png" group-title="新闻", CNN
+http://192.168.11.1:5600/thetv/cnn
+
+#EXTINF:-1 tvg-id="BBC-World-News-HD" tvg-name="BBC World News HD" tvg-logo="https://assets.livednow.com/logo/BBC-World-News-HD.png" group-title="新闻", BBC World
+http://192.168.11.1:5600/thetv/bbc-world-news-hd
+
+#EXTINF:-1 tvg-id="WABC-(New-York)-ABC-East" tvg-name="WABC (New York) ABC East" tvg-logo="https://assets.livednow.com/logo/WABC-(New-York)-ABC-East.png" group-title="新闻", ABC
+http://192.168.11.1:5600/thetv/wabc-new-york-abc-east
+
+#EXTINF:-1 tvg-id="WCBS-(New-York)-CBS-East" tvg-name="WCBS (New York) CBS East" tvg-logo="https://assets.livednow.com/logo/WCBS-(New-York)-CBS-East.png" group-title="新闻", CBS
+http://192.168.11.1:5600/thetv/wcbs-new-york-cbs-east
+
+#EXTINF:-1 tvg-id="WNBC-(New-York)-NBC-East" tvg-name="WNBC (New York) NBC East" tvg-logo="https://assets.livednow.com/logo/WNBC-(New-York)-NBC-East.png" group-title="新闻", NBC
+http://192.168.11.1:5600/thetv/wnbc-new-york-nbc-east
+
+#EXTINF:-1 tvg-id="WNYW-(New-York)-FOX-East" tvg-name="WNYW (New York) FOX East" tvg-logo="https://assets.livednow.com/logo/WNYW-(New-York)-FOX-East.png" group-title="新闻", FOX
+http://192.168.11.1:5600/thetv/wnyw-new-york-fox-east
+
+#EXTINF:-1 tvg-id="Destination-America" tvg-name="Destination America" tvg-logo="https://assets.livednow.com/logo/Destination-America.png" group-title="纪实", Destination America
+http://192.168.11.1:5600/thetv/destination-america
+
+#EXTINF:-1 tvg-id="Animal-Planet" tvg-name="Animal Planet" tvg-logo="https://assets.livednow.com/logo/Animal-Planet.png" group-title="纪实", Animal Planet
+http://192.168.11.1:5600/thetv/animal-planet
+
+#EXTINF:-1 tvg-id="Nat-Geo-WILD" tvg-name="Nat Geo WILD" tvg-logo="https://assets.livednow.com/logo/Nat-Geo-WILD.png" group-title="纪实", Nat Geo WILD
+http://192.168.11.1:5600/thetv/nat-geo-wild
+
+#EXTINF:-1 tvg-id="National-Geographic" tvg-name="National Geographic" tvg-logo="https://assets.livednow.com/logo/National-Geographic.png" group-title="纪实", National Geographic
+http://192.168.11.1:5600/thetv/national-geographic
+
+#EXTINF:-1 tvg-id="Outdoor-Channel" tvg-name="Outdoor Channel" tvg-logo="https://assets.livednow.com/logo/Outdoor-Channel.png" group-title="纪实", Outdoor Channel
+http://192.168.11.1:5600/thetv/outdoor-channel
+
+#EXTINF:-1 tvg-id="TBS" tvg-name="TBS" tvg-logo="https://assets.livednow.com/logo/TBS.png" group-title="剧集", TBS
+http://192.168.11.1:5600/thetv/tbs
+
+#EXTINF:-1 tvg-id="USA-Network" tvg-name="USA Network" tvg-logo="https://assets.livednow.com/logo/USA-Network.png" group-title="剧集", USA Network
+http://192.168.11.1:5600/thetv/usa-network
+
+#EXTINF:-1 tvg-id="VH1" tvg-name="VH1" tvg-logo="https://assets.livednow.com/logo/VH1.png" group-title="剧集", VH1
+http://192.168.11.1:5600/thetv/vh1
+
+#EXTINF:-1 tvg-id="VICE" tvg-name="VICE" tvg-logo="https://assets.livednow.com/logo/VICE.png" group-title="剧集", VICE
+http://192.168.11.1:5600/thetv/vice
+
+#EXTINF:-1 tvg-id="ReelzChannel" tvg-name="ReelzChannel" tvg-logo="https://assets.livednow.com/logo/ReelzChannel.png" group-title="剧集", ReelzChannel
+http://192.168.11.1:5600/thetv/reelzchannel
+#EXTINF:-1 tvg-id="A&E" tvg-name="A&E" tvg-logo="https://assets.livednow.com/logo/A&E.png" group-title="剧集", A&E
+http://192.168.11.1:5600/thetv/ae
+
+#EXTINF:-1 tvg-id="AMC" tvg-name="AMC" tvg-logo="https://assets.livednow.com/logo/AMC.png" group-title="剧集", AMC
+http://192.168.11.1:5600/thetv/amc
+
+#EXTINF:-1 tvg-id="BBC-America" tvg-name="BBC America" tvg-logo="https://assets.livednow.com/logo/BBC-America.png" group-title="剧集", BBC America
+http://192.168.11.1:5600/thetv/bbc-america
+
+#EXTINF:-1 tvg-id="BET" tvg-name="BET" tvg-logo="https://assets.livednow.com/logo/BET.png" group-title="剧集", BET
+http://192.168.11.1:5600/thetv/bet
+
+#EXTINF:-1 tvg-id="BET-Her" tvg-name="BET Her" tvg-logo="https://assets.livednow.com/logo/BET-Her.png" group-title="剧集", BET Her
+http://192.168.11.1:5600/thetv/bet-her
+
+#EXTINF:-1 tvg-id="Bravo" tvg-name="Bravo" tvg-logo="https://assets.livednow.com/logo/Bravo.png" group-title="剧集", Bravo
+http://192.168.11.1:5600/thetv/bravo
+
+#EXTINF:-1 tvg-id="CMT" tvg-name="CMT" tvg-logo="https://assets.livednow.com/logo/CMT.png" group-title="剧集", CMT
+http://192.168.11.1:5600/thetv/cmt
+
+#EXTINF:-1 tvg-id="Showtime-(E)" tvg-name="Showtime (E)" tvg-logo="https://assets.livednow.com/logo/Showtime-(E).png" group-title="剧集", Showtime (E)
+http://192.168.11.1:5600/thetv/showtime-e
+
+#EXTINF:-1 tvg-id="STARZ-East" tvg-name="STARZ East" tvg-logo="https://assets.livednow.com/logo/STARZ-East.png" group-title="剧集", STARZ East
+http://192.168.11.1:5600/thetv/starz-east
+
+#EXTINF:-1 tvg-id="SYFY" tvg-name="SYFY" tvg-logo="https://assets.livednow.com/logo/SYFY.png" group-title="剧集", SYFY
+http://192.168.11.1:5600/thetv/syfy
