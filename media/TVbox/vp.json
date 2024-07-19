@@ -8,34 +8,6 @@
       "searchable": 1
     },
     {
-      "key": "drpy_js_LIBVIO",
-      "name": "云盘 | LIBVIO",
-      "protocol": "DRPY_Crack",
-      "ext": "https://gitbox520.github.io/gao/js/LIBVIO.js",
-      "searchable": 1
-    },
-    {
-      "key": "drpy_js_校长影视",
-      "name": "云盘 | 校长影视",
-      "protocol": "DRPY_Crack",
-      "ext": "https://gitbox520.github.io/gao/js/xzys.js",
-      "searchable": 1
-    },
-    {
-      "key": "drpy_js_dydhhy",
-      "name": "云盘 | dydhhy",
-      "protocol": "DRPY_Crack",
-      "ext": "https://gitbox520.github.io/gao/js/dydhhy.js",
-      "searchable": 1
-    },
-    {
-      "key": "drpy_js_在线之家",
-      "name": "影视 | 在线之家",
-      "protocol": "DRPY_Crack",
-      "ext": "https://gaotianliuyun.github.io/gao/js/在线之家.js",
-      "searchable": 1
-    },
-    {
       "key": "黑木耳",
       "name": "🐝黑木耳",
       "protocol": "VOD",
