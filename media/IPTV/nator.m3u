@@ -25,10 +25,10 @@ http://192.168.11.1:5600/litv/4gtv-4gtv051
 #EXTINF:-1 tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://assets.livednow.com/logo/東森新聞.png" group-title="新闻", 東森新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv152
 
-#EXTINF:-1 tvg-id="CBSNews247(English).it" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cbsnews.png" group-title="新闻",CBS新闻
+#EXTINF:-1 tvg-id="CBSNews247(English).it" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cbsnews.png" group-title="News",CBS新闻
 http://192.168.11.1:7777/xumo/watch/99991158
 #http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a6b92f6e22a617379789618/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:-1 channel-id="XNBCN-CMS" tvg-id="xumo-99991247" tvg-logo="https://image.xumo.com/v1/channels/channel/99991247/168x168.png?type=color_onBlack" group-title="新闻",NBC新闻
+#EXTINF:-1 channel-id="XNBCN-CMS" tvg-id="xumo-99991247" tvg-logo="https://image.xumo.com/v1/channels/channel/99991247/168x168.png?type=color_onBlack" group-title="News",NBC新闻
 http://192.168.11.1:7777/xumo/watch/99991247
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
@@ -37,20 +37,20 @@ http://192.168.11.1:7777/xumo/watch/99991247
 #http://192.168.11.1:35455/youtube/o_-hSMgpAzs
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="新闻",央视新闻
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
-#EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cna.png" group-title="新闻",亚洲新闻
+#EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cna.png" group-title="News",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="CNN.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="新闻",CNN美国
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="News",CNN美国
 http://192.168.11.1:5600/thetv/cnn
-#EXTINF:-1 tvg-id="BBCWorldNews.it" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="新闻",BBC新闻
+#EXTINF:-1 tvg-id="BBCWorldNews.it" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="News",BBC新闻
 http://192.168.11.1:7777/xumo/watch/99951298
 #http://192.168.11.1:5600/thetv/bbc-world-news-hd
-#EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="新闻",半岛新闻
+#EXTINF:-1 tvg-id="7183" tvg-name="aljazeera" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="News",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
-#EXTINF:-1 tvg-id="France24English.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="新闻",法国24台
+#EXTINF:-1 tvg-id="France24English.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="News",法国24台
 http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
-#EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/dwnews.png" group-title="新闻",德国之声
+#EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/dwnews.png" group-title="News",德国之声
 http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
-#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="新闻",CNN国际
+#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="News",CNN国际
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
