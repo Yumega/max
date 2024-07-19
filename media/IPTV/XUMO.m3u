@@ -1,0 +1,727 @@
+#EXTM3U
+#EXTINF:-1 channelID='99991247' tvg-num='1' tvg-chno='1' tvg-name='NBC News NOW' tvg-id='99991247' tvg-logo='https://image.xumo.com/v1/channels/channel/99991247/512x512.png?type=color_onBlack' group-title='XUMO',NBC News NOW
+http://172.31.0.2:5004/XUMO/watch/99991247
+#EXTINF:-1 channelID='99991377' tvg-num='2' tvg-chno='2' tvg-name='ABC News Live' tvg-id='99991377' tvg-logo='https://image.xumo.com/v1/channels/channel/99991377/512x512.png?type=color_onBlack' group-title='XUMO',ABC News Live
+http://172.31.0.2:5004/XUMO/watch/99991377
+#EXTINF:-1 channelID='99991158' tvg-num='3' tvg-chno='3' tvg-name='CBS News 24/7' tvg-id='99991158' tvg-logo='https://image.xumo.com/v1/channels/channel/99991158/512x512.png?type=color_onBlack' group-title='XUMO',CBS News 24/7
+http://172.31.0.2:5004/XUMO/watch/99991158
+#EXTINF:-1 channelID='99991635' tvg-num='4' tvg-chno='4' tvg-name='LiveNOW from FOX' tvg-id='99991635' tvg-logo='https://image.xumo.com/v1/channels/channel/99991635/512x512.png?type=color_onBlack' group-title='XUMO',LiveNOW from FOX
+http://172.31.0.2:5004/XUMO/watch/99991635
+#EXTINF:-1 channelID='99991282' tvg-num='5' tvg-chno='5' tvg-name='Local Now' tvg-id='99991282' tvg-logo='https://image.xumo.com/v1/channels/channel/99991282/512x512.png?type=color_onBlack' group-title='XUMO',Local Now
+http://172.31.0.2:5004/XUMO/watch/99991282
+#EXTINF:-1 channelID='99991245' tvg-num='7' tvg-chno='7' tvg-name='TODAY All Day' tvg-id='99991245' tvg-logo='https://image.xumo.com/v1/channels/channel/99991245/512x512.png?type=color_onBlack' group-title='XUMO',TODAY All Day
+http://172.31.0.2:5004/XUMO/watch/99991245
+#EXTINF:-1 channelID='99951197' tvg-num='8' tvg-chno='8' tvg-name='Reuters Now' tvg-id='99951197' tvg-logo='https://image.xumo.com/v1/channels/channel/99951197/512x512.png?type=color_onBlack' group-title='XUMO',Reuters Now
+http://172.31.0.2:5004/XUMO/watch/99951197
+#EXTINF:-1 channelID='99951223' tvg-num='9' tvg-chno='9' tvg-name='Sky News' tvg-id='99951223' tvg-logo='https://image.xumo.com/v1/channels/channel/99951223/512x512.png?type=color_onBlack' group-title='XUMO',Sky News
+http://172.31.0.2:5004/XUMO/watch/99951223
+#EXTINF:-1 channelID='99991148' tvg-num='10' tvg-chno='10' tvg-name='Scripps News' tvg-id='99991148' tvg-logo='https://image.xumo.com/v1/channels/channel/99991148/512x512.png?type=color_onBlack' group-title='XUMO',Scripps News
+http://172.31.0.2:5004/XUMO/watch/99991148
+#EXTINF:-1 channelID='99991194' tvg-num='11' tvg-chno='11' tvg-name='Newsmax2' tvg-id='99991194' tvg-logo='https://image.xumo.com/v1/channels/channel/99991194/512x512.png?type=color_onBlack' group-title='XUMO',Newsmax2
+http://172.31.0.2:5004/XUMO/watch/99991194
+#EXTINF:-1 channelID='99991276' tvg-num='12' tvg-chno='12' tvg-name='CBC News Explore' tvg-id='99991276' tvg-logo='https://image.xumo.com/v1/channels/channel/99991276/512x512.png?type=color_onBlack' group-title='XUMO',CBC News Explore
+http://172.31.0.2:5004/XUMO/watch/99991276
+#EXTINF:-1 channelID='99991147' tvg-num='13' tvg-chno='13' tvg-name='TYT' tvg-id='99991147' tvg-logo='https://image.xumo.com/v1/channels/channel/99991147/512x512.png?type=color_onBlack' group-title='XUMO',TYT
+http://172.31.0.2:5004/XUMO/watch/99991147
+#EXTINF:-1 channelID='99991220' tvg-num='15' tvg-chno='15' tvg-name='Cheddar News' tvg-id='99991220' tvg-logo='https://image.xumo.com/v1/channels/channel/99991220/512x512.png?type=color_onBlack' group-title='XUMO',Cheddar News
+http://172.31.0.2:5004/XUMO/watch/99991220
+#EXTINF:-1 channelID='99991287' tvg-num='16' tvg-chno='16' tvg-name='USA TODAY News' tvg-id='99991287' tvg-logo='https://image.xumo.com/v1/channels/channel/99991287/512x512.png?type=color_onBlack' group-title='XUMO',USA TODAY News
+http://172.31.0.2:5004/XUMO/watch/99991287
+#EXTINF:-1 channelID='99951283' tvg-num='17' tvg-chno='17' tvg-name='Salem News Channel' tvg-id='99951283' tvg-logo='https://image.xumo.com/v1/channels/channel/99951283/512x512.png?type=color_onBlack' group-title='XUMO',Salem News Channel
+http://172.31.0.2:5004/XUMO/watch/99951283
+#EXTINF:-1 channelID='99951298' tvg-num='18' tvg-chno='18' tvg-name='BBC News' tvg-id='99951298' tvg-logo='https://image.xumo.com/v1/channels/channel/99951298/512x512.png?type=color_onBlack' group-title='XUMO',BBC News
+http://172.31.0.2:5004/XUMO/watch/99951298
+#EXTINF:-1 channelID='99951337' tvg-num='19' tvg-chno='19' tvg-name='Spectrum News+' tvg-id='99951337' tvg-logo='https://image.xumo.com/v1/channels/channel/99951337/512x512.png?type=color_onBlack' group-title='XUMO',Spectrum News+
+http://172.31.0.2:5004/XUMO/watch/99951337
+#EXTINF:-1 channelID='99991694' tvg-num='101' tvg-chno='101' tvg-name='Fox Weather' tvg-id='99991694' tvg-logo='https://image.xumo.com/v1/channels/channel/99991694/512x512.png?type=color_onBlack' group-title='XUMO',Fox Weather
+http://172.31.0.2:5004/XUMO/watch/99991694
+#EXTINF:-1 channelID='99991372' tvg-num='102' tvg-chno='102' tvg-name='WEATHERSPY' tvg-id='99991372' tvg-logo='https://image.xumo.com/v1/channels/channel/99991372/512x512.png?type=color_onBlack' group-title='XUMO',WEATHERSPY
+http://172.31.0.2:5004/XUMO/watch/99991372
+#EXTINF:-1 channelID='99991649' tvg-num='103' tvg-chno='103' tvg-name='AccuWeather NOW' tvg-id='99991649' tvg-logo='https://image.xumo.com/v1/channels/channel/99991649/512x512.png?type=color_onBlack' group-title='XUMO',AccuWeather NOW
+http://172.31.0.2:5004/XUMO/watch/99991649
+#EXTINF:-1 channelID='99991683' tvg-num='104' tvg-chno='104' tvg-name='PATTRN' tvg-id='99991683' tvg-logo='https://image.xumo.com/v1/channels/channel/99991683/512x512.png?type=color_onBlack' group-title='XUMO',PATTRN
+http://172.31.0.2:5004/XUMO/watch/99991683
+#EXTINF:-1 channelID='99951139' tvg-num='105' tvg-chno='105' tvg-name='The Weather Channel En Español' tvg-id='99951139' tvg-logo='https://image.xumo.com/v1/channels/channel/99951139/512x512.png?type=color_onBlack' group-title='XUMO',The Weather Channel En Español
+http://172.31.0.2:5004/XUMO/watch/99951139
+#EXTINF:-1 channelID='99991174' tvg-num='114' tvg-chno='114' tvg-name='The Pet Collective' tvg-id='99991174' tvg-logo='https://image.xumo.com/v1/channels/channel/99991174/512x512.png?type=color_onBlack' group-title='XUMO',The Pet Collective
+http://172.31.0.2:5004/XUMO/watch/99991174
+#EXTINF:-1 channelID='99991299' tvg-num='201' tvg-chno='201' tvg-name='Xumo Free Movies' tvg-id='99991299' tvg-logo='https://image.xumo.com/v1/channels/channel/99991299/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Movies
+http://172.31.0.2:5004/XUMO/watch/99991299
+#EXTINF:-1 channelID='99991352' tvg-num='202' tvg-chno='202' tvg-name='Xumo Free Action Movies' tvg-id='99991352' tvg-logo='https://image.xumo.com/v1/channels/channel/99991352/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Action Movies
+http://172.31.0.2:5004/XUMO/watch/99991352
+#EXTINF:-1 channelID='99991397' tvg-num='203' tvg-chno='203' tvg-name='Xumo Free Westerns' tvg-id='99991397' tvg-logo='https://image.xumo.com/v1/channels/channel/99991397/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Westerns
+http://172.31.0.2:5004/XUMO/watch/99991397
+#EXTINF:-1 channelID='99991362' tvg-num='204' tvg-chno='204' tvg-name='Xumo Free Sci-Fi & Fantasy Movies' tvg-id='99991362' tvg-logo='https://image.xumo.com/v1/channels/channel/99991362/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Sci-Fi & Fantasy Movies
+http://172.31.0.2:5004/XUMO/watch/99991362
+#EXTINF:-1 channelID='99991350' tvg-num='205' tvg-chno='205' tvg-name='Xumo Free Horror & Thriller Movies' tvg-id='99991350' tvg-logo='https://image.xumo.com/v1/channels/channel/99991350/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Horror & Thriller Movies
+http://172.31.0.2:5004/XUMO/watch/99991350
+#EXTINF:-1 channelID='99991125' tvg-num='206' tvg-chno='206' tvg-name='Xumo Her Free Movies' tvg-id='99991125' tvg-logo='https://image.xumo.com/v1/channels/channel/99991125/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Her Free Movies
+http://172.31.0.2:5004/XUMO/watch/99991125
+#EXTINF:-1 channelID='99991392' tvg-num='207' tvg-chno='207' tvg-name='Xumo Free Documentaries ' tvg-id='99991392' tvg-logo='https://image.xumo.com/v1/channels/channel/99991392/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Documentaries 
+http://172.31.0.2:5004/XUMO/watch/99991392
+#EXTINF:-1 channelID='99991351' tvg-num='208' tvg-chno='208' tvg-name='Xumo Free Comedy Movies' tvg-id='99991351' tvg-logo='https://image.xumo.com/v1/channels/channel/99991351/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Comedy Movies
+http://172.31.0.2:5004/XUMO/watch/99991351
+#EXTINF:-1 channelID='99991363' tvg-num='209' tvg-chno='209' tvg-name='Xumo Free Black Cinema' tvg-id='99991363' tvg-logo='https://image.xumo.com/v1/channels/channel/99991363/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Black Cinema
+http://172.31.0.2:5004/XUMO/watch/99991363
+#EXTINF:-1 channelID='99991709' tvg-num='210' tvg-chno='210' tvg-name='Hallmark Movies & More' tvg-id='99991709' tvg-logo='https://image.xumo.com/v1/channels/channel/99991709/512x512.png?type=color_onBlack' group-title='XUMO',Hallmark Movies & More
+http://172.31.0.2:5004/XUMO/watch/99991709
+#EXTINF:-1 channelID='99951251' tvg-num='211' tvg-chno='211' tvg-name='MovieSphere by Lionsgate' tvg-id='99951251' tvg-logo='https://image.xumo.com/v1/channels/channel/99951251/512x512.png?type=color_onBlack' group-title='XUMO',MovieSphere by Lionsgate
+http://172.31.0.2:5004/XUMO/watch/99951251
+#EXTINF:-1 channelID='99991755' tvg-num='212' tvg-chno='212' tvg-name='Tribeca Channel' tvg-id='99991755' tvg-logo='https://image.xumo.com/v1/channels/channel/99991755/512x512.png?type=color_onBlack' group-title='XUMO',Tribeca Channel
+http://172.31.0.2:5004/XUMO/watch/99991755
+#EXTINF:-1 channelID='99991302' tvg-num='213' tvg-chno='213' tvg-name='Hi-Yah!' tvg-id='99991302' tvg-logo='https://image.xumo.com/v1/channels/channel/99991302/512x512.png?type=color_onBlack' group-title='XUMO',Hi-Yah!
+http://172.31.0.2:5004/XUMO/watch/99991302
+#EXTINF:-1 channelID='9995106' tvg-num='214' tvg-chno='214' tvg-name='Shades of Black' tvg-id='9995106' tvg-logo='https://image.xumo.com/v1/channels/channel/9995106/512x512.png?type=color_onBlack' group-title='XUMO',Shades of Black
+http://172.31.0.2:5004/XUMO/watch/9995106
+#EXTINF:-1 channelID='99991312' tvg-num='215' tvg-chno='215' tvg-name='Gravitas Movies' tvg-id='99991312' tvg-logo='https://image.xumo.com/v1/channels/channel/99991312/512x512.png?type=color_onBlack' group-title='XUMO',Gravitas Movies
+http://172.31.0.2:5004/XUMO/watch/99991312
+#EXTINF:-1 channelID='99991638' tvg-num='216' tvg-chno='216' tvg-name='DOCUMENTARY+' tvg-id='99991638' tvg-logo='https://image.xumo.com/v1/channels/channel/99991638/512x512.png?type=color_onBlack' group-title='XUMO',DOCUMENTARY+
+http://172.31.0.2:5004/XUMO/watch/99991638
+#EXTINF:-1 channelID='99991714' tvg-num='217' tvg-chno='217' tvg-name='Crackle' tvg-id='99991714' tvg-logo='https://image.xumo.com/v1/channels/channel/99991714/512x512.png?type=color_onBlack' group-title='XUMO',Crackle
+http://172.31.0.2:5004/XUMO/watch/99991714
+#EXTINF:-1 channelID='99991399' tvg-num='218' tvg-chno='218' tvg-name='CineLife' tvg-id='99991399' tvg-logo='https://image.xumo.com/v1/channels/channel/99991399/512x512.png?type=color_onBlack' group-title='XUMO',CineLife
+http://172.31.0.2:5004/XUMO/watch/99991399
+#EXTINF:-1 channelID='99991300' tvg-num='219' tvg-chno='219' tvg-name='Stash TV' tvg-id='99991300' tvg-logo='https://image.xumo.com/v1/channels/channel/99991300/512x512.png?type=color_onBlack' group-title='XUMO',Stash TV
+http://172.31.0.2:5004/XUMO/watch/99991300
+#EXTINF:-1 channelID='99991745' tvg-num='220' tvg-chno='220' tvg-name='Wu Tang Collection TV' tvg-id='99991745' tvg-logo='https://image.xumo.com/v1/channels/channel/99991745/512x512.png?type=color_onBlack' group-title='XUMO',Wu Tang Collection TV
+http://172.31.0.2:5004/XUMO/watch/99991745
+#EXTINF:-1 channelID='99951293' tvg-num='221' tvg-chno='221' tvg-name='Ebony TV by Lionsgate' tvg-id='99951293' tvg-logo='https://image.xumo.com/v1/channels/channel/99951293/512x512.png?type=color_onBlack' group-title='XUMO',Ebony TV by Lionsgate
+http://172.31.0.2:5004/XUMO/watch/99951293
+#EXTINF:-1 channelID='99991393' tvg-num='222' tvg-chno='222' tvg-name='Samuel Goldwyn Films' tvg-id='99991393' tvg-logo='https://image.xumo.com/v1/channels/channel/99991393/512x512.png?type=color_onBlack' group-title='XUMO',Samuel Goldwyn Films
+http://172.31.0.2:5004/XUMO/watch/99991393
+#EXTINF:-1 channelID='99991337' tvg-num='223' tvg-chno='223' tvg-name='FilmRise' tvg-id='99991337' tvg-logo='https://image.xumo.com/v1/channels/channel/99991337/512x512.png?type=color_onBlack' group-title='XUMO',FilmRise
+http://172.31.0.2:5004/XUMO/watch/99991337
+#EXTINF:-1 channelID='99991336' tvg-num='224' tvg-chno='224' tvg-name='Maverick Black Cinema' tvg-id='99991336' tvg-logo='https://image.xumo.com/v1/channels/channel/99991336/512x512.png?type=color_onBlack' group-title='XUMO',Maverick Black Cinema
+http://172.31.0.2:5004/XUMO/watch/99991336
+#EXTINF:-1 channelID='99951335' tvg-num='226' tvg-chno='226' tvg-name='CINEVAULT' tvg-id='99951335' tvg-logo='https://image.xumo.com/v1/channels/channel/99951335/512x512.png?type=color_onBlack' group-title='XUMO',CINEVAULT
+http://172.31.0.2:5004/XUMO/watch/99951335
+#EXTINF:-1 channelID='99991621' tvg-num='227' tvg-chno='227' tvg-name='The Rotten Tomatoes Channel' tvg-id='99991621' tvg-logo='https://image.xumo.com/v1/channels/channel/99991621/512x512.png?type=color_onBlack' group-title='XUMO',The Rotten Tomatoes Channel
+http://172.31.0.2:5004/XUMO/watch/99991621
+#EXTINF:-1 channelID='99991334' tvg-num='250' tvg-chno='250' tvg-name='Movies Page - DRM' tvg-id='99991334' tvg-logo='https://image.xumo.com/v1/channels/channel/99991334/512x512.png?type=color_onBlack' group-title='XUMO',Movies Page - DRM
+http://172.31.0.2:5004/XUMO/watch/99991334
+#EXTINF:-1 channelID='99951239' tvg-num='275' tvg-chno='275' tvg-name='Murder, She Wrote' tvg-id='99951239' tvg-logo='https://image.xumo.com/v1/channels/channel/99951239/512x512.png?type=color_onBlack' group-title='XUMO',Murder, She Wrote
+http://172.31.0.2:5004/XUMO/watch/99951239
+#EXTINF:-1 channelID='99951277' tvg-num='276' tvg-chno='276' tvg-name='Ghost Hunters Channel' tvg-id='99951277' tvg-logo='https://image.xumo.com/v1/channels/channel/99951277/512x512.png?type=color_onBlack' group-title='XUMO',Ghost Hunters Channel
+http://172.31.0.2:5004/XUMO/watch/99951277
+#EXTINF:-1 channelID='99951218' tvg-num='277' tvg-chno='277' tvg-name='Xumo Free Nature & Wildlife TV' tvg-id='99951218' tvg-logo='https://image.xumo.com/v1/channels/channel/99951218/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Nature & Wildlife TV
+http://172.31.0.2:5004/XUMO/watch/99951218
+#EXTINF:-1 channelID='99991113' tvg-num='278' tvg-chno='278' tvg-name='Deal Or No Deal' tvg-id='99991113' tvg-logo='https://image.xumo.com/v1/channels/channel/99991113/512x512.png?type=color_onBlack' group-title='XUMO',Deal Or No Deal
+http://172.31.0.2:5004/XUMO/watch/99991113
+#EXTINF:-1 channelID='99951192' tvg-num='279' tvg-chno='279' tvg-name='Anger Management Channel' tvg-id='99951192' tvg-logo='https://image.xumo.com/v1/channels/channel/99951192/512x512.png?type=color_onBlack' group-title='XUMO',Anger Management Channel
+http://172.31.0.2:5004/XUMO/watch/99951192
+#EXTINF:-1 channelID='99951258' tvg-num='280' tvg-chno='280' tvg-name='The Lone Ranger' tvg-id='99951258' tvg-logo='https://image.xumo.com/v1/channels/channel/99951258/512x512.png?type=color_onBlack' group-title='XUMO',The Lone Ranger
+http://172.31.0.2:5004/XUMO/watch/99951258
+#EXTINF:-1 channelID='99991346' tvg-num='281' tvg-chno='281' tvg-name='Divorce Court' tvg-id='99991346' tvg-logo='https://image.xumo.com/v1/channels/channel/99991346/512x512.png?type=color_onBlack' group-title='XUMO',Divorce Court
+http://172.31.0.2:5004/XUMO/watch/99991346
+#EXTINF:-1 channelID='9995114' tvg-num='282' tvg-chno='282' tvg-name='Heartland' tvg-id='9995114' tvg-logo='https://image.xumo.com/v1/channels/channel/9995114/512x512.png?type=color_onBlack' group-title='XUMO',Heartland
+http://172.31.0.2:5004/XUMO/watch/9995114
+#EXTINF:-1 channelID='99951158' tvg-num='283' tvg-chno='283' tvg-name='ION' tvg-id='99951158' tvg-logo='https://image.xumo.com/v1/channels/channel/99951158/512x512.png?type=color_onBlack' group-title='XUMO',ION
+http://172.31.0.2:5004/XUMO/watch/99951158
+#EXTINF:-1 channelID='99991623' tvg-num='284' tvg-chno='284' tvg-name='The Walking Dead Universe' tvg-id='99991623' tvg-logo='https://image.xumo.com/v1/channels/channel/99991623/512x512.png?type=color_onBlack' group-title='XUMO',The Walking Dead Universe
+http://172.31.0.2:5004/XUMO/watch/99991623
+#EXTINF:-1 channelID='99951248' tvg-num='303' tvg-chno='303' tvg-name='Classic Doctor Who' tvg-id='99951248' tvg-logo='https://image.xumo.com/v1/channels/channel/99951248/512x512.png?type=color_onBlack' group-title='XUMO',Classic Doctor Who
+http://172.31.0.2:5004/XUMO/watch/99951248
+#EXTINF:-1 channelID='99951250' tvg-num='304' tvg-chno='304' tvg-name='OuterSphere by Lionsgate' tvg-id='99951250' tvg-logo='https://image.xumo.com/v1/channels/channel/99951250/512x512.png?type=color_onBlack' group-title='XUMO',OuterSphere by Lionsgate
+http://172.31.0.2:5004/XUMO/watch/99951250
+#EXTINF:-1 channelID='99951256' tvg-num='305' tvg-chno='305' tvg-name='Alfred Hitchcock Presents' tvg-id='99951256' tvg-logo='https://image.xumo.com/v1/channels/channel/99951256/512x512.png?type=color_onBlack' group-title='XUMO',Alfred Hitchcock Presents
+http://172.31.0.2:5004/XUMO/watch/99951256
+#EXTINF:-1 channelID='99991292' tvg-num='306' tvg-chno='306' tvg-name='Alien Nation by DUST' tvg-id='99991292' tvg-logo='https://image.xumo.com/v1/channels/channel/99991292/512x512.png?type=color_onBlack' group-title='XUMO',Alien Nation by DUST
+http://172.31.0.2:5004/XUMO/watch/99991292
+#EXTINF:-1 channelID='99991331' tvg-num='307' tvg-chno='307' tvg-name='The Asylum' tvg-id='99991331' tvg-logo='https://image.xumo.com/v1/channels/channel/99991331/512x512.png?type=color_onBlack' group-title='XUMO',The Asylum
+http://172.31.0.2:5004/XUMO/watch/99991331
+#EXTINF:-1 channelID='9999615' tvg-num='308' tvg-chno='308' tvg-name='Dark Matter TV' tvg-id='9999615' tvg-logo='https://image.xumo.com/v1/channels/channel/9999615/512x512.png?type=color_onBlack' group-title='XUMO',Dark Matter TV
+http://172.31.0.2:5004/XUMO/watch/9999615
+#EXTINF:-1 channelID='99951123' tvg-num='309' tvg-chno='309' tvg-name='GlewedTV Sci-Fi' tvg-id='99951123' tvg-logo='https://image.xumo.com/v1/channels/channel/99951123/512x512.png?type=color_onBlack' group-title='XUMO',GlewedTV Sci-Fi
+http://172.31.0.2:5004/XUMO/watch/99951123
+#EXTINF:-1 channelID='99991769' tvg-num='311' tvg-chno='311' tvg-name='Paranormal Files' tvg-id='99991769' tvg-logo='https://image.xumo.com/v1/channels/channel/99991769/512x512.png?type=color_onBlack' group-title='XUMO',Paranormal Files
+http://172.31.0.2:5004/XUMO/watch/99991769
+#EXTINF:-1 channelID='99951264' tvg-num='313' tvg-chno='313' tvg-name='Universal Monsters' tvg-id='99951264' tvg-logo='https://image.xumo.com/v1/channels/channel/99951264/512x512.png?type=color_onBlack' group-title='XUMO',Universal Monsters
+http://172.31.0.2:5004/XUMO/watch/99951264
+#EXTINF:-1 channelID='99951332' tvg-num='314' tvg-chno='314' tvg-name='Crunchyroll' tvg-id='99951332' tvg-logo='https://image.xumo.com/v1/channels/channel/99951332/512x512.png?type=color_onBlack' group-title='XUMO',Crunchyroll
+http://172.31.0.2:5004/XUMO/watch/99951332
+#EXTINF:-1 channelID='99951253' tvg-num='401' tvg-chno='401' tvg-name='NBC Sports' tvg-id='99951253' tvg-logo='https://image.xumo.com/v1/channels/channel/99951253/512x512.png?type=color_onBlack' group-title='XUMO',NBC Sports
+http://172.31.0.2:5004/XUMO/watch/99951253
+#EXTINF:-1 channelID='99991196' tvg-num='402' tvg-chno='402' tvg-name='FOX Sports' tvg-id='99991196' tvg-logo='https://image.xumo.com/v1/channels/channel/99991196/512x512.png?type=color_onBlack' group-title='XUMO',FOX Sports
+http://172.31.0.2:5004/XUMO/watch/99991196
+#EXTINF:-1 channelID='99991645' tvg-num='403' tvg-chno='403' tvg-name='CBS Sports HQ' tvg-id='99991645' tvg-logo='https://image.xumo.com/v1/channels/channel/99991645/512x512.png?type=color_onBlack' group-title='XUMO',CBS Sports HQ
+http://172.31.0.2:5004/XUMO/watch/99991645
+#EXTINF:-1 channelID='99991738' tvg-num='404' tvg-chno='404' tvg-name='NFL Channel' tvg-id='99991738' tvg-logo='https://image.xumo.com/v1/channels/channel/99991738/512x512.png?type=color_onBlack' group-title='XUMO',NFL Channel
+http://172.31.0.2:5004/XUMO/watch/99991738
+#EXTINF:-1 channelID='99991189' tvg-num='406' tvg-chno='406' tvg-name='Outside TV' tvg-id='99991189' tvg-logo='https://image.xumo.com/v1/channels/channel/99991189/512x512.png?type=color_onBlack' group-title='XUMO',Outside TV
+http://172.31.0.2:5004/XUMO/watch/99991189
+#EXTINF:-1 channelID='99991281' tvg-num='408' tvg-chno='408' tvg-name='PGA TOUR' tvg-id='99991281' tvg-logo='https://image.xumo.com/v1/channels/channel/99991281/512x512.png?type=color_onBlack' group-title='XUMO',PGA TOUR
+http://172.31.0.2:5004/XUMO/watch/99991281
+#EXTINF:-1 channelID='99991389' tvg-num='409' tvg-chno='409' tvg-name='USGA' tvg-id='99991389' tvg-logo='https://image.xumo.com/v1/channels/channel/99991389/512x512.png?type=color_onBlack' group-title='XUMO',USGA
+http://172.31.0.2:5004/XUMO/watch/99991389
+#EXTINF:-1 channelID='99991315' tvg-num='411' tvg-chno='411' tvg-name='ACC Digital Network' tvg-id='99991315' tvg-logo='https://image.xumo.com/v1/channels/channel/99991315/512x512.png?type=color_onBlack' group-title='XUMO',ACC Digital Network
+http://172.31.0.2:5004/XUMO/watch/99991315
+#EXTINF:-1 channelID='99991317' tvg-num='412' tvg-chno='412' tvg-name='World Poker Tour' tvg-id='99991317' tvg-logo='https://image.xumo.com/v1/channels/channel/99991317/512x512.png?type=color_onBlack' group-title='XUMO',World Poker Tour
+http://172.31.0.2:5004/XUMO/watch/99991317
+#EXTINF:-1 channelID='99991358' tvg-num='414' tvg-chno='414' tvg-name='WaypointTV' tvg-id='99991358' tvg-logo='https://image.xumo.com/v1/channels/channel/99991358/512x512.png?type=color_onBlack' group-title='XUMO',WaypointTV
+http://172.31.0.2:5004/XUMO/watch/99991358
+#EXTINF:-1 channelID='99991374' tvg-num='415' tvg-chno='415' tvg-name='Outdoor America' tvg-id='99991374' tvg-logo='https://image.xumo.com/v1/channels/channel/99991374/512x512.png?type=color_onBlack' group-title='XUMO',Outdoor America
+http://172.31.0.2:5004/XUMO/watch/99991374
+#EXTINF:-1 channelID='99991387' tvg-num='416' tvg-chno='416' tvg-name='beIN SPORTS XTRA' tvg-id='99991387' tvg-logo='https://image.xumo.com/v1/channels/channel/99991387/512x512.png?type=color_onBlack' group-title='XUMO',beIN SPORTS XTRA
+http://172.31.0.2:5004/XUMO/watch/99991387
+#EXTINF:-1 channelID='99991633' tvg-num='417' tvg-chno='417' tvg-name='PokerGO' tvg-id='99991633' tvg-logo='https://image.xumo.com/v1/channels/channel/99991633/512x512.png?type=color_onBlack' group-title='XUMO',PokerGO
+http://172.31.0.2:5004/XUMO/watch/99991633
+#EXTINF:-1 channelID='99991627' tvg-num='418' tvg-chno='418' tvg-name='Billiard TV' tvg-id='99991627' tvg-logo='https://image.xumo.com/v1/channels/channel/99991627/512x512.png?type=color_onBlack' group-title='XUMO',Billiard TV
+http://172.31.0.2:5004/XUMO/watch/99991627
+#EXTINF:-1 channelID='99951265' tvg-num='419' tvg-chno='419' tvg-name='DraftKings Network' tvg-id='99951265' tvg-logo='https://image.xumo.com/v1/channels/channel/99951265/512x512.png?type=color_onBlack' group-title='XUMO',DraftKings Network
+http://172.31.0.2:5004/XUMO/watch/99951265
+#EXTINF:-1 channelID='99951266' tvg-num='420' tvg-chno='420' tvg-name='FanDuel TV Extra' tvg-id='99951266' tvg-logo='https://image.xumo.com/v1/channels/channel/99951266/512x512.png?type=color_onBlack' group-title='XUMO',FanDuel TV Extra
+http://172.31.0.2:5004/XUMO/watch/99951266
+#EXTINF:-1 channelID='99991648' tvg-num='421' tvg-chno='421' tvg-name='PursuitUp' tvg-id='99991648' tvg-logo='https://image.xumo.com/v1/channels/channel/99991648/512x512.png?type=color_onBlack' group-title='XUMO',PursuitUp
+http://172.31.0.2:5004/XUMO/watch/99991648
+#EXTINF:-1 channelID='99991660' tvg-num='422' tvg-chno='422' tvg-name='GOLFPASS' tvg-id='99991660' tvg-logo='https://image.xumo.com/v1/channels/channel/99991660/512x512.png?type=color_onBlack' group-title='XUMO',GOLFPASS
+http://172.31.0.2:5004/XUMO/watch/99991660
+#EXTINF:-1 channelID='99991697' tvg-num='423' tvg-chno='423' tvg-name='ACL Cornhole TV' tvg-id='99991697' tvg-logo='https://image.xumo.com/v1/channels/channel/99991697/512x512.png?type=color_onBlack' group-title='XUMO',ACL Cornhole TV
+http://172.31.0.2:5004/XUMO/watch/99991697
+#EXTINF:-1 channelID='99991249' tvg-num='424' tvg-chno='424' tvg-name='World Surf League' tvg-id='99991249' tvg-logo='https://image.xumo.com/v1/channels/channel/99991249/512x512.png?type=color_onBlack' group-title='XUMO',World Surf League
+http://172.31.0.2:5004/XUMO/watch/99991249
+#EXTINF:-1 channelID='99991786' tvg-num='425' tvg-chno='425' tvg-name='Origin Sports' tvg-id='99991786' tvg-logo='https://image.xumo.com/v1/channels/channel/99991786/512x512.png?type=color_onBlack' group-title='XUMO',Origin Sports
+http://172.31.0.2:5004/XUMO/watch/99991786
+#EXTINF:-1 channelID='99951142' tvg-num='426' tvg-chno='426' tvg-name='Women's Sports Network' tvg-id='99951142' tvg-logo='https://image.xumo.com/v1/channels/channel/99951142/512x512.png?type=color_onBlack' group-title='XUMO',Women's Sports Network
+http://172.31.0.2:5004/XUMO/watch/99951142
+#EXTINF:-1 channelID='99951180' tvg-num='428' tvg-chno='428' tvg-name='Strongman Champions League' tvg-id='99951180' tvg-logo='https://image.xumo.com/v1/channels/channel/99951180/512x512.png?type=color_onBlack' group-title='XUMO',Strongman Champions League
+http://172.31.0.2:5004/XUMO/watch/99951180
+#EXTINF:-1 channelID='99951340' tvg-num='433' tvg-chno='433' tvg-name='Team USA TV' tvg-id='99951340' tvg-logo='https://image.xumo.com/v1/channels/channel/99951340/512x512.png?type=color_onBlack' group-title='XUMO',Team USA TV
+http://172.31.0.2:5004/XUMO/watch/99951340
+#EXTINF:-1 channelID='99951132' tvg-num='501' tvg-chno='501' tvg-name='Fight Network' tvg-id='99951132' tvg-logo='https://image.xumo.com/v1/channels/channel/99951132/512x512.png?type=color_onBlack' group-title='XUMO',Fight Network
+http://172.31.0.2:5004/XUMO/watch/99951132
+#EXTINF:-1 channelID='99951134' tvg-num='502' tvg-chno='502' tvg-name='UFC' tvg-id='99951134' tvg-logo='https://image.xumo.com/v1/channels/channel/99951134/512x512.png?type=color_onBlack' group-title='XUMO',UFC
+http://172.31.0.2:5004/XUMO/watch/99951134
+#EXTINF:-1 channelID='99951154' tvg-num='503' tvg-chno='503' tvg-name='Boxing TV' tvg-id='99951154' tvg-logo='https://image.xumo.com/v1/channels/channel/99951154/512x512.png?type=color_onBlack' group-title='XUMO',Boxing TV
+http://172.31.0.2:5004/XUMO/watch/99951154
+#EXTINF:-1 channelID='99951203' tvg-num='504' tvg-chno='504' tvg-name='PFL MMA' tvg-id='99951203' tvg-logo='https://image.xumo.com/v1/channels/channel/99951203/512x512.png?type=color_onBlack' group-title='XUMO',PFL MMA
+http://172.31.0.2:5004/XUMO/watch/99951203
+#EXTINF:-1 channelID='99991278' tvg-num='505' tvg-chno='505' tvg-name='GLORY Kickboxing' tvg-id='99991278' tvg-logo='https://image.xumo.com/v1/channels/channel/99991278/512x512.png?type=color_onBlack' group-title='XUMO',GLORY Kickboxing
+http://172.31.0.2:5004/XUMO/watch/99991278
+#EXTINF:-1 channelID='99991341' tvg-num='506' tvg-chno='506' tvg-name='TNA Wrestling Channel' tvg-id='99991341' tvg-logo='https://image.xumo.com/v1/channels/channel/99991341/512x512.png?type=color_onBlack' group-title='XUMO',TNA Wrestling Channel
+http://172.31.0.2:5004/XUMO/watch/99991341
+#EXTINF:-1 channelID='99991696' tvg-num='507' tvg-chno='507' tvg-name='Swerve Combat' tvg-id='99991696' tvg-logo='https://image.xumo.com/v1/channels/channel/99991696/512x512.png?type=color_onBlack' group-title='XUMO',Swerve Combat
+http://172.31.0.2:5004/XUMO/watch/99991696
+#EXTINF:-1 channelID='99951196' tvg-num='601' tvg-chno='601' tvg-name='MotorTrend FAST TV' tvg-id='99951196' tvg-logo='https://image.xumo.com/v1/channels/channel/99951196/512x512.png?type=color_onBlack' group-title='XUMO',MotorTrend FAST TV
+http://172.31.0.2:5004/XUMO/watch/99951196
+#EXTINF:-1 channelID='99991291' tvg-num='602' tvg-chno='602' tvg-name='PowerNation' tvg-id='99991291' tvg-logo='https://image.xumo.com/v1/channels/channel/99991291/512x512.png?type=color_onBlack' group-title='XUMO',PowerNation
+http://172.31.0.2:5004/XUMO/watch/99991291
+#EXTINF:-1 channelID='99991325' tvg-num='603' tvg-chno='603' tvg-name='Motorvision' tvg-id='99991325' tvg-logo='https://image.xumo.com/v1/channels/channel/99991325/512x512.png?type=color_onBlack' group-title='XUMO',Motorvision
+http://172.31.0.2:5004/XUMO/watch/99991325
+#EXTINF:-1 channelID='99951207' tvg-num='604' tvg-chno='604' tvg-name='Fifth Gear' tvg-id='99951207' tvg-logo='https://image.xumo.com/v1/channels/channel/99951207/512x512.png?type=color_onBlack' group-title='XUMO',Fifth Gear
+http://172.31.0.2:5004/XUMO/watch/99951207
+#EXTINF:-1 channelID='99951249' tvg-num='605' tvg-chno='605' tvg-name='Top Gear' tvg-id='99951249' tvg-logo='https://image.xumo.com/v1/channels/channel/99951249/512x512.png?type=color_onBlack' group-title='XUMO',Top Gear
+http://172.31.0.2:5004/XUMO/watch/99951249
+#EXTINF:-1 channelID='99951268' tvg-num='606' tvg-chno='606' tvg-name='SPEEDVISION' tvg-id='99951268' tvg-logo='https://image.xumo.com/v1/channels/channel/99951268/512x512.png?type=color_onBlack' group-title='XUMO',SPEEDVISION
+http://172.31.0.2:5004/XUMO/watch/99951268
+#EXTINF:-1 channelID='99951269' tvg-num='607' tvg-chno='607' tvg-name='MAVTV Select' tvg-id='99951269' tvg-logo='https://image.xumo.com/v1/channels/channel/99951269/512x512.png?type=color_onBlack' group-title='XUMO',MAVTV Select
+http://172.31.0.2:5004/XUMO/watch/99951269
+#EXTINF:-1 channelID='99991384' tvg-num='701' tvg-chno='701' tvg-name='Xumo Free Crime TV' tvg-id='99991384' tvg-logo='https://image.xumo.com/v1/channels/channel/99991384/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Crime TV
+http://172.31.0.2:5004/XUMO/watch/99991384
+#EXTINF:-1 channelID='99991626' tvg-num='702' tvg-chno='702' tvg-name='Dateline 24/7' tvg-id='99991626' tvg-logo='https://image.xumo.com/v1/channels/channel/99991626/512x512.png?type=color_onBlack' group-title='XUMO',Dateline 24/7
+http://172.31.0.2:5004/XUMO/watch/99991626
+#EXTINF:-1 channelID='99991680' tvg-num='703' tvg-chno='703' tvg-name='Unsolved Mysteries' tvg-id='99991680' tvg-logo='https://image.xumo.com/v1/channels/channel/99991680/512x512.png?type=color_onBlack' group-title='XUMO',Unsolved Mysteries
+http://172.31.0.2:5004/XUMO/watch/99991680
+#EXTINF:-1 channelID='99951234' tvg-num='704' tvg-chno='704' tvg-name='Oxygen True Crime Archives' tvg-id='99951234' tvg-logo='https://image.xumo.com/v1/channels/channel/99951234/512x512.png?type=color_onBlack' group-title='XUMO',Oxygen True Crime Archives
+http://172.31.0.2:5004/XUMO/watch/99951234
+#EXTINF:-1 channelID='99951245' tvg-num='705' tvg-chno='705' tvg-name='Universal Crime' tvg-id='99951245' tvg-logo='https://image.xumo.com/v1/channels/channel/99951245/512x512.png?type=color_onBlack' group-title='XUMO',Universal Crime
+http://172.31.0.2:5004/XUMO/watch/99951245
+#EXTINF:-1 channelID='99951246' tvg-num='706' tvg-chno='706' tvg-name='American Crimes' tvg-id='99951246' tvg-logo='https://image.xumo.com/v1/channels/channel/99951246/512x512.png?type=color_onBlack' group-title='XUMO',American Crimes
+http://172.31.0.2:5004/XUMO/watch/99951246
+#EXTINF:-1 channelID='99991320' tvg-num='707' tvg-chno='707' tvg-name='Law & Crime' tvg-id='99991320' tvg-logo='https://image.xumo.com/v1/channels/channel/99991320/512x512.png?type=color_onBlack' group-title='XUMO',Law & Crime
+http://172.31.0.2:5004/XUMO/watch/99991320
+#EXTINF:-1 channelID='99991357' tvg-num='708' tvg-chno='708' tvg-name='Real Crime' tvg-id='99991357' tvg-logo='https://image.xumo.com/v1/channels/channel/99991357/512x512.png?type=color_onBlack' group-title='XUMO',Real Crime
+http://172.31.0.2:5004/XUMO/watch/99991357
+#EXTINF:-1 channelID='99991367' tvg-num='709' tvg-chno='709' tvg-name='Forensic Files' tvg-id='99991367' tvg-logo='https://image.xumo.com/v1/channels/channel/99991367/512x512.png?type=color_onBlack' group-title='XUMO',Forensic Files
+http://172.31.0.2:5004/XUMO/watch/99991367
+#EXTINF:-1 channelID='99991368' tvg-num='710' tvg-chno='710' tvg-name='REELZ Famous & Infamous' tvg-id='99991368' tvg-logo='https://image.xumo.com/v1/channels/channel/99991368/512x512.png?type=color_onBlack' group-title='XUMO',REELZ Famous & Infamous
+http://172.31.0.2:5004/XUMO/watch/99991368
+#EXTINF:-1 channelID='99951157' tvg-num='711' tvg-chno='711' tvg-name='ION Mystery' tvg-id='99951157' tvg-logo='https://image.xumo.com/v1/channels/channel/99951157/512x512.png?type=color_onBlack' group-title='XUMO',ION Mystery
+http://172.31.0.2:5004/XUMO/watch/99951157
+#EXTINF:-1 channelID='99991713' tvg-num='712' tvg-chno='712' tvg-name='Court TV' tvg-id='99991713' tvg-logo='https://image.xumo.com/v1/channels/channel/99991713/512x512.png?type=color_onBlack' group-title='XUMO',Court TV
+http://172.31.0.2:5004/XUMO/watch/99991713
+#EXTINF:-1 channelID='99991698' tvg-num='713' tvg-chno='713' tvg-name='Midsomer Murders' tvg-id='99991698' tvg-logo='https://image.xumo.com/v1/channels/channel/99991698/512x512.png?type=color_onBlack' group-title='XUMO',Midsomer Murders
+http://172.31.0.2:5004/XUMO/watch/99991698
+#EXTINF:-1 channelID='99951233' tvg-num='714' tvg-chno='714' tvg-name='Court TV Legendary Trials' tvg-id='99951233' tvg-logo='https://image.xumo.com/v1/channels/channel/99951233/512x512.png?type=color_onBlack' group-title='XUMO',Court TV Legendary Trials
+http://172.31.0.2:5004/XUMO/watch/99951233
+#EXTINF:-1 channelID='99951213' tvg-num='715' tvg-chno='715' tvg-name='BritBox Mysteries' tvg-id='99951213' tvg-logo='https://image.xumo.com/v1/channels/channel/99951213/512x512.png?type=color_onBlack' group-title='XUMO',BritBox Mysteries
+http://172.31.0.2:5004/XUMO/watch/99951213
+#EXTINF:-1 channelID='99951299' tvg-num='717' tvg-chno='717' tvg-name='TV One CRIME & JUSTICE FAST CHANNEL' tvg-id='99951299' tvg-logo='https://image.xumo.com/v1/channels/channel/99951299/512x512.png?type=color_onBlack' group-title='XUMO',TV One CRIME & JUSTICE FAST CHANNEL
+http://172.31.0.2:5004/XUMO/watch/99951299
+#EXTINF:-1 channelID='99951315' tvg-num='718' tvg-chno='718' tvg-name='World's Wildest Police Videos' tvg-id='99951315' tvg-logo='https://image.xumo.com/v1/channels/channel/99951315/512x512.png?type=color_onBlack' group-title='XUMO',World's Wildest Police Videos
+http://172.31.0.2:5004/XUMO/watch/99951315
+#EXTINF:-1 channelID='99951285' tvg-num='719' tvg-chno='719' tvg-name='Investigation' tvg-id='99951285' tvg-logo='https://image.xumo.com/v1/channels/channel/99951285/512x512.png?type=color_onBlack' group-title='XUMO',Investigation
+http://172.31.0.2:5004/XUMO/watch/99951285
+#EXTINF:-1 channelID='99991784' tvg-num='801' tvg-chno='801' tvg-name='Xumo Free Action & Drama TV' tvg-id='99991784' tvg-logo='https://image.xumo.com/v1/channels/channel/99991784/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Action & Drama TV
+http://172.31.0.2:5004/XUMO/watch/99991784
+#EXTINF:-1 channelID='9999614' tvg-num='802' tvg-chno='802' tvg-name='ION Plus' tvg-id='9999614' tvg-logo='https://image.xumo.com/v1/channels/channel/9999614/512x512.png?type=color_onBlack' group-title='XUMO',ION Plus
+http://172.31.0.2:5004/XUMO/watch/9999614
+#EXTINF:-1 channelID='99951133' tvg-num='803' tvg-chno='803' tvg-name='Baywatch' tvg-id='99951133' tvg-logo='https://image.xumo.com/v1/channels/channel/99951133/512x512.png?type=color_onBlack' group-title='XUMO',Baywatch
+http://172.31.0.2:5004/XUMO/watch/99951133
+#EXTINF:-1 channelID='99951254' tvg-num='805' tvg-chno='805' tvg-name='Universal Action' tvg-id='99951254' tvg-logo='https://image.xumo.com/v1/channels/channel/99951254/512x512.png?type=color_onBlack' group-title='XUMO',Universal Action
+http://172.31.0.2:5004/XUMO/watch/99951254
+#EXTINF:-1 channelID='99991378' tvg-num='806' tvg-chno='806' tvg-name='ElectricNOW' tvg-id='99991378' tvg-logo='https://image.xumo.com/v1/channels/channel/99991378/512x512.png?type=color_onBlack' group-title='XUMO',ElectricNOW
+http://172.31.0.2:5004/XUMO/watch/99991378
+#EXTINF:-1 channelID='99991622' tvg-num='807' tvg-chno='807' tvg-name='Stories by AMC' tvg-id='99991622' tvg-logo='https://image.xumo.com/v1/channels/channel/99991622/512x512.png?type=color_onBlack' group-title='XUMO',Stories by AMC
+http://172.31.0.2:5004/XUMO/watch/99991622
+#EXTINF:-1 channelID='99951334' tvg-num='808' tvg-chno='808' tvg-name='GET' tvg-id='99951334' tvg-logo='https://image.xumo.com/v1/channels/channel/99951334/512x512.png?type=color_onBlack' group-title='XUMO',GET
+http://172.31.0.2:5004/XUMO/watch/99951334
+#EXTINF:-1 channelID='99951330' tvg-num='809' tvg-chno='809' tvg-name='Nash Bridges Channel' tvg-id='99951330' tvg-logo='https://image.xumo.com/v1/channels/channel/99951330/512x512.png?type=color_onBlack' group-title='XUMO',Nash Bridges Channel
+http://172.31.0.2:5004/XUMO/watch/99951330
+#EXTINF:-1 channelID='99991105' tvg-num='901' tvg-chno='901' tvg-name='Xumo Free Comedy TV' tvg-id='99991105' tvg-logo='https://image.xumo.com/v1/channels/channel/99991105/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Comedy TV
+http://172.31.0.2:5004/XUMO/watch/99991105
+#EXTINF:-1 channelID='99951232' tvg-num='903' tvg-chno='903' tvg-name='Laff More' tvg-id='99951232' tvg-logo='https://image.xumo.com/v1/channels/channel/99951232/512x512.png?type=color_onBlack' group-title='XUMO',Laff More
+http://172.31.0.2:5004/XUMO/watch/99951232
+#EXTINF:-1 channelID='99951236' tvg-num='904' tvg-chno='904' tvg-name='SNL Vault' tvg-id='99951236' tvg-logo='https://image.xumo.com/v1/channels/channel/99951236/512x512.png?type=color_onBlack' group-title='XUMO',SNL Vault
+http://172.31.0.2:5004/XUMO/watch/99951236
+#EXTINF:-1 channelID='99951244' tvg-num='905' tvg-chno='905' tvg-name='NBC Comedy Vault' tvg-id='99951244' tvg-logo='https://image.xumo.com/v1/channels/channel/99951244/512x512.png?type=color_onBlack' group-title='XUMO',NBC Comedy Vault
+http://172.31.0.2:5004/XUMO/watch/99951244
+#EXTINF:-1 channelID='99951247' tvg-num='906' tvg-chno='906' tvg-name='Saved by the Bell' tvg-id='99951247' tvg-logo='https://image.xumo.com/v1/channels/channel/99951247/512x512.png?type=color_onBlack' group-title='XUMO',Saved by the Bell
+http://172.31.0.2:5004/XUMO/watch/99951247
+#EXTINF:-1 channelID='99991667' tvg-num='907' tvg-chno='907' tvg-name='Are We There Yet?' tvg-id='99991667' tvg-logo='https://image.xumo.com/v1/channels/channel/99991667/512x512.png?type=color_onBlack' group-title='XUMO',Are We There Yet?
+http://172.31.0.2:5004/XUMO/watch/99991667
+#EXTINF:-1 channelID='99991123' tvg-num='909' tvg-chno='909' tvg-name='LOL Network' tvg-id='99991123' tvg-logo='https://image.xumo.com/v1/channels/channel/99991123/512x512.png?type=color_onBlack' group-title='XUMO',LOL Network
+http://172.31.0.2:5004/XUMO/watch/99991123
+#EXTINF:-1 channelID='99991124' tvg-num='910' tvg-chno='910' tvg-name='Dry Bar Comedy' tvg-id='99991124' tvg-logo='https://image.xumo.com/v1/channels/channel/99991124/512x512.png?type=color_onBlack' group-title='XUMO',Dry Bar Comedy
+http://172.31.0.2:5004/XUMO/watch/99991124
+#EXTINF:-1 channelID='99991153' tvg-num='911' tvg-chno='911' tvg-name='FailArmy' tvg-id='99991153' tvg-logo='https://image.xumo.com/v1/channels/channel/99991153/512x512.png?type=color_onBlack' group-title='XUMO',FailArmy
+http://172.31.0.2:5004/XUMO/watch/99991153
+#EXTINF:-1 channelID='99991157' tvg-num='912' tvg-chno='912' tvg-name='The Johnny Carson Show' tvg-id='99991157' tvg-logo='https://image.xumo.com/v1/channels/channel/99991157/512x512.png?type=color_onBlack' group-title='XUMO',The Johnny Carson Show
+http://172.31.0.2:5004/XUMO/watch/99991157
+#EXTINF:-1 channelID='99991176' tvg-num='914' tvg-chno='914' tvg-name='Just for Laughs TV' tvg-id='99991176' tvg-logo='https://image.xumo.com/v1/channels/channel/99991176/512x512.png?type=color_onBlack' group-title='XUMO',Just for Laughs TV
+http://172.31.0.2:5004/XUMO/watch/99991176
+#EXTINF:-1 channelID='99991190' tvg-num='916' tvg-chno='916' tvg-name='Comedy Dynamics' tvg-id='99991190' tvg-logo='https://image.xumo.com/v1/channels/channel/99991190/512x512.png?type=color_onBlack' group-title='XUMO',Comedy Dynamics
+http://172.31.0.2:5004/XUMO/watch/99991190
+#EXTINF:-1 channelID='99991204' tvg-num='917' tvg-chno='917' tvg-name='Just for Laughs Gags' tvg-id='99991204' tvg-logo='https://image.xumo.com/v1/channels/channel/99991204/512x512.png?type=color_onBlack' group-title='XUMO',Just for Laughs Gags
+http://172.31.0.2:5004/XUMO/watch/99991204
+#EXTINF:-1 channelID='99991349' tvg-num='918' tvg-chno='918' tvg-name='It's Showtime at the Apollo' tvg-id='99991349' tvg-logo='https://image.xumo.com/v1/channels/channel/99991349/512x512.png?type=color_onBlack' group-title='XUMO',It's Showtime at the Apollo
+http://172.31.0.2:5004/XUMO/watch/99991349
+#EXTINF:-1 channelID='99951301' tvg-num='919' tvg-chno='919' tvg-name='Portlandia' tvg-id='99951301' tvg-logo='https://image.xumo.com/v1/channels/channel/99951301/512x512.png?type=color_onBlack' group-title='XUMO',Portlandia
+http://172.31.0.2:5004/XUMO/watch/99951301
+#EXTINF:-1 channelID='9999613' tvg-num='920' tvg-chno='920' tvg-name='Bounce XL' tvg-id='9999613' tvg-logo='https://image.xumo.com/v1/channels/channel/9999613/512x512.png?type=color_onBlack' group-title='XUMO',Bounce XL
+http://172.31.0.2:5004/XUMO/watch/9999613
+#EXTINF:-1 channelID='99951297' tvg-num='921' tvg-chno='921' tvg-name='LOL! Stand Up' tvg-id='99951297' tvg-logo='https://image.xumo.com/v1/channels/channel/99951297/512x512.png?type=color_onBlack' group-title='XUMO',LOL! Stand Up
+http://172.31.0.2:5004/XUMO/watch/99951297
+#EXTINF:-1 channelID='99951333' tvg-num='922' tvg-chno='922' tvg-name='GET Comedy' tvg-id='99951333' tvg-logo='https://image.xumo.com/v1/channels/channel/99951333/512x512.png?type=color_onBlack' group-title='XUMO',GET Comedy
+http://172.31.0.2:5004/XUMO/watch/99951333
+#EXTINF:-1 channelID='99951329' tvg-num='923' tvg-chno='923' tvg-name='The Conners' tvg-id='99951329' tvg-logo='https://image.xumo.com/v1/channels/channel/99951329/512x512.png?type=color_onBlack' group-title='XUMO',The Conners
+http://172.31.0.2:5004/XUMO/watch/99951329
+#EXTINF:-1 channelID='99951195' tvg-num='1002' tvg-chno='1002' tvg-name='PBS Nature' tvg-id='99951195' tvg-logo='https://image.xumo.com/v1/channels/channel/99951195/512x512.png?type=color_onBlack' group-title='XUMO',PBS Nature
+http://172.31.0.2:5004/XUMO/watch/99951195
+#EXTINF:-1 channelID='99951231' tvg-num='1003' tvg-chno='1003' tvg-name='BBC Earth' tvg-id='99951231' tvg-logo='https://image.xumo.com/v1/channels/channel/99951231/512x512.png?type=color_onBlack' group-title='XUMO',BBC Earth
+http://172.31.0.2:5004/XUMO/watch/99951231
+#EXTINF:-1 channelID='99991197' tvg-num='1004' tvg-chno='1004' tvg-name='NatureVision' tvg-id='99991197' tvg-logo='https://image.xumo.com/v1/channels/channel/99991197/512x512.png?type=color_onBlack' group-title='XUMO',NatureVision
+http://172.31.0.2:5004/XUMO/watch/99991197
+#EXTINF:-1 channelID='99991252' tvg-num='1005' tvg-chno='1005' tvg-name='Stingray Naturescape' tvg-id='99991252' tvg-logo='https://image.xumo.com/v1/channels/channel/99991252/512x512.png?type=color_onBlack' group-title='XUMO',Stingray Naturescape
+http://172.31.0.2:5004/XUMO/watch/99991252
+#EXTINF:-1 channelID='99991398' tvg-num='1006' tvg-chno='1006' tvg-name='Love Nature' tvg-id='99991398' tvg-logo='https://image.xumo.com/v1/channels/channel/99991398/512x512.png?type=color_onBlack' group-title='XUMO',Love Nature
+http://172.31.0.2:5004/XUMO/watch/99991398
+#EXTINF:-1 channelID='99991628' tvg-num='1007' tvg-chno='1007' tvg-name='WildEarth' tvg-id='99991628' tvg-logo='https://image.xumo.com/v1/channels/channel/99991628/512x512.png?type=color_onBlack' group-title='XUMO',WildEarth
+http://172.31.0.2:5004/XUMO/watch/99991628
+#EXTINF:-1 channelID='99991765' tvg-num='1008' tvg-chno='1008' tvg-name='Xplore' tvg-id='99991765' tvg-logo='https://image.xumo.com/v1/channels/channel/99991765/512x512.png?type=color_onBlack' group-title='XUMO',Xplore
+http://172.31.0.2:5004/XUMO/watch/99991765
+#EXTINF:-1 channelID='99951328' tvg-num='1009' tvg-chno='1009' tvg-name='Love The Planet' tvg-id='99951328' tvg-logo='https://image.xumo.com/v1/channels/channel/99951328/512x512.png?type=color_onBlack' group-title='XUMO',Love The Planet
+http://172.31.0.2:5004/XUMO/watch/99951328
+#EXTINF:-1 channelID='99951294' tvg-num='1010' tvg-chno='1010' tvg-name='Dog Whisperer' tvg-id='99951294' tvg-logo='https://image.xumo.com/v1/channels/channel/99951294/512x512.png?type=color_onBlack' group-title='XUMO',Dog Whisperer
+http://172.31.0.2:5004/XUMO/watch/99951294
+#EXTINF:-1 channelID='99951138' tvg-num='1104' tvg-chno='1104' tvg-name='McLeod's Daughters' tvg-id='99951138' tvg-logo='https://image.xumo.com/v1/channels/channel/99951138/512x512.png?type=color_onBlack' group-title='XUMO',McLeod's Daughters
+http://172.31.0.2:5004/XUMO/watch/99951138
+#EXTINF:-1 channelID='99951152' tvg-num='1105' tvg-chno='1105' tvg-name='Grit Xtra' tvg-id='99951152' tvg-logo='https://image.xumo.com/v1/channels/channel/99951152/512x512.png?type=color_onBlack' group-title='XUMO',Grit Xtra
+http://172.31.0.2:5004/XUMO/watch/99951152
+#EXTINF:-1 channelID='99951160' tvg-num='1106' tvg-chno='1106' tvg-name='Cowboy Way' tvg-id='99951160' tvg-logo='https://image.xumo.com/v1/channels/channel/99951160/512x512.png?type=color_onBlack' group-title='XUMO',Cowboy Way
+http://172.31.0.2:5004/XUMO/watch/99951160
+#EXTINF:-1 channelID='99951216' tvg-num='1107' tvg-chno='1107' tvg-name='The Rifleman' tvg-id='99951216' tvg-logo='https://image.xumo.com/v1/channels/channel/99951216/512x512.png?type=color_onBlack' group-title='XUMO',The Rifleman
+http://172.31.0.2:5004/XUMO/watch/99951216
+#EXTINF:-1 channelID='99951240' tvg-num='1108' tvg-chno='1108' tvg-name='Little House on the Prairie' tvg-id='99951240' tvg-logo='https://image.xumo.com/v1/channels/channel/99951240/512x512.png?type=color_onBlack' group-title='XUMO',Little House on the Prairie
+http://172.31.0.2:5004/XUMO/watch/99951240
+#EXTINF:-1 channelID='99951255' tvg-num='1109' tvg-chno='1109' tvg-name='Universal Westerns' tvg-id='99951255' tvg-logo='https://image.xumo.com/v1/channels/channel/99951255/512x512.png?type=color_onBlack' group-title='XUMO',Universal Westerns
+http://172.31.0.2:5004/XUMO/watch/99951255
+#EXTINF:-1 channelID='99991131' tvg-num='1111' tvg-chno='1111' tvg-name='Circle' tvg-id='99991131' tvg-logo='https://image.xumo.com/v1/channels/channel/99991131/512x512.png?type=color_onBlack' group-title='XUMO',Circle
+http://172.31.0.2:5004/XUMO/watch/99991131
+#EXTINF:-1 channelID='99951156' tvg-num='1201' tvg-chno='1201' tvg-name='At Home with Family Handyman' tvg-id='99951156' tvg-logo='https://image.xumo.com/v1/channels/channel/99951156/512x512.png?type=color_onBlack' group-title='XUMO',At Home with Family Handyman
+http://172.31.0.2:5004/XUMO/watch/99951156
+#EXTINF:-1 channelID='99951178' tvg-num='1202' tvg-chno='1202' tvg-name='BBC Home & Garden' tvg-id='99951178' tvg-logo='https://image.xumo.com/v1/channels/channel/99951178/512x512.png?type=color_onBlack' group-title='XUMO',BBC Home & Garden
+http://172.31.0.2:5004/XUMO/watch/99951178
+#EXTINF:-1 channelID='99951210' tvg-num='1203' tvg-chno='1203' tvg-name='CraftsyTV' tvg-id='99951210' tvg-logo='https://image.xumo.com/v1/channels/channel/99951210/512x512.png?type=color_onBlack' group-title='XUMO',CraftsyTV
+http://172.31.0.2:5004/XUMO/watch/99951210
+#EXTINF:-1 channelID='99951212' tvg-num='1204' tvg-chno='1204' tvg-name='Gardening with Monty Don' tvg-id='99951212' tvg-logo='https://image.xumo.com/v1/channels/channel/99951212/512x512.png?type=color_onBlack' group-title='XUMO',Gardening with Monty Don
+http://172.31.0.2:5004/XUMO/watch/99951212
+#EXTINF:-1 channelID='99951221' tvg-num='1205' tvg-chno='1205' tvg-name='Property & Reno' tvg-id='99951221' tvg-logo='https://image.xumo.com/v1/channels/channel/99951221/512x512.png?type=color_onBlack' group-title='XUMO',Property & Reno
+http://172.31.0.2:5004/XUMO/watch/99951221
+#EXTINF:-1 channelID='99951237' tvg-num='1206' tvg-chno='1206' tvg-name='Million Dollar Listing Vault' tvg-id='99951237' tvg-logo='https://image.xumo.com/v1/channels/channel/99951237/512x512.png?type=color_onBlack' group-title='XUMO',Million Dollar Listing Vault
+http://172.31.0.2:5004/XUMO/watch/99951237
+#EXTINF:-1 channelID='99991229' tvg-num='1207' tvg-chno='1207' tvg-name='Architectural Digest' tvg-id='99991229' tvg-logo='https://image.xumo.com/v1/channels/channel/99991229/512x512.png?type=color_onBlack' group-title='XUMO',Architectural Digest
+http://172.31.0.2:5004/XUMO/watch/99991229
+#EXTINF:-1 channelID='99991293' tvg-num='1208' tvg-chno='1208' tvg-name='This Old House' tvg-id='99991293' tvg-logo='https://image.xumo.com/v1/channels/channel/99991293/512x512.png?type=color_onBlack' group-title='XUMO',This Old House
+http://172.31.0.2:5004/XUMO/watch/99991293
+#EXTINF:-1 channelID='99991390' tvg-num='1209' tvg-chno='1209' tvg-name='The Design Network' tvg-id='99991390' tvg-logo='https://image.xumo.com/v1/channels/channel/99991390/512x512.png?type=color_onBlack' group-title='XUMO',The Design Network
+http://172.31.0.2:5004/XUMO/watch/99991390
+#EXTINF:-1 channelID='99991651' tvg-num='1210' tvg-chno='1210' tvg-name='NBC LX Home' tvg-id='99991651' tvg-logo='https://image.xumo.com/v1/channels/channel/99991651/512x512.png?type=color_onBlack' group-title='XUMO',NBC LX Home
+http://172.31.0.2:5004/XUMO/watch/99991651
+#EXTINF:-1 channelID='99991693' tvg-num='1211' tvg-chno='1211' tvg-name='Homeful' tvg-id='99991693' tvg-logo='https://image.xumo.com/v1/channels/channel/99991693/512x512.png?type=color_onBlack' group-title='XUMO',Homeful
+http://172.31.0.2:5004/XUMO/watch/99991693
+#EXTINF:-1 channelID='99991759' tvg-num='1212' tvg-chno='1212' tvg-name='Today's Homeowner' tvg-id='99991759' tvg-logo='https://image.xumo.com/v1/channels/channel/99991759/512x512.png?type=color_onBlack' group-title='XUMO',Today's Homeowner
+http://172.31.0.2:5004/XUMO/watch/99991759
+#EXTINF:-1 channelID='99951137' tvg-num='1213' tvg-chno='1213' tvg-name='The Block Australia' tvg-id='99951137' tvg-logo='https://image.xumo.com/v1/channels/channel/99951137/512x512.png?type=color_onBlack' group-title='XUMO',The Block Australia
+http://172.31.0.2:5004/XUMO/watch/99951137
+#EXTINF:-1 channelID='99991639' tvg-num='1301' tvg-chno='1301' tvg-name='Xumo Free Game Show TV' tvg-id='99991639' tvg-logo='https://image.xumo.com/v1/channels/channel/99991639/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Game Show TV
+http://172.31.0.2:5004/XUMO/watch/99991639
+#EXTINF:-1 channelID='99951125' tvg-num='1302' tvg-chno='1302' tvg-name='The Price is Right: The Barker Era' tvg-id='99951125' tvg-logo='https://image.xumo.com/v1/channels/channel/99951125/512x512.png?type=color_onBlack' group-title='XUMO',The Price is Right: The Barker Era
+http://172.31.0.2:5004/XUMO/watch/99951125
+#EXTINF:-1 channelID='99951126' tvg-num='1303' tvg-chno='1303' tvg-name='Supermarket Sweep' tvg-id='99951126' tvg-logo='https://image.xumo.com/v1/channels/channel/99951126/512x512.png?type=color_onBlack' group-title='XUMO',Supermarket Sweep
+http://172.31.0.2:5004/XUMO/watch/99951126
+#EXTINF:-1 channelID='99951129' tvg-num='1304' tvg-chno='1304' tvg-name='Wipeout Xtra' tvg-id='99951129' tvg-logo='https://image.xumo.com/v1/channels/channel/99951129/512x512.png?type=color_onBlack' group-title='XUMO',Wipeout Xtra
+http://172.31.0.2:5004/XUMO/watch/99951129
+#EXTINF:-1 channelID='99951130' tvg-num='1305' tvg-chno='1305' tvg-name='Fear Factor' tvg-id='99951130' tvg-logo='https://image.xumo.com/v1/channels/channel/99951130/512x512.png?type=color_onBlack' group-title='XUMO',Fear Factor
+http://172.31.0.2:5004/XUMO/watch/99951130
+#EXTINF:-1 channelID='99951224' tvg-num='1306' tvg-chno='1306' tvg-name='The Celebrity Name Game Channel' tvg-id='99951224' tvg-logo='https://image.xumo.com/v1/channels/channel/99951224/512x512.png?type=color_onBlack' group-title='XUMO',The Celebrity Name Game Channel
+http://172.31.0.2:5004/XUMO/watch/99951224
+#EXTINF:-1 channelID='99991232' tvg-num='1308' tvg-chno='1308' tvg-name='Family Feud' tvg-id='99991232' tvg-logo='https://image.xumo.com/v1/channels/channel/99991232/512x512.png?type=color_onBlack' group-title='XUMO',Family Feud
+http://172.31.0.2:5004/XUMO/watch/99991232
+#EXTINF:-1 channelID='99951124' tvg-num='1309' tvg-chno='1309' tvg-name='BUZZR' tvg-id='99951124' tvg-logo='https://image.xumo.com/v1/channels/channel/99951124/512x512.png?type=color_onBlack' group-title='XUMO',BUZZR
+http://172.31.0.2:5004/XUMO/watch/99951124
+#EXTINF:-1 channelID='99991659' tvg-num='1310' tvg-chno='1310' tvg-name='Game Show A Go-Go' tvg-id='99991659' tvg-logo='https://image.xumo.com/v1/channels/channel/99991659/512x512.png?type=color_onBlack' group-title='XUMO',Game Show A Go-Go
+http://172.31.0.2:5004/XUMO/watch/99991659
+#EXTINF:-1 channelID='99951336' tvg-num='1311' tvg-chno='1311' tvg-name='Game Show Central' tvg-id='99951336' tvg-logo='https://image.xumo.com/v1/channels/channel/99951336/512x512.png?type=color_onBlack' group-title='XUMO',Game Show Central
+http://172.31.0.2:5004/XUMO/watch/99951336
+#EXTINF:-1 channelID='99991781' tvg-num='1312' tvg-chno='1312' tvg-name='Impossible – Quiz Show' tvg-id='99991781' tvg-logo='https://image.xumo.com/v1/channels/channel/99991781/512x512.png?type=color_onBlack' group-title='XUMO',Impossible – Quiz Show
+http://172.31.0.2:5004/XUMO/watch/99991781
+#EXTINF:-1 channelID='99951318' tvg-num='1313' tvg-chno='1313' tvg-name='American Ninja Warrior' tvg-id='99951318' tvg-logo='https://image.xumo.com/v1/channels/channel/99951318/512x512.png?type=color_onBlack' group-title='XUMO',American Ninja Warrior
+http://172.31.0.2:5004/XUMO/watch/99951318
+#EXTINF:-1 channelID='9995117' tvg-num='1401' tvg-chno='1401' tvg-name='Xumo Free Food TV' tvg-id='9995117' tvg-logo='https://image.xumo.com/v1/channels/channel/9995117/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Food TV
+http://172.31.0.2:5004/XUMO/watch/9995117
+#EXTINF:-1 channelID='99951151' tvg-num='1402' tvg-chno='1402' tvg-name='Lidia's Kitchen' tvg-id='99951151' tvg-logo='https://image.xumo.com/v1/channels/channel/99951151/512x512.png?type=color_onBlack' group-title='XUMO',Lidia's Kitchen
+http://172.31.0.2:5004/XUMO/watch/99951151
+#EXTINF:-1 channelID='99951153' tvg-num='1403' tvg-chno='1403' tvg-name='The Jamie Oliver Channel' tvg-id='99951153' tvg-logo='https://image.xumo.com/v1/channels/channel/99951153/512x512.png?type=color_onBlack' group-title='XUMO',The Jamie Oliver Channel
+http://172.31.0.2:5004/XUMO/watch/99951153
+#EXTINF:-1 channelID='99951177' tvg-num='1404' tvg-chno='1404' tvg-name='BBC Food' tvg-id='99951177' tvg-logo='https://image.xumo.com/v1/channels/channel/99951177/512x512.png?type=color_onBlack' group-title='XUMO',BBC Food
+http://172.31.0.2:5004/XUMO/watch/99951177
+#EXTINF:-1 channelID='99951238' tvg-num='1406' tvg-chno='1406' tvg-name='Top Chef Vault' tvg-id='99951238' tvg-logo='https://image.xumo.com/v1/channels/channel/99951238/512x512.png?type=color_onBlack' group-title='XUMO',Top Chef Vault
+http://172.31.0.2:5004/XUMO/watch/99951238
+#EXTINF:-1 channelID='99991140' tvg-num='1407' tvg-chno='1407' tvg-name='Bon Appétit' tvg-id='99991140' tvg-logo='https://image.xumo.com/v1/channels/channel/99991140/512x512.png?type=color_onBlack' group-title='XUMO',Bon Appétit
+http://172.31.0.2:5004/XUMO/watch/99991140
+#EXTINF:-1 channelID='99991202' tvg-num='1408' tvg-chno='1408' tvg-name='Tastemade' tvg-id='99991202' tvg-logo='https://image.xumo.com/v1/channels/channel/99991202/512x512.png?type=color_onBlack' group-title='XUMO',Tastemade
+http://172.31.0.2:5004/XUMO/watch/99991202
+#EXTINF:-1 channelID='99991328' tvg-num='1409' tvg-chno='1409' tvg-name='GustoTV' tvg-id='99991328' tvg-logo='https://image.xumo.com/v1/channels/channel/99991328/512x512.png?type=color_onBlack' group-title='XUMO',GustoTV
+http://172.31.0.2:5004/XUMO/watch/99991328
+#EXTINF:-1 channelID='99991369' tvg-num='1411' tvg-chno='1411' tvg-name='America's Test Kitchen' tvg-id='99991369' tvg-logo='https://image.xumo.com/v1/channels/channel/99991369/512x512.png?type=color_onBlack' group-title='XUMO',America's Test Kitchen
+http://172.31.0.2:5004/XUMO/watch/99991369
+#EXTINF:-1 channelID='99991380' tvg-num='1412' tvg-chno='1412' tvg-name='Hungry' tvg-id='99991380' tvg-logo='https://image.xumo.com/v1/channels/channel/99991380/512x512.png?type=color_onBlack' group-title='XUMO',Hungry
+http://172.31.0.2:5004/XUMO/watch/99991380
+#EXTINF:-1 channelID='99951302' tvg-num='1413' tvg-chno='1413' tvg-name='Hot Ones' tvg-id='99951302' tvg-logo='https://image.xumo.com/v1/channels/channel/99951302/512x512.png?type=color_onBlack' group-title='XUMO',Hot Ones
+http://172.31.0.2:5004/XUMO/watch/99951302
+#EXTINF:-1 channelID='99951306' tvg-num='1414' tvg-chno='1414' tvg-name='The Big Dish' tvg-id='99951306' tvg-logo='https://image.xumo.com/v1/channels/channel/99951306/512x512.png?type=color_onBlack' group-title='XUMO',The Big Dish
+http://172.31.0.2:5004/XUMO/watch/99951306
+#EXTINF:-1 channelID='99951284' tvg-num='1415' tvg-chno='1415' tvg-name='Fork & Flight' tvg-id='99951284' tvg-logo='https://image.xumo.com/v1/channels/channel/99951284/512x512.png?type=color_onBlack' group-title='XUMO',Fork & Flight
+http://172.31.0.2:5004/XUMO/watch/99951284
+#EXTINF:-1 channelID='99951323' tvg-num='1416' tvg-chno='1416' tvg-name='Cook's Country Channel' tvg-id='99951323' tvg-logo='https://image.xumo.com/v1/channels/channel/99951323/512x512.png?type=color_onBlack' group-title='XUMO',Cook's Country Channel
+http://172.31.0.2:5004/XUMO/watch/99951323
+#EXTINF:-1 channelID='99991111' tvg-num='1501' tvg-chno='1501' tvg-name='Xumo Free Travel & Lifestyle TV' tvg-id='99991111' tvg-logo='https://image.xumo.com/v1/channels/channel/99991111/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Travel & Lifestyle TV
+http://172.31.0.2:5004/XUMO/watch/99991111
+#EXTINF:-1 channelID='99951135' tvg-num='1503' tvg-chno='1503' tvg-name='Great American Adventures' tvg-id='99951135' tvg-logo='https://image.xumo.com/v1/channels/channel/99951135/512x512.png?type=color_onBlack' group-title='XUMO',Great American Adventures
+http://172.31.0.2:5004/XUMO/watch/99951135
+#EXTINF:-1 channelID='99951206' tvg-num='1504' tvg-chno='1504' tvg-name='PBS Antiques Roadshow' tvg-id='99951206' tvg-logo='https://image.xumo.com/v1/channels/channel/99951206/512x512.png?type=color_onBlack' group-title='XUMO',PBS Antiques Roadshow
+http://172.31.0.2:5004/XUMO/watch/99951206
+#EXTINF:-1 channelID='99951217' tvg-num='1505' tvg-chno='1505' tvg-name='AspireTV Life' tvg-id='99951217' tvg-logo='https://image.xumo.com/v1/channels/channel/99951217/512x512.png?type=color_onBlack' group-title='XUMO',AspireTV Life
+http://172.31.0.2:5004/XUMO/watch/99951217
+#EXTINF:-1 channelID='9995118' tvg-num='1506' tvg-chno='1506' tvg-name='Tastemade Travel Channel' tvg-id='9995118' tvg-logo='https://image.xumo.com/v1/channels/channel/9995118/512x512.png?type=color_onBlack' group-title='XUMO',Tastemade Travel Channel
+http://172.31.0.2:5004/XUMO/watch/9995118
+#EXTINF:-1 channelID='99991262' tvg-num='1507' tvg-chno='1507' tvg-name='Journy' tvg-id='99991262' tvg-logo='https://image.xumo.com/v1/channels/channel/99991262/512x512.png?type=color_onBlack' group-title='XUMO',Journy
+http://172.31.0.2:5004/XUMO/watch/99991262
+#EXTINF:-1 channelID='99991271' tvg-num='1508' tvg-chno='1508' tvg-name='HSN' tvg-id='99991271' tvg-logo='https://image.xumo.com/v1/channels/channel/99991271/512x512.png?type=color_onBlack' group-title='XUMO',HSN
+http://172.31.0.2:5004/XUMO/watch/99991271
+#EXTINF:-1 channelID='99991280' tvg-num='1509' tvg-chno='1509' tvg-name='eScapes' tvg-id='99991280' tvg-logo='https://image.xumo.com/v1/channels/channel/99991280/512x512.png?type=color_onBlack' group-title='XUMO',eScapes
+http://172.31.0.2:5004/XUMO/watch/99991280
+#EXTINF:-1 channelID='99991344' tvg-num='1510' tvg-chno='1510' tvg-name='QVC' tvg-id='99991344' tvg-logo='https://image.xumo.com/v1/channels/channel/99991344/512x512.png?type=color_onBlack' group-title='XUMO',QVC
+http://172.31.0.2:5004/XUMO/watch/99991344
+#EXTINF:-1 channelID='99991383' tvg-num='1511' tvg-chno='1511' tvg-name='GoTraveler' tvg-id='99991383' tvg-logo='https://image.xumo.com/v1/channels/channel/99991383/512x512.png?type=color_onBlack' group-title='XUMO',GoTraveler
+http://172.31.0.2:5004/XUMO/watch/99991383
+#EXTINF:-1 channelID='99991370' tvg-num='1512' tvg-chno='1512' tvg-name='ShopLC' tvg-id='99991370' tvg-logo='https://image.xumo.com/v1/channels/channel/99991370/512x512.png?type=color_onBlack' group-title='XUMO',ShopLC
+http://172.31.0.2:5004/XUMO/watch/99991370
+#EXTINF:-1 channelID='99991783' tvg-num='1513' tvg-chno='1513' tvg-name='Antiques Roadshow UK' tvg-id='99991783' tvg-logo='https://image.xumo.com/v1/channels/channel/99991783/512x512.png?type=color_onBlack' group-title='XUMO',Antiques Roadshow UK
+http://172.31.0.2:5004/XUMO/watch/99991783
+#EXTINF:-1 channelID='99991338' tvg-num='1514' tvg-chno='1514' tvg-name='JTV Jewelry Love' tvg-id='99991338' tvg-logo='https://image.xumo.com/v1/channels/channel/99991338/512x512.png?type=color_onBlack' group-title='XUMO',JTV Jewelry Love
+http://172.31.0.2:5004/XUMO/watch/99991338
+#EXTINF:-1 channelID='99991747' tvg-num='1601' tvg-chno='1601' tvg-name='Telemundo Al Día' tvg-id='99991747' tvg-logo='https://image.xumo.com/v1/channels/channel/99991747/512x512.png?type=color_onBlack' group-title='XUMO',Telemundo Al Día
+http://172.31.0.2:5004/XUMO/watch/99991747
+#EXTINF:-1 channelID='99991776' tvg-num='1602' tvg-chno='1602' tvg-name='Estrella News' tvg-id='99991776' tvg-logo='https://image.xumo.com/v1/channels/channel/99991776/512x512.png?type=color_onBlack' group-title='XUMO',Estrella News
+http://172.31.0.2:5004/XUMO/watch/99991776
+#EXTINF:-1 channelID='99991748' tvg-num='1603' tvg-chno='1603' tvg-name='Telemundo Acción' tvg-id='99991748' tvg-logo='https://image.xumo.com/v1/channels/channel/99991748/512x512.png?type=color_onBlack' group-title='XUMO',Telemundo Acción
+http://172.31.0.2:5004/XUMO/watch/99991748
+#EXTINF:-1 channelID='99991749' tvg-num='1604' tvg-chno='1604' tvg-name='Telemundo Romance' tvg-id='99991749' tvg-logo='https://image.xumo.com/v1/channels/channel/99991749/512x512.png?type=color_onBlack' group-title='XUMO',Telemundo Romance
+http://172.31.0.2:5004/XUMO/watch/99991749
+#EXTINF:-1 channelID='99951194' tvg-num='1605' tvg-chno='1605' tvg-name='Sony Canal Comedias' tvg-id='99951194' tvg-logo='https://image.xumo.com/v1/channels/channel/99951194/512x512.png?type=color_onBlack' group-title='XUMO',Sony Canal Comedias
+http://172.31.0.2:5004/XUMO/watch/99951194
+#EXTINF:-1 channelID='99991142' tvg-num='1606' tvg-chno='1606' tvg-name='Cine Romántico' tvg-id='99991142' tvg-logo='https://image.xumo.com/v1/channels/channel/99991142/512x512.png?type=color_onBlack' group-title='XUMO',Cine Romántico
+http://172.31.0.2:5004/XUMO/watch/99991142
+#EXTINF:-1 channelID='99991674' tvg-num='1607' tvg-chno='1607' tvg-name='Canela.TV' tvg-id='99991674' tvg-logo='https://image.xumo.com/v1/channels/channel/99991674/512x512.png?type=color_onBlack' group-title='XUMO',Canela.TV
+http://172.31.0.2:5004/XUMO/watch/99991674
+#EXTINF:-1 channelID='99991687' tvg-num='1608' tvg-chno='1608' tvg-name='MojiTV' tvg-id='99991687' tvg-logo='https://image.xumo.com/v1/channels/channel/99991687/512x512.png?type=color_onBlack' group-title='XUMO',MojiTV
+http://172.31.0.2:5004/XUMO/watch/99991687
+#EXTINF:-1 channelID='99991739' tvg-num='1609' tvg-chno='1609' tvg-name='FreeTV Sureño' tvg-id='99991739' tvg-logo='https://image.xumo.com/v1/channels/channel/99991739/512x512.png?type=color_onBlack' group-title='XUMO',FreeTV Sureño
+http://172.31.0.2:5004/XUMO/watch/99991739
+#EXTINF:-1 channelID='99991743' tvg-num='1610' tvg-chno='1610' tvg-name='Tastemade en Español' tvg-id='99991743' tvg-logo='https://image.xumo.com/v1/channels/channel/99991743/512x512.png?type=color_onBlack' group-title='XUMO',Tastemade en Español
+http://172.31.0.2:5004/XUMO/watch/99991743
+#EXTINF:-1 channelID='99991746' tvg-num='1611' tvg-chno='1611' tvg-name='EstrellaTV' tvg-id='99991746' tvg-logo='https://image.xumo.com/v1/channels/channel/99991746/512x512.png?type=color_onBlack' group-title='XUMO',EstrellaTV
+http://172.31.0.2:5004/XUMO/watch/99991746
+#EXTINF:-1 channelID='99951140' tvg-num='1612' tvg-chno='1612' tvg-name='AMERICATEVÉ ' tvg-id='99951140' tvg-logo='https://image.xumo.com/v1/channels/channel/99951140/512x512.png?type=color_onBlack' group-title='XUMO',AMERICATEVÉ 
+http://172.31.0.2:5004/XUMO/watch/99951140
+#EXTINF:-1 channelID='99981121' tvg-num='1613' tvg-chno='1613' tvg-name='FILMEX CLASICO' tvg-id='99981121' tvg-logo='https://image.xumo.com/v1/channels/channel/99981121/512x512.png?type=color_onBlack' group-title='XUMO',FILMEX CLASICO
+http://172.31.0.2:5004/XUMO/watch/99981121
+#EXTINF:-1 channelID='99991775' tvg-num='1614' tvg-chno='1614' tvg-name='Love Nature en Español' tvg-id='99991775' tvg-logo='https://image.xumo.com/v1/channels/channel/99991775/512x512.png?type=color_onBlack' group-title='XUMO',Love Nature en Español
+http://172.31.0.2:5004/XUMO/watch/99991775
+#EXTINF:-1 channelID='99991762' tvg-num='1615' tvg-chno='1615' tvg-name='Sony Canal Competencias' tvg-id='99991762' tvg-logo='https://image.xumo.com/v1/channels/channel/99991762/512x512.png?type=color_onBlack' group-title='XUMO',Sony Canal Competencias
+http://172.31.0.2:5004/XUMO/watch/99991762
+#EXTINF:-1 channelID='99951120' tvg-num='1616' tvg-chno='1616' tvg-name='FILMEX' tvg-id='99951120' tvg-logo='https://image.xumo.com/v1/channels/channel/99951120/512x512.png?type=color_onBlack' group-title='XUMO',FILMEX
+http://172.31.0.2:5004/XUMO/watch/99951120
+#EXTINF:-1 channelID='99991785' tvg-num='1617' tvg-chno='1617' tvg-name='beIN SPORTS XTRA en Español' tvg-id='99991785' tvg-logo='https://image.xumo.com/v1/channels/channel/99991785/512x512.png?type=color_onBlack' group-title='XUMO',beIN SPORTS XTRA en Español
+http://172.31.0.2:5004/XUMO/watch/99991785
+#EXTINF:-1 channelID='9995104' tvg-num='1619' tvg-chno='1619' tvg-name='iHeartRadio Beso' tvg-id='9995104' tvg-logo='https://image.xumo.com/v1/channels/channel/9995104/512x512.png?type=color_onBlack' group-title='XUMO',iHeartRadio Beso
+http://172.31.0.2:5004/XUMO/watch/9995104
+#EXTINF:-1 channelID='99951287' tvg-num='1620' tvg-chno='1620' tvg-name='Latino Vibes' tvg-id='99951287' tvg-logo='https://image.xumo.com/v1/channels/channel/99951287/512x512.png?type=color_onBlack' group-title='XUMO',Latino Vibes
+http://172.31.0.2:5004/XUMO/watch/99951287
+#EXTINF:-1 channelID='99951321' tvg-num='1621' tvg-chno='1621' tvg-name='Noticias Telemundo Ahora' tvg-id='99951321' tvg-logo='https://image.xumo.com/v1/channels/channel/99951321/512x512.png?type=color_onBlack' group-title='XUMO',Noticias Telemundo Ahora
+http://172.31.0.2:5004/XUMO/watch/99951321
+#EXTINF:-1 channelID='99951331' tvg-num='1622' tvg-chno='1622' tvg-name='Hallmark en Español' tvg-id='99951331' tvg-logo='https://image.xumo.com/v1/channels/channel/99951331/512x512.png?type=color_onBlack' group-title='XUMO',Hallmark en Español
+http://172.31.0.2:5004/XUMO/watch/99951331
+#EXTINF:-1 channelID='99991364' tvg-num='1701' tvg-chno='1701' tvg-name='Xumo Free Reality TV' tvg-id='99991364' tvg-logo='https://image.xumo.com/v1/channels/channel/99991364/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Reality TV
+http://172.31.0.2:5004/XUMO/watch/99991364
+#EXTINF:-1 channelID='99951235' tvg-num='1703' tvg-chno='1703' tvg-name='E! Keeping Up' tvg-id='99951235' tvg-logo='https://image.xumo.com/v1/channels/channel/99951235/512x512.png?type=color_onBlack' group-title='XUMO',E! Keeping Up
+http://172.31.0.2:5004/XUMO/watch/99951235
+#EXTINF:-1 channelID='99951241' tvg-num='1704' tvg-chno='1704' tvg-name='Bad Girls Club' tvg-id='99951241' tvg-logo='https://image.xumo.com/v1/channels/channel/99951241/512x512.png?type=color_onBlack' group-title='XUMO',Bad Girls Club
+http://172.31.0.2:5004/XUMO/watch/99951241
+#EXTINF:-1 channelID='99951242' tvg-num='1705' tvg-chno='1705' tvg-name='Bravo Vault' tvg-id='99951242' tvg-logo='https://image.xumo.com/v1/channels/channel/99951242/512x512.png?type=color_onBlack' group-title='XUMO',Bravo Vault
+http://172.31.0.2:5004/XUMO/watch/99951242
+#EXTINF:-1 channelID='99951243' tvg-num='1706' tvg-chno='1706' tvg-name='Real Housewives Vault' tvg-id='99951243' tvg-logo='https://image.xumo.com/v1/channels/channel/99951243/512x512.png?type=color_onBlack' group-title='XUMO',Real Housewives Vault
+http://172.31.0.2:5004/XUMO/watch/99951243
+#EXTINF:-1 channelID='99951252' tvg-num='1707' tvg-chno='1707' tvg-name='Cheaters' tvg-id='99951252' tvg-logo='https://image.xumo.com/v1/channels/channel/99951252/512x512.png?type=color_onBlack' group-title='XUMO',Cheaters
+http://172.31.0.2:5004/XUMO/watch/99951252
+#EXTINF:-1 channelID='99951257' tvg-num='1708' tvg-chno='1708' tvg-name='Made in Chelsea' tvg-id='99951257' tvg-logo='https://image.xumo.com/v1/channels/channel/99951257/512x512.png?type=color_onBlack' group-title='XUMO',Made in Chelsea
+http://172.31.0.2:5004/XUMO/watch/99951257
+#EXTINF:-1 channelID='99951262' tvg-num='1711' tvg-chno='1711' tvg-name='Real Disaster Channel' tvg-id='99951262' tvg-logo='https://image.xumo.com/v1/channels/channel/99951262/512x512.png?type=color_onBlack' group-title='XUMO',Real Disaster Channel
+http://172.31.0.2:5004/XUMO/watch/99951262
+#EXTINF:-1 channelID='99991290' tvg-num='1712' tvg-chno='1712' tvg-name='HISTORY' tvg-id='99991290' tvg-logo='https://image.xumo.com/v1/channels/channel/99991290/512x512.png?type=color_onBlack' group-title='XUMO',HISTORY
+http://172.31.0.2:5004/XUMO/watch/99991290
+#EXTINF:-1 channelID='99991303' tvg-num='1713' tvg-chno='1713' tvg-name='Backstage' tvg-id='99991303' tvg-logo='https://image.xumo.com/v1/channels/channel/99991303/512x512.png?type=color_onBlack' group-title='XUMO',Backstage
+http://172.31.0.2:5004/XUMO/watch/99991303
+#EXTINF:-1 channelID='99991365' tvg-num='1716' tvg-chno='1716' tvg-name='DangerTV' tvg-id='99991365' tvg-logo='https://image.xumo.com/v1/channels/channel/99991365/512x512.png?type=color_onBlack' group-title='XUMO',DangerTV
+http://172.31.0.2:5004/XUMO/watch/99991365
+#EXTINF:-1 channelID='99991366' tvg-num='1717' tvg-chno='1717' tvg-name='Nosey' tvg-id='99991366' tvg-logo='https://image.xumo.com/v1/channels/channel/99991366/512x512.png?type=color_onBlack' group-title='XUMO',Nosey
+http://172.31.0.2:5004/XUMO/watch/99991366
+#EXTINF:-1 channelID='99991388' tvg-num='1718' tvg-chno='1718' tvg-name='Confess by Nosey' tvg-id='99991388' tvg-logo='https://image.xumo.com/v1/channels/channel/99991388/512x512.png?type=color_onBlack' group-title='XUMO',Confess by Nosey
+http://172.31.0.2:5004/XUMO/watch/99991388
+#EXTINF:-1 channelID='99991625' tvg-num='1719' tvg-chno='1719' tvg-name='All Weddings WE tv' tvg-id='99991625' tvg-logo='https://image.xumo.com/v1/channels/channel/99991625/512x512.png?type=color_onBlack' group-title='XUMO',All Weddings WE tv
+http://172.31.0.2:5004/XUMO/watch/99991625
+#EXTINF:-1 channelID='99991681' tvg-num='1720' tvg-chno='1720' tvg-name='Hell's Kitchen' tvg-id='99991681' tvg-logo='https://image.xumo.com/v1/channels/channel/99991681/512x512.png?type=color_onBlack' group-title='XUMO',Hell's Kitchen
+http://172.31.0.2:5004/XUMO/watch/99991681
+#EXTINF:-1 channelID='99951322' tvg-num='1722' tvg-chno='1722' tvg-name='Drag Race Universe' tvg-id='99951322' tvg-logo='https://image.xumo.com/v1/channels/channel/99951322/512x512.png?type=color_onBlack' group-title='XUMO',Drag Race Universe
+http://172.31.0.2:5004/XUMO/watch/99951322
+#EXTINF:-1 channelID='99951146' tvg-num='1801' tvg-chno='1801' tvg-name='Family Affair Channel' tvg-id='99951146' tvg-logo='https://image.xumo.com/v1/channels/channel/99951146/512x512.png?type=color_onBlack' group-title='XUMO',Family Affair Channel
+http://172.31.0.2:5004/XUMO/watch/99951146
+#EXTINF:-1 channelID='99951259' tvg-num='1803' tvg-chno='1803' tvg-name='Lassie' tvg-id='99951259' tvg-logo='https://image.xumo.com/v1/channels/channel/99951259/512x512.png?type=color_onBlack' group-title='XUMO',Lassie
+http://172.31.0.2:5004/XUMO/watch/99951259
+#EXTINF:-1 channelID='99991265' tvg-num='1805' tvg-chno='1805' tvg-name='Shout! TV' tvg-id='99991265' tvg-logo='https://image.xumo.com/v1/channels/channel/99991265/512x512.png?type=color_onBlack' group-title='XUMO',Shout! TV
+http://172.31.0.2:5004/XUMO/watch/99991265
+#EXTINF:-1 channelID='99991310' tvg-num='1806' tvg-chno='1806' tvg-name='The Archive' tvg-id='99991310' tvg-logo='https://image.xumo.com/v1/channels/channel/99991310/512x512.png?type=color_onBlack' group-title='XUMO',The Archive
+http://172.31.0.2:5004/XUMO/watch/99991310
+#EXTINF:-1 channelID='99991354' tvg-num='1807' tvg-chno='1807' tvg-name='American Classics' tvg-id='99991354' tvg-logo='https://image.xumo.com/v1/channels/channel/99991354/512x512.png?type=color_onBlack' group-title='XUMO',American Classics
+http://172.31.0.2:5004/XUMO/watch/99991354
+#EXTINF:-1 channelID='99991616' tvg-num='1808' tvg-chno='1808' tvg-name='Mystery Science Theater 3000 (MST3K)' tvg-id='99991616' tvg-logo='https://image.xumo.com/v1/channels/channel/99991616/512x512.png?type=color_onBlack' group-title='XUMO',Mystery Science Theater 3000 (MST3K)
+http://172.31.0.2:5004/XUMO/watch/99991616
+#EXTINF:-1 channelID='99991106' tvg-num='1809' tvg-chno='1809' tvg-name='RiffTrax' tvg-id='99991106' tvg-logo='https://image.xumo.com/v1/channels/channel/99991106/512x512.png?type=color_onBlack' group-title='XUMO',RiffTrax
+http://172.31.0.2:5004/XUMO/watch/99991106
+#EXTINF:-1 channelID='99951319' tvg-num='1810' tvg-chno='1810' tvg-name='The Adventures of Rocky and Bullwinkle and Friends' tvg-id='99951319' tvg-logo='https://image.xumo.com/v1/channels/channel/99951319/512x512.png?type=color_onBlack' group-title='XUMO',The Adventures of Rocky and Bullwinkle and Friends
+http://172.31.0.2:5004/XUMO/watch/99951319
+#EXTINF:-1 channelID='99991135' tvg-num='1902' tvg-chno='1902' tvg-name='WIRED' tvg-id='99991135' tvg-logo='https://image.xumo.com/v1/channels/channel/99991135/512x512.png?type=color_onBlack' group-title='XUMO',WIRED
+http://172.31.0.2:5004/XUMO/watch/99991135
+#EXTINF:-1 channelID='99991160' tvg-num='1903' tvg-chno='1903' tvg-name='PBS Digital Studios' tvg-id='99991160' tvg-logo='https://image.xumo.com/v1/channels/channel/99991160/512x512.png?type=color_onBlack' group-title='XUMO',PBS Digital Studios
+http://172.31.0.2:5004/XUMO/watch/99991160
+#EXTINF:-1 channelID='99991379' tvg-num='1904' tvg-chno='1904' tvg-name='Combat War Channel' tvg-id='99991379' tvg-logo='https://image.xumo.com/v1/channels/channel/99991379/512x512.png?type=color_onBlack' group-title='XUMO',Combat War Channel
+http://172.31.0.2:5004/XUMO/watch/99991379
+#EXTINF:-1 channelID='99991382' tvg-num='1905' tvg-chno='1905' tvg-name='MagellanTV Now' tvg-id='99991382' tvg-logo='https://image.xumo.com/v1/channels/channel/99991382/512x512.png?type=color_onBlack' group-title='XUMO',MagellanTV Now
+http://172.31.0.2:5004/XUMO/watch/99991382
+#EXTINF:-1 channelID='99991650' tvg-num='1906' tvg-chno='1906' tvg-name='True History Channel' tvg-id='99991650' tvg-logo='https://image.xumo.com/v1/channels/channel/99991650/512x512.png?type=color_onBlack' group-title='XUMO',True History Channel
+http://172.31.0.2:5004/XUMO/watch/99991650
+#EXTINF:-1 channelID='99991353' tvg-num='2001' tvg-chno='2001' tvg-name='Xumo Free Family Movies' tvg-id='99991353' tvg-logo='https://image.xumo.com/v1/channels/channel/99991353/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Family Movies
+http://172.31.0.2:5004/XUMO/watch/99991353
+#EXTINF:-1 channelID='99991333' tvg-num='2002' tvg-chno='2002' tvg-name='Dove Channel' tvg-id='99991333' tvg-logo='https://image.xumo.com/v1/channels/channel/99991333/512x512.png?type=color_onBlack' group-title='XUMO',Dove Channel
+http://172.31.0.2:5004/XUMO/watch/99991333
+#EXTINF:-1 channelID='99951189' tvg-num='2003' tvg-chno='2003' tvg-name='BibleStream' tvg-id='99951189' tvg-logo='https://image.xumo.com/v1/channels/channel/99951189/512x512.png?type=color_onBlack' group-title='XUMO',BibleStream
+http://172.31.0.2:5004/XUMO/watch/99951189
+#EXTINF:-1 channelID='99951211' tvg-num='2004' tvg-chno='2004' tvg-name='STELLAR' tvg-id='99951211' tvg-logo='https://image.xumo.com/v1/channels/channel/99951211/512x512.png?type=color_onBlack' group-title='XUMO',STELLAR
+http://172.31.0.2:5004/XUMO/watch/99951211
+#EXTINF:-1 channelID='99991708' tvg-num='2004' tvg-chno='2004' tvg-name='Trinity Broadcast Network' tvg-id='99991708' tvg-logo='https://image.xumo.com/v1/channels/channel/99991708/512x512.png?type=color_onBlack' group-title='XUMO',Trinity Broadcast Network
+http://172.31.0.2:5004/XUMO/watch/99991708
+#EXTINF:-1 channelID='99991772' tvg-num='2006' tvg-chno='2006' tvg-name='EncourageTV' tvg-id='99991772' tvg-logo='https://image.xumo.com/v1/channels/channel/99991772/512x512.png?type=color_onBlack' group-title='XUMO',EncourageTV
+http://172.31.0.2:5004/XUMO/watch/99991772
+#EXTINF:-1 channelID='99951141' tvg-num='2007' tvg-chno='2007' tvg-name='JLTV' tvg-id='99951141' tvg-logo='https://image.xumo.com/v1/channels/channel/99951141/512x512.png?type=color_onBlack' group-title='XUMO',JLTV
+http://172.31.0.2:5004/XUMO/watch/99951141
+#EXTINF:-1 channelID='99991107' tvg-num='2101' tvg-chno='2101' tvg-name='Xumo Free Kids TV' tvg-id='99991107' tvg-logo='https://image.xumo.com/v1/channels/channel/99991107/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Kids TV
+http://172.31.0.2:5004/XUMO/watch/99991107
+#EXTINF:-1 channelID='99951209' tvg-num='2102' tvg-chno='2102' tvg-name='Baby Shark TV' tvg-id='99951209' tvg-logo='https://image.xumo.com/v1/channels/channel/99951209/512x512.png?type=color_onBlack' group-title='XUMO',Baby Shark TV
+http://172.31.0.2:5004/XUMO/watch/99951209
+#EXTINF:-1 channelID='99951229' tvg-num='2103' tvg-chno='2103' tvg-name='Ninja Kidz TV' tvg-id='99951229' tvg-logo='https://image.xumo.com/v1/channels/channel/99951229/512x512.png?type=color_onBlack' group-title='XUMO',Ninja Kidz TV
+http://172.31.0.2:5004/XUMO/watch/99951229
+#EXTINF:-1 channelID='99951300' tvg-num='2104' tvg-chno='2104' tvg-name='Barney and Friends' tvg-id='99951300' tvg-logo='https://image.xumo.com/v1/channels/channel/99951300/512x512.png?type=color_onBlack' group-title='XUMO',Barney and Friends
+http://172.31.0.2:5004/XUMO/watch/99951300
+#EXTINF:-1 channelID='99991253' tvg-num='2105' tvg-chno='2105' tvg-name='All Babies Channel' tvg-id='99991253' tvg-logo='https://image.xumo.com/v1/channels/channel/99991253/512x512.png?type=color_onBlack' group-title='XUMO',All Babies Channel
+http://172.31.0.2:5004/XUMO/watch/99991253
+#EXTINF:-1 channelID='99991268' tvg-num='2106' tvg-chno='2106' tvg-name='Toon Goggles' tvg-id='99991268' tvg-logo='https://image.xumo.com/v1/channels/channel/99991268/512x512.png?type=color_onBlack' group-title='XUMO',Toon Goggles
+http://172.31.0.2:5004/XUMO/watch/99991268
+#EXTINF:-1 channelID='99991273' tvg-num='2107' tvg-chno='2107' tvg-name='batteryPOP' tvg-id='99991273' tvg-logo='https://image.xumo.com/v1/channels/channel/99991273/512x512.png?type=color_onBlack' group-title='XUMO',batteryPOP
+http://172.31.0.2:5004/XUMO/watch/99991273
+#EXTINF:-1 channelID='99991283' tvg-num='2108' tvg-chno='2108' tvg-name='Rainbow Rangers' tvg-id='99991283' tvg-logo='https://image.xumo.com/v1/channels/channel/99991283/512x512.png?type=color_onBlack' group-title='XUMO',Rainbow Rangers
+http://172.31.0.2:5004/XUMO/watch/99991283
+#EXTINF:-1 channelID='99991326' tvg-num='2109' tvg-chno='2109' tvg-name='pocket.watch' tvg-id='99991326' tvg-logo='https://image.xumo.com/v1/channels/channel/99991326/512x512.png?type=color_onBlack' group-title='XUMO',pocket.watch
+http://172.31.0.2:5004/XUMO/watch/99991326
+#EXTINF:-1 channelID='99991327' tvg-num='2110' tvg-chno='2110' tvg-name='Kartoon Channel!' tvg-id='99991327' tvg-logo='https://image.xumo.com/v1/channels/channel/99991327/512x512.png?type=color_onBlack' group-title='XUMO',Kartoon Channel!
+http://172.31.0.2:5004/XUMO/watch/99991327
+#EXTINF:-1 channelID='99991671' tvg-num='2111' tvg-chno='2111' tvg-name='Little Baby Bum and Friends' tvg-id='99991671' tvg-logo='https://image.xumo.com/v1/channels/channel/99991671/512x512.png?type=color_onBlack' group-title='XUMO',Little Baby Bum and Friends
+http://172.31.0.2:5004/XUMO/watch/99991671
+#EXTINF:-1 channelID='99991761' tvg-num='2112' tvg-chno='2112' tvg-name='Teletubbies' tvg-id='99991761' tvg-logo='https://image.xumo.com/v1/channels/channel/99991761/512x512.png?type=color_onBlack' group-title='XUMO',Teletubbies
+http://172.31.0.2:5004/XUMO/watch/99991761
+#EXTINF:-1 channelID='99951280' tvg-num='2113' tvg-chno='2113' tvg-name='Sensical Jr.' tvg-id='99951280' tvg-logo='https://image.xumo.com/v1/channels/channel/99951280/512x512.png?type=color_onBlack' group-title='XUMO',Sensical Jr.
+http://172.31.0.2:5004/XUMO/watch/99951280
+#EXTINF:-1 channelID='99951281' tvg-num='2114' tvg-chno='2114' tvg-name='Sensical Makers' tvg-id='99951281' tvg-logo='https://image.xumo.com/v1/channels/channel/99951281/512x512.png?type=color_onBlack' group-title='XUMO',Sensical Makers
+http://172.31.0.2:5004/XUMO/watch/99951281
+#EXTINF:-1 channelID='99951320' tvg-num='2115' tvg-chno='2115' tvg-name='Shaun the Sheep & Friends' tvg-id='99951320' tvg-logo='https://image.xumo.com/v1/channels/channel/99951320/512x512.png?type=color_onBlack' group-title='XUMO',Shaun the Sheep & Friends
+http://172.31.0.2:5004/XUMO/watch/99951320
+#EXTINF:-1 channelID='99951155' tvg-num='2202' tvg-chno='2202' tvg-name='REVOLT Mixtape' tvg-id='99951155' tvg-logo='https://image.xumo.com/v1/channels/channel/99951155/512x512.png?type=color_onBlack' group-title='XUMO',REVOLT Mixtape
+http://172.31.0.2:5004/XUMO/watch/99951155
+#EXTINF:-1 channelID='99991103' tvg-num='2203' tvg-chno='2203' tvg-name='FOX Soul' tvg-id='99991103' tvg-logo='https://image.xumo.com/v1/channels/channel/99991103/512x512.png?type=color_onBlack' group-title='XUMO',FOX Soul
+http://172.31.0.2:5004/XUMO/watch/99991103
+#EXTINF:-1 channelID='99991108' tvg-num='2204' tvg-chno='2204' tvg-name='theGRIO' tvg-id='99991108' tvg-logo='https://image.xumo.com/v1/channels/channel/99991108/512x512.png?type=color_onBlack' group-title='XUMO',theGRIO
+http://172.31.0.2:5004/XUMO/watch/99991108
+#EXTINF:-1 channelID='99991137' tvg-num='2205' tvg-chno='2205' tvg-name='GQ' tvg-id='99991137' tvg-logo='https://image.xumo.com/v1/channels/channel/99991137/512x512.png?type=color_onBlack' group-title='XUMO',GQ
+http://172.31.0.2:5004/XUMO/watch/99991137
+#EXTINF:-1 channelID='99991138' tvg-num='2206' tvg-chno='2206' tvg-name='Vogue' tvg-id='99991138' tvg-logo='https://image.xumo.com/v1/channels/channel/99991138/512x512.png?type=color_onBlack' group-title='XUMO',Vogue
+http://172.31.0.2:5004/XUMO/watch/99991138
+#EXTINF:-1 channelID='99991296' tvg-num='2207' tvg-chno='2207' tvg-name='Revry' tvg-id='99991296' tvg-logo='https://image.xumo.com/v1/channels/channel/99991296/512x512.png?type=color_onBlack' group-title='XUMO',Revry
+http://172.31.0.2:5004/XUMO/watch/99991296
+#EXTINF:-1 channelID='99991670' tvg-num='2209' tvg-chno='2209' tvg-name='ET' tvg-id='99991670' tvg-logo='https://image.xumo.com/v1/channels/channel/99991670/512x512.png?type=color_onBlack' group-title='XUMO',ET
+http://172.31.0.2:5004/XUMO/watch/99991670
+#EXTINF:-1 channelID='99951288' tvg-num='2210' tvg-chno='2210' tvg-name='OUTtv Proud' tvg-id='99951288' tvg-logo='https://image.xumo.com/v1/channels/channel/99951288/512x512.png?type=color_onBlack' group-title='XUMO',OUTtv Proud
+http://172.31.0.2:5004/XUMO/watch/99951288
+#EXTINF:-1 channelID='99991756' tvg-num='2301' tvg-chno='2301' tvg-name='Xumo Free Bollywood & Indian Cinema' tvg-id='99991756' tvg-logo='https://image.xumo.com/v1/channels/channel/99991756/512x512.png?type=color_onBlack' group-title='XUMO',Xumo Free Bollywood & Indian Cinema
+http://172.31.0.2:5004/XUMO/watch/99991756
+#EXTINF:-1 channelID='99951184' tvg-num='2302' tvg-chno='2302' tvg-name='Sony KAL' tvg-id='99951184' tvg-logo='https://image.xumo.com/v1/channels/channel/99951184/512x512.png?type=color_onBlack' group-title='XUMO',Sony KAL
+http://172.31.0.2:5004/XUMO/watch/99951184
+#EXTINF:-1 channelID='99951214' tvg-num='2303' tvg-chno='2303' tvg-name='AfroLandTV' tvg-id='99951214' tvg-logo='https://image.xumo.com/v1/channels/channel/99951214/512x512.png?type=color_onBlack' group-title='XUMO',AfroLandTV
+http://172.31.0.2:5004/XUMO/watch/99951214
+#EXTINF:-1 channelID='99991348' tvg-num='2304' tvg-chno='2304' tvg-name='KOCOWA K-Drama' tvg-id='99991348' tvg-logo='https://image.xumo.com/v1/channels/channel/99991348/512x512.png?type=color_onBlack' group-title='XUMO',KOCOWA K-Drama
+http://172.31.0.2:5004/XUMO/watch/99991348
+#EXTINF:-1 channelID='99991381' tvg-num='2305' tvg-chno='2305' tvg-name='Demand Africa' tvg-id='99991381' tvg-logo='https://image.xumo.com/v1/channels/channel/99991381/512x512.png?type=color_onBlack' group-title='XUMO',Demand Africa
+http://172.31.0.2:5004/XUMO/watch/99991381
+#EXTINF:-1 channelID='99991386' tvg-num='2306' tvg-chno='2306' tvg-name='NEW Korean MOVIES & SERIES' tvg-id='99991386' tvg-logo='https://image.xumo.com/v1/channels/channel/99991386/512x512.png?type=color_onBlack' group-title='XUMO',NEW Korean MOVIES & SERIES
+http://172.31.0.2:5004/XUMO/watch/99991386
+#EXTINF:-1 channelID='99991779' tvg-num='2307' tvg-chno='2307' tvg-name='Jubao' tvg-id='99991779' tvg-logo='https://image.xumo.com/v1/channels/channel/99991779/512x512.png?type=color_onBlack' group-title='XUMO',Jubao
+http://172.31.0.2:5004/XUMO/watch/99991779
+#EXTINF:-1 channelID='9995100' tvg-num='2401' tvg-chno='2401' tvg-name='iHeart90s' tvg-id='9995100' tvg-logo='https://image.xumo.com/v1/channels/channel/9995100/512x512.png?type=color_onBlack' group-title='XUMO',iHeart90s
+http://172.31.0.2:5004/XUMO/watch/9995100
+#EXTINF:-1 channelID='9995101' tvg-num='2402' tvg-chno='2402' tvg-name='iHeart Alternative Radio' tvg-id='9995101' tvg-logo='https://image.xumo.com/v1/channels/channel/9995101/512x512.png?type=color_onBlack' group-title='XUMO',iHeart Alternative Radio
+http://172.31.0.2:5004/XUMO/watch/9995101
+#EXTINF:-1 channelID='9995102' tvg-num='2403' tvg-chno='2403' tvg-name='iHeartCountry ' tvg-id='9995102' tvg-logo='https://image.xumo.com/v1/channels/channel/9995102/512x512.png?type=color_onBlack' group-title='XUMO',iHeartCountry 
+http://172.31.0.2:5004/XUMO/watch/9995102
+#EXTINF:-1 channelID='9995103' tvg-num='2404' tvg-chno='2404' tvg-name='iHeartRadio Hip Hop Beats' tvg-id='9995103' tvg-logo='https://image.xumo.com/v1/channels/channel/9995103/512x512.png?type=color_onBlack' group-title='XUMO',iHeartRadio Hip Hop Beats
+http://172.31.0.2:5004/XUMO/watch/9995103
+#EXTINF:-1 channelID='99951122' tvg-num='2405' tvg-chno='2405' tvg-name='Vevo ’70s' tvg-id='99951122' tvg-logo='https://image.xumo.com/v1/channels/channel/99951122/512x512.png?type=color_onBlack' group-title='XUMO',Vevo ’70s
+http://172.31.0.2:5004/XUMO/watch/99951122
+#EXTINF:-1 channelID='99951127' tvg-num='2406' tvg-chno='2406' tvg-name='Vevo Country' tvg-id='99951127' tvg-logo='https://image.xumo.com/v1/channels/channel/99951127/512x512.png?type=color_onBlack' group-title='XUMO',Vevo Country
+http://172.31.0.2:5004/XUMO/watch/99951127
+#EXTINF:-1 channelID='99991117' tvg-num='2407' tvg-chno='2407' tvg-name='Stingray Hit List' tvg-id='99991117' tvg-logo='https://image.xumo.com/v1/channels/channel/99991117/512x512.png?type=color_onBlack' group-title='XUMO',Stingray Hit List
+http://172.31.0.2:5004/XUMO/watch/99991117
+#EXTINF:-1 channelID='99991118' tvg-num='2408' tvg-chno='2408' tvg-name='Stingray Hot Country' tvg-id='99991118' tvg-logo='https://image.xumo.com/v1/channels/channel/99991118/512x512.png?type=color_onBlack' group-title='XUMO',Stingray Hot Country
+http://172.31.0.2:5004/XUMO/watch/99991118
+#EXTINF:-1 channelID='99991119' tvg-num='2409' tvg-chno='2409' tvg-name='Stingray Classic Rock' tvg-id='99991119' tvg-logo='https://image.xumo.com/v1/channels/channel/99991119/512x512.png?type=color_onBlack' group-title='XUMO',Stingray Classic Rock
+http://172.31.0.2:5004/XUMO/watch/99991119
+#EXTINF:-1 channelID='99991120' tvg-num='2410' tvg-chno='2410' tvg-name='Stingray Greatest Hits' tvg-id='99991120' tvg-logo='https://image.xumo.com/v1/channels/channel/99991120/512x512.png?type=color_onBlack' group-title='XUMO',Stingray Greatest Hits
+http://172.31.0.2:5004/XUMO/watch/99991120
+#EXTINF:-1 channelID='99991121' tvg-num='2411' tvg-chno='2411' tvg-name='Stingray Soul Storm' tvg-id='99991121' tvg-logo='https://image.xumo.com/v1/channels/channel/99991121/512x512.png?type=color_onBlack' group-title='XUMO',Stingray Soul Storm
+http://172.31.0.2:5004/XUMO/watch/99991121
+#EXTINF:-1 channelID='99991132' tvg-num='2412' tvg-chno='2412' tvg-name='Vevo '80s' tvg-id='99991132' tvg-logo='https://image.xumo.com/v1/channels/channel/99991132/512x512.png?type=color_onBlack' group-title='XUMO',Vevo '80s
+http://172.31.0.2:5004/XUMO/watch/99991132
+#EXTINF:-1 channelID='99991391' tvg-num='2413' tvg-chno='2413' tvg-name='Vevo Pop' tvg-id='99991391' tvg-logo='https://image.xumo.com/v1/channels/channel/99991391/512x512.png?type=color_onBlack' group-title='XUMO',Vevo Pop
+http://172.31.0.2:5004/XUMO/watch/99991391
+#EXTINF:-1 channelID='99991742' tvg-num='2414' tvg-chno='2414' tvg-name='Stingray Remember the 80s' tvg-id='99991742' tvg-logo='https://image.xumo.com/v1/channels/channel/99991742/512x512.png?type=color_onBlack' group-title='XUMO',Stingray Remember the 80s
+http://172.31.0.2:5004/XUMO/watch/99991742
+#EXTINF:-1 channelID='99951289' tvg-num='2415' tvg-chno='2415' tvg-name='WMX Pop' tvg-id='99951289' tvg-logo='https://image.xumo.com/v1/channels/channel/99951289/512x512.png?type=color_onBlack' group-title='XUMO',WMX Pop
+http://172.31.0.2:5004/XUMO/watch/99951289
+#EXTINF:-1 channelID='99951290' tvg-num='2416' tvg-chno='2416' tvg-name='WMX Rock' tvg-id='99951290' tvg-logo='https://image.xumo.com/v1/channels/channel/99951290/512x512.png?type=color_onBlack' group-title='XUMO',WMX Rock
+http://172.31.0.2:5004/XUMO/watch/99951290
+#EXTINF:-1 channelID='99951291' tvg-num='2417' tvg-chno='2417' tvg-name='WMX Hip-Hop' tvg-id='99951291' tvg-logo='https://image.xumo.com/v1/channels/channel/99951291/512x512.png?type=color_onBlack' group-title='XUMO',WMX Hip-Hop
+http://172.31.0.2:5004/XUMO/watch/99951291
+#EXTINF:-1 channelID='99951171' tvg-num='2501' tvg-chno='2501' tvg-name='ABC7 Chicago' tvg-id='99951171' tvg-logo='https://image.xumo.com/v1/channels/channel/99951171/512x512.png?type=color_onBlack' group-title='XUMO',ABC7 Chicago
+http://172.31.0.2:5004/XUMO/watch/99951171
+#EXTINF:-1 channelID='99951172' tvg-num='2502' tvg-chno='2502' tvg-name='6abc Philadelphia' tvg-id='99951172' tvg-logo='https://image.xumo.com/v1/channels/channel/99951172/512x512.png?type=color_onBlack' group-title='XUMO',6abc Philadelphia
+http://172.31.0.2:5004/XUMO/watch/99951172
+#EXTINF:-1 channelID='99991656' tvg-num='2503' tvg-chno='2503' tvg-name='CBS News Boston' tvg-id='99991656' tvg-logo='https://image.xumo.com/v1/channels/channel/99991656/512x512.png?type=color_onBlack' group-title='XUMO',CBS News Boston
+http://172.31.0.2:5004/XUMO/watch/99991656
+#EXTINF:-1 channelID='99951174' tvg-num='2504' tvg-chno='2504' tvg-name='KTRK ABC13's 24/7 Streaming Channel' tvg-id='99951174' tvg-logo='https://image.xumo.com/v1/channels/channel/99951174/512x512.png?type=color_onBlack' group-title='XUMO',KTRK ABC13's 24/7 Streaming Channel
+http://172.31.0.2:5004/XUMO/watch/99951174
+#EXTINF:-1 channelID='99991690' tvg-num='2505' tvg-chno='2505' tvg-name='WSB Atlanta' tvg-id='99991690' tvg-logo='https://image.xumo.com/v1/channels/channel/99991690/512x512.png?type=color_onBlack' group-title='XUMO',WSB Atlanta
+http://172.31.0.2:5004/XUMO/watch/99991690
+#EXTINF:-1 channelID='9995108' tvg-num='2506' tvg-chno='2506' tvg-name='Boston 25' tvg-id='9995108' tvg-logo='https://image.xumo.com/v1/channels/channel/9995108/512x512.png?type=color_onBlack' group-title='XUMO',Boston 25
+http://172.31.0.2:5004/XUMO/watch/9995108
+#EXTINF:-1 channelID='9995110' tvg-num='2507' tvg-chno='2507' tvg-name='Action News Jax' tvg-id='9995110' tvg-logo='https://image.xumo.com/v1/channels/channel/9995110/512x512.png?type=color_onBlack' group-title='XUMO',Action News Jax
+http://172.31.0.2:5004/XUMO/watch/9995110
+#EXTINF:-1 channelID='99991643' tvg-num='2508' tvg-chno='2508' tvg-name='CBS News Chicago' tvg-id='99991643' tvg-logo='https://image.xumo.com/v1/channels/channel/99991643/512x512.png?type=color_onBlack' group-title='XUMO',CBS News Chicago
+http://172.31.0.2:5004/XUMO/watch/99991643
+#EXTINF:-1 channelID='9995112' tvg-num='2509' tvg-chno='2509' tvg-name='KIRO Seattle' tvg-id='9995112' tvg-logo='https://image.xumo.com/v1/channels/channel/9995112/512x512.png?type=color_onBlack' group-title='XUMO',KIRO Seattle
+http://172.31.0.2:5004/XUMO/watch/9995112
+#EXTINF:-1 channelID='99951173' tvg-num='2510' tvg-chno='2510' tvg-name='ABC7 Bay Area' tvg-id='99951173' tvg-logo='https://image.xumo.com/v1/channels/channel/99951173/512x512.png?type=color_onBlack' group-title='XUMO',ABC7 Bay Area
+http://172.31.0.2:5004/XUMO/watch/99951173
+#EXTINF:-1 channelID='99991689' tvg-num='2511' tvg-chno='2511' tvg-name='WPXI Pittsburgh' tvg-id='99991689' tvg-logo='https://image.xumo.com/v1/channels/channel/99991689/512x512.png?type=color_onBlack' group-title='XUMO',WPXI Pittsburgh
+http://172.31.0.2:5004/XUMO/watch/99991689
+#EXTINF:-1 channelID='99991655' tvg-num='2512' tvg-chno='2512' tvg-name='CBS News Bay Area' tvg-id='99991655' tvg-logo='https://image.xumo.com/v1/channels/channel/99991655/512x512.png?type=color_onBlack' group-title='XUMO',CBS News Bay Area
+http://172.31.0.2:5004/XUMO/watch/99991655
+#EXTINF:-1 channelID='99951176' tvg-num='2513' tvg-chno='2513' tvg-name='KFSN ABC30 Central CA' tvg-id='99951176' tvg-logo='https://image.xumo.com/v1/channels/channel/99951176/512x512.png?type=color_onBlack' group-title='XUMO',KFSN ABC30 Central CA
+http://172.31.0.2:5004/XUMO/watch/99951176
+#EXTINF:-1 channelID='99951169' tvg-num='2514' tvg-chno='2514' tvg-name='ABC7 New York' tvg-id='99951169' tvg-logo='https://image.xumo.com/v1/channels/channel/99951169/512x512.png?type=color_onBlack' group-title='XUMO',ABC7 New York
+http://172.31.0.2:5004/XUMO/watch/99951169
+#EXTINF:-1 channelID='99991641' tvg-num='2515' tvg-chno='2515' tvg-name='CBS News New York' tvg-id='99991641' tvg-logo='https://image.xumo.com/v1/channels/channel/99991641/512x512.png?type=color_onBlack' group-title='XUMO',CBS News New York
+http://172.31.0.2:5004/XUMO/watch/99991641
+#EXTINF:-1 channelID='99951168' tvg-num='2516' tvg-chno='2516' tvg-name='NBC 10 Boston News' tvg-id='99951168' tvg-logo='https://image.xumo.com/v1/channels/channel/99951168/512x512.png?type=color_onBlack' group-title='XUMO',NBC 10 Boston News
+http://172.31.0.2:5004/XUMO/watch/99951168
+#EXTINF:-1 channelID='99951170' tvg-num='2517' tvg-chno='2517' tvg-name='ABC7 Los Angeles' tvg-id='99951170' tvg-logo='https://image.xumo.com/v1/channels/channel/99951170/512x512.png?type=color_onBlack' group-title='XUMO',ABC7 Los Angeles
+http://172.31.0.2:5004/XUMO/watch/99951170
+#EXTINF:-1 channelID='9995107' tvg-num='2518' tvg-chno='2518' tvg-name='WFTV Orlando' tvg-id='9995107' tvg-logo='https://image.xumo.com/v1/channels/channel/9995107/512x512.png?type=color_onBlack' group-title='XUMO',WFTV Orlando
+http://172.31.0.2:5004/XUMO/watch/9995107
+#EXTINF:-1 channelID='99991642' tvg-num='2519' tvg-chno='2519' tvg-name='CBS News Los Angeles' tvg-id='99991642' tvg-logo='https://image.xumo.com/v1/channels/channel/99991642/512x512.png?type=color_onBlack' group-title='XUMO',CBS News Los Angeles
+http://172.31.0.2:5004/XUMO/watch/99991642
+#EXTINF:-1 channelID='99951165' tvg-num='2520' tvg-chno='2520' tvg-name='NBC 5 Chicago News' tvg-id='99951165' tvg-logo='https://image.xumo.com/v1/channels/channel/99951165/512x512.png?type=color_onBlack' group-title='XUMO',NBC 5 Chicago News
+http://172.31.0.2:5004/XUMO/watch/99951165
+#EXTINF:-1 channelID='99951181' tvg-num='2521' tvg-chno='2521' tvg-name='NBC 4 Washington News' tvg-id='99951181' tvg-logo='https://image.xumo.com/v1/channels/channel/99951181/512x512.png?type=color_onBlack' group-title='XUMO',NBC 4 Washington News
+http://172.31.0.2:5004/XUMO/watch/99951181
+#EXTINF:-1 channelID='99951166' tvg-num='2522' tvg-chno='2522' tvg-name='NBC 10 Philadelphia News' tvg-id='99951166' tvg-logo='https://image.xumo.com/v1/channels/channel/99951166/512x512.png?type=color_onBlack' group-title='XUMO',NBC 10 Philadelphia News
+http://172.31.0.2:5004/XUMO/watch/99951166
+#EXTINF:-1 channelID='99951163' tvg-num='2523' tvg-chno='2523' tvg-name='NBC 4 New York News' tvg-id='99951163' tvg-logo='https://image.xumo.com/v1/channels/channel/99951163/512x512.png?type=color_onBlack' group-title='XUMO',NBC 4 New York News
+http://172.31.0.2:5004/XUMO/watch/99951163
+#EXTINF:-1 channelID='99951227' tvg-num='2524' tvg-chno='2524' tvg-name='Telemundo Noticias Florida' tvg-id='99951227' tvg-logo='https://image.xumo.com/v1/channels/channel/99951227/512x512.png?type=color_onBlack' group-title='XUMO',Telemundo Noticias Florida
+http://172.31.0.2:5004/XUMO/watch/99951227
+#EXTINF:-1 channelID='99951167' tvg-num='2525' tvg-chno='2525' tvg-name='NBC 6 South Florida News' tvg-id='99951167' tvg-logo='https://image.xumo.com/v1/channels/channel/99951167/512x512.png?type=color_onBlack' group-title='XUMO',NBC 6 South Florida News
+http://172.31.0.2:5004/XUMO/watch/99951167
+#EXTINF:-1 channelID='99951228' tvg-num='2526' tvg-chno='2526' tvg-name='Telemundo Noticias Noreste' tvg-id='99951228' tvg-logo='https://image.xumo.com/v1/channels/channel/99951228/512x512.png?type=color_onBlack' group-title='XUMO',Telemundo Noticias Noreste
+http://172.31.0.2:5004/XUMO/watch/99951228
+#EXTINF:-1 channelID='99991691' tvg-num='2527' tvg-chno='2527' tvg-name='WSOC Charlotte' tvg-id='99991691' tvg-logo='https://image.xumo.com/v1/channels/channel/99991691/512x512.png?type=color_onBlack' group-title='XUMO',WSOC Charlotte
+http://172.31.0.2:5004/XUMO/watch/99991691
+#EXTINF:-1 channelID='99951162' tvg-num='2528' tvg-chno='2528' tvg-name='NBC Bay Area News' tvg-id='99951162' tvg-logo='https://image.xumo.com/v1/channels/channel/99951162/512x512.png?type=color_onBlack' group-title='XUMO',NBC Bay Area News
+http://172.31.0.2:5004/XUMO/watch/99951162
+#EXTINF:-1 channelID='99951222' tvg-num='2529' tvg-chno='2529' tvg-name='News 12 New York' tvg-id='99951222' tvg-logo='https://image.xumo.com/v1/channels/channel/99951222/512x512.png?type=color_onBlack' group-title='XUMO',News 12 New York
+http://172.31.0.2:5004/XUMO/watch/99951222
+#EXTINF:-1 channelID='99951175' tvg-num='2530' tvg-chno='2530' tvg-name='WTVD ABC11 24/7 Streaming Channel' tvg-id='99951175' tvg-logo='https://image.xumo.com/v1/channels/channel/99951175/512x512.png?type=color_onBlack' group-title='XUMO',WTVD ABC11 24/7 Streaming Channel
+http://172.31.0.2:5004/XUMO/watch/99951175
+#EXTINF:-1 channelID='99951182' tvg-num='2531' tvg-chno='2531' tvg-name='NBC 5 Dallas-Fort Worth News' tvg-id='99951182' tvg-logo='https://image.xumo.com/v1/channels/channel/99951182/512x512.png?type=color_onBlack' group-title='XUMO',NBC 5 Dallas-Fort Worth News
+http://172.31.0.2:5004/XUMO/watch/99951182
+#EXTINF:-1 channelID='99951225' tvg-num='2532' tvg-chno='2532' tvg-name='Telemundo Noticias California' tvg-id='99951225' tvg-logo='https://image.xumo.com/v1/channels/channel/99951225/512x512.png?type=color_onBlack' group-title='XUMO',Telemundo Noticias California
+http://172.31.0.2:5004/XUMO/watch/99951225
+#EXTINF:-1 channelID='99951226' tvg-num='2533' tvg-chno='2533' tvg-name='Telemundo Noticias Texas' tvg-id='99951226' tvg-logo='https://image.xumo.com/v1/channels/channel/99951226/512x512.png?type=color_onBlack' group-title='XUMO',Telemundo Noticias Texas
+http://172.31.0.2:5004/XUMO/watch/99951226
+#EXTINF:-1 channelID='99951164' tvg-num='2534' tvg-chno='2534' tvg-name='NBC 4 Los Angeles News' tvg-id='99951164' tvg-logo='https://image.xumo.com/v1/channels/channel/99951164/512x512.png?type=color_onBlack' group-title='XUMO',NBC 4 Los Angeles News
+http://172.31.0.2:5004/XUMO/watch/99951164
+#EXTINF:-1 channelID='99951185' tvg-num='2535' tvg-chno='2535' tvg-name='NBC 7 San Diego News' tvg-id='99951185' tvg-logo='https://image.xumo.com/v1/channels/channel/99951185/512x512.png?type=color_onBlack' group-title='XUMO',NBC 7 San Diego News
+http://172.31.0.2:5004/XUMO/watch/99951185
+#EXTINF:-1 channelID='9995109' tvg-num='2536' tvg-chno='2536' tvg-name='WHIO Dayton' tvg-id='9995109' tvg-logo='https://image.xumo.com/v1/channels/channel/9995109/512x512.png?type=color_onBlack' group-title='XUMO',WHIO Dayton
+http://172.31.0.2:5004/XUMO/watch/9995109
+#EXTINF:-1 channelID='99951149' tvg-num='2537' tvg-chno='2537' tvg-name='Localish' tvg-id='99951149' tvg-logo='https://image.xumo.com/v1/channels/channel/99951149/512x512.png?type=color_onBlack' group-title='XUMO',Localish
+http://172.31.0.2:5004/XUMO/watch/99951149
+#EXTINF:-1 channelID='99951183' tvg-num='2538' tvg-chno='2538' tvg-name='NBC Connecticut News' tvg-id='99951183' tvg-logo='https://image.xumo.com/v1/channels/channel/99951183/512x512.png?type=color_onBlack' group-title='XUMO',NBC Connecticut News
+http://172.31.0.2:5004/XUMO/watch/99951183
