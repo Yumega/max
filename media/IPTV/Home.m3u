@@ -13,8 +13,7 @@ http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 http://192.168.11.1:5600/litv/4gtv-4gtv009
 #http://192.168.11.1:35455/youtube/oIgbl7t0S_w
 #EXTINF:-1 tvg-id="6074" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS新闻
-http://192.168.11.1:5600/litv/4gtv-4gtv072
-#http://192.168.11.1:35455/youtube/o_-hSMgpAzs
+http://192.168.11.1:35455/youtube/o_-hSMgpAzs
 
 #EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://assets.livednow.com/logo/民視新聞台.png" group-title="新闻", 民視新聞
 http://192.168.11.1:5600/litv/litv-ftv13
