@@ -40,7 +40,7 @@ http://192.168.11.1:7777/xumo/watch/99991247
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
 #EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cna.png" group-title="News",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="News",CNN美国
+#EXTINF:-1 tvg-id="CNN美国" tvg-name="CNN美国" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="News",CNN美国
 http://192.168.11.1:5600/thetv/cnn
 #EXTINF:-1 tvg-id="BBCWorldNews.it" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="News",BBC新闻
 http://192.168.11.1:7777/xumo/watch/99951298
