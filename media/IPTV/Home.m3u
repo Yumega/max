@@ -27,6 +27,8 @@ http://192.168.11.1:5600/4gtv/229
 http://192.168.11.1:5600/litv/4gtv-4gtv051
 #EXTINF:-1 tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://assets.livednow.com/logo/東森新聞.png" group-title="新闻", 東森新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv152
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5qN1YBb7dFZb7vNAMMa8kFfDsyMcZJbRhA&s" group-title="新闻",唐人亚太
+http://192.168.11.1:5600/4gtv/223
 
 #EXTINF:-1 tvg-id="6139" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cna.png" group-title="News",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
