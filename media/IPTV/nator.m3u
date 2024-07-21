@@ -17,7 +17,7 @@ http://192.168.11.1:5600/litv/4gtv-4gtv009
 http://192.168.11.1:5600/litv/litv-ftv13
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台.png" group-title="新闻", 寰宇新聞
 http://192.168.11.1:5600/litv/litv-longturn14
-#EXTINF:-1 tvg-id="" tvg-name="TVBS 新聞台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="新闻", TVBS新聞
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="新闻", TVBS新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv072
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets.livednow.com/logo/三立新聞.png" group-title="新闻", 三立新聞
 http://192.168.11.1:5600/4gtv/229
