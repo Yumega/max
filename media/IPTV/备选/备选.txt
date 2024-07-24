@@ -8,3 +8,7 @@ http://172.20.0.2:8000/channel/bbc-world-news-hd-live-stream
 CNN美国
 #https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 http://172.20.0.2:8000/channel/cnn-live-stream
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/onegolf.png" group-title="文体",One Golf
+http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
