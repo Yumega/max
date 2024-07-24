@@ -88,12 +88,12 @@ http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000372/ind
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010017/1.m3u8
 #http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000485/index.m3u8?
 #http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视",CCTV电影
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV音乐
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8
 #http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 
+#EXTINF:-1 channel-id="" tvg-id="" tvg-logo="https://image.xumo.com/v1/channels/channel/99951288/168x168.png?type=color_onBlack" group-title="文体",outTV
+http://192.168.11.1:7777/xumo/watch/99951288
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/NBCsport.png" group-title="文体", NBC高夫
 http://192.168.11.1:5600/thetv/golf-channel
 #EXTINF:-1 channel-id="" tvg-id="" tvg-logo="https://image.xumo.com/v1/channels/channel/99991660/168x168.png?type=color_onBlack" group-title="文体",高夫PASS
