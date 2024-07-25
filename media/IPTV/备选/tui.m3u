@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url=""
 
 #EXTINF:1 group-title="hometv" tvg-id="hometv/bbc" tvg-logo="" provider="hometv" provider-logo="" provider-type="iptv",[hometv] BBC
-http://192.168.11.1:1234/stream/hometv/bbc/master.m3u8?u=max&p=9baf3a40312f39849f46dad1040f2f039f1cffa1238c41e9db675315cfad39b6
+http://192.168.11.1:1234/stream/xumo/bbc/master.m3u8?u=max&p=9baf3a40312f39849f46dad1040f2f039f1cffa1238c41e9db675315cfad39b6
 
 #EXTINF:2 group-title="hometv" tvg-id="hometv/cctv2" tvg-logo="" provider="hometv" provider-logo="" provider-type="iptv",[hometv] CCTV2
 http://192.168.11.1:1234/stream/hometv/cctv2/master.m3u8?u=max&p=9baf3a40312f39849f46dad1040f2f039f1cffa1238c41e9db675315cfad39b6
