@@ -105,29 +105,33 @@ allanpk716/chinesesubfinder:latest-lite
 设置选项
 https://www.navidrome.org/docs/usage/configuration-options/
 
+
+version: "3"
+services:
+  music-assistant-server:
+    image: ghcr.io/music-assistant/server:latest
+    container_name: music-assistant-server
+    restart: unless-stopped
+    # Network mode must be set to host for MA to work correctly
+    network_mode: host
+    volumes:
+      - /opt/music-assistant-server/data:/data/
+    # privileged caps needed to mount smb folders within the container
+    cap_add:
+      - SYS_ADMIN
+      - DAC_READ_SEARCH
+    privileged: true
+    environment:
+      # Provide logging level as environment variable.
+      # default=info, possible=(critical, error, warning, info, debug, verbose)
+      - LOG_LEVEL=warning
+
 安装vod2pod-RSS
 cd /opt
 wget https://github.com/madiele/vod2pod-rss/archive/refs/tags/v1.0.2.zip
 unzip /opt/v1.0.2.zip
 编辑 docker-compose.yml 
 docker compose up -d
-
-
-version: "3.7"
-services:
-  stash:
-    container_name: stash
-    image: ghcr.io/hotio/stash
-    ports:
-      - "9999:9999"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Asia/Hong_Kong
-    volumes:
-      - /opt/stash:/config
-      - /mnt/sdb1/qbit:/adultmovies
 
 version: '3'
 services:
@@ -139,17 +143,6 @@ services:
     volumes:
       - /mnt/sdb1/qbit/Music:/app/media:z
     command: /start
-    restart: always
-
-version: "3"
-services:
-  downloader:
-    image: registry.cn-hangzhou.aliyuncs.com/music_downloader/qq_flac_music_downloader
-    container_name: qq-music
-    volumes:
-      - /mnt/sdb1/qbit:/workspace/music
-    ports:
-      - 8899:8899
     restart: always
 
 version: '3.3'
@@ -182,3 +175,31 @@ services:
  --device= /dev/dri/renderD128 \
  --restart=unless-stopped \
  nyanmisaka/jellyfin
+
+
+version: "3.7"
+services:
+  stash:
+    container_name: stash
+    image: ghcr.io/hotio/stash
+    ports:
+      - "9999:9999"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Asia/Hong_Kong
+    volumes:
+      - /opt/stash:/config
+      - /mnt/sdb1/qbit:/adultmovies
+
+version: "3"
+services:
+  downloader:
+    image: registry.cn-hangzhou.aliyuncs.com/music_downloader/qq_flac_music_downloader
+    container_name: qq-music
+    volumes:
+      - /mnt/sdb1/qbit:/workspace/music
+    ports:
+      - 8899:8899
+    restart: always
