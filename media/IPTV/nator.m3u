@@ -1,21 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文体",Travelxp EU
-https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文体",Travelxp NZ
-https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" tvg-logo="https://assets.livednow.com/logo/龍華偶像台.png" group-title="龍華", 龍華偶像
-http://192.168.11.1:5600/litv/litv-longturn12
-#EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://assets.livednow.com/logo/龍華日韓台.png" group-title="龍華", 龍華日韓
-http://192.168.11.1:5600/litv/litv-longturn11
-#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://assets.livednow.com/logo/龍華戲劇台.png" group-title="龍華", 龍華戲劇
-http://192.168.11.1:5600/litv/litv-longturn18
-#EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://assets.livednow.com/logo/龍華經典台.png" group-title="龍華", 龍華經典
-http://192.168.11.1:5600/litv/litv-longturn21
-#EXTINF:-1 tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://assets.livednow.com/logo/龍華電影台.png" group-title="龍華", 龍華電影
-http://192.168.11.1:5600/litv/litv-longturn03
-
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
@@ -63,59 +46,40 @@ https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea09
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henantv.png" group-title="卫视",河南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视",辽宁卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/liaoning.png" group-title="卫视",辽宁卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010061/1.m3u8
 #http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
-#EXTINF:-1 tvg-id="31" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",东方卫视
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000182/index.m3u8?
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
-#EXTINF:-1 tvg-id="29" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000177/index.m3u8?
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8
-#EXTINF:-1 tvg-id="27" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000174/index.m3u8?
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="新闻",CCTV新闻
-http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000516/index.m3u8?
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV综合
-http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000131/index.m3u8?
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV经济
-http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000372/index.m3u8?
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV国际
+#EXTINF:-1 tvg-id="31" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/dongfang.png" group-title="卫视",东方卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
+#EXTINF:-1 tvg-id="29" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/jiangsu.png" group-title="卫视",江苏卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8
+#EXTINF:-1 tvg-id="27" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/hunan.png" group-title="卫视",湖南卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="新闻",CCTV新闻
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV综合
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV2.png" group-title="央视",CCTV经济
+http://192.168.11.1:5600/itv/ystenlive/1000000001000023315
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV4.png" group-title="央视",CCTV国际
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010017/1.m3u8
 #http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000485/index.m3u8?
 #http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV音乐
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8
-#http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 
-#EXTINF:-1 channel-id="" tvg-id="" tvg-logo="https://image.xumo.com/v1/channels/channel/99951288/168x168.png?type=color_onBlack" group-title="文体",outTV
-http://192.168.11.1:7777/xumo/watch/99951288
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/NBCsport.png" group-title="文体", NBC高夫
-http://192.168.11.1:5600/thetv/golf-channel
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文体",Travelxp
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" tvg-logo="https://assets.livednow.com/logo/龍華偶像台.png" group-title="文体", 龍華偶像
+http://192.168.11.1:5600/litv/litv-longturn12
+#EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://assets.livednow.com/logo/龍華日韓台.png" group-title="文体", 龍華日韓
+http://192.168.11.1:5600/litv/litv-longturn11
+#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://assets.livednow.com/logo/龍華戲劇台.png" group-title="文体", 龍華戲劇
+http://192.168.11.1:5600/litv/litv-longturn18
+#EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://assets.livednow.com/logo/龍華經典台.png" group-title="文体", 龍華經典
+http://192.168.11.1:5600/litv/litv-longturn21
+#EXTINF:-1 tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://assets.livednow.com/logo/龍華電影台.png" group-title="文体", 龍華電影
+http://192.168.11.1:5600/litv/litv-longturn03
 #EXTINF:-1 channel-id="" tvg-id="" tvg-logo="https://image.xumo.com/v1/channels/channel/99991660/168x168.png?type=color_onBlack" group-title="文体",高夫PASS
 http://192.168.11.1:7777/xumo/watch/99991660
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/PGAtour.png" group-title="文体",PGA巡回
 http://192.168.11.1:7777/xumo/watch/99991281
 #http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5de94dacb394a300099fa22a/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-
-#EXTINF:-1 channel-id="XHRTCN" tvg-id="xumo-9995102" tvg-logo="https://image.xumo.com/v1/channels/channel/9995102/168x168.png?type=color_onBlack"  group-title="MUSIC",iHeart乡村
-http://192.168.11.1:7777/xumo/watch/9995102
-#EXTINF:-1 channel-id="XHRTBT" tvg-id="xumo-9995103" tvg-logo="https://image.xumo.com/v1/channels/channel/9995103/168x168.png?type=color_onBlack" group-title="MUSIC",iHeart嘻哈
-http://192.168.11.1:7777/xumo/watch/9995103
-#EXTINF:-1 channel-id="XVCNT-CMS" tvg-id="xumo-99951127" tvg-logo="https://image.xumo.com/v1/channels/channel/99951127/168x168.png?type=color_onBlack" group-title="MUSIC",Vevo乡村
-http://192.168.11.1:7777/xumo/watch/99951127
-#EXTINF:-1 channel-id="XHITL-CMS" tvg-id="xumo-99991117" tvg-logo="https://image.xumo.com/v1/channels/channel/99991117/168x168.png?type=color_onBlack" group-title="MUSIC",Stingray热曲
-http://192.168.11.1:7777/xumo/watch/99991117
-#EXTINF:-1 channel-id="XHOTC-CMS" tvg-id="xumo-99991118" tvg-logo="https://image.xumo.com/v1/channels/channel/99991118/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray乡村
-http://192.168.11.1:7777/xumo/watch/99991118
-#EXTINF:-1 channel-id="XGRHI-CMS" tvg-id="xumo-99991120" tvg-logo="https://image.xumo.com/v1/channels/channel/99991120/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray热曲
-http://192.168.11.1:7777/xumo/watch/99991120
-#EXTINF:-1 channel-id="XSOST-CMS" tvg-id="xumo-99991121" tvg-logo="https://image.xumo.com/v1/channels/channel/99991121/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray心灵
-http://192.168.11.1:7777/xumo/watch/99991121
-#EXTINF:-1 channel-id="XVEVO-CMS" tvg-id="xumo-99991391" tvg-logo="https://image.xumo.com/v1/channels/channel/99991391/168x168.png?type=color_onBlack" group-title="MUSIC",Vevo流行
-http://192.168.11.1:7777/xumo/watch/99991391
