@@ -1,7 +1,6 @@
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/lovesongs.png" group-title="文体",欧美音乐
 https://bit.ly/3twVIny?/playlist.m3u8
 
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV综艺
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV经济
@@ -28,3 +27,23 @@ http://172.20.0.2:8000/channel/cnn-live-stream
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/onegolf.png" group-title="文体",One Golf
 http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/NBCsport.png" group-title="文体", NBC高夫
+http://192.168.11.1:5600/thetv/golf-channel
+
+#EXTINF:-1 channel-id="XHRTCN" tvg-id="xumo-9995102" tvg-logo="https://image.xumo.com/v1/channels/channel/9995102/168x168.png?type=color_onBlack"  group-title="MUSIC",iHeart乡村
+http://192.168.11.1:7777/xumo/watch/9995102
+#EXTINF:-1 channel-id="XHRTBT" tvg-id="xumo-9995103" tvg-logo="https://image.xumo.com/v1/channels/channel/9995103/168x168.png?type=color_onBlack" group-title="MUSIC",iHeart嘻哈
+http://192.168.11.1:7777/xumo/watch/9995103
+#EXTINF:-1 channel-id="XVCNT-CMS" tvg-id="xumo-99951127" tvg-logo="https://image.xumo.com/v1/channels/channel/99951127/168x168.png?type=color_onBlack" group-title="MUSIC",Vevo乡村
+http://192.168.11.1:7777/xumo/watch/99951127
+#EXTINF:-1 channel-id="XHITL-CMS" tvg-id="xumo-99991117" tvg-logo="https://image.xumo.com/v1/channels/channel/99991117/168x168.png?type=color_onBlack" group-title="MUSIC",Stingray热曲
+http://192.168.11.1:7777/xumo/watch/99991117
+#EXTINF:-1 channel-id="XHOTC-CMS" tvg-id="xumo-99991118" tvg-logo="https://image.xumo.com/v1/channels/channel/99991118/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray乡村
+http://192.168.11.1:7777/xumo/watch/99991118
+#EXTINF:-1 channel-id="XGRHI-CMS" tvg-id="xumo-99991120" tvg-logo="https://image.xumo.com/v1/channels/channel/99991120/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray热曲
+http://192.168.11.1:7777/xumo/watch/99991120
+#EXTINF:-1 channel-id="XSOST-CMS" tvg-id="xumo-99991121" tvg-logo="https://image.xumo.com/v1/channels/channel/99991121/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray心灵
+http://192.168.11.1:7777/xumo/watch/99991121
+#EXTINF:-1 channel-id="XVEVO-CMS" tvg-id="xumo-99991391" tvg-logo="https://image.xumo.com/v1/channels/channel/99991391/168x168.png?type=color_onBlack" group-title="MUSIC",Vevo流行
+http://192.168.11.1:7777/xumo/watch/99991391
+
