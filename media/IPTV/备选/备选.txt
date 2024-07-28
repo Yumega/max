@@ -29,7 +29,8 @@ http://172.20.0.2:8000/channel/cnn-live-stream
 http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/NBCsport.png" group-title="文体", NBC高夫
 http://192.168.11.1:5600/thetv/golf-channel
-
+#EXTINF:-1 channel-id="" tvg-id="" tvg-logo="https://image.xumo.com/v1/channels/channel/99951288/168x168.png?type=color_onBlack" group-title="文体",outTV
+http://192.168.11.1:7777/xumo/watch/99951288
 #EXTINF:-1 channel-id="XHRTCN" tvg-id="xumo-9995102" tvg-logo="https://image.xumo.com/v1/channels/channel/9995102/168x168.png?type=color_onBlack"  group-title="MUSIC",iHeart乡村
 http://192.168.11.1:7777/xumo/watch/9995102
 #EXTINF:-1 channel-id="XHRTBT" tvg-id="xumo-9995103" tvg-logo="https://image.xumo.com/v1/channels/channel/9995103/168x168.png?type=color_onBlack" group-title="MUSIC",iHeart嘻哈
