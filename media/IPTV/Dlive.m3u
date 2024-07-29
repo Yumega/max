@@ -33,7 +33,7 @@ http://172.30.0.2:5004/DaddyLive/watch/515
 http://172.30.0.2:5004/DaddyLive/watch/516
 #EXTINF:-1 tvg-name='18+ (Player-17)' tvg-id='517' group-title='Adult',18+ (Player-17)
 http://172.30.0.2:5004/DaddyLive/watch/517
-#EXTINF:-1 tvg-chno='20' tvg-name='18+ (Player-18)' tvg-id='518' group-title='Adult',18+ (Player-18)
+#EXTINF:-1 tvg-name='18+ (Player-18)' tvg-id='518' group-title='Adult',18+ (Player-18)
 http://172.30.0.2:5004/DaddyLive/watch/518
 #EXTINF:-1 tvg-name='18+ (Player-19)' tvg-id='519' group-title='Adult',18+ (Player-19)
 http://172.30.0.2:5004/DaddyLive/watch/519
