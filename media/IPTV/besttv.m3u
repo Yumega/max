@@ -7,7 +7,7 @@ http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 #http://192.168.11.1:5600/tptv/HD-10000k-1080P-fhchinese5s?type=origin
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
 http://192.168.11.1:5600/litv/4gtv-4gtv073
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新闻台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
+#EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv009
 #EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://assets.livednow.com/logo/民視新聞台.png" group-title="新闻", 民視新聞
 http://192.168.11.1:5600/litv/litv-ftv13
