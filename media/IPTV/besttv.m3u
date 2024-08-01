@@ -72,5 +72,5 @@ http://192.168.11.1:5600/litv/litv-longturn11
 http://192.168.11.1:5600/litv/litv-longturn18
 #EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://assets.livednow.com/logo/龍華經典台.png" group-title="文体", 龍華經典
 http://192.168.11.1:5600/litv/litv-longturn21
-#EXTINF:-1 tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://assets.livednow.com/logo/龍華電影台.png" group-title="文体", 龍華電影
+#EXTINF:-1 tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="https://assets.livednow.com/logo/龍華電影台.png" group-title="文体", 龍華電影
 http://192.168.11.1:5600/litv/litv-longturn03
