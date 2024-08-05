@@ -1,3 +1,4 @@
+#EXTM3U
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="巴黎奥运",CCTV-1 备用V4
 http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024078203.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="巴黎奥运",CCTV-5 备用V4
