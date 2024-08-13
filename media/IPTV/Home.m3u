@@ -10,8 +10,6 @@ http://192.168.11.1:5600/litv/4gtv-4gtv073
 http://192.168.11.1:5600/litv/4gtv-4gtv009
 #http://192.168.11.1:35455/youtube/oIgbl7t0S_w
 
-#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://assets.livednow.com/logo/民視新聞台.png" group-title="新闻", 民視新聞
-http://192.168.11.1:5600/litv/litv-ftv13
 #EXTINF:-1 tvg-id="民視新聞台" tvg-name="寰宇新聞台" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台.png" group-title="新闻", 寰宇新聞
 http://192.168.11.1:5600/litv/litv-longturn14
 #EXTINF:-1 tvg-id="TVBS-新聞台" tvg-name="TVBS 新聞台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="新闻", TVBS新聞
