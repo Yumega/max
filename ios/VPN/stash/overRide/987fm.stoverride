@@ -1,0 +1,6 @@
+name: 987fm
+desc: 987fm日本线路
+category: 工具
+rules:
+  - DOMAIN-KEYWORD,28383.live.streamtheworld.com,DIRECT
+  - DOMAIN-KEYWORD,987FM_PREM.aac,DIRECT
