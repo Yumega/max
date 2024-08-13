@@ -1,6 +1,0 @@
-name: 987fm
-desc: 987fm日本线路
-category: 工具
-rules:
-  - DOMAIN-KEYWORD,987FM_PREM.aac,全局最优代理
-  - DOMAIN-KEYWORD,28383.live.streamtheworld.com,全局最优代理
