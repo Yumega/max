@@ -1,4 +1,5 @@
 ! Title: Safari自定义过滤
+x.com###layers > div.css-175oi2r.r-aqfbo4.r-
 cn.wsj.com##.wsj-ad-disclaimer
 gemini.google.com##.ng-star-inserted.ng-tns-c1944934886-1.gmat-caption
 www.bing.com###b-scopeListItem-convups
