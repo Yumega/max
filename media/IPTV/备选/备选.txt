@@ -1,6 +1,19 @@
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/lovesongs.png" group-title="文体",欧美音乐
 https://bit.ly/3twVIny?/playlist.m3u8
 
+#EXTINF:0,💋💋百事通4K儿童
+http://www.17888.fun:10000//rtp/239.45.1.1:5140
+#EXTINF:0,💋💋百事通4K纪实
+http://www.17888.fun:10000//rtp/239.45.1.10:5140
+#EXTINF:0,💋💋百事通4K电影
+http://www.17888.fun:10000//udp/239.45.3.107:5140
+#EXTINF:0,💋💋百事通儿童4K
+http://www.17888.fun:10000/rtp/239.45.1.1:5140
+#EXTINF:0,💋💋百事通纪实4K
+http://www.17888.fun:10000/rtp/239.45.1.10:5140
+#EXTINF:0,💋💋BesTV电影4K
+http://www.17888.fun:10000/udp/239.45.3.107:5140
+
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henantv.png" group-title="卫视",河南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/liaoning.png" group-title="卫视",辽宁卫视
