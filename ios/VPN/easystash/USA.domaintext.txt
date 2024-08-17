@@ -1,11 +1,12 @@
 #包含苹果音乐、苹果podcast、plutoTV、必应、Spotify
+#ip
+.whatismyipaddress.com
 ###bt
 torrentapi.org
 bitsearch.to
 .libtorrent.org
 .bittorrent.com
 .aelitis.com
-
 #podcast
 www.apple.com
 #fpinit.itunes.apple.com
@@ -63,6 +64,8 @@ www.apple.com
 .tospotify.com
 
 #苹果音乐
+#.streamtheworld.com
+#.soundvideostar.com
 .iheart.com
 .tunein.com
 .dribbcast.com
@@ -71,8 +74,6 @@ www.apple.com
 .akamaistream.net
 .streamguys.com
 .streamguys1.com
-.streamtheworld.com
-.soundvideostar.com
 .akamaihd.net
 .pdst.fm
 .chrt.fm
