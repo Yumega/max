@@ -18,6 +18,8 @@ www.apple.com
 #.podcasts.apple.com
 
 #直播源必须美国
+.amagi.tv
+.klowdtv.net
 .houstonpublicmedia.org
 .wnyc.org
 .digicert.com
