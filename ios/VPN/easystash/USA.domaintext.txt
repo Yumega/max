@@ -18,6 +18,7 @@ www.apple.com
 #.podcasts.apple.com
 
 #直播源必须美国
+.tubi.video
 .amagi.tv
 .klowdtv.net
 .houstonpublicmedia.org
