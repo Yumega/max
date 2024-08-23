@@ -41,14 +41,14 @@ http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="新闻",CCTV新闻
-http://192.168.11.1:5678/demo.php/G_CCTV-13-CQ/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV综合
-http://192.168.11.1:5678/demo.php/G_CCTV-1-CQ/index.m3u83u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV2.png" group-title="央视",CCTV经济
-http://192.168.11.1:5678/demo.php/G_CCTV-2-CQ/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV4.png" group-title="央视",CCTV国际
-http://192.168.11.1:5678/demo.php/G_CCTV-4-CQ/index.m3u8
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="新闻",CCTV新闻
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226571/index.m3u8
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV综合
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV2.png" group-title="央视",CCTV经济
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV4.png" group-title="央视",CCTV国际
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文体",Travelxp
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
