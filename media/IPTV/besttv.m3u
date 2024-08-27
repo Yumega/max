@@ -7,8 +7,11 @@ http://192.168.11.1:5678/fengshows.php?=fhzw
 http://192.168.11.1:5600/litv/4gtv-4gtv073
 #EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv009
+#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://assets.livednow.com/logo/中視新聞台.png" group-title="新闻",中視新聞
+http://192.168.11.1:5600/litv/4gtv-4gtv074
 #EXTINF:-1 tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台.png" group-title="新闻", 寰宇新聞
 http://192.168.11.1:5600/litv/litv-longturn14
+
 #EXTINF:-1 tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="新闻", TVBS新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv072
 #EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="https://assets.livednow.com/logo/台視新聞台.png" group-title="新闻", 台視新聞
