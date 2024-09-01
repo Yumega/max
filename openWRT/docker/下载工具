@@ -8,7 +8,7 @@ docker create  \
     -v /opt/qbit:/config  \
     -v /mnt/sdb1/qbit:/downloads  \
     --restart unless-stopped  \
-    cr.hotio.dev/hotio/qbittorrent
+    ghcr.io/hotio/qbittorrent
     
 默认保存路径改为 /downloads
 使用其他界面
