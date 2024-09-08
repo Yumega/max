@@ -1,4 +1,5 @@
 #广告
+ads-api.x.com
 .b0.upaiyun.com
 .news.163.com
 .uc.cn
