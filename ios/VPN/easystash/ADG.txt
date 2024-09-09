@@ -30,7 +30,7 @@
 ||kuaishou.httpdns.pro^
 ||httpdns.meituan.com^
 ||httpdns.yunxindns.com^
-||httpdns.n.net^ease.com^
+||httpdns.n.netease.com^
 ||music.httpdns.c.163.com^
 ||lofter.httpdns.c.163.com^
 ||httpdns.push.oppomobile.com^
