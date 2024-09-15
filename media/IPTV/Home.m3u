@@ -26,7 +26,8 @@ http://192.168.11.1:7777/xumo/watch/99991247
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="BBC-World-News" tvg-name="BBC World News" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
-http://192.168.11.1:7777/xumo/watch/99951298
+https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#http://192.168.11.1:7777/xumo/watch/99951298
 #http://192.168.11.1:5600/thetv/bbc-world-news-hd
 #EXTINF:-1 channel-id="XSKYNEWS-CMS" tvg-id="xumo-99951223" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/skynews.png" group-title="NEWS",天空新闻
 https://linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_mob.m3u8
