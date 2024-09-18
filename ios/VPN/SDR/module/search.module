@@ -2,7 +2,7 @@
 #!desc=快捷切换搜索引擎
 [MITM]
 hostname=duckduckgo.com
-[URLRewrite]
+[URL Rewrite]
 ^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+https://zh.wikipedia.org/wiki/$2 302
 ^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+https://www.google.com/search?&tbm=isch&q=$2 302
 ^https:\/\/duckduckgo.com\/\?q=bk(\+|%20)([^&]+).+https://baike.baidu.hk/item/$2 302
