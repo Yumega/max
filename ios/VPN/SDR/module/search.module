@@ -1,8 +1,0 @@
-#!name=X-Search
-#!desc=快捷切换搜索引擎
-[MITM]
-hostname=duckduckgo.com
-[URL Rewrite]
-^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
-^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
-^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&pws=0&gl=CN 302
