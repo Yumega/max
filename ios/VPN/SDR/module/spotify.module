@@ -1,10 +1,11 @@
-#!url=https://raw.githubusercontent.com/Yumega/max/master/SDR/%E6%A8%A1%E5%9D%97/spotify.module
+#From http://script.hub/file/_start_/https://github.com/ddgksf2013/Rewrite/raw/master/UnlockVip/Spotify.conf/_end_/Spotify.sgmodule?type=qx-rewrite&target=shadowrocket-module&del=true
 #!name=Spotify
-#!desc=部分解锁premium,建议重新登录,音质不能设置为超高
+#!desc=Spotify
+
+[Script]
+spotify-proto = type=http-response, pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, max-size=-1, timeout=60
+
+spotify-json = type=http-request, pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=60
 
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
-
-[Script]
-spotify-proto = type=http-response,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,max-size=0,requires-body=true,binary-mode=true,timeout=10,script-update-interval=0,enable=true
-
