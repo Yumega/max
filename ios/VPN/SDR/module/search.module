@@ -3,13 +3,6 @@
 [MITM]
 hostname=duckduckgo.com
 [URL Rewrite]
-^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+https://zh.wikipedia.org/wiki/$2 302
-^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+https://www.google.com/search?&tbm=isch&q=$2 302
-^https:\/\/duckduckgo.com\/\?q=bk(\+|%20)([^&]+).+https://baike.baidu.hk/item/$2 302
-^https:\/\/duckduckgo.com\/\?q=tmdb\+([^&]+).+https://www.themoviedb.org/search?query=$1 302
-^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+https://www.baidu.com/s?word=$2 302
-^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+https://www.bing.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+youtube:///results?q=$2 302
-^https:\/\/duckduckgo.com\/\?q=ytbw(\+|%20)([^&]+).+https://www.youtube.com/results?search_query=$2 302
-^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+https://duckduckgo.com/?ia=about&q=$2 302
-^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+https://www.google.com/search?q=$3&pws=0&gl=CN 302
+^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
+^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
+^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&pws=0&gl=CN 302
