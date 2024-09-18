@@ -1,7 +1,0 @@
-#!name=豆瓣
-#!desc=豆瓣
-[MITM]
-hostname = m.douban.com
-
-[Script]
-spotify-proto = type=http-response,script-path= https://github.com/ddgksf2013/Scripts/raw/master/douban.js,pattern= ^https://m.douban.com/movie/subject/.+, max-size=0,requires-body=true,binary-mode=true,timeout=10,script-update-interval=0,enable=true
