@@ -1,6 +1,6 @@
 #From http://script.hub/file/_start_/https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf/_end_/Q-Search.sgmodule?type=qx-rewrite&target=shadowrocket-module&del=true
-#!name=Q-Search
-#!desc=Q-Search
+#!name=X-Search
+#!desc=X-Search
 
 [URL Rewrite]
 # fy xxx (Google 译至中)
