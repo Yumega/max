@@ -40,13 +40,13 @@
 ^https:\/\/duckduckgo.com\/\?q=wj\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wj.+ https://zh.wikipedia.org/wiki/$1 302
 # gt  xxx (Google 图片)
-^https:\/\/duckduckgo.com\/\?q=gt\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
-^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gt.+ https://www.google.com/search?&tbm=isch&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=gt\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$3&gl=CN 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gt.+ https://www.google.com/search?&tbm=isch&q=$3&gl=CN 302
 # by  xxx (必应)
 ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://www.bing.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+by.+ https://www.bing.com/search?q=$1 302
 #     xxx （无指令默认为 Google）
-^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&pws=0&gl=CN 302
+^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&gl=CN 302
 
 [MITM]
 hostname = %APPEND% duckduckgo.com
