@@ -40,8 +40,8 @@
 ^https:\/\/duckduckgo.com\/\?q=wj\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wj.+ https://zh.wikipedia.org/wiki/$1 302
 # gt  xxx (Google 图片)
-^https:\/\/duckduckgo.com\/\?q=gt\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$3&gl=CN&udm=2 302
-^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gt.+ https://www.google.com/search?&tbm=isch&q=$3&gl=CN&udm=2 302
+^https:\/\/duckduckgo.com\/\?q=gt\+([^&]+).+ https://www.google.com/search?sca_esv=fba8785f3d6fbb91&sca_upv=1&gl=CN&q=$3&udm=2 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gt.+ https://www.google.com/search?sca_esv=fba8785f3d6fbb91&sca_upv=1&gl=CN&q=$3&udm=2 302
 # by  xxx (必应)
 ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://www.bing.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+by.+ https://www.bing.com/search?q=$1 302
