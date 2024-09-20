@@ -31,7 +31,5 @@ DOMAIN,radio.itunes.apple.com
 DOMAIN,amp-api.music.apple.com
 DOMAIN,amp-api-edge.music.apple.com
 #Podcast
-DOMAIN,www.apple.com
-DOMAIN,bag.itunes.apple.com
 DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,amp-api.podcasts.apple.com
