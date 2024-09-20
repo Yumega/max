@@ -54,11 +54,11 @@
 # by  xxx (必应)
 ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://www.bing.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+by.+ https://www.bing.com/search?q=$1 302
-# wg  xxx （Google）
+# wg  xxx （whoogle）
 ^https:\/\/duckduckgo.com\/\?q=wg\+([^&]+).+ http://192.168.11.1:5000/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wg.+ http://192.168.11.1:5000/search?q=$1 302
 #     xxx （无指令默认为 Google）
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1&pws=0&gl=CN 302
 
 [MITM]
 hostname = %APPEND% duckduckgo.com
