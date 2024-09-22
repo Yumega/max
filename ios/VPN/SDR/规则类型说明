@@ -1,3 +1,4 @@
+#参考：https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/release/lazy.conf
 # 规则类型：
 # DOMAIN-SUFFIX：匹配请求域名以及后缀。如“DOMAIN-SUFFIX,example.com,DIRECT”可以匹配到“example.com、a.example.com、a.b.example.com”。
 # DOMAIN-KEYWORD：匹配请求域名的关键词
