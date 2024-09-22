@@ -9,7 +9,7 @@
 当域名请求遇到IP类规则时，Shadowrocket会向本地DNS服务器发送查询请求，以判断主机IP是否匹配规则。
 若IP类规则加“no-resolve”(如：IP-CIDR,172.16.0.0/12,DIRECT,no-resolve)，则域名请求将会跳过此规则，不会触发本地DNS查询。
 # IP-ASN：匹配IP地址隶属的ASN编号。如"IP-ASN,56040,DIRECT"可以匹配到属于China Mobile Communications Corporation网络的IP地址。
-# RULE-SET：匹配规则集内容。规则集的内容需[包含]规则类型,支持DOMAIN, DOMAIN-SUFFIX，DOMAIN-KEYWORD，USER-AGENT，URL-REGEX，IP-CIDR
+# RULE-SET：匹配规则集内容。规则集的内容需[包含]规则类型,支持DOMAIN, DOMAIN-SUFFIX，DOMAIN-KEYWORD，USER-AGENT，URL-REGEX，IP-CIDR,IP-ASN
 # DOMAIN-SET：匹配域名集内容。域名集的内容[不包含]规则类型,只能是a.com或者.a.com类型
 
 # SCRIPT：匹配脚本名称。
