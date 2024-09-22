@@ -1,1 +1,1 @@
-URL-REGEX,"^https?:\/\/\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$.*$"
+URL-REGEX,^https?://.+/item.+
