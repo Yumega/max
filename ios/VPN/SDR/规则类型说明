@@ -1,4 +1,6 @@
 #参考：https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/release/lazy.conf
+上千行的代理规则，会对上网速度产生影响吗？
+不会的，50000 行的规则和 50 行的规则在 ShadowRocket 中均为同一量级的时间复杂度 O(1)。
 # 规则类型：
 # DOMAIN-SUFFIX：匹配请求域名以及后缀。如“DOMAIN-SUFFIX,example.com,DIRECT”可以匹配到“example.com、a.example.com、a.b.example.com”。
 # DOMAIN-KEYWORD：匹配请求域名的关键词
