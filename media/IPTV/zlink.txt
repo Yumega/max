@@ -1,0 +1,82 @@
+BBC新闻
+#https://jmp2.uk/SamsungTVPlus/US4000033L.m3u8
+#https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+http://172.20.0.2:8000/channel/bbc-world-news-hd-live-stream
+
+CNN美国
+#https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+http://172.20.0.2:8000/channel/cnn-live-stream
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/TravelX.png" group-title="文体",Travelxp NZ
+#https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/onegolf.png" group-title="文体",One Golf
+http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/NBCsport.png" group-title="文体", NBC高夫
+http://192.168.11.1:5600/thetv/golf-channel
+#EXTINF:-1 channel-id="" tvg-id="" tvg-logo="https://image.xumo.com/v1/channels/channel/99951288/168x168.png?type=color_onBlack" group-title="文体",outTV
+http://192.168.11.1:7777/xumo/watch/99951288
+#EXTINF:-1 channel-id="XHRTCN" tvg-id="xumo-9995102" tvg-logo="https://image.xumo.com/v1/channels/channel/9995102/168x168.png?type=color_onBlack"  group-title="MUSIC",iHeart乡村
+http://192.168.11.1:7777/xumo/watch/9995102
+#EXTINF:-1 channel-id="XHRTBT" tvg-id="xumo-9995103" tvg-logo="https://image.xumo.com/v1/channels/channel/9995103/168x168.png?type=color_onBlack" group-title="MUSIC",iHeart嘻哈
+http://192.168.11.1:7777/xumo/watch/9995103
+#EXTINF:-1 channel-id="XVCNT-CMS" tvg-id="xumo-99951127" tvg-logo="https://image.xumo.com/v1/channels/channel/99951127/168x168.png?type=color_onBlack" group-title="MUSIC",Vevo乡村
+http://192.168.11.1:7777/xumo/watch/99951127
+#EXTINF:-1 channel-id="XHITL-CMS" tvg-id="xumo-99991117" tvg-logo="https://image.xumo.com/v1/channels/channel/99991117/168x168.png?type=color_onBlack" group-title="MUSIC",Stingray热曲
+http://192.168.11.1:7777/xumo/watch/99991117
+#EXTINF:-1 channel-id="XHOTC-CMS" tvg-id="xumo-99991118" tvg-logo="https://image.xumo.com/v1/channels/channel/99991118/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray乡村
+http://192.168.11.1:7777/xumo/watch/99991118
+#EXTINF:-1 channel-id="XGRHI-CMS" tvg-id="xumo-99991120" tvg-logo="https://image.xumo.com/v1/channels/channel/99991120/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray热曲
+http://192.168.11.1:7777/xumo/watch/99991120
+#EXTINF:-1 channel-id="XSOST-CMS" tvg-id="xumo-99991121" tvg-logo="https://image.xumo.com/v1/channels/channel/99991121/168x168.png?type=color_onBlack"  group-title="MUSIC",Stingray心灵
+http://192.168.11.1:7777/xumo/watch/99991121
+#EXTINF:-1 channel-id="XVEVO-CMS" tvg-id="xumo-99991391" tvg-logo="https://image.xumo.com/v1/channels/channel/99991391/168x168.png?type=color_onBlack" group-title="MUSIC",Vevo流行
+http://192.168.11.1:7777/xumo/watch/99991391
+
+#EXTM3U
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
+#EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/cctv/fyjc.png" group-title="央视",风云剧场
+#EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/cctv/hjjc.png" group-title="央视",怀旧剧场
+#EXTINF:-1 tvg-id="6560" tvg-name="世界地理" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVshijiedili.png" ,世界地理
+#EXTINF:-1 tvg-id="6568" tvg-name="高尔夫网球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE13.jpg", 高网频道
+
+#EXTINF:-1 tvg-id="6244" tvg-name="求索记录" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/qiusuo/qsjl.png",求索纪录
+
+#EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/qiusuo/qsdw.png",求索动物
+
+#EXTINF:-1 tvg-id="6240" tvg-name="求索科学" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/qiusuo/qskx.png" ,求索科学
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/qiusuo/qssh.png" ,求索生活
+
+#EXTINF:-1,tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/hmdh.png",黑莓动画
+
+#EXTINF:-1,tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/hmdy.png",黑莓电影
+
+#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/8ktest.png",8k测试
+
+#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png",凤凰中文
+
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png",凤凰资讯
+
+#EXTINF:-1 tvg-id="1880" tvg-name="BTV新闻" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/BTV/BTVxw.png",北京新闻
+#EXTINF:-1 tvg-id="1873" tvg-name="BTV文艺" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/BTV/BTVwy.png",BTV文艺
+#EXTINF:-1 tvg-id="1874" tvg-name="BTV科教" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/BTV/BTVkj.png",BTV科教
+#EXTINF:-1 tvg-id="1875" tvg-name="BTV影视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/BTV/BTVys.png",BTV影视
+#EXTINF:-1 tvg-id="1876" tvg-name="BTV财经" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/BTV/BTVcj.png",BTV财经
+#EXTINF:-1 tvg-id="1878" tvg-name="BTV生活" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/BTV/BTVsh.png",BTV生活
+#EXTINF:-1 tvg-id="河南都市" tvg-name="河南都市" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henands.png",河南都市
+#EXTINF:-1 tvg-id="河南国际" tvg-name="河南国际" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henangj.png",河南国际
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henandsj.png",河南电视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henanxw.png",河南新闻
+#EXTINF:-1,tvg-id="江苏公共新闻" tvg-name="江苏公共新闻" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/jiangsu/jsggxw.png",江苏新闻
+#EXTINF:-1,tvg-id="江苏城市" tvg-name="江苏城市" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/jiangsu/jscs.png",江苏城市
+#EXTINF:-1,tvg-id="江苏综艺" tvg-name="江苏综艺" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/jiangsu/jszy.png",江苏综艺
+#EXTINF:-1,tvg-id="江苏影视" tvg-name="江苏影视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/jiangsu/jsys.png",江苏影视
+#EXTINF:-1,tvg-id="江苏教育" tvg-name="江苏教育" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/jiangsu/jsjy.png",江苏教育
+#EXTINF:-1 tvg-id="6555" tvg-name="梨园" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE20.jpg" ,梨园频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/eb/HNETV_logo.png",湖南经视
+#EXTINF:-1 tvg-id="1984" tvg-name="上视新闻频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shangshixinwen.png",上海新闻
+#EXTINF:-1 tvg-id="1989" tvg-name="上海都市频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shanghaidushi.jpg",上海都市
+#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png",上海纪实
+#EXTINF:-1 tvg-id="1986" tvg-name="东方影视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shanghaidongfangyingshi.png",东方影视
+#EXTINF:-1 tvg-id="1991" tvg-name="上视外语频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shanghaiwaiyu.png",上视外语
