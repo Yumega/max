@@ -1,8 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
-http://192.168.11.1:5678/fengshows.php?=fhzx
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
-http://192.168.11.1:5678/fengshows.php?=fhzw
+http://192.168.11.1:35455/youtube/bGIIO3HuNyI
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
 http://192.168.11.1:5600/litv/4gtv-4gtv073
 #EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
