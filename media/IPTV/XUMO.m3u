@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="http://192.168.11.1:7777/xumo/epg.xml"
 
 #EXTINF:-1 channel-id="XDATE-CMS" tvg-id="xumo-99991626" tvg-logo="https://image.xumo.com/v1/channels/channel/99991626/168x168.png?type=color_onBlack" tvg-description="Stream Dateline 24 hours a day, 7 days a week on the Dateline 24/7 channel. Discover top true crime picks from The True Crime Original. All Dateline, all the time." group-title="Crime Tv",Dateline 24/7
 http://192.168.11.1:7777/xumo/watch/99991626
