@@ -14,7 +14,7 @@ http:
     - ^https:\/\/duckduckgo.com\/\?q=wj(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
     # gt xxx (Google图片)
-    - ^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
+    - ^https:\/\/duckduckgo.com\/\?q=gt(\+|%20)([^&]+).+ https://www.google.com/search?as_st=y&tbm=isch&as_q=$1&cr=countryCN 302
 
     # bk xxx (百度百科)
     - ^https:\/\/duckduckgo.com\/\?q=bk(\+|%20)([^&]+).+ https://baike.baidu.hk/item/$2 302
@@ -28,11 +28,12 @@ http:
     # by xxx (必应)
     - ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://www.bing.com/search?q=$1 302
     
-    # ytb xxx (YouTube)
-    - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ youtube:///results?q=$2 302
+    # yt xxx (YouTube)
+    - ^https:\/\/duckduckgo.com\/\?q=yt(\+|%20)([^&]+).+ youtube:///results?q=$2 302
   
     # ytbw xxx (YouTubeWeb)
     - ^https:\/\/duckduckgo.com\/\?q=ytbw(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
+   
     # wb xxx (微博)
     - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ weibointernational://searchall?q=$2 302
 
@@ -48,8 +49,8 @@ http:
     # bt xxx (Bt搜索)
     - ^https:\/\/duckduckgo.com\/\?q=bt(\+|%20)([^&]+).+ https://www.btdig.com/search?q=$2 302
 
-    # pdd xxx (拼多多)
-    - ^https:\/\/duckduckgo.com\/\?q=pdd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
+    # dd xxx (拼多多)
+    - ^https:\/\/duckduckgo.com\/\?q=dd(\+|%20)([^&]+).+ pinduoduo://yangkeduo.com/search_result.html?search_key=$2 302
     
     # jd xxx (京东)
     - ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"} 302
