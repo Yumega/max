@@ -1,4 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
+#EXTINF:-1 tvg-id="BBC-World-News" tvg-name="BBC World News" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
+http://192.168.11.1:5510/stream/xumo/bbc/master.m3u8?u=max&p=5ba002a3f4680443147467e7991a16276547b07c6a5549e20bdd9df96c843d5f
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://192.168.11.1:35455/youtube/bGIIO3HuNyI
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
