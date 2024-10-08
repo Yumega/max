@@ -5,6 +5,7 @@ https://www.icloud.com/shortcuts/e936200f376f46919d31995c19db3557
 
 发送文件至wendav
 https://www.icloud.com/shortcuts/bb2fbfb0e7d6475daa81c75ec2fa9345
+
 发至电脑
 https://www.icloud.com/shortcuts/38b4622cc8444a3fb5b24a1cd7b794cf
 
@@ -35,6 +36,8 @@ https://www.icloud.com/shortcuts/a243d3522b294e1a987ea745b386928c
 
 Metube视频下载
 https://www.icloud.com/shortcuts/49a17ece680c46729c105456329520d3
+metube全
+https://www.icloud.com/shortcuts/4f4c933314a842a0a2b393faf9421ae7
 
 电视直播
 https://www.icloud.com/shortcuts/4f33cccaa9ac4aa6b6573d7ea0e69174
