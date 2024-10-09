@@ -81,7 +81,6 @@ cnn-cnninternational-1-eu.rakuten.wurl.tv
 .bingworld.com
 .azure.com
 .azure.net
-
 #copilot
 .api.microsoftapp.net
 .bing-shopping.microsoft-falcon.io
