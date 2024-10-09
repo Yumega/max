@@ -30,6 +30,9 @@ DOMAIN,radio-activity.itunes.apple.com
 DOMAIN,radio.itunes.apple.com
 DOMAIN,amp-api.music.apple.com
 DOMAIN,amp-api-edge.music.apple.com
+DOMAIN,play.itunes.apple.com
 #Podcast
 DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,amp-api.podcasts.apple.com
+#audacy
+DOMAIN-SUFFIX,amperwave.net
