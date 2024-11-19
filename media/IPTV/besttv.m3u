@@ -7,9 +7,6 @@ http://192.168.11.1:5600/litv/4gtv-4gtv073
 http://192.168.11.1:5600/litv/4gtv-4gtv009
 #EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://assets.livednow.com/logo/中視新聞台.png" group-title="新闻",中視新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv074
-#EXTINF:-1 tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台.png" group-title="新闻", 寰宇新聞
-http://192.168.11.1:5600/litv/litv-longturn14
-
 #EXTINF:-1 tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="新闻", TVBS新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv072
 #EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="https://assets.livednow.com/logo/台視新聞台.png" group-title="新闻", 台視新聞
@@ -25,8 +22,7 @@ https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_35
 http://192.168.11.1:5600/litv/litv-ftv10
 #http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
-http://192.168.11.1:5600/4gtv/226
-#http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
+http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN Live" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 
@@ -35,7 +31,8 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226571/index.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV2.png" group-title="央视",CCTV经济
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
+http://192.168.11.1:35455/itv/6000000001000014161.m3u8?cdn=wasusyt
+#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV4.png" group-title="央视",CCTV国际
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5.png" group-title="央视", CCTV体育
