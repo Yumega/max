@@ -8,12 +8,6 @@ http://192.168.11.1:5600/litv/4gtv-4gtv073
 http://192.168.11.1:5600/litv/4gtv-4gtv009
 #EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://assets.livednow.com/logo/中視新聞台.png" group-title="新闻",中視新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv074
-#EXTINF:-1 tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="新闻", TVBS新聞
-http://192.168.11.1:5600/litv/4gtv-4gtv072
-#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="https://assets.livednow.com/logo/台視新聞台.png" group-title="新闻", 台視新聞
-http://192.168.11.1:5600/litv/4gtv-4gtv051
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://assets.livednow.com/logo/東森新聞.png" group-title="新闻", 東森新聞
-http://192.168.11.1:5600/litv/4gtv-4gtv152
 
 #EXTINF:-1 tvg-id="BBCWORLDNEWS" tvg-name="BBCWORLDNEWS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
 https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
