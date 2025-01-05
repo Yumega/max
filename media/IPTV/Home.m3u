@@ -1,12 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
-http://192.168.11.1:35455/youtube/HFib76ySpbU
+http://192.168.11.1:5600/youtube/HFib76ySpbU
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
 http://192.168.11.1:5600/litv/4gtv-4gtv073
-#http://192.168.11.1:35455/youtube/o_-hSMgpAzs
+#http://192.168.11.1:5600/youtube/o_-hSMgpAzs
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
 http://192.168.11.1:5600/litv/4gtv-4gtv009
-#http://192.168.11.1:35455/youtube/oIgbl7t0S_w
+#http://192.168.11.1:5600/youtube/oIgbl7t0S_w
 
 #EXTINF:-1 tvg-id="民視新聞台" tvg-name="寰宇新聞台" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台.png" group-title="新闻", 寰宇新聞
 #http://192.168.11.1:5600/litv/litv-longturn14
@@ -31,11 +31,11 @@ https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 https://linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_mob.m3u8
 #EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://192.168.11.1:5600/litv/litv-ftv10
-#http://192.168.11.1:35455/youtube/gCNeDWCI0vo
+#http://192.168.11.1:5600/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="France-24" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
-http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
+http://192.168.11.1:5600/youtube/Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="DW" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
-http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
+http://192.168.11.1:5600/youtube/tZT2MCYu6Zw
 #http://192.168.11.1:5600/4gtv/226
 
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
