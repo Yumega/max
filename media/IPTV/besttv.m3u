@@ -2,9 +2,9 @@
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://192.168.11.1:35455/youtube/bGIIO3HuNyI
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
-http://192.168.11.1:5600/youtube/o_-hSMgpAzs
+http://192.168.11.1:35455/youtube/o_-hSMgpAzs
 #EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
-http://192.168.11.1:5600/youtube/9IyeiwaD1NM
+http://192.168.11.1:35455/youtube/vr3XyVCR4T0
 
 #EXTINF:-1 tvg-id="BBCWORLDNEWS" tvg-name="BBCWORLDNEWS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
 https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
