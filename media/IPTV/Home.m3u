@@ -11,7 +11,8 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a6b92f6e22a6173797896
 #EXTINF:-1 channel-id="XNBCN-CMS" tvg-id="xumo-99991247" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/NBCnews.png" group-title="NEWS",NBC新闻
 http://192.168.11.1:7777/xumo/watch/99991247
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+http://192.168.11.1:5004/DaddyLive/watch/345
+#https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="BBCWORLDNEWS" tvg-name="BBCWORLDNEWS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
 https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #http://192.168.11.1:7777/xumo/watch/99951298
