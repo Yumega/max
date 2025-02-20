@@ -1,46 +1,6 @@
 #EXTM3U
 #EXTINF:-1 channelID='521' tvg-num='1' tvg-chno='1' tvg-name='#Vamos Spain' tvg-id='521' group-title='DaddyLive',#Vamos Spain
 http://192.168.11.1:5004/DaddyLive/watch/521
-#EXTINF:-1 channelID='501' tvg-num='2' tvg-chno='2' tvg-name='18+ (Player-01)' tvg-id='501' group-title='DaddyLive',18+ (Player-01)
-http://192.168.11.1:5004/DaddyLive/watch/501
-#EXTINF:-1 channelID='502' tvg-num='3' tvg-chno='3' tvg-name='18+ (Player-02)' tvg-id='502' group-title='DaddyLive',18+ (Player-02)
-http://192.168.11.1:5004/DaddyLive/watch/502
-#EXTINF:-1 channelID='503' tvg-num='4' tvg-chno='4' tvg-name='18+ (Player-03)' tvg-id='503' group-title='DaddyLive',18+ (Player-03)
-http://192.168.11.1:5004/DaddyLive/watch/503
-#EXTINF:-1 channelID='504' tvg-num='5' tvg-chno='5' tvg-name='18+ (Player-04)' tvg-id='504' group-title='DaddyLive',18+ (Player-04)
-http://192.168.11.1:5004/DaddyLive/watch/504
-#EXTINF:-1 channelID='505' tvg-num='6' tvg-chno='6' tvg-name='18+ (Player-05)' tvg-id='505' group-title='DaddyLive',18+ (Player-05)
-http://192.168.11.1:5004/DaddyLive/watch/505
-#EXTINF:-1 channelID='506' tvg-num='7' tvg-chno='7' tvg-name='18+ (Player-06)' tvg-id='506' group-title='DaddyLive',18+ (Player-06)
-http://192.168.11.1:5004/DaddyLive/watch/506
-#EXTINF:-1 channelID='507' tvg-num='8' tvg-chno='8' tvg-name='18+ (Player-07)' tvg-id='507' group-title='DaddyLive',18+ (Player-07)
-http://192.168.11.1:5004/DaddyLive/watch/507
-#EXTINF:-1 channelID='508' tvg-num='9' tvg-chno='9' tvg-name='18+ (Player-08)' tvg-id='508' group-title='DaddyLive',18+ (Player-08)
-http://192.168.11.1:5004/DaddyLive/watch/508
-#EXTINF:-1 channelID='509' tvg-num='10' tvg-chno='10' tvg-name='18+ (Player-09)' tvg-id='509' group-title='DaddyLive',18+ (Player-09)
-http://192.168.11.1:5004/DaddyLive/watch/509
-#EXTINF:-1 channelID='510' tvg-num='11' tvg-chno='11' tvg-name='18+ (Player-10)' tvg-id='510' group-title='DaddyLive',18+ (Player-10)
-http://192.168.11.1:5004/DaddyLive/watch/510
-#EXTINF:-1 channelID='511' tvg-num='12' tvg-chno='12' tvg-name='18+ (Player-11)' tvg-id='511' group-title='DaddyLive',18+ (Player-11)
-http://192.168.11.1:5004/DaddyLive/watch/511
-#EXTINF:-1 channelID='512' tvg-num='13' tvg-chno='13' tvg-name='18+ (Player-12)' tvg-id='512' group-title='DaddyLive',18+ (Player-12)
-http://192.168.11.1:5004/DaddyLive/watch/512
-#EXTINF:-1 channelID='513' tvg-num='14' tvg-chno='14' tvg-name='18+ (Player-13)' tvg-id='513' group-title='DaddyLive',18+ (Player-13)
-http://192.168.11.1:5004/DaddyLive/watch/513
-#EXTINF:-1 channelID='514' tvg-num='15' tvg-chno='15' tvg-name='18+ (Player-14)' tvg-id='514' group-title='DaddyLive',18+ (Player-14)
-http://192.168.11.1:5004/DaddyLive/watch/514
-#EXTINF:-1 channelID='515' tvg-num='16' tvg-chno='16' tvg-name='18+ (Player-15)' tvg-id='515' group-title='DaddyLive',18+ (Player-15)
-http://192.168.11.1:5004/DaddyLive/watch/515
-#EXTINF:-1 channelID='516' tvg-num='17' tvg-chno='17' tvg-name='18+ (Player-16)' tvg-id='516' group-title='DaddyLive',18+ (Player-16)
-http://192.168.11.1:5004/DaddyLive/watch/516
-#EXTINF:-1 channelID='517' tvg-num='18' tvg-chno='18' tvg-name='18+ (Player-17)' tvg-id='517' group-title='DaddyLive',18+ (Player-17)
-http://192.168.11.1:5004/DaddyLive/watch/517
-#EXTINF:-1 channelID='518' tvg-num='19' tvg-chno='19' tvg-name='18+ (Player-18)' tvg-id='518' group-title='DaddyLive',18+ (Player-18)
-http://192.168.11.1:5004/DaddyLive/watch/518
-#EXTINF:-1 channelID='519' tvg-num='20' tvg-chno='20' tvg-name='18+ (Player-19)' tvg-id='519' group-title='DaddyLive',18+ (Player-19)
-http://192.168.11.1:5004/DaddyLive/watch/519
-#EXTINF:-1 channelID='520' tvg-num='21' tvg-chno='21' tvg-name='18+ (Player-20)' tvg-id='520' group-title='DaddyLive',18+ (Player-20)
-http://192.168.11.1:5004/DaddyLive/watch/520
 #EXTINF:-1 channelID='857' tvg-num='22' tvg-chno='22' tvg-name='20 Mediaset Italy' tvg-id='857' group-title='DaddyLive',20 Mediaset Italy
 http://192.168.11.1:5004/DaddyLive/watch/857
 #EXTINF:-1 channelID='726' tvg-num='23' tvg-chno='23' tvg-name='3sat DE' tvg-id='726' group-title='DaddyLive',3sat DE
