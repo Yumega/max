@@ -17,6 +17,14 @@ http://192.168.11.1:5004/DaddyLive/watch/345
 https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #http://192.168.11.1:7777/xumo/watch/99951298
 #http://192.168.11.1:5600/thetv/bbc-world-news-hd
+
+#EXTINF:-1 channelID='327' tvg-num='402' tvg-chno='402' tvg-name='MSNBC' tvg-id='327' tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title='NEWS',MSNBC
+http://192.168.11.1:5004/DaddyLive/watch/327
+#EXTINF:-1 channelID='309' tvg-num='187' tvg-chno='187' tvg-name='CNBC USA' tvg-id='309' tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnbc.png" group-title='NEWS',CNBC
+http://192.168.11.1:5004/DaddyLive/watch/309
+#EXTINF:-1 channelID='99951197' tvg-num='8' tvg-chno='8' tvg-name='Reuters Now' tvg-id='99951197' tvg-logo='https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/Reuters.png' group-title='NEWS',Reuters
+http://192.168.11.1:5004/XUMO/watch/99951197
+
 #EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="France-24" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
