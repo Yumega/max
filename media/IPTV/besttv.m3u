@@ -12,11 +12,11 @@ https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 http://192.168.11.1:5004/DaddyLive/watch/345
 #https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 
-#EXTINF:-1 channelID='327' tvg-num='402' tvg-chno='402' tvg-name='MSNBC' tvg-id='327' tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title='NEWS',MSNBC
+#EXTINF:-1 tvg-id="327" tvg-name="MSNBC" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
 http://192.168.11.1:5004/DaddyLive/watch/327
-#EXTINF:-1 channelID='309' tvg-num='187' tvg-chno='187' tvg-name='CNBC USA' tvg-id='309' tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnbc.png" group-title='NEWS',CNBC
+#EXTINF:-1 tvg-id="309" tvg-name="CNBC USA" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnbc.png" group-title="NEWS",CNBC
 http://192.168.11.1:5004/DaddyLive/watch/309
-#EXTINF:-1 channelID='99951197' tvg-num='8' tvg-chno='8' tvg-name='Reuters Now' tvg-id='99951197' tvg-logo='https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/Reuters.png' group-title='NEWS',Reuters
+#EXTINF:-1 tvg-id="99951197" tvg-name="Reuters Now" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/Reuters.png" group-title="NEWS",Reuters
 http://192.168.11.1:5004/XUMO/watch/99951197
 
 #EXTINF:-1 tvg-id="ALJAZEERA" tvg-name="ALJAZEERA" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
