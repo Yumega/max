@@ -11,6 +11,14 @@ https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
 http://192.168.11.1:5004/DaddyLive/watch/345
 #https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 channelID='327' tvg-num='402' tvg-chno='402' tvg-name='MSNBC' tvg-id='327' tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title='NEWS',MSNBC
+http://192.168.11.1:5004/DaddyLive/watch/327
+#EXTINF:-1 channelID='309' tvg-num='187' tvg-chno='187' tvg-name='CNBC USA' tvg-id='309' tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnbc.png" group-title='NEWS',CNBC
+http://192.168.11.1:5004/DaddyLive/watch/309
+#EXTINF:-1 channelID='99951197' tvg-num='8' tvg-chno='8' tvg-name='Reuters Now' tvg-id='99951197' tvg-logo='https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/Reuters.png' group-title='NEWS',Reuters
+http://192.168.11.1:5004/XUMO/watch/99951197
+
 #EXTINF:-1 tvg-id="ALJAZEERA" tvg-name="ALJAZEERA" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
@@ -18,7 +26,7 @@ http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN Live" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="新闻",CCTV新闻
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="新闻",央视新闻
 http://192.168.11.1:35455/itv/5000000011000031108.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://192.168.11.1:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
