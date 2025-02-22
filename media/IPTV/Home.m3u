@@ -6,9 +6,7 @@ http://192.168.11.1:35455/youtube/o_-hSMgpAzs
 #EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
 http://192.168.11.1:35455/youtube/vr3XyVCR4T0
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
-http://192.168.11.1:8404/thetvapp/CNN
-#http://192.168.11.1:5004/DaddyLive/watch/345
+
 #EXTINF:-1 tvg-id="BBCWORLDNEWS" tvg-name="BBCWORLDNEWS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
 http://192.168.11.1:8404/thetvapp/BBCWorldNewsNorthAmerica
 #https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
@@ -16,11 +14,18 @@ http://192.168.11.1:8404/thetvapp/BBCWorldNewsNorthAmerica
 #EXTINF:-1 tvg-id="327" tvg-name="MSNBC" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
 http://192.168.11.1:8404/thetvapp/MSNBC
 #http://192.168.11.1:5004/DaddyLive/watch/327
-#EXTINF:-1 tvg-id="309" tvg-name="CNBC USA" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnbc.png" group-title="NEWS",CNBC
-http://192.168.11.1:8404/thetvapp/CNBC
-#http://192.168.11.1:5004/DaddyLive/watch/309
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
+http://192.168.11.1:8404/thetvapp/CNN
+#http://192.168.11.1:5004/DaddyLive/watch/345
+#EXTINF:-1 tvg-id="FoxNewsChannel" tvg-name="FOX News Channel" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
+http://192.168.11.1:8404/thetvapp/FoxNewsChannel
 #EXTINF:-1 tvg-id="99951197" tvg-name="Reuters Now" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/Reuters.png" group-title="NEWS",Reuters
 http://192.168.11.1:5004/XUMO/watch/99951197
+
+#EXTINF:-1 channel-id="XCBSNWS-CMS" tvg-id="xumo-99991158" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cbsnews.png" group-title="NEWS",CBS新闻
+http://192.168.11.1:5004/XUMO/watch/99991158
+#EXTINF:-1 channel-id="XNBCN-CMS" tvg-id="xumo-99991247" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/NBCnews.png" group-title="NEWS",NBC新闻
+http://192.168.11.1:7777/xumo/watch/99991247
 
 #EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
@@ -30,11 +35,6 @@ http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
 http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
-
-#EXTINF:-1 channel-id="XCBSNWS-CMS" tvg-id="xumo-99991158" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cbsnews.png" group-title="NEWS",CBS新闻
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a6b92f6e22a617379789618/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:-1 channel-id="XNBCN-CMS" tvg-id="xumo-99991247" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/NBCnews.png" group-title="NEWS",NBC新闻
-http://192.168.11.1:7777/xumo/watch/99991247
 
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/china/henan/henantv.png" group-title="卫视",河南卫视
 http://192.168.11.1:35455/itv/5000000011000031119.m3u8?cdn=bestzb
@@ -64,6 +64,9 @@ http://192.168.11.1:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
 http://192.168.11.1:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV16.png" group-title="文体", CCTV奥林
 http://192.168.11.1:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/other/nbcgolf.png" group-title="文体", NBC高夫
+http://192.168.11.1:8404/thetvapp/GolfChannel
 #EXTINF:-1 channel-id="XGLF-CMS" tvg-id="xumo-99991660" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/other/golfpass.png" group-title="文体",高夫PASS
 http://192.168.11.1:7777/xumo/watch/99991660
 #EXTINF:-1 channel-id="XPGAT-CMS" tvg-id="xumo-99991281" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/PGAtour.png" group-title="文体",PGA巡回
