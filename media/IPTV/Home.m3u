@@ -2,11 +2,9 @@
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://192.168.11.1:35455/youtube/LNux6O0Fj6A
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
-http://192.168.11.1:8404/4gtv/183
-#http://192.168.11.1:35455/youtube/o_-hSMgpAzs
+http://192.168.11.1:35455/youtube/o_-hSMgpAzs
 #EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
-http://192.168.11.1:8404/4gtv/30
-#http://192.168.11.1:35455/youtube/vr3XyVCR4T0
+http://192.168.11.1:35455/youtube/vr3XyVCR4T0
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
 http://192.168.11.1:8404/thetvapp/CNN
@@ -25,14 +23,11 @@ http://192.168.11.1:8404/thetvapp/CNBC
 http://192.168.11.1:5004/XUMO/watch/99951197
 
 #EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
-http://192.168.11.1:8404/4gtv/85
-#http://192.168.11.1:35455/youtube/gCNeDWCI0vo
+http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="France-24" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
-http://192.168.11.1:8404/4gtv/316
-#http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
+http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="DW" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
-http://192.168.11.1:8404/4gtv/226
-#http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
+http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 
