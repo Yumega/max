@@ -32,7 +32,7 @@ http://192.168.11.1:8404/thetvapp/CNN
 #EXTINF:-1 tvg-id="FoxNewsChannel" tvg-name="FOX News Channel" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
 http://192.168.11.1:8404/thetvapp/FoxNewsChannel
 #EXTINF:-1 tvg-id="99951197" tvg-name="Reuters Now" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/Reuters.png" group-title="NEWS",Reuters
-http://192.168.11.1:5004/XUMO/watch/99951197
+#http://192.168.11.1:5004/XUMO/watch/99951197
 
 #EXTINF:-1 channel-id="XCBSNWS-CMS" tvg-id="xumo-99991158" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cbsnews.png" group-title="NEWS",CBS新闻
 http://192.168.11.1:5004/XUMO/watch/99991158
@@ -42,9 +42,9 @@ http://192.168.11.1:7777/xumo/watch/99991247
 #EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="France-24" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
-http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
+#http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="DW" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
-http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
+#http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 
