@@ -35,9 +35,8 @@ http://192.168.11.1:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
 http://192.168.11.1:35455/itv/5000000008000023254.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV4k
 
-#EXTINF:-1 tvg-id="东方影视" tvg-name="上海东方影视" tvg-logo="https://epg.v1.mk/logo/上海东方影视.png" group-title="上海",上海东方影视
+#EXTINF:-1 tvg-id="东方影视" tvg-name="东方影视" tvg-logo="https://epg.v1.mk/logo/上海东方影视.png" group-title="上海",上海东方影视
 http://192.168.11.1:35455/itv/5000000010000032212.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://epg.v1.mk/logo/纪实人文.png" group-title="上海",上海纪实人文
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://epg.v1.mk/logo/上海新闻综合.png" group-title="上海",上海新闻综合
 http://192.168.11.1:35455/itv/5000000011000031110.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="1874" tvg-name="北京纪实科教" tvg-logo="https://epg.v1.mk/logo/北京纪实科教.png" group-title="卫视",北京纪实科教
