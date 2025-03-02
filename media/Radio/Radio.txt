@@ -1,14 +1,8 @@
-#EXTINF:-1, Buddha Chill - Buddha Chill
-https://live.radiospinner.com/bddhbrchll-96
-#EXTINF:-1, East Meditation - East Meditation
-https://live.radiospinner.com/stmdttn-96
+NPR Classical
+https://stream.houstonpublicmedia.org/classical-mp3
 
-
-East Meditation
-https://live.radiospinner.com/stmdttn-96
-
-Buddha Chill
-https://live.radiospinner.com/bddhbrchll-96
+NPR新闻
+https://stream.houstonpublicmedia.org/news-mp3
 
 family977
 http://onair.family977.com.tw:8000/live.mp3
@@ -22,9 +16,6 @@ http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8
 凤凰中文
 http://playtv-live.ifeng.com/live/06OLEGEGM4G_audio.m3u8
 
-汉声广播
-http://live.cooltv.top/tv/voh.php?id=1
-
 Vlietstad
 https://streamer.hosting078.nl:1565/stream
 
@@ -35,12 +26,6 @@ DEFJAY
 https://icepool.silvacast.com/DEFJAY.mp3
 https://icepool.silvacast.com/ESCRADIO.mp3
 https://pool.radiopaloma.de/RP-Fresh.mp3‘
-
-Deep
-http://37.187.93.104:8589/deep
-
-Bodyymind One
-https://chai5she.cdn.dvmr.fr/beatmachine
 
 hitsone
 https://radio12.pro-fhi.net/live/Hits1radio
@@ -63,8 +48,7 @@ https://live.tr-radio.com/live/live/playlist.m3u8
 
 Boss radio
 http://n02.radiojar.com/ehzvurp9tv8uv?rj-ttl=5&rj-tok=AAABfJEQ-o8Aoz1TnFn55vdjTw
-Perth华语
-http://streamer2.rightclickitservices.com:7200/;
+
 栗子轻音乐
 http://lizeradio.com:8080/;&type=mp3
 
