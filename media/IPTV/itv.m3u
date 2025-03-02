@@ -7,9 +7,9 @@ http://192.168.11.1:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
 http://192.168.11.1:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV国际
 http://192.168.11.1:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV体育
+#EXTINF:-1 tvg-id="5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="体育",CCTV体育
 http://192.168.11.1:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="6" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="央视",CCTV体育+
+#EXTINF:-1 tvg-id="6" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="体育",CCTV体育+
 http://192.168.11.1:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="7" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",CCTV电影
 http://192.168.11.1:35455/itv/1000000005000265006.m3u8?cdn=ystenlive
@@ -29,11 +29,11 @@ http://192.168.11.1:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
 http://192.168.11.1:35455/itv/5000000011000031108.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="16" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV音乐
 http://192.168.11.1:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="7249" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV奥林
+#EXTINF:-1 tvg-id="7249" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="体育",CCTV奥林
 http://192.168.11.1:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="7249" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="4K频道",CCTV奥林-4K
+#EXTINF:-1 tvg-id="7249" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="体育",CCTV奥林-4K
 http://192.168.11.1:35455/itv/5000000008000023254.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="106" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K频道",CCTV4k
+#EXTINF:-1 tvg-id="106" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV4k
 http://192.168.11.1:35455/ysptp/cctv4k.m3u8
 
 #EXTINF:-1 tvg-id="上海东方影视" tvg-name="上海东方影视" tvg-logo="https://epg.v1.mk/logo/上海东方影视.png" group-title="上海",上海东方影视
@@ -47,7 +47,7 @@ http://192.168.11.1:35455/itv/1000000005000265020.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://epg.v1.mk/logo/上海都市.png" group-title="上海",上海都市频道
 http://192.168.11.1:35455/itv/5000000010000018926.m3u8?cdn=bestzb
 
-#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="上海",东方卫视
+#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="卫视",东方卫视
 http://192.168.11.1:35455/itv/1000000005000265018.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="卫视",北京卫视
 http://192.168.11.1:35455/itv/1000000005000265027.m3u8?cdn=ystenlive
