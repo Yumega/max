@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5.png" group-title="文体", CCTV体育
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5.png" group-title="体育", CCTV体育
 http://192.168.11.1:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5%2B.png" group-title="文体", CCTV体育+
+#EXTINF:-1 tvg-id="CCTV5-plus" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5%2B.png" group-title="体育", CCTV体育+
 http://192.168.11.1:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV16.png" group-title="文体", CCTV奥林
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV16.png" group-title="体育", CCTV奥林
 http://192.168.11.1:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/other/nbcgolf.png" group-title="文体", NBC高夫
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/other/nbcgolf.png" group-title="体育", NBC高夫
 http://192.168.11.1:8404/thetvapp/GolfChannel
-#EXTINF:-1 channel-id="XPGAT-CMS" tvg-id="xumo-99991281" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/PGAtour.png" group-title="文体",PGA巡回
+#EXTINF:-1 channel-id="XPGAT-CMS" tvg-id="xumo-99991281" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/PGAtour.png" group-title="体育",PGA巡回
 http://192.168.11.1:7777/xumo/watch/99991281
 
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
