@@ -5,7 +5,9 @@ http://191.177.1.1:35455/youtube/o_-hSMgpAzs
 http://191.177.1.1:35455/youtube/vr3XyVCR4T0
 #EXTINF:-1 tvg-id="370252" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://191.177.1.1:35455/youtube/gCNeDWCI0vo
-#EXTINF:-1 tvg-id="374123" tvg-name="FRANCE24 英文台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
+#EXTINF:-1 tvg-id="335054" tvg-name="FRANCE24E HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
 http://191.177.1.1:35455/youtube/Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="370254" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
 http://191.177.1.1:35455/youtube/tZT2MCYu6Zw
+#EXTINF:-1 tvg-id="335032" tvg-name="CNNI HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
+http://191.177.1.1:35455/youtube/tZT2MC55fgj
