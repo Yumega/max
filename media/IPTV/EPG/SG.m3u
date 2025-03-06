@@ -1,0 +1,9 @@
+#EXTM3U url-tvg="https://epg.pw/xmltv/epg_SG.xml"
+#EXTINF:-1 tvg-id="412201" tvg-name="CNN HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
+http://192.168.77.1:8404/thetvapp/CNN
+#EXTINF:-1 tvg-id="369726" tvg-name="France 24 (English)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
+http://191.177.1.1:35455/youtube/Ap-UM1O9RBU
+#EXTINF:-1 tvg-id="369766" tvg-name="Deutsche Welle (English)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
+http://191.177.1.1:35455/youtube/tZT2MCYu6Zw
+#EXTINF:-1 tvg-id="369749" tvg-name="CNN International (HD)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
+http://191.177.1.1:35455/youtube/tZT2MC55fgj
