@@ -12,11 +12,13 @@ http://192.168.11.1:8404/thetvapp/GolfChannel
 #EXTINF:-1 channel-id="XPGAT-CMS" tvg-id="xumo-99991281" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/PGAtour.png" group-title="体育",PGA巡回
 http://192.168.11.1:7777/xumo/watch/99991281
 
-#EXTINF:-1 tvg-id="410355" tvg-name="鳳凰衛視資訊台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
-https://cdn6.163189.xyz/live/fhzx/stream.m3u8
-#http://192.168.11.1:35455/youtube/LNux6O0Fj6A
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV 13" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="新闻",央视新闻
 http://192.168.11.1:35455/itv/5000000011000031108.m3u8?cdn=bestzb
+
+#SG
+#EXTINF:-1 tvg-id="369783" tvg-name="Phoenix InfoNews" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
+https://cdn6.163189.xyz/live/fhzx/stream.m3u8
+#http://192.168.11.1:35455/youtube/LNux6O0Fj6A
 
 #TW
 #EXTINF:-1 tvg-id="370183" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
