@@ -1,0 +1,6 @@
+#EXTM3U url-tvg="https://epg.pw/xmltv/epg_HK.xml"
+#EXTINF:-1 tvg-id="410378" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
+#EXTINF:-1 tvg-id="410355" tvg-name="鳳凰衛視資訊台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
+http://191.177.1.1:35455/youtube/LNux6O0Fj6A
+#EXTINF:-1 tvg-id="410314" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
+http://191.177.1.1:35455/youtube/Ap-UM1O9RBU
