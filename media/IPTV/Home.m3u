@@ -12,7 +12,7 @@ http://192.168.11.1:8404/thetvapp/GolfChannel
 #EXTINF:-1 channel-id="XPGAT-CMS" tvg-id="xumo-99991281" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/other/PGAtour.png" group-title="体育",PGA巡回
 http://192.168.11.1:7777/xumo/watch/99991281
 
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
+#EXTINF:-1 tvg-id="410355" tvg-name="鳳凰衛視資訊台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 https://cdn6.163189.xyz/live/fhzx/stream.m3u8
 #http://192.168.11.1:35455/youtube/LNux6O0Fj6A
 
@@ -35,7 +35,7 @@ http://192.168.11.1:8404/thetvapp/CNN
 #EXTINF:-1 tvg-id="FoxNewsChannel" tvg-name="FOX News Channel" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
 http://192.168.11.1:8404/thetvapp/FoxNewsChannel
 
-#EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
+#EXTINF:-1 tvg-id="335032" tvg-name="CNNI HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
