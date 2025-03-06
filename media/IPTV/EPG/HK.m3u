@@ -4,3 +4,5 @@
 http://191.177.1.1:35455/youtube/LNux6O0Fj6A
 #EXTINF:-1 tvg-id="410314" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
 http://191.177.1.1:35455/youtube/Ap-UM1O9RBU
+#EXTINF:-1 tvg-id="410305" tvg-name="CNN 國際新聞網絡" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
+https://191.177.1.1:35455/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
