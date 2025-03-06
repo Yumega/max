@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.pw/xmltv/epg_SG.xml.gz"
+#EXTM3U url-tvg="https://epg.pw/xmltv/epg_SG.xml"
 #EXTINF:-1 tvg-id="412201" tvg-name="CNN HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
 http://192.168.77.1:8404/thetvapp/CNN
 #EXTINF:-1 tvg-id="369726" tvg-name="France 24 (English)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
