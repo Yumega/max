@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://e.erw.cc/e.xml"
+#EXTM3U 
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://192.168.11.1:35455/itv/5000000004000002226.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV经济
