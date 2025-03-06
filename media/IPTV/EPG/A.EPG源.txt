@@ -1,0 +1,18 @@
+三星epg https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml
+PlutoTV https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml
+中文EPG http://epg.51zmt.top:8000/e.xml
+StirrEPG  https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Stirr/all.xml
+
+https://tvpass.org/epg.xml
+https://epg.112114.xyz/
+https://e.erw.cc/
+
+SG
+https://epg.pw/xmltv/epg_SG.xml
+HK
+https://epg.pw/xmltv/epg_HK.xml
+TW
+https://epg.pw/xmltv/epg_TW.xml
+
+https://assets.livednow.com/guide.html
+https://assets.livednow.com/epg.xml
