@@ -37,9 +37,6 @@ http://192.168.11.1:8404/thetvapp/MSNBC
 http://192.168.11.1:8404/thetvapp/CNN
 #http://192.168.11.1:5004/DaddyLive/watch/345
 
-#EXTINF:-1 channel-id="XFOXNMT-CMS" tvg-id="xumo-99991635" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
-http://192.168.11.1:5004/XUMO/watch/99991635
-
 #TW
 #EXTINF:-1 tvg-id="335032" tvg-name="CNNI HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
@@ -50,6 +47,9 @@ http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #SG
 #EXTINF:-1 tvg-id="369766" tvg-name="Deutsche Welle (English)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
 http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
+
+#EXTINF:-1 channel-id="XFOXNMT-CMS" tvg-id="xumo-99991635" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX LiveNow
+http://192.168.11.1:35455/youtube/b54Dl7uhz04
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://192.168.11.1:35455/itv/6000000001000029752.m3u8?cdn=wasusyt
