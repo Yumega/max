@@ -1,3 +1,0 @@
-fullboys.com##+js(prevent-window-open, ?key=)
-fullboys.com##.box-ads
-||*.*^$script,domain=fullboys.com
