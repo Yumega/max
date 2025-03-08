@@ -238,5 +238,3 @@ i.ifeng.com###root > div.index_bottom_box_CCgoj:nth-child(3)
 tech.ifeng.com###root > div.index_bottom_box_CCgoj:nth-child(3)
 i.ifeng.com###root > div.index_main_0YbAI:nth-child(2) > div.index_content_phGGj > div.index_content_lfS9V:first-child > div.index_link_wek7z:nth-child(9)
 i.ifeng.com###root > section.index_fixSlide_g93A-:nth-child(34)
-fullboys.com##+js(prevent-window-open, ?key=)
-fullboys.com##.box-ads
