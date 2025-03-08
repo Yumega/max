@@ -1,3 +1,6 @@
+#自定义
+https://raw.githubusercontent.com/Yumega/max/master/ios/safari/ADblock/Safariadblock.txt
+
 #adguard
 https://anti-ad.net/adguard.txt
 
@@ -16,12 +19,7 @@ https://anti-ad.net/easylist.txt(和adguard重复)
 https://easylist.to/easylist/easylist.txt(和adguard重复)
 
 
-#自定义
-https://raw.githubusercontent.com/Yumega/max/master/ios/safari/ADblock/Safariadblock.txt
-
-
-
-
-
-
-
+#anti-adblock-killer
+https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+https://filters.adtidy.org/windows/filters/19.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/antiadblock.txt
