@@ -7,7 +7,6 @@ https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
 
 #fanboy https://www.fanboy.co.nz/
 https://secure.fanboy.co.nz/fanboy-annoyance.txt
-https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt
 https://www.fanboy.co.nz/fanboy-cookiemonster.txt
 
 
