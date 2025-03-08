@@ -7,8 +7,9 @@ https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
 
 #fanboy https://www.fanboy.co.nz/
 https://secure.fanboy.co.nz/fanboy-annoyance.txt
-https://www.fanboy.co.nz/fanboy-cookiemonster.txt
 https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt
+https://www.fanboy.co.nz/fanboy-cookiemonster.txt
+
 
 #easylist
 https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
