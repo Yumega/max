@@ -1,14 +1,15 @@
-#brave
+#brave https://github.com/brave/adblock-lists/tree/master/brave-lists
 https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/brave-firstparty.txt
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
 
-#https://www.fanboy.co.nz/
+#fanboy https://www.fanboy.co.nz/
 https://secure.fanboy.co.nz/fanboy-annoyance.txt
 https://www.fanboy.co.nz/fanboy-cookiemonster.txt
 
 #easylist
 https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 
+#自定义
 https://raw.githubusercontent.com/Yumega/max/master/ios/safari/ADblock/Safariadblock.txt
 
 
