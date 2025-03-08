@@ -24,4 +24,4 @@ https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 https://filters.adtidy.org/windows/filters/19.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/antiadblock.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/antiadblock.txt
-https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/a08bba14ac98381813ecfd6b60d62f9056df5044/BaseFilter/sections/specific.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/specific.txt
