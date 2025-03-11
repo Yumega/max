@@ -7,5 +7,7 @@ http://192.168.11.1:8404/thetvapp/MSNBC
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
 http://192.168.11.1:8404/thetvapp/CNN
 #http://192.168.11.1:5004/DaddyLive/watch/345
+#EXTINF:-1 tvg-id="FoxNewsChannel" tvg-name="FOX News Channel" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
+http://192.168.11.1:8404/thetvapp/FoxNewsChannel
 #EXTINF:-1 tvg-id="GolfChannel" tvg-name="Golf Channel" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/other/nbcgolf.png" group-title="体育", NBC高夫
 http://192.168.11.1:8404/thetvapp/GolfChannel
