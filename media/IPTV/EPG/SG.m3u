@@ -7,5 +7,7 @@ http://191.177.1.1:35455/youtube/Ap-UM1O9RBU
 http://191.177.1.1:35455/youtube/tZT2MCYu6Zw
 #EXTINF:-1 tvg-id="369749" tvg-name="CNN International (HD)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 http://191.177.1.1:35455/youtube/tZT2MC55fgj
+#EXTINF:-1 tvg-id="369757" tvg-name="Sky News HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/skynews.png" group-title="NEWS",天空新闻
+http://191.177.1.1:35455/youtube/tZT2M58768
 #EXTINF:-1 tvg-id="369783" tvg-name="Phoenix InfoNews" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://191.177.1.1:35455/youtube/tZT2M5677
