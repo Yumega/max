@@ -32,6 +32,7 @@ https://jmp2.uk/sam-US4000033L.m3u8
 #http://192.168.11.1:5004/DaddyLive/watch/349
 #http://192.168.11.1:5004/XUMO/watch/99951298
 #http://192.168.11.1:8404/thetvapp/BBCWorldNewsNorthAmerica
+
 #EXTINF:-1 tvg-id="327" tvg-name="MSNBC" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
 http://192.168.11.1:8404/thetvapp/MSNBC
 #http://192.168.11.1:5004/DaddyLive/watch/327
@@ -49,7 +50,7 @@ http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 
 #SG
 #EXTINF:-1 tvg-id="369757" tvg-name="Sky News HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/skynews.png" group-title="NEWS",天空新闻
-https://jmp2.uk/sam-US4000033L.m3u8
+https://jmp2.uk/sam-USBB52000022Q.m3u8
 #EXTINF:-1 tvg-id="369766" tvg-name="Deutsche Welle (English)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
 http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
 
