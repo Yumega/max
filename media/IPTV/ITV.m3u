@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 https://cdn6.163189.xyz/live/fhzx/stream.m3u8
 #EXTINF:-1,tvg-id="351" tvg-name="重温经典" tvg-logo="https://epg.v1.mk/logo/BTV-重温经典.png" group-title="专业",重温经典
-http://192.168.11.1:35455/bptv/10000100000000050000000003887494.m3u8
+
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://192.168.11.1:35455/itv/5000000004000002226.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV经济
@@ -48,7 +48,6 @@ http://192.168.11.1:35455/itv/5000000010000018926.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="1874" tvg-name="北京纪实科教" tvg-logo="https://epg.v1.mk/logo/北京纪实科教.png" group-title="地方",北京纪实
 http://192.168.11.1:35455/itv/1000000001000001910.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="130" tvg-name="北京新闻" tvg-logo="https://epg.v1.mk/logo/北京新闻.png" group-title="地方",北京新闻
-http://192.168.11.1:35455/bptv/10000100000000050000000003870780.m3u8
 
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="卫视",东方卫视
 http://192.168.11.1:35455/itv/5000000004000014098.m3u8?cdn=bestzb
