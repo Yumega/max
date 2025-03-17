@@ -7,39 +7,39 @@ https://cdn6.163189.xyz/live/fhzx/stream.m3u8
 http://php.jdshipin.com/smt.php?id=inews_twn
 
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="央视",CCTV综合
-http://192.168.11.1:35455/itv/5000000004000002226.m3u8?cdn=bestzb
+http://192.168.11.1:35455/gaoma/cctv1.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV经济
-http://192.168.11.1:35455/itv/6000000001000014161.m3u8?cdn=wasusyt
+http://192.168.11.1:35455/gaoma/cctv2.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV3.png" group-title="央视",CCTV综艺
-http://192.168.11.1:35455/itv/6000000001000022313.m3u8?cdn=wasusyt
+http://192.168.11.1:35455/gaoma/cctv3.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV国际
-http://192.168.11.1:35455/itv/5000000011000031102.m3u8?cdn=bestzb
+http://192.168.11.1:35455/gaoma/cctv4.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV5.png" group-title="体育",CCTV体育
-http://192.168.11.1:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
+http://192.168.11.1:35455/gaoma/cctv5.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV5%2B.png" group-title="体育",CCTV体育+
-http://192.168.11.1:35455/itv/6000000001000015875.m3u8?cdn=wasusyt
+http://192.168.11.1:35455/gaoma/cctv5p.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",CCTV电影
-http://192.168.11.1:35455/itv/6000000001000004574.m3u8?cdn=wasusyt
+http://192.168.11.1:35455/bptv/10000100000000050000000003870749.m3u8
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV7.png" group-title="央视",CCTV军事
-http://192.168.11.1:35455/itv/6000000001000009055.m3u8?cdn=wasusyt
+
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV剧集
-http://192.168.11.1:35455/itv/6000000001000001070.m3u8?cdn=wasusyt
+http://192.168.11.1:35455/gaoma/cctv8.m3u8
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="央视",CCTV纪录
-http://192.168.11.1:35455/itv/6000000001000032162.m3u8?cdn=wasusyt
+http://192.168.11.1:35455/gaoma/cctv9.m3u8
 #EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="央视",CCTV科教
-http://192.168.11.1:35455/itv/5000000004000012827.m3u8?cdn=bestzb
+http://192.168.11.1:35455/gaoma/cctv10.m3u8
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="央视",CCTV戏曲
-http://192.168.11.1:35455/itv/5000000011000031106.m3u8?cdn=bestzb
+http://192.168.11.1:35455/gaoma/cctv11.m3u8
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",CCTV社法
-http://192.168.11.1:35455/itv/6000000001000022586.m3u8?cdn=wasusyt
+http://192.168.11.1:35455/gaoma/cctv12.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="央视",CCTV新闻
-http://192.168.11.1:35455/itv/5000000011000031108.m3u8?cdn=bestzb
+http://192.168.11.1:35455/gaoma/cctv13.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV音乐
-http://192.168.11.1:35455/itv/5000000011000031109.m3u8?cdn=bestzb
+http://192.168.11.1:35455/gaoma/cctv15.m3u8
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="体育",CCTV奥林
-http://192.168.11.1:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
+http://192.168.11.1:35455/gaoma/cctv16.m3u8
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="体育",CCTV奥林-4K
-http://192.168.11.1:35455/itv/5000000008000023254.m3u8?cdn=bestzb
+http://192.168.11.1:35455/gaoma/cctv4k16.m3u8
 #EXTINF:-1 tvg-id="26" tvg-name="CCTV4K" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV4k
 
 #EXTINF:-1 tvg-id="195" tvg-name="东方影视" tvg-logo="https://epg.v1.mk/logo/上海东方影视.png" group-title="地方",东方影视
@@ -81,4 +81,3 @@ http://192.168.11.1:35455/itv/6000000002000032344.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="171" tvg-name="求索生活" tvg-logo="https://epg.v1.mk/logo/求索生活.png" group-title="专业",求索生活
 http://192.168.11.1:35455/itv/6000000002000003382.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="351" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png" group-title="专业",重温经典
-http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
