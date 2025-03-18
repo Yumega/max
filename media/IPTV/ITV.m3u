@@ -32,7 +32,7 @@ http://192.168.11.1:35455/gaoma/cctv10.m3u8
 http://192.168.11.1:35455/gaoma/cctv11.m3u8
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",CCTV社法
 http://192.168.11.1:35455/gaoma/cctv12.m3u8
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="新闻",CCTV新闻
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="新闻",央视新闻
 http://192.168.11.1:35455/gaoma/cctv13.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV音乐
 http://192.168.11.1:35455/gaoma/cctv15.m3u8
