@@ -72,7 +72,8 @@ http://192.168.11.1:35455/bptv/10000100000000050000000003873461.m3u8
 http://192.168.11.1:35455/bptv/10000100000000050000000003873474.m3u8
 #EXTINF:-1 tvg-id="88" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="卫视",浙江卫视
 http://192.168.11.1:35455/bptv/10000100000000050000000003873464.m3u8
-#EXTINF:-1,tvg-id="184" tvg-name="求索动物" tvg-logo="https://epg.v1.mk/logo/求索动物.png" group-title="专业",求索动物
+
+#EXTINF:-1 tvg-id="184" tvg-name="求索动物" tvg-logo="https://epg.v1.mk/logo/求索动物.png" group-title="专业",求索动物
 
 #EXTINF:-1 tvg-id="149" tvg-name="求索纪录" tvg-logo="https://epg.v1.mk/logo/求索纪录.png" group-title="专业",求索纪录
 
