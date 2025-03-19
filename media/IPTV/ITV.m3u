@@ -50,7 +50,7 @@ http://192.168.11.1:35455/gaoma/cctv4k_10m.m3u8
 
 #EXTINF:-1 tvg-id="136" tvg-name="北京纪实科教" tvg-logo="https://epg.v1.mk/logo/北京纪实科教.png" group-title="地方",北京纪实
 
-#EXTINF:-1,tvg-id="130" tvg-name="北京新闻" tvg-logo="https://epg.v1.mk/logo/北京新闻.png" group-title="地方",北京新闻
+#EXTINF:-1 tvg-id="130" tvg-name="北京新闻" tvg-logo="https://epg.v1.mk/logo/北京新闻.png" group-title="地方",北京新闻
 http://192.168.11.1:35455/bptv/10000100000000050000000003870780.m3u8
 #EXTINF:-1 tvg-id="80" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="卫视",东方卫视
 http://192.168.11.1:35455/bptv/10000100000000050000000003873462.m3u8
@@ -74,11 +74,11 @@ http://192.168.11.1:35455/bptv/10000100000000050000000003873474.m3u8
 http://192.168.11.1:35455/bptv/10000100000000050000000003873464.m3u8
 #EXTINF:-1,tvg-id="184" tvg-name="求索动物" tvg-logo="https://epg.v1.mk/logo/求索动物.png" group-title="专业",求索动物
 
-#EXTINF:-1,tvg-id="149" tvg-name="求索纪录" tvg-logo="https://epg.v1.mk/logo/求索纪录.png" group-title="专业",求索纪录
+#EXTINF:-1 tvg-id="149" tvg-name="求索纪录" tvg-logo="https://epg.v1.mk/logo/求索纪录.png" group-title="专业",求索纪录
 
-#EXTINF:-1,tvg-id="150" tvg-name="求索科学" tvg-logo="https://epg.v1.mk/logo/求索科学.png" group-title="专业",求索科学
+#EXTINF:-1 tvg-id="150" tvg-name="求索科学" tvg-logo="https://epg.v1.mk/logo/求索科学.png" group-title="专业",求索科学
 
-#EXTINF:-1,tvg-id="171" tvg-name="求索生活" tvg-logo="https://epg.v1.mk/logo/求索生活.png" group-title="专业",求索生活
+#EXTINF:-1 tvg-id="171" tvg-name="求索生活" tvg-logo="https://epg.v1.mk/logo/求索生活.png" group-title="专业",求索生活
 
-#EXTINF:-1,tvg-id="351" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png" group-title="fav",重温经典
+#EXTINF:-1 tvg-id="351" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png" group-title="fav",重温经典
 http://192.168.11.1:35455/bptv/10000100000000050000000003887494.m3u8
