@@ -1,9 +1,6 @@
 iPhone pairing失效重新配对
 1,打开sidestore选择setting，选择reset pairing file
-2,打开windows powershell 输入以下命令
-cd C:\Users\win8.1\Desktop\jitterbugpair
- .\jitterbugpair.exe
-然后产生xxxxxx.mobiledevicepairing文件，传到iPhone
+2,打开运行jitterbugpair.exe，产生xxxxxx.mobiledevicepairing文件，传到iPhone
 3,启动sidestore APP,添加 xxxxxx.mobiledevicepairing
 
 初次安装教程：
