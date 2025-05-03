@@ -1,4 +1,8 @@
 ! Title: Safari自定义过滤
+||cloudflareinsights.com^$script,domain=fullboys.com
+||audiencegarret.com^$script,domain=fullboys.com
+||clobberprocurertightwad.com^$script,domain=fullboys.com
+||chaseherbalpasty.com^$script,domain=fullboys.com
 x.com##.r-1wbh5a2.r-16y2uox.r-1t2qqvi.r-s8bhmr.r-obd0qt.r-15ysp7h.r-1777fci.r-1pz39u2.css-175oi2r > .css-175oi2r
 x.com###layers > div.css-175oi2r.r-aqfbo4.r-
 cn.wsj.com##.wsj-ad-disclaimer
@@ -67,45 +71,6 @@ zh.m.wikipedia.org##.ambox
 zh.m.wikipedia.org##.reference
 zh.m.wikipedia.org##.footer-content.post-content
 zh.m.wikipedia.org###asn-dismissable-notice
-baidu.com###page-copyright
-baidu.com##.openImg
-mbd.baidu.com##.uukjsi6a_zpZccrqYiI3k
-mbd.baidu.com##._3RkCqLmiQurtlRa6HuaH16
-mbd.baidu.com##._1-nFvWd71g07irMlxzeVz_
-mbd.baidu.com##.contentImg
-baijiahao.baidu.com##.headDeflectorContainer
-baijiahao.baidu.com##.newHeadDeflectorContainer
-baijiahao.baidu.com##.wxUnfoldText
-baijiahao.baidu.com##.text.contentImg
-baijiahao.baidu.com##.contentImg
-||tb3.bdstatic.com/wise/static/core/img/pic_bottom.cdcb3129.png$image
-||tb3.bdstatic.com/wise/static/core/img/logo_tieba.47e0648b.png$image
-m.baidu.com##.header-wrapper__2seyn.c-row-tile
-m.baidu.com##.c-row.c-gap-top-small
-m.baidu.com##.c-invoke-class.c-blocka > .c-img-wrapper
-m.baidu.com###wenda_inquiry
-m.baidu.com###relativewords > div.rw-list-container.rw-list-container2:last-child > div.c-line-clamp1:last-child
-m.baidu.com###page-ft > div.se-ft-promlink:last-child
-m.baidu.com##div:nth-of-type(6)
-m.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap >.c-line-ivkmask.c-line-clamp1 >.c-color-gray
-m.baidu.com##.rw-list-container2.rw-list-container >.c-line-clamp1 > .c-color-gray
-m.baidu.com##.se-page-relative
-m.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap
-m.baidu.com##.c-invoke-show-class__NcU4a.c-line-clamp1
-m.baidu.com##.card-d20__3bRBw.cardContainer2__25srt.cardContainer__3-Ruv.c-gap-inner-bottom._3borM.c-container
-www.baidu.com###header > div > div
-www.baidu.com##.card-d20__3bRBw.cardContainer2__25srt.cardContainer__3-Ruv.c-gap-inner-bottom._3borM.c-container
-www.baidu.com##.se-page-relative
-www.baidu.com##.c-touchable-feedback-no-default.c-touchable-feedback .c-row.c-gap-top-small
-www.baidu.com##.c-invoke-class.c-blocka > .c-img-wrapper
-www.baidu.com##.c-result-content > ._1KoPe.c-zk-container._3borM.c-container
-www.baidu.com##.c-invoke-show-class__NcU4a.c-line-clamp1
-www.baidu.com##.c-zk-first-card.c-zk-container.c-sigma-container.zk-kg-header__2B3nM._3borM.c-container > ._2x_-s
-www.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap
-www.baidu.com##.c-gap-bottom-tiny.three-image__3glM7.c-row
-baike.baidu.com##.qtqy-container
-baike.baidu.com##.tashuo-list
-baike.baidu.com##.cSQWSrwEDN7
 m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child
 m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child > a.open-app-a:last-child > button.open-app
 m.ithome.com##div.open-app-banner:last-child
