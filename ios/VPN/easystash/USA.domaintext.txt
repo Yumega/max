@@ -44,6 +44,11 @@ play.itunes.apple.com
 .akamaized.net
 .mizhls.ru
 cnn-cnninternational-1-eu.rakuten.wurl.tv
+.b-cdn.net
+.jwpcdn.com
+.fullboys.com
+fullboys.com
+jwplayer-dualstack.map.fastly.net
 #Spotify
 .audio4-ak-spotify-com.akamaized.net
 .heads-ak-spotify-com.akamaized.net
