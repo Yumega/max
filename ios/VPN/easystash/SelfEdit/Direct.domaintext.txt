@@ -80,17 +80,22 @@ app-analytics-services.com
 .wswebpic.com
 .huajiao.com
 
+#AppleStore
+.apple.com
+apps.apple.com
+itunes.apple.com
 #Apple
+gspe19-cn-ssl.ls.apple.com
+guzzoni.apple.com
+.guzzoni.apple.com
 pd.itunes.apple.com
 pd-itunes.apple.com
 static.gc.apple.com
 init.gc.apple.com
-itunes.apple.com
 iphone-ld.apple.com
 ocsp2.apple.com
 ocsp.apple.com
 swallow.apple.com
-.guzzoni.apple.com
 time.apple.com
 captive.apple.com
 e.crashlytics.com
