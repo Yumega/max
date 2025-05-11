@@ -3,21 +3,23 @@
 http://php.jdshipin.com/smt.php?id=jade_twn
 #EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+#EXTINF:-1 tvg-id="193" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-id="225" tvg-name="无线新闻" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB4.png" group-title="新闻",无线新闻
 http://php.jdshipin.com/smt.php?id=inews_twn
 
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="fav",CCTV综合
-http://192.168.11.1:35455/bptv/10000100000000050000000003864351.m3u8
+
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="fav",CCTV经济
-http://192.168.11.1:35455/bptv/10000100000000050000000003870745.m3u8
+
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV3.png" group-title="fav",CCTV综艺
-http://192.168.11.1:35455/bptv/10000100000000050000000003870746.m3u8
+
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="fav",CCTV国际
-http://192.168.11.1:35455/bptv/10000100000000050000000003870747.m3u8
+
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV5.png" group-title="体育",CCTV体育
-http://192.168.11.1:35455/bptv/10000100000000050000000003870748.m3u8
+
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV5%2B.png" group-title="体育",CCTV体育+
-http://192.168.11.1:35455/bptv/10000100000000050000000003870759.m3u8
+
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",CCTV电影
 
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV7.png" group-title="央视",CCTV军事
@@ -25,15 +27,15 @@ http://192.168.11.1:35455/bptv/10000100000000050000000003870759.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV剧集
 
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="fav",CCTV纪录
-http://192.168.11.1:35455/bptv/10000100000000050000000003870752.m3u8
+
 #EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="fav",CCTV科教
-http://192.168.11.1:35455/bptv/10000100000000050000000003870753.m3u8
+
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="央视",CCTV戏曲
 
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",CCTV社法
 
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="新闻",央视新闻
-http://192.168.11.1:35455/bptv/10000100000000050000000004796248.m3u8
+
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV音乐
 
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="体育",CCTV奥林
