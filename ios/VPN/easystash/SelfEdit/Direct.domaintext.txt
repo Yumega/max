@@ -20,6 +20,7 @@ cloudflare-dns.com
 .aliyuncs.com
 .doubao.com
 #wise
+.cloudfront.net
 .wise.com
 .mixpanel.com
 .datatheorem.com
