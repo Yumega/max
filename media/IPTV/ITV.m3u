@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/kuke31/xmlgz/refs/heads/main/e.xml.gz"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/kuke31/xmlgz/refs/heads/main/e.xml"
 #EXTINF:-1 tvg-id="189" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="香港",翡翠台
 http://php.jdshipin.com/smt.php?id=jade_twn
 #EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
