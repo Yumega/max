@@ -1,8 +1,7 @@
 #EXTM3U url-tvg="https://epg.pw/xmltv/epg_HK.xml"
-#EXTINF:-1 tvg-id="410274" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",ViuTV
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1 tvg-id="410273" tvg-name="ViuTVsix" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",ViuTV6
+#EXTINF:-1 tvg-id="410274" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/other/viutv.png" group-title="新闻",ViuTV
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
+#EXTINF:-1 tvg-id="410273" tvg-name="ViuTVsix" tvg-logo="" group-title="新闻",ViuTV6
 #EXTINF:-1 tvg-id="410305" tvg-name="CNN 國際新聞網絡" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="410314" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
@@ -12,4 +11,4 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 
 #EXTINF:-1 tvg-id="410311" tvg-name="DW (English)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
-http://192.168.11.1:35455/youtube/tZT2MCYu6Zw
+http://192.168.11.1:35455/youtube/LuKwFajn37U
