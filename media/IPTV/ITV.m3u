@@ -9,7 +9,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 http://php.jdshipin.com/smt.php?id=inews_twn
 
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="fav",CCTV综合
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226635/1.m3u8
+http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226737/1.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="fav",CCTV经济
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226739/1.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV3.png" group-title="fav",CCTV综艺
