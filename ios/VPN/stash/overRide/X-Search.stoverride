@@ -34,8 +34,8 @@ http:
     # ytbw xxx (YouTubeWeb)
     - ^https:\/\/duckduckgo.com\/\?q=ytbw(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
    
-    # wb xxx (微博)
-    - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ weibointernational://searchall?q=$2 302
+    # wbss xxx (微博)
+    - ^https:\/\/duckduckgo.com\/\?q=wbss(\+|%20)([^&]+).+ weibointernational://searchall?q=$2 302
 
     # rd xxx (Reddit)
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
@@ -61,8 +61,8 @@ http:
     # zm xxx (字幕搜索)
     - ^https:\/\/duckduckgo.com\/\?q=zm(\+|%20)([^&]+).+ https://subhdtw.com/search/$2 302
 
-    # wbwy xxx (微博网页)
-    - ^https:\/\/duckduckgo.com\/\?q=wbwy(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
+    # wb xxx (微博网页)
+    - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
 
     # ddg xxx (DuckDuckGo)
     - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
