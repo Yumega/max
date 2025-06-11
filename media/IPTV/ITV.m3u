@@ -8,11 +8,11 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-id="225" tvg-name="无线新闻" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB4.png" group-title="新闻",无线新闻
 http://php.jdshipin.com/smt.php?id=inews_twn
 
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="fav",CCTV综合
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226737/1.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="fav",CCTV经济
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226739/1.m3u8
-#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV3.png" group-title="fav",CCTV综艺
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV3.png" group-title="央视",CCTV综艺
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226720/1.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="fav",CCTV国际
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226725/1.m3u8
@@ -26,9 +26,9 @@ http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226699/1.m3u8
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226721/1.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV剧集
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226715/1.m3u8
-#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="fav",CCTV纪录
+#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="央视",CCTV纪录
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226651/1.m3u8
-#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="fav",CCTV科教
+#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="央视",CCTV科教
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226708/1.m3u8
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="央视",CCTV戏曲
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226714/1.m3u8
