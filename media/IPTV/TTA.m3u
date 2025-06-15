@@ -1,6 +1,7 @@
 #EXTM3U url-tvg="https://tvpass.org/epg.xml"
 #EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-name="BBC News North America HD SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
-https://tvpass.org/live/BBCAmericaEast/sd
+http://192.168.11.1:5004/XUMO/watch/99951298
+#https://tvpass.org/live/BBCAmericaEast/sd
 #https://tvpass.org/live/BBCAmericaEast/hd
 #EXTINF:-1 tvg-id="msnbc-usa" tvg-name="MSNBC USA SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
 https://tvpass.org/live/MSNBC/sd
