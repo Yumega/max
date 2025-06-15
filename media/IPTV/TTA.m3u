@@ -1,15 +1,12 @@
 #EXTM3U url-tvg="https://tvpass.org/epg.xml"
 #EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-name="BBC News North America HD SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
-http://192.168.11.1:5004/XUMO/watch/99951298
-#https://tvpass.org/live/BBCAmericaEast/sd
-#https://tvpass.org/live/BBCAmericaEast/hd
+https://fl3.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="msnbc-usa" tvg-name="MSNBC USA SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
-https://tvpass.org/live/MSNBC/sd
+https://fl3.moveonjoy.com/MSNBC/index.m3u8
 #http://192.168.11.1:5004/DaddyLive/watch/327
 #EXTINF:-1 tvg-id="cnn" tvg-name="CNN US SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
-https://tvpass.org/live/CNN/sd
-#http://192.168.11.1:5004/DaddyLive/watch/345
+http://192.168.11.1:5004/DaddyLive/watch/345
 #EXTINF:-1 tvg-id="fox-news" tvg-name="Fox News SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
-https://tvpass.org/live/FoxNewsChannel/sd
+http://192.168.11.1:5004/DaddyLive/watch/347
 #EXTINF:-1 tvg-id="GolfChannel" tvg-name="Golf Channel" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/other/nbcgolf.png" group-title="体育", NBC高夫
 
