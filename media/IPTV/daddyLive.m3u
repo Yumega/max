@@ -1,90 +1,50 @@
 #EXTM3U
 #EXTINF:-1 channelID="521" tvg-num="1" tvg-chno="1" tvg-name="#Vamos Spain" tvg-id="521" group-title="DaddyLive",#Vamos Spain
 http://192.168.11.1:5004/DaddyLive/watch/521
-#EXTINF:-1 channelID="99991247" tvg-num="1" tvg-chno="1" tvg-name="NBC News NOW" tvg-id="99991247" tvg-logo="https://image.xumo.com/v1/channels/channel/99991247/512x512.png?type=color_onBlack" group-title="XUMO",NBC News NOW
-http://192.168.11.1:5004/XUMO/watch/99991247
 #EXTINF:-1 channelID="501" tvg-num="2" tvg-chno="2" tvg-name="18+ (Player-01)" tvg-id="501" group-title="DaddyLive",18+ (Player-01)
 http://192.168.11.1:5004/DaddyLive/watch/501
-#EXTINF:-1 channelID="99991377" tvg-num="2" tvg-chno="2" tvg-name="ABC News Live" tvg-id="99991377" tvg-logo="https://image.xumo.com/v1/channels/channel/99991377/512x512.png?type=color_onBlack" group-title="XUMO",ABC News Live
-http://192.168.11.1:5004/XUMO/watch/99991377
 #EXTINF:-1 channelID="502" tvg-num="3" tvg-chno="3" tvg-name="18+ (Player-02)" tvg-id="502" group-title="DaddyLive",18+ (Player-02)
 http://192.168.11.1:5004/DaddyLive/watch/502
-#EXTINF:-1 channelID="99991158" tvg-num="3" tvg-chno="3" tvg-name="CBS News 24/7" tvg-id="99991158" tvg-logo="https://image.xumo.com/v1/channels/channel/99991158/512x512.png?type=color_onBlack" group-title="XUMO",CBS News 24/7
-http://192.168.11.1:5004/XUMO/watch/99991158
 #EXTINF:-1 channelID="503" tvg-num="4" tvg-chno="4" tvg-name="18+ (Player-03)" tvg-id="503" group-title="DaddyLive",18+ (Player-03)
 http://192.168.11.1:5004/DaddyLive/watch/503
-#EXTINF:-1 channelID="99991635" tvg-num="4" tvg-chno="4" tvg-name="LiveNOW from FOX" tvg-id="99991635" tvg-logo="https://image.xumo.com/v1/channels/channel/99991635/512x512.png?type=color_onBlack" group-title="XUMO",LiveNOW from FOX
-http://192.168.11.1:5004/XUMO/watch/99991635
 #EXTINF:-1 channelID="504" tvg-num="5" tvg-chno="5" tvg-name="18+ (Player-04)" tvg-id="504" group-title="DaddyLive",18+ (Player-04)
 http://192.168.11.1:5004/DaddyLive/watch/504
-#EXTINF:-1 channelID="99991282" tvg-num="5" tvg-chno="5" tvg-name="Local Now" tvg-id="99991282" tvg-logo="https://image.xumo.com/v1/channels/channel/99991282/512x512.png?type=color_onBlack" group-title="XUMO",Local Now
-http://192.168.11.1:5004/XUMO/watch/99991282
 #EXTINF:-1 channelID="505" tvg-num="6" tvg-chno="6" tvg-name="18+ (Player-05)" tvg-id="505" group-title="DaddyLive",18+ (Player-05)
 http://192.168.11.1:5004/DaddyLive/watch/505
 #EXTINF:-1 channelID="506" tvg-num="7" tvg-chno="7" tvg-name="18+ (Player-06)" tvg-id="506" group-title="DaddyLive",18+ (Player-06)
 http://192.168.11.1:5004/DaddyLive/watch/506
-#EXTINF:-1 channelID="99991245" tvg-num="7" tvg-chno="7" tvg-name="TODAY All Day" tvg-id="99991245" tvg-logo="https://image.xumo.com/v1/channels/channel/99991245/512x512.png?type=color_onBlack" group-title="XUMO",TODAY All Day
-http://192.168.11.1:5004/XUMO/watch/99991245
 #EXTINF:-1 channelID="507" tvg-num="8" tvg-chno="8" tvg-name="18+ (Player-07)" tvg-id="507" group-title="DaddyLive",18+ (Player-07)
 http://192.168.11.1:5004/DaddyLive/watch/507
-#EXTINF:-1 channelID="99951197" tvg-num="8" tvg-chno="8" tvg-name="Reuters Now" tvg-id="99951197" tvg-logo="https://image.xumo.com/v1/channels/channel/99951197/512x512.png?type=color_onBlack" group-title="XUMO",Reuters Now
-http://192.168.11.1:5004/XUMO/watch/99951197
 #EXTINF:-1 channelID="508" tvg-num="9" tvg-chno="9" tvg-name="18+ (Player-08)" tvg-id="508" group-title="DaddyLive",18+ (Player-08)
 http://192.168.11.1:5004/DaddyLive/watch/508
-#EXTINF:-1 channelID="99951223" tvg-num="9" tvg-chno="9" tvg-name="Sky News" tvg-id="99951223" tvg-logo="https://image.xumo.com/v1/channels/channel/99951223/512x512.png?type=color_onBlack" group-title="XUMO",Sky News
-http://192.168.11.1:5004/XUMO/watch/99951223
 #EXTINF:-1 channelID="509" tvg-num="10" tvg-chno="10" tvg-name="18+ (Player-09)" tvg-id="509" group-title="DaddyLive",18+ (Player-09)
 http://192.168.11.1:5004/DaddyLive/watch/509
-#EXTINF:-1 channelID="99991148" tvg-num="10" tvg-chno="10" tvg-name="Scripps News" tvg-id="99991148" tvg-logo="https://image.xumo.com/v1/channels/channel/99991148/512x512.png?type=color_onBlack" group-title="XUMO",Scripps News
-http://192.168.11.1:5004/XUMO/watch/99991148
 #EXTINF:-1 channelID="510" tvg-num="11" tvg-chno="11" tvg-name="18+ (Player-10)" tvg-id="510" group-title="DaddyLive",18+ (Player-10)
 http://192.168.11.1:5004/DaddyLive/watch/510
-#EXTINF:-1 channelID="99991194" tvg-num="11" tvg-chno="11" tvg-name="Newsmax2" tvg-id="99991194" tvg-logo="https://image.xumo.com/v1/channels/channel/99991194/512x512.png?type=color_onBlack" group-title="XUMO",Newsmax2
-http://192.168.11.1:5004/XUMO/watch/99991194
 #EXTINF:-1 channelID="511" tvg-num="12" tvg-chno="12" tvg-name="18+ (Player-11)" tvg-id="511" group-title="DaddyLive",18+ (Player-11)
 http://192.168.11.1:5004/DaddyLive/watch/511
-#EXTINF:-1 channelID="99991276" tvg-num="12" tvg-chno="12" tvg-name="CBC News" tvg-id="99991276" tvg-logo="https://image.xumo.com/v1/channels/channel/99991276/512x512.png?type=color_onBlack" group-title="XUMO",CBC News
-http://192.168.11.1:5004/XUMO/watch/99991276
 #EXTINF:-1 channelID="512" tvg-num="13" tvg-chno="13" tvg-name="18+ (Player-12)" tvg-id="512" group-title="DaddyLive",18+ (Player-12)
 http://192.168.11.1:5004/DaddyLive/watch/512
-#EXTINF:-1 channelID="99991147" tvg-num="13" tvg-chno="13" tvg-name="TYT" tvg-id="99991147" tvg-logo="https://image.xumo.com/v1/channels/channel/99991147/512x512.png?type=color_onBlack" group-title="XUMO",TYT
-http://192.168.11.1:5004/XUMO/watch/99991147
 #EXTINF:-1 channelID="513" tvg-num="14" tvg-chno="14" tvg-name="18+ (Player-13)" tvg-id="513" group-title="DaddyLive",18+ (Player-13)
 http://192.168.11.1:5004/DaddyLive/watch/513
 #EXTINF:-1 channelID="514" tvg-num="15" tvg-chno="15" tvg-name="18+ (Player-14)" tvg-id="514" group-title="DaddyLive",18+ (Player-14)
 http://192.168.11.1:5004/DaddyLive/watch/514
-#EXTINF:-1 channelID="99991220" tvg-num="15" tvg-chno="15" tvg-name="Cheddar News" tvg-id="99991220" tvg-logo="https://image.xumo.com/v1/channels/channel/99991220/512x512.png?type=color_onBlack" group-title="XUMO",Cheddar News
-http://192.168.11.1:5004/XUMO/watch/99991220
 #EXTINF:-1 channelID="515" tvg-num="16" tvg-chno="16" tvg-name="18+ (Player-15)" tvg-id="515" group-title="DaddyLive",18+ (Player-15)
 http://192.168.11.1:5004/DaddyLive/watch/515
 #EXTINF:-1 channelID="516" tvg-num="17" tvg-chno="17" tvg-name="18+ (Player-16)" tvg-id="516" group-title="DaddyLive",18+ (Player-16)
 http://192.168.11.1:5004/DaddyLive/watch/516
-#EXTINF:-1 channelID="99951283" tvg-num="17" tvg-chno="17" tvg-name="Salem News Channel" tvg-id="99951283" tvg-logo="https://image.xumo.com/v1/channels/channel/99951283/512x512.png?type=color_onBlack" group-title="XUMO",Salem News Channel
-http://192.168.11.1:5004/XUMO/watch/99951283
 #EXTINF:-1 channelID="517" tvg-num="18" tvg-chno="18" tvg-name="18+ (Player-17)" tvg-id="517" group-title="DaddyLive",18+ (Player-17)
 http://192.168.11.1:5004/DaddyLive/watch/517
-#EXTINF:-1 channelID="99951298" tvg-num="18" tvg-chno="18" tvg-name="BBC News" tvg-id="99951298" tvg-logo="https://image.xumo.com/v1/channels/channel/99951298/512x512.png?type=color_onBlack" group-title="XUMO",BBC News
-http://192.168.11.1:5004/XUMO/watch/99951298
 #EXTINF:-1 channelID="518" tvg-num="19" tvg-chno="19" tvg-name="18+ (Player-18)" tvg-id="518" group-title="DaddyLive",18+ (Player-18)
 http://192.168.11.1:5004/DaddyLive/watch/518
-#EXTINF:-1 channelID="99951337" tvg-num="19" tvg-chno="19" tvg-name="Spectrum News+" tvg-id="99951337" tvg-logo="https://image.xumo.com/v1/channels/channel/99951337/512x512.png?type=color_onBlack" group-title="XUMO",Spectrum News+
-http://192.168.11.1:5004/XUMO/watch/99951337
 #EXTINF:-1 channelID="519" tvg-num="20" tvg-chno="20" tvg-name="18+ (Player-19)" tvg-id="519" group-title="DaddyLive",18+ (Player-19)
 http://192.168.11.1:5004/DaddyLive/watch/519
-#EXTINF:-1 channelID="99991694" tvg-num="20" tvg-chno="20" tvg-name="Fox Weather" tvg-id="99991694" tvg-logo="https://image.xumo.com/v1/channels/channel/99991694/512x512.png?type=color_onBlack" group-title="XUMO",Fox Weather
-http://192.168.11.1:5004/XUMO/watch/99991694
 #EXTINF:-1 channelID="520" tvg-num="21" tvg-chno="21" tvg-name="18+ (Player-20)" tvg-id="520" group-title="DaddyLive",18+ (Player-20)
 http://192.168.11.1:5004/DaddyLive/watch/520
-#EXTINF:-1 channelID="99991649" tvg-num="21" tvg-chno="21" tvg-name="AccuWeather NOW" tvg-id="99991649" tvg-logo="https://image.xumo.com/v1/channels/channel/99991649/512x512.png?type=color_onBlack" group-title="XUMO",AccuWeather NOW
-http://192.168.11.1:5004/XUMO/watch/99991649
 #EXTINF:-1 channelID="857" tvg-num="22" tvg-chno="22" tvg-name="20 Mediaset Italy" tvg-id="857" group-title="DaddyLive",20 Mediaset Italy
 http://192.168.11.1:5004/DaddyLive/watch/857
-#EXTINF:-1 channelID="99951404" tvg-num="22" tvg-chno="22" tvg-name="OAN Plus" tvg-id="99951404" tvg-logo="https://image.xumo.com/v1/channels/channel/99951404/512x512.png?type=color_onBlack" group-title="XUMO",OAN Plus
-http://192.168.11.1:5004/XUMO/watch/99951404
 #EXTINF:-1 channelID="726" tvg-num="23" tvg-chno="23" tvg-name="3sat DE" tvg-id="726" group-title="DaddyLive",3sat DE
 http://192.168.11.1:5004/DaddyLive/watch/726
-#EXTINF:-1 channelID="99951386" tvg-num="23" tvg-chno="23" tvg-name="CNN Headlines" tvg-id="99951386" tvg-logo="https://image.xumo.com/v1/channels/channel/99951386/512x512.png?type=color_onBlack" group-title="XUMO",CNN Headlines
-http://192.168.11.1:5004/XUMO/watch/99951386
 #EXTINF:-1 channelID="360" tvg-num="24" tvg-chno="24" tvg-name="5 USA" tvg-id="360" group-title="DaddyLive",5 USA
 http://192.168.11.1:5004/DaddyLive/watch/360
 #EXTINF:-1 channelID="800" tvg-num="25" tvg-chno="25" tvg-name="6'eren Denmark" tvg-id="800" group-title="DaddyLive",6'eren Denmark
@@ -441,112 +401,62 @@ http://192.168.11.1:5004/DaddyLive/watch/628
 http://192.168.11.1:5004/DaddyLive/watch/629
 #EXTINF:-1 channelID="630" tvg-num="201" tvg-chno="201" tvg-name="Cosmote Sport 9 HD" tvg-id="630" group-title="DaddyLive",Cosmote Sport 9 HD
 http://192.168.11.1:5004/DaddyLive/watch/630
-#EXTINF:-1 channelID="99991299" tvg-num="201" tvg-chno="201" tvg-name="Xumo Free Movies" tvg-id="99991299" tvg-logo="https://image.xumo.com/v1/channels/channel/99991299/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Movies
-http://192.168.11.1:5004/XUMO/watch/99991299
 #EXTINF:-1 channelID="281" tvg-num="202" tvg-chno="202" tvg-name="Court TV USA" tvg-id="281" group-title="DaddyLive",Court TV USA
 http://192.168.11.1:5004/DaddyLive/watch/281
-#EXTINF:-1 channelID="99991352" tvg-num="202" tvg-chno="202" tvg-name="Xumo Free Action Movies" tvg-id="99991352" tvg-logo="https://image.xumo.com/v1/channels/channel/99991352/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Action Movies
-http://192.168.11.1:5004/XUMO/watch/99991352
 #EXTINF:-1 channelID="748" tvg-num="203" tvg-chno="203" tvg-name="COZI TV USA" tvg-id="748" group-title="DaddyLive",COZI TV USA
 http://192.168.11.1:5004/DaddyLive/watch/748
-#EXTINF:-1 channelID="99991397" tvg-num="203" tvg-chno="203" tvg-name="Xumo Free Westerns" tvg-id="99991397" tvg-logo="https://image.xumo.com/v1/channels/channel/99991397/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Westerns
-http://192.168.11.1:5004/XUMO/watch/99991397
 #EXTINF:-1 channelID="669" tvg-num="204" tvg-chno="204" tvg-name="Crime+ Investigation USA" tvg-id="669" group-title="DaddyLive",Crime+ Investigation USA
 http://192.168.11.1:5004/DaddyLive/watch/669
-#EXTINF:-1 channelID="99991350" tvg-num="204" tvg-chno="204" tvg-name="Xumo Free Horror & Thriller Movies" tvg-id="99991350" tvg-logo="https://image.xumo.com/v1/channels/channel/99991350/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Horror & Thriller Movies
-http://192.168.11.1:5004/XUMO/watch/99991350
 #EXTINF:-1 channelID="838" tvg-num="205" tvg-chno="205" tvg-name="CTV 2 Canada" tvg-id="838" group-title="DaddyLive",CTV 2 Canada
 http://192.168.11.1:5004/DaddyLive/watch/838
-#EXTINF:-1 channelID="99991362" tvg-num="205" tvg-chno="205" tvg-name="Xumo Free Sci-Fi & Fantasy Movies" tvg-id="99991362" tvg-logo="https://image.xumo.com/v1/channels/channel/99991362/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Sci-Fi & Fantasy Movies
-http://192.168.11.1:5004/XUMO/watch/99991362
 #EXTINF:-1 channelID="602" tvg-num="206" tvg-chno="206" tvg-name="CTV Canada" tvg-id="602" group-title="DaddyLive",CTV Canada
 http://192.168.11.1:5004/DaddyLive/watch/602
-#EXTINF:-1 channelID="99991125" tvg-num="206" tvg-chno="206" tvg-name="Xumo Her Free Movies" tvg-id="99991125" tvg-logo="https://image.xumo.com/v1/channels/channel/99991125/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Her Free Movies
-http://192.168.11.1:5004/XUMO/watch/99991125
 #EXTINF:-1 channelID="535" tvg-num="207" tvg-chno="207" tvg-name="Cuatro Spain" tvg-id="535" group-title="DaddyLive",Cuatro Spain
 http://192.168.11.1:5004/DaddyLive/watch/535
-#EXTINF:-1 channelID="99991392" tvg-num="207" tvg-chno="207" tvg-name="Xumo Free Documentaries " tvg-id="99991392" tvg-logo="https://image.xumo.com/v1/channels/channel/99991392/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Documentaries 
-http://192.168.11.1:5004/XUMO/watch/99991392
 #EXTINF:-1 channelID="280" tvg-num="208" tvg-chno="208" tvg-name="CW PIX 11 USA" tvg-id="280" group-title="DaddyLive",CW PIX 11 USA
 http://192.168.11.1:5004/DaddyLive/watch/280
-#EXTINF:-1 channelID="99991351" tvg-num="208" tvg-chno="208" tvg-name="Xumo Free Comedy Movies" tvg-id="99991351" tvg-logo="https://image.xumo.com/v1/channels/channel/99991351/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Comedy Movies
-http://192.168.11.1:5004/XUMO/watch/99991351
 #EXTINF:-1 channelID="300" tvg-num="209" tvg-chno="209" tvg-name="CW USA" tvg-id="300" group-title="DaddyLive",CW USA
 http://192.168.11.1:5004/DaddyLive/watch/300
-#EXTINF:-1 channelID="99991363" tvg-num="209" tvg-chno="209" tvg-name="Xumo Free Black Cinema" tvg-id="99991363" tvg-logo="https://image.xumo.com/v1/channels/channel/99991363/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Black Cinema
-http://192.168.11.1:5004/XUMO/watch/99991363
 #EXTINF:-1 channelID="911" tvg-num="210" tvg-chno="210" tvg-name="Cytavision Sports 1 Cyprus" tvg-id="911" group-title="DaddyLive",Cytavision Sports 1 Cyprus
 http://192.168.11.1:5004/DaddyLive/watch/911
-#EXTINF:-1 channelID="99991709" tvg-num="210" tvg-chno="210" tvg-name="Hallmark Movies & More" tvg-id="99991709" tvg-logo="https://image.xumo.com/v1/channels/channel/99991709/512x512.png?type=color_onBlack" group-title="XUMO",Hallmark Movies & More
-http://192.168.11.1:5004/XUMO/watch/99991709
 #EXTINF:-1 channelID="912" tvg-num="211" tvg-chno="211" tvg-name="Cytavision Sports 2 Cyprus" tvg-id="912" group-title="DaddyLive",Cytavision Sports 2 Cyprus
 http://192.168.11.1:5004/DaddyLive/watch/912
-#EXTINF:-1 channelID="99951251" tvg-num="211" tvg-chno="211" tvg-name="MovieSphere by Lionsgate" tvg-id="99951251" tvg-logo="https://image.xumo.com/v1/channels/channel/99951251/512x512.png?type=color_onBlack" group-title="XUMO",MovieSphere by Lionsgate
-http://192.168.11.1:5004/XUMO/watch/99951251
 #EXTINF:-1 channelID="913" tvg-num="212" tvg-chno="212" tvg-name="Cytavision Sports 3 Cyprus" tvg-id="913" group-title="DaddyLive",Cytavision Sports 3 Cyprus
 http://192.168.11.1:5004/DaddyLive/watch/913
 #EXTINF:-1 channelID="914" tvg-num="213" tvg-chno="213" tvg-name="Cytavision Sports 4 Cyprus" tvg-id="914" group-title="DaddyLive",Cytavision Sports 4 Cyprus
 http://192.168.11.1:5004/DaddyLive/watch/914
-#EXTINF:-1 channelID="99991302" tvg-num="213" tvg-chno="213" tvg-name="Hi-Yah!" tvg-id="99991302" tvg-logo="https://image.xumo.com/v1/channels/channel/99991302/512x512.png?type=color_onBlack" group-title="XUMO",Hi-Yah!
-http://192.168.11.1:5004/XUMO/watch/99991302
 #EXTINF:-1 channelID="915" tvg-num="214" tvg-chno="214" tvg-name="Cytavision Sports 5 Cyprus" tvg-id="915" group-title="DaddyLive",Cytavision Sports 5 Cyprus
 http://192.168.11.1:5004/DaddyLive/watch/915
-#EXTINF:-1 channelID="9995106" tvg-num="214" tvg-chno="214" tvg-name="Shades of Black" tvg-id="9995106" tvg-logo="https://image.xumo.com/v1/channels/channel/9995106/512x512.png?type=color_onBlack" group-title="XUMO",Shades of Black
-http://192.168.11.1:5004/XUMO/watch/9995106
 #EXTINF:-1 channelID="916" tvg-num="215" tvg-chno="215" tvg-name="Cytavision Sports 6 Cyprus" tvg-id="916" group-title="DaddyLive",Cytavision Sports 6 Cyprus
 http://192.168.11.1:5004/DaddyLive/watch/916
-#EXTINF:-1 channelID="99991312" tvg-num="215" tvg-chno="215" tvg-name="Gravitas Movies" tvg-id="99991312" tvg-logo="https://image.xumo.com/v1/channels/channel/99991312/512x512.png?type=color_onBlack" group-title="XUMO",Gravitas Movies
-http://192.168.11.1:5004/XUMO/watch/99991312
 #EXTINF:-1 channelID="917" tvg-num="216" tvg-chno="216" tvg-name="Cytavision Sports 7 Cyprus" tvg-id="917" group-title="DaddyLive",Cytavision Sports 7 Cyprus
 http://192.168.11.1:5004/DaddyLive/watch/917
-#EXTINF:-1 channelID="99991638" tvg-num="216" tvg-chno="216" tvg-name="DOCUMENTARY+" tvg-id="99991638" tvg-logo="https://image.xumo.com/v1/channels/channel/99991638/512x512.png?type=color_onBlack" group-title="XUMO",DOCUMENTARY+
-http://192.168.11.1:5004/XUMO/watch/99991638
 #EXTINF:-1 channelID="348" tvg-num="217" tvg-chno="217" tvg-name="Dave" tvg-id="348" group-title="DaddyLive",Dave
 http://192.168.11.1:5004/DaddyLive/watch/348
 #EXTINF:-1 channelID="426" tvg-num="218" tvg-chno="218" tvg-name="DAZN 1 Bar DE" tvg-id="426" group-title="DaddyLive",DAZN 1 Bar DE
 http://192.168.11.1:5004/DaddyLive/watch/426
-#EXTINF:-1 channelID="99991399" tvg-num="218" tvg-chno="218" tvg-name="CineLife" tvg-id="99991399" tvg-logo="https://image.xumo.com/v1/channels/channel/99991399/512x512.png?type=color_onBlack" group-title="XUMO",CineLife
-http://192.168.11.1:5004/XUMO/watch/99991399
 #EXTINF:-1 channelID="445" tvg-num="219" tvg-chno="219" tvg-name="DAZN 1 Spain" tvg-id="445" group-title="DaddyLive",DAZN 1 Spain
 http://192.168.11.1:5004/DaddyLive/watch/445
-#EXTINF:-1 channelID="99991300" tvg-num="219" tvg-chno="219" tvg-name="Stash TV" tvg-id="99991300" tvg-logo="https://image.xumo.com/v1/channels/channel/99991300/512x512.png?type=color_onBlack" group-title="XUMO",Stash TV
-http://192.168.11.1:5004/XUMO/watch/99991300
 #EXTINF:-1 channelID="230" tvg-num="220" tvg-chno="220" tvg-name="DAZN 1 UK" tvg-id="230" group-title="DaddyLive",DAZN 1 UK
 http://192.168.11.1:5004/DaddyLive/watch/230
-#EXTINF:-1 channelID="99991745" tvg-num="220" tvg-chno="220" tvg-name="Wu Tang Collection TV" tvg-id="99991745" tvg-logo="https://image.xumo.com/v1/channels/channel/99991745/512x512.png?type=color_onBlack" group-title="XUMO",Wu Tang Collection TV
-http://192.168.11.1:5004/XUMO/watch/99991745
 #EXTINF:-1 channelID="427" tvg-num="221" tvg-chno="221" tvg-name="DAZN 2 Bar DE" tvg-id="427" group-title="DaddyLive",DAZN 2 Bar DE
 http://192.168.11.1:5004/DaddyLive/watch/427
-#EXTINF:-1 channelID="99951293" tvg-num="221" tvg-chno="221" tvg-name="Ebony TV by Lionsgate" tvg-id="99951293" tvg-logo="https://image.xumo.com/v1/channels/channel/99951293/512x512.png?type=color_onBlack" group-title="XUMO",Ebony TV by Lionsgate
-http://192.168.11.1:5004/XUMO/watch/99951293
 #EXTINF:-1 channelID="446" tvg-num="222" tvg-chno="222" tvg-name="DAZN 2 Spain" tvg-id="446" group-title="DaddyLive",DAZN 2 Spain
 http://192.168.11.1:5004/DaddyLive/watch/446
 #EXTINF:-1 channelID="447" tvg-num="223" tvg-chno="223" tvg-name="DAZN 3 Spain" tvg-id="447" group-title="DaddyLive",DAZN 3 Spain
 http://192.168.11.1:5004/DaddyLive/watch/447
-#EXTINF:-1 channelID="99991337" tvg-num="223" tvg-chno="223" tvg-name="FilmRise" tvg-id="99991337" tvg-logo="https://image.xumo.com/v1/channels/channel/99991337/512x512.png?type=color_onBlack" group-title="XUMO",FilmRise
-http://192.168.11.1:5004/XUMO/watch/99991337
 #EXTINF:-1 channelID="448" tvg-num="224" tvg-chno="224" tvg-name="DAZN 4 Spain" tvg-id="448" group-title="DaddyLive",DAZN 4 Spain
 http://192.168.11.1:5004/DaddyLive/watch/448
-#EXTINF:-1 channelID="99991336" tvg-num="224" tvg-chno="224" tvg-name="Maverick Black Cinema" tvg-id="99991336" tvg-logo="https://image.xumo.com/v1/channels/channel/99991336/512x512.png?type=color_onBlack" group-title="XUMO",Maverick Black Cinema
-http://192.168.11.1:5004/XUMO/watch/99991336
 #EXTINF:-1 channelID="537" tvg-num="225" tvg-chno="225" tvg-name="DAZN F1 ES" tvg-id="537" group-title="DaddyLive",DAZN F1 ES
 http://192.168.11.1:5004/DaddyLive/watch/537
 #EXTINF:-1 channelID="538" tvg-num="226" tvg-chno="226" tvg-name="DAZN LaLiga" tvg-id="538" group-title="DaddyLive",DAZN LaLiga
 http://192.168.11.1:5004/DaddyLive/watch/538
-#EXTINF:-1 channelID="99951335" tvg-num="226" tvg-chno="226" tvg-name="CINEVAULT" tvg-id="99951335" tvg-logo="https://image.xumo.com/v1/channels/channel/99951335/512x512.png?type=color_onBlack" group-title="XUMO",CINEVAULT
-http://192.168.11.1:5004/XUMO/watch/99951335
 #EXTINF:-1 channelID="651" tvg-num="227" tvg-chno="227" tvg-name="Destination America" tvg-id="651" group-title="DaddyLive",Destination America
 http://192.168.11.1:5004/DaddyLive/watch/651
-#EXTINF:-1 channelID="99991621" tvg-num="227" tvg-chno="227" tvg-name="Universal Movies" tvg-id="99991621" tvg-logo="https://image.xumo.com/v1/channels/channel/99991621/512x512.png?type=color_onBlack" group-title="XUMO",Universal Movies
-http://192.168.11.1:5004/XUMO/watch/99991621
 #EXTINF:-1 channelID="482" tvg-num="228" tvg-chno="228" tvg-name="Diema Bulgaria" tvg-id="482" group-title="DaddyLive",Diema Bulgaria
 http://192.168.11.1:5004/DaddyLive/watch/482
-#EXTINF:-1 channelID="99951382" tvg-num="228" tvg-chno="228" tvg-name="HerSphere by Lionsgate" tvg-id="99951382" tvg-logo="https://image.xumo.com/v1/channels/channel/99951382/512x512.png?type=color_onBlack" group-title="XUMO",HerSphere by Lionsgate
-http://192.168.11.1:5004/XUMO/watch/99951382
 #EXTINF:-1 channelID="485" tvg-num="229" tvg-chno="229" tvg-name="Diema Family Bulgaria" tvg-id="485" group-title="DaddyLive",Diema Family Bulgaria
 http://192.168.11.1:5004/DaddyLive/watch/485
-#EXTINF:-1 channelID="99951411" tvg-num="229" tvg-chno="229" tvg-name="Shout! Movies" tvg-id="99951411" tvg-logo="https://image.xumo.com/v1/channels/channel/99951411/512x512.png?type=color_onBlack" group-title="XUMO",Shout! Movies
-http://192.168.11.1:5004/XUMO/watch/99951411
 #EXTINF:-1 channelID="466" tvg-num="230" tvg-chno="230" tvg-name="Diema Sport 2 Bulgaria" tvg-id="466" group-title="DaddyLive",Diema Sport 2 Bulgaria
 http://192.168.11.1:5004/DaddyLive/watch/466
 #EXTINF:-1 channelID="467" tvg-num="231" tvg-chno="231" tvg-name="Diema Sport 3 Bulgaria" tvg-id="467" group-title="DaddyLive",Diema Sport 3 Bulgaria
@@ -589,8 +499,6 @@ http://192.168.11.1:5004/DaddyLive/watch/786
 http://192.168.11.1:5004/DaddyLive/watch/607
 #EXTINF:-1 channelID="608" tvg-num="250" tvg-chno="250" tvg-name="Dubai Racing 2 UAE" tvg-id="608" group-title="DaddyLive",Dubai Racing 2 UAE
 http://192.168.11.1:5004/DaddyLive/watch/608
-#EXTINF:-1 channelID="99991334" tvg-num="250" tvg-chno="250" tvg-name="Movies Page - DRM" tvg-id="99991334" tvg-logo="https://image.xumo.com/v1/channels/channel/99991334/512x512.png?type=color_onBlack" group-title="XUMO",Movies Page - DRM
-http://192.168.11.1:5004/XUMO/watch/99991334
 #EXTINF:-1 channelID="604" tvg-num="251" tvg-chno="251" tvg-name="Dubai Sports 1 UAE" tvg-id="604" group-title="DaddyLive",Dubai Sports 1 UAE
 http://192.168.11.1:5004/DaddyLive/watch/604
 #EXTINF:-1 channelID="605" tvg-num="252" tvg-chno="252" tvg-name="Dubai Sports 2 UAE" tvg-id="605" group-title="DaddyLive",Dubai Sports 2 UAE
@@ -641,44 +549,24 @@ http://192.168.11.1:5004/DaddyLive/watch/82
 http://192.168.11.1:5004/DaddyLive/watch/150
 #EXTINF:-1 channelID="45" tvg-num="275" tvg-chno="275" tvg-name="ESPN2 USA" tvg-id="45" group-title="DaddyLive",ESPN2 USA
 http://192.168.11.1:5004/DaddyLive/watch/45
-#EXTINF:-1 channelID="99951239" tvg-num="275" tvg-chno="275" tvg-name="Murder, She Wrote" tvg-id="99951239" tvg-logo="https://image.xumo.com/v1/channels/channel/99951239/512x512.png?type=color_onBlack" group-title="XUMO",Murder, She Wrote
-http://192.168.11.1:5004/XUMO/watch/99951239
 #EXTINF:-1 channelID="83" tvg-num="276" tvg-chno="276" tvg-name="ESPN3 Brasil" tvg-id="83" group-title="DaddyLive",ESPN3 Brasil
 http://192.168.11.1:5004/DaddyLive/watch/83
-#EXTINF:-1 channelID="99951277" tvg-num="276" tvg-chno="276" tvg-name="Ghost Hunters Channel" tvg-id="99951277" tvg-logo="https://image.xumo.com/v1/channels/channel/99951277/512x512.png?type=color_onBlack" group-title="XUMO",Ghost Hunters Channel
-http://192.168.11.1:5004/XUMO/watch/99951277
 #EXTINF:-1 channelID="85" tvg-num="277" tvg-chno="277" tvg-name="ESPN4 Brasil" tvg-id="85" group-title="DaddyLive",ESPN4 Brasil
 http://192.168.11.1:5004/DaddyLive/watch/85
-#EXTINF:-1 channelID="99951218" tvg-num="277" tvg-chno="277" tvg-name="Xumo Free Nature & Wildlife TV" tvg-id="99951218" tvg-logo="https://image.xumo.com/v1/channels/channel/99951218/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Nature & Wildlife TV
-http://192.168.11.1:5004/XUMO/watch/99951218
 #EXTINF:-1 channelID="288" tvg-num="278" tvg-chno="278" tvg-name="ESPNews" tvg-id="288" group-title="DaddyLive",ESPNews
 http://192.168.11.1:5004/DaddyLive/watch/288
-#EXTINF:-1 channelID="99991113" tvg-num="278" tvg-chno="278" tvg-name="Deal Or No Deal" tvg-id="99991113" tvg-logo="https://image.xumo.com/v1/channels/channel/99991113/512x512.png?type=color_onBlack" group-title="XUMO",Deal Or No Deal
-http://192.168.11.1:5004/XUMO/watch/99991113
 #EXTINF:-1 channelID="316" tvg-num="279" tvg-chno="279" tvg-name="ESPNU USA" tvg-id="316" group-title="DaddyLive",ESPNU USA
 http://192.168.11.1:5004/DaddyLive/watch/316
-#EXTINF:-1 channelID="99951192" tvg-num="279" tvg-chno="279" tvg-name="Anger Management Channel" tvg-id="99951192" tvg-logo="https://image.xumo.com/v1/channels/channel/99951192/512x512.png?type=color_onBlack" group-title="XUMO",Anger Management Channel
-http://192.168.11.1:5004/XUMO/watch/99951192
 #EXTINF:-1 channelID="469" tvg-num="280" tvg-chno="280" tvg-name="Eurosport 1 Bulgaria" tvg-id="469" group-title="DaddyLive",Eurosport 1 Bulgaria
 http://192.168.11.1:5004/DaddyLive/watch/469
-#EXTINF:-1 channelID="99951258" tvg-num="280" tvg-chno="280" tvg-name="The Lone Ranger" tvg-id="99951258" tvg-logo="https://image.xumo.com/v1/channels/channel/99951258/512x512.png?type=color_onBlack" group-title="XUMO",The Lone Ranger
-http://192.168.11.1:5004/XUMO/watch/99951258
 #EXTINF:-1 channelID="772" tvg-num="281" tvg-chno="281" tvg-name="Eurosport 1 France" tvg-id="772" group-title="DaddyLive",Eurosport 1 France
 http://192.168.11.1:5004/DaddyLive/watch/772
-#EXTINF:-1 channelID="99991346" tvg-num="281" tvg-chno="281" tvg-name="Divorce Court" tvg-id="99991346" tvg-logo="https://image.xumo.com/v1/channels/channel/99991346/512x512.png?type=color_onBlack" group-title="XUMO",Divorce Court
-http://192.168.11.1:5004/XUMO/watch/99991346
 #EXTINF:-1 channelID="878" tvg-num="282" tvg-chno="282" tvg-name="EuroSport 1 Italy" tvg-id="878" group-title="DaddyLive",EuroSport 1 Italy
 http://192.168.11.1:5004/DaddyLive/watch/878
-#EXTINF:-1 channelID="9995114" tvg-num="282" tvg-chno="282" tvg-name="Heartland" tvg-id="9995114" tvg-logo="https://image.xumo.com/v1/channels/channel/9995114/512x512.png?type=color_onBlack" group-title="XUMO",Heartland
-http://192.168.11.1:5004/XUMO/watch/9995114
 #EXTINF:-1 channelID="57" tvg-num="283" tvg-chno="283" tvg-name="EuroSport 1 Poland" tvg-id="57" group-title="DaddyLive",EuroSport 1 Poland
 http://192.168.11.1:5004/DaddyLive/watch/57
-#EXTINF:-1 channelID="99951158" tvg-num="283" tvg-chno="283" tvg-name="ION" tvg-id="99951158" tvg-logo="https://image.xumo.com/v1/channels/channel/99951158/512x512.png?type=color_onBlack" group-title="XUMO",ION
-http://192.168.11.1:5004/XUMO/watch/99951158
 #EXTINF:-1 channelID="524" tvg-num="284" tvg-chno="284" tvg-name="EuroSport 1 Spain" tvg-id="524" group-title="DaddyLive",EuroSport 1 Spain
 http://192.168.11.1:5004/DaddyLive/watch/524
-#EXTINF:-1 channelID="99991623" tvg-num="284" tvg-chno="284" tvg-name="The Walking Dead Universe" tvg-id="99991623" tvg-logo="https://image.xumo.com/v1/channels/channel/99991623/512x512.png?type=color_onBlack" group-title="XUMO",The Walking Dead Universe
-http://192.168.11.1:5004/XUMO/watch/99991623
 #EXTINF:-1 channelID="41" tvg-num="285" tvg-chno="285" tvg-name="EuroSport 1 UK" tvg-id="41" group-title="DaddyLive",EuroSport 1 UK
 http://192.168.11.1:5004/DaddyLive/watch/41
 #EXTINF:-1 channelID="470" tvg-num="286" tvg-chno="286" tvg-name="Eurosport 2 Bulgaria" tvg-id="470" group-title="DaddyLive",Eurosport 2 Bulgaria
@@ -717,66 +605,38 @@ http://192.168.11.1:5004/DaddyLive/watch/483
 http://192.168.11.1:5004/DaddyLive/watch/347
 #EXTINF:-1 channelID="756" tvg-num="303" tvg-chno="303" tvg-name="FOX Soccer Plus" tvg-id="756" group-title="DaddyLive",FOX Soccer Plus
 http://192.168.11.1:5004/DaddyLive/watch/756
-#EXTINF:-1 channelID="99951248" tvg-num="303" tvg-chno="303" tvg-name="Classic Doctor Who" tvg-id="99951248" tvg-logo="https://image.xumo.com/v1/channels/channel/99951248/512x512.png?type=color_onBlack" group-title="XUMO",Classic Doctor Who
-http://192.168.11.1:5004/XUMO/watch/99951248
 #EXTINF:-1 channelID="39" tvg-num="304" tvg-chno="304" tvg-name="Fox Sports 1 USA" tvg-id="39" group-title="DaddyLive",Fox Sports 1 USA
 http://192.168.11.1:5004/DaddyLive/watch/39
-#EXTINF:-1 channelID="99951250" tvg-num="304" tvg-chno="304" tvg-name="OuterSphere by Lionsgate" tvg-id="99951250" tvg-logo="https://image.xumo.com/v1/channels/channel/99951250/512x512.png?type=color_onBlack" group-title="XUMO",OuterSphere by Lionsgate
-http://192.168.11.1:5004/XUMO/watch/99951250
 #EXTINF:-1 channelID="788" tvg-num="305" tvg-chno="305" tvg-name="Fox Sports 2 Argentina" tvg-id="788" group-title="DaddyLive",Fox Sports 2 Argentina
 http://192.168.11.1:5004/DaddyLive/watch/788
-#EXTINF:-1 channelID="99951256" tvg-num="305" tvg-chno="305" tvg-name="Alfred Hitchcock Presents" tvg-id="99951256" tvg-logo="https://image.xumo.com/v1/channels/channel/99951256/512x512.png?type=color_onBlack" group-title="XUMO",Alfred Hitchcock Presents
-http://192.168.11.1:5004/XUMO/watch/99951256
 #EXTINF:-1 channelID="758" tvg-num="306" tvg-chno="306" tvg-name="Fox Sports 2 USA" tvg-id="758" group-title="DaddyLive",Fox Sports 2 USA
 http://192.168.11.1:5004/DaddyLive/watch/758
-#EXTINF:-1 channelID="99991292" tvg-num="306" tvg-chno="306" tvg-name="Alien Nation by DUST" tvg-id="99991292" tvg-logo="https://image.xumo.com/v1/channels/channel/99991292/512x512.png?type=color_onBlack" group-title="XUMO",Alien Nation by DUST
-http://192.168.11.1:5004/XUMO/watch/99991292
 #EXTINF:-1 channelID="789" tvg-num="307" tvg-chno="307" tvg-name="Fox Sports 3 Argentina" tvg-id="789" group-title="DaddyLive",Fox Sports 3 Argentina
 http://192.168.11.1:5004/DaddyLive/watch/789
-#EXTINF:-1 channelID="99991331" tvg-num="307" tvg-chno="307" tvg-name="The Asylum" tvg-id="99991331" tvg-logo="https://image.xumo.com/v1/channels/channel/99991331/512x512.png?type=color_onBlack" group-title="XUMO",The Asylum
-http://192.168.11.1:5004/XUMO/watch/99991331
 #EXTINF:-1 channelID="820" tvg-num="308" tvg-chno="308" tvg-name="FOX Sports 502 AU" tvg-id="820" group-title="DaddyLive",FOX Sports 502 AU
 http://192.168.11.1:5004/DaddyLive/watch/820
-#EXTINF:-1 channelID="9999615" tvg-num="308" tvg-chno="308" tvg-name="Dark Matter TV" tvg-id="9999615" tvg-logo="https://image.xumo.com/v1/channels/channel/9999615/512x512.png?type=color_onBlack" group-title="XUMO",Dark Matter TV
-http://192.168.11.1:5004/XUMO/watch/9999615
 #EXTINF:-1 channelID="821" tvg-num="309" tvg-chno="309" tvg-name="FOX Sports 503 AU" tvg-id="821" group-title="DaddyLive",FOX Sports 503 AU
 http://192.168.11.1:5004/DaddyLive/watch/821
 #EXTINF:-1 channelID="822" tvg-num="310" tvg-chno="310" tvg-name="FOX Sports 504 AU" tvg-id="822" group-title="DaddyLive",FOX Sports 504 AU
 http://192.168.11.1:5004/DaddyLive/watch/822
 #EXTINF:-1 channelID="823" tvg-num="311" tvg-chno="311" tvg-name="FOX Sports 505 AU" tvg-id="823" group-title="DaddyLive",FOX Sports 505 AU
 http://192.168.11.1:5004/DaddyLive/watch/823
-#EXTINF:-1 channelID="99991769" tvg-num="311" tvg-chno="311" tvg-name="Paranormal Files" tvg-id="99991769" tvg-logo="https://image.xumo.com/v1/channels/channel/99991769/512x512.png?type=color_onBlack" group-title="XUMO",Paranormal Files
-http://192.168.11.1:5004/XUMO/watch/99991769
 #EXTINF:-1 channelID="824" tvg-num="312" tvg-chno="312" tvg-name="FOX Sports 506 AU" tvg-id="824" group-title="DaddyLive",FOX Sports 506 AU
 http://192.168.11.1:5004/DaddyLive/watch/824
 #EXTINF:-1 channelID="825" tvg-num="313" tvg-chno="313" tvg-name="FOX Sports 507 AU" tvg-id="825" group-title="DaddyLive",FOX Sports 507 AU
 http://192.168.11.1:5004/DaddyLive/watch/825
-#EXTINF:-1 channelID="99951264" tvg-num="313" tvg-chno="313" tvg-name="Universal Monsters" tvg-id="99951264" tvg-logo="https://image.xumo.com/v1/channels/channel/99951264/512x512.png?type=color_onBlack" group-title="XUMO",Universal Monsters
-http://192.168.11.1:5004/XUMO/watch/99951264
 #EXTINF:-1 channelID="830" tvg-num="314" tvg-chno="314" tvg-name="Fox Sports Premium MX" tvg-id="830" group-title="DaddyLive",Fox Sports Premium MX
 http://192.168.11.1:5004/DaddyLive/watch/830
-#EXTINF:-1 channelID="99951349" tvg-num="314" tvg-chno="314" tvg-name="Scares by Shudder" tvg-id="99951349" tvg-logo="https://image.xumo.com/v1/channels/channel/99951349/512x512.png?type=color_onBlack" group-title="XUMO",Scares by Shudder
-http://192.168.11.1:5004/XUMO/watch/99951349
 #EXTINF:-1 channelID="54" tvg-num="315" tvg-chno="315" tvg-name="FOX USA" tvg-id="54" group-title="DaddyLive",FOX USA
 http://192.168.11.1:5004/DaddyLive/watch/54
-#EXTINF:-1 channelID="99951375" tvg-num="315" tvg-chno="315" tvg-name="Haunt TV" tvg-id="99951375" tvg-logo="https://image.xumo.com/v1/channels/channel/99951375/512x512.png?type=color_onBlack" group-title="XUMO",Haunt TV
-http://192.168.11.1:5004/XUMO/watch/99951375
 #EXTINF:-1 channelID="775" tvg-num="316" tvg-chno="316" tvg-name="Fox Weather Channel" tvg-id="775" group-title="DaddyLive",Fox Weather Channel
 http://192.168.11.1:5004/DaddyLive/watch/775
-#EXTINF:-1 channelID="99951377" tvg-num="316" tvg-chno="316" tvg-name="AMC Thrillers" tvg-id="99951377" tvg-logo="https://image.xumo.com/v1/channels/channel/99951377/512x512.png?type=color_onBlack" group-title="XUMO",AMC Thrillers
-http://192.168.11.1:5004/XUMO/watch/99951377
 #EXTINF:-1 channelID="768" tvg-num="317" tvg-chno="317" tvg-name="FOXNY USA" tvg-id="768" group-title="DaddyLive",FOXNY USA
 http://192.168.11.1:5004/DaddyLive/watch/768
-#EXTINF:-1 channelID="99951391" tvg-num="317" tvg-chno="317" tvg-name="Ghosts Are Real" tvg-id="99951391" tvg-logo="https://image.xumo.com/v1/channels/channel/99951391/512x512.png?type=color_onBlack" group-title="XUMO",Ghosts Are Real
-http://192.168.11.1:5004/XUMO/watch/99951391
 #EXTINF:-1 channelID="301" tvg-num="318" tvg-chno="318" tvg-name="Freeform" tvg-id="301" group-title="DaddyLive",Freeform
 http://192.168.11.1:5004/DaddyLive/watch/301
-#EXTINF:-1 channelID="99951398" tvg-num="318" tvg-chno="318" tvg-name="Mysterious Worlds" tvg-id="99951398" tvg-logo="https://image.xumo.com/v1/channels/channel/99951398/512x512.png?type=color_onBlack" group-title="XUMO",Mysterious Worlds
-http://192.168.11.1:5004/XUMO/watch/99951398
 #EXTINF:-1 channelID="279" tvg-num="319" tvg-chno="319" tvg-name="FUSE TV USA" tvg-id="279" group-title="DaddyLive",FUSE TV USA
 http://192.168.11.1:5004/DaddyLive/watch/279
-#EXTINF:-1 channelID="99951440" tvg-num="319" tvg-chno="319" tvg-name="Dungeons & Dragons Adventures" tvg-id="99951440" tvg-logo="https://image.xumo.com/v1/channels/channel/99951440/512x512.png?type=color_onBlack" group-title="XUMO",Dungeons & Dragons Adventures
-http://192.168.11.1:5004/XUMO/watch/99951440
 #EXTINF:-1 channelID="381" tvg-num="320" tvg-chno="320" tvg-name="FX Movie Channel" tvg-id="381" group-title="DaddyLive",FX Movie Channel
 http://192.168.11.1:5004/DaddyLive/watch/381
 #EXTINF:-1 channelID="317" tvg-num="321" tvg-chno="321" tvg-name="FX USA" tvg-id="317" group-title="DaddyLive",FX USA
@@ -941,20 +801,12 @@ http://192.168.11.1:5004/DaddyLive/watch/435
 http://192.168.11.1:5004/DaddyLive/watch/437
 #EXTINF:-1 channelID="765" tvg-num="401" tvg-chno="401" tvg-name="MSG USA" tvg-id="765" group-title="DaddyLive",MSG USA
 http://192.168.11.1:5004/DaddyLive/watch/765
-#EXTINF:-1 channelID="99951253" tvg-num="401" tvg-chno="401" tvg-name="NBC Sports NOW" tvg-id="99951253" tvg-logo="https://image.xumo.com/v1/channels/channel/99951253/512x512.png?type=color_onBlack" group-title="XUMO",NBC Sports NOW
-http://192.168.11.1:5004/XUMO/watch/99951253
 #EXTINF:-1 channelID="327" tvg-num="402" tvg-chno="402" tvg-name="MSNBC" tvg-id="327" group-title="DaddyLive",MSNBC
 http://192.168.11.1:5004/DaddyLive/watch/327
-#EXTINF:-1 channelID="99991196" tvg-num="402" tvg-chno="402" tvg-name="FOX Sports" tvg-id="99991196" tvg-logo="https://image.xumo.com/v1/channels/channel/99991196/512x512.png?type=color_onBlack" group-title="XUMO",FOX Sports
-http://192.168.11.1:5004/XUMO/watch/99991196
 #EXTINF:-1 channelID="806" tvg-num="403" tvg-chno="403" tvg-name="MTV Denmark" tvg-id="806" group-title="DaddyLive",MTV Denmark
 http://192.168.11.1:5004/DaddyLive/watch/806
-#EXTINF:-1 channelID="99991645" tvg-num="403" tvg-chno="403" tvg-name="CBS Sports HQ" tvg-id="99991645" tvg-logo="https://image.xumo.com/v1/channels/channel/99991645/512x512.png?type=color_onBlack" group-title="XUMO",CBS Sports HQ
-http://192.168.11.1:5004/XUMO/watch/99991645
 #EXTINF:-1 channelID="367" tvg-num="404" tvg-chno="404" tvg-name="MTV UK" tvg-id="367" group-title="DaddyLive",MTV UK
 http://192.168.11.1:5004/DaddyLive/watch/367
-#EXTINF:-1 channelID="99991738" tvg-num="404" tvg-chno="404" tvg-name="NFL Channel" tvg-id="99991738" tvg-logo="https://image.xumo.com/v1/channels/channel/99991738/512x512.png?type=color_onBlack" group-title="XUMO",NFL Channel
-http://192.168.11.1:5004/XUMO/watch/99991738
 #EXTINF:-1 channelID="371" tvg-num="405" tvg-chno="405" tvg-name="MTV USA" tvg-id="371" group-title="DaddyLive",MTV USA
 http://192.168.11.1:5004/DaddyLive/watch/371
 #EXTINF:-1 channelID="749" tvg-num="406" tvg-chno="406" tvg-name="Mundotoro TV Spain" tvg-id="749" group-title="DaddyLive",Mundotoro TV Spain
@@ -963,58 +815,34 @@ http://192.168.11.1:5004/DaddyLive/watch/749
 http://192.168.11.1:5004/DaddyLive/watch/377
 #EXTINF:-1 channelID="654" tvg-num="408" tvg-chno="408" tvg-name="MY9TV USA" tvg-id="654" group-title="DaddyLive",MY9TV USA
 http://192.168.11.1:5004/DaddyLive/watch/654
-#EXTINF:-1 channelID="99991281" tvg-num="408" tvg-chno="408" tvg-name="PGA TOUR" tvg-id="99991281" tvg-logo="https://image.xumo.com/v1/channels/channel/99991281/512x512.png?type=color_onBlack" group-title="XUMO",PGA TOUR
-http://192.168.11.1:5004/XUMO/watch/99991281
 #EXTINF:-1 channelID="745" tvg-num="409" tvg-chno="409" tvg-name="Nat Geo Wild USA" tvg-id="745" group-title="DaddyLive",Nat Geo Wild USA
 http://192.168.11.1:5004/DaddyLive/watch/745
 #EXTINF:-1 channelID="328" tvg-num="410" tvg-chno="410" tvg-name="National Geographic (NGC)" tvg-id="328" group-title="DaddyLive",National Geographic (NGC)
 http://192.168.11.1:5004/DaddyLive/watch/328
 #EXTINF:-1 channelID="404" tvg-num="411" tvg-chno="411" tvg-name="NBA TV USA" tvg-id="404" group-title="DaddyLive",NBA TV USA
 http://192.168.11.1:5004/DaddyLive/watch/404
-#EXTINF:-1 channelID="99951364" tvg-num="411" tvg-chno="411" tvg-name="ACC Digital Network" tvg-id="99951364" tvg-logo="https://image.xumo.com/v1/channels/channel/99951364/512x512.png?type=color_onBlack" group-title="XUMO",ACC Digital Network
-http://192.168.11.1:5004/XUMO/watch/99951364
 #EXTINF:-1 channelID="753" tvg-num="412" tvg-chno="412" tvg-name="NBC Sports Bay Area" tvg-id="753" group-title="DaddyLive",NBC Sports Bay Area
 http://192.168.11.1:5004/DaddyLive/watch/753
-#EXTINF:-1 channelID="99991317" tvg-num="412" tvg-chno="412" tvg-name="World Poker Tour" tvg-id="99991317" tvg-logo="https://image.xumo.com/v1/channels/channel/99991317/512x512.png?type=color_onBlack" group-title="XUMO",World Poker Tour
-http://192.168.11.1:5004/XUMO/watch/99991317
 #EXTINF:-1 channelID="754" tvg-num="413" tvg-chno="413" tvg-name="NBC Sports Boston" tvg-id="754" group-title="DaddyLive",NBC Sports Boston
 http://192.168.11.1:5004/DaddyLive/watch/754
 #EXTINF:-1 channelID="755" tvg-num="414" tvg-chno="414" tvg-name="NBC Sports California" tvg-id="755" group-title="DaddyLive",NBC Sports California
 http://192.168.11.1:5004/DaddyLive/watch/755
-#EXTINF:-1 channelID="99991358" tvg-num="414" tvg-chno="414" tvg-name="WaypointTV" tvg-id="99991358" tvg-logo="https://image.xumo.com/v1/channels/channel/99991358/512x512.png?type=color_onBlack" group-title="XUMO",WaypointTV
-http://192.168.11.1:5004/XUMO/watch/99991358
 #EXTINF:-1 channelID="776" tvg-num="415" tvg-chno="415" tvg-name="NBC Sports Chicago" tvg-id="776" group-title="DaddyLive",NBC Sports Chicago
 http://192.168.11.1:5004/DaddyLive/watch/776
-#EXTINF:-1 channelID="99991374" tvg-num="415" tvg-chno="415" tvg-name="Outdoor America" tvg-id="99991374" tvg-logo="https://image.xumo.com/v1/channels/channel/99991374/512x512.png?type=color_onBlack" group-title="XUMO",Outdoor America
-http://192.168.11.1:5004/XUMO/watch/99991374
 #EXTINF:-1 channelID="777" tvg-num="416" tvg-chno="416" tvg-name="NBC Sports Philadelphia" tvg-id="777" group-title="DaddyLive",NBC Sports Philadelphia
 http://192.168.11.1:5004/DaddyLive/watch/777
-#EXTINF:-1 channelID="99991387" tvg-num="416" tvg-chno="416" tvg-name="beIN SPORTS XTRA" tvg-id="99991387" tvg-logo="https://image.xumo.com/v1/channels/channel/99991387/512x512.png?type=color_onBlack" group-title="XUMO",beIN SPORTS XTRA
-http://192.168.11.1:5004/XUMO/watch/99991387
 #EXTINF:-1 channelID="778" tvg-num="417" tvg-chno="417" tvg-name="NBC Sports Washington" tvg-id="778" group-title="DaddyLive",NBC Sports Washington
 http://192.168.11.1:5004/DaddyLive/watch/778
-#EXTINF:-1 channelID="99991633" tvg-num="417" tvg-chno="417" tvg-name="PokerGO" tvg-id="99991633" tvg-logo="https://image.xumo.com/v1/channels/channel/99991633/512x512.png?type=color_onBlack" group-title="XUMO",PokerGO
-http://192.168.11.1:5004/XUMO/watch/99991633
 #EXTINF:-1 channelID="53" tvg-num="418" tvg-chno="418" tvg-name="NBC USA" tvg-id="53" group-title="DaddyLive",NBC USA
 http://192.168.11.1:5004/DaddyLive/watch/53
-#EXTINF:-1 channelID="8111111" tvg-num="418" tvg-chno="418" tvg-name="Billiard TV" tvg-id="8111111" tvg-logo="https://image.xumo.com/v1/channels/channel/8111111/512x512.png?type=color_onBlack" group-title="XUMO",Billiard TV
-http://192.168.11.1:5004/XUMO/watch/8111111
 #EXTINF:-1 channelID="277" tvg-num="419" tvg-chno="419" tvg-name="NBC10 Philadelphia" tvg-id="277" group-title="DaddyLive",NBC10 Philadelphia
 http://192.168.11.1:5004/DaddyLive/watch/277
-#EXTINF:-1 channelID="99951265" tvg-num="419" tvg-chno="419" tvg-name="DraftKings Network" tvg-id="99951265" tvg-logo="https://image.xumo.com/v1/channels/channel/99951265/512x512.png?type=color_onBlack" group-title="XUMO",DraftKings Network
-http://192.168.11.1:5004/XUMO/watch/99951265
 #EXTINF:-1 channelID="769" tvg-num="420" tvg-chno="420" tvg-name="NBCNY USA" tvg-id="769" group-title="DaddyLive",NBCNY USA
 http://192.168.11.1:5004/DaddyLive/watch/769
-#EXTINF:-1 channelID="99951266" tvg-num="420" tvg-chno="420" tvg-name="FanDuel TV Extra" tvg-id="99951266" tvg-logo="https://image.xumo.com/v1/channels/channel/99951266/512x512.png?type=color_onBlack" group-title="XUMO",FanDuel TV Extra
-http://192.168.11.1:5004/XUMO/watch/99951266
 #EXTINF:-1 channelID="736" tvg-num="421" tvg-chno="421" tvg-name="NDR DE" tvg-id="736" group-title="DaddyLive",NDR DE
 http://192.168.11.1:5004/DaddyLive/watch/736
-#EXTINF:-1 channelID="99991648" tvg-num="421" tvg-chno="421" tvg-name="PursuitUp" tvg-id="99991648" tvg-logo="https://image.xumo.com/v1/channels/channel/99991648/512x512.png?type=color_onBlack" group-title="XUMO",PursuitUp
-http://192.168.11.1:5004/XUMO/watch/99991648
 #EXTINF:-1 channelID="762" tvg-num="422" tvg-chno="422" tvg-name="NESN USA" tvg-id="762" group-title="DaddyLive",NESN USA
 http://192.168.11.1:5004/DaddyLive/watch/762
-#EXTINF:-1 channelID="99991660" tvg-num="422" tvg-chno="422" tvg-name="GOLFPASS" tvg-id="99991660" tvg-logo="https://image.xumo.com/v1/channels/channel/99991660/512x512.png?type=color_onBlack" group-title="XUMO",GOLFPASS
-http://192.168.11.1:5004/XUMO/watch/99991660
 #EXTINF:-1 channelID="771" tvg-num="423" tvg-chno="423" tvg-name="New! CWPIX 11" tvg-id="771" group-title="DaddyLive",New! CWPIX 11
 http://192.168.11.1:5004/DaddyLive/watch/771
 #EXTINF:-1 channelID="613" tvg-num="424" tvg-chno="424" tvg-name="Newsmax USA" tvg-id="613" group-title="DaddyLive",Newsmax USA
@@ -1027,8 +855,6 @@ http://192.168.11.1:5004/DaddyLive/watch/663
 http://192.168.11.1:5004/DaddyLive/watch/330
 #EXTINF:-1 channelID="329" tvg-num="428" tvg-chno="428" tvg-name="NICK JR" tvg-id="329" group-title="DaddyLive",NICK JR
 http://192.168.11.1:5004/DaddyLive/watch/329
-#EXTINF:-1 channelID="99951180" tvg-num="428" tvg-chno="428" tvg-name="Strongman Champions League" tvg-id="99951180" tvg-logo="https://image.xumo.com/v1/channels/channel/99951180/512x512.png?type=color_onBlack" group-title="XUMO",Strongman Champions League
-http://192.168.11.1:5004/XUMO/watch/99951180
 #EXTINF:-1 channelID="649" tvg-num="429" tvg-chno="429" tvg-name="Nicktoons" tvg-id="649" group-title="DaddyLive",Nicktoons
 http://192.168.11.1:5004/DaddyLive/watch/649
 #EXTINF:-1 channelID="835" tvg-num="430" tvg-chno="430" tvg-name="Noovo CA" tvg-id="835" group-title="DaddyLive",Noovo CA
@@ -1039,44 +865,24 @@ http://192.168.11.1:5004/DaddyLive/watch/468
 http://192.168.11.1:5004/DaddyLive/watch/582
 #EXTINF:-1 channelID="631" tvg-num="433" tvg-chno="433" tvg-name="Nova Sports 1 Greece" tvg-id="631" group-title="DaddyLive",Nova Sports 1 Greece
 http://192.168.11.1:5004/DaddyLive/watch/631
-#EXTINF:-1 channelID="99951365" tvg-num="433" tvg-chno="433" tvg-name="Big 12 Studios" tvg-id="99951365" tvg-logo="https://image.xumo.com/v1/channels/channel/99951365/512x512.png?type=color_onBlack" group-title="XUMO",Big 12 Studios
-http://192.168.11.1:5004/XUMO/watch/99951365
 #EXTINF:-1 channelID="632" tvg-num="434" tvg-chno="434" tvg-name="Nova Sports 2 Greece" tvg-id="632" group-title="DaddyLive",Nova Sports 2 Greece
 http://192.168.11.1:5004/DaddyLive/watch/632
-#EXTINF:-1 channelID="99951369" tvg-num="434" tvg-chno="434" tvg-name="Unbeaten Sports Channel" tvg-id="99951369" tvg-logo="https://image.xumo.com/v1/channels/channel/99951369/512x512.png?type=color_onBlack" group-title="XUMO",Unbeaten Sports Channel
-http://192.168.11.1:5004/XUMO/watch/99951369
 #EXTINF:-1 channelID="633" tvg-num="435" tvg-chno="435" tvg-name="Nova Sports 3 Greece" tvg-id="633" group-title="DaddyLive",Nova Sports 3 Greece
 http://192.168.11.1:5004/DaddyLive/watch/633
-#EXTINF:-1 channelID="99951373" tvg-num="435" tvg-chno="435" tvg-name="Ryz Sports Network" tvg-id="99951373" tvg-logo="https://image.xumo.com/v1/channels/channel/99951373/512x512.png?type=color_onBlack" group-title="XUMO",Ryz Sports Network
-http://192.168.11.1:5004/XUMO/watch/99951373
 #EXTINF:-1 channelID="634" tvg-num="436" tvg-chno="436" tvg-name="Nova Sports 4 Greece" tvg-id="634" group-title="DaddyLive",Nova Sports 4 Greece
 http://192.168.11.1:5004/DaddyLive/watch/634
-#EXTINF:-1 channelID="99951381" tvg-num="436" tvg-chno="436" tvg-name="Real Madrid TV" tvg-id="99951381" tvg-logo="https://image.xumo.com/v1/channels/channel/99951381/512x512.png?type=color_onBlack" group-title="XUMO",Real Madrid TV
-http://192.168.11.1:5004/XUMO/watch/99951381
 #EXTINF:-1 channelID="635" tvg-num="437" tvg-chno="437" tvg-name="Nova Sports 5 Greece" tvg-id="635" group-title="DaddyLive",Nova Sports 5 Greece
 http://192.168.11.1:5004/DaddyLive/watch/635
-#EXTINF:-1 channelID="99951389" tvg-num="437" tvg-chno="437" tvg-name="T2" tvg-id="99951389" tvg-logo="https://image.xumo.com/v1/channels/channel/99951389/512x512.png?type=color_onBlack" group-title="XUMO",T2
-http://192.168.11.1:5004/XUMO/watch/99951389
 #EXTINF:-1 channelID="636" tvg-num="438" tvg-chno="438" tvg-name="Nova Sports 6 Greece" tvg-id="636" group-title="DaddyLive",Nova Sports 6 Greece
 http://192.168.11.1:5004/DaddyLive/watch/636
-#EXTINF:-1 channelID="99951390" tvg-num="438" tvg-chno="438" tvg-name="PickleballTV" tvg-id="99951390" tvg-logo="https://image.xumo.com/v1/channels/channel/99951390/512x512.png?type=color_onBlack" group-title="XUMO",PickleballTV
-http://192.168.11.1:5004/XUMO/watch/99951390
 #EXTINF:-1 channelID="639" tvg-num="439" tvg-chno="439" tvg-name="Nova Sports News Greece" tvg-id="639" group-title="DaddyLive",Nova Sports News Greece
 http://192.168.11.1:5004/DaddyLive/watch/639
-#EXTINF:-1 channelID="99951383" tvg-num="439" tvg-chno="439" tvg-name="NBA FAST Channel" tvg-id="99951383" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/512x512.png?type=color_onBlack" group-title="XUMO",NBA FAST Channel
-http://192.168.11.1:5004/XUMO/watch/99951383
 #EXTINF:-1 channelID="599" tvg-num="440" tvg-chno="440" tvg-name="Nova Sports Premier League Greece" tvg-id="599" group-title="DaddyLive",Nova Sports Premier League Greece
 http://192.168.11.1:5004/DaddyLive/watch/599
-#EXTINF:-1 channelID="99951406" tvg-num="440" tvg-chno="440" tvg-name="Willow Sports" tvg-id="99951406" tvg-logo="https://image.xumo.com/v1/channels/channel/99951406/512x512.png?type=color_onBlack" group-title="XUMO",Willow Sports
-http://192.168.11.1:5004/XUMO/watch/99951406
 #EXTINF:-1 channelID="638" tvg-num="441" tvg-chno="441" tvg-name="Nova Sports Prime Greece" tvg-id="638" group-title="DaddyLive",Nova Sports Prime Greece
 http://192.168.11.1:5004/DaddyLive/watch/638
-#EXTINF:-1 channelID="99951388" tvg-num="441" tvg-chno="441" tvg-name="PBR RidePass" tvg-id="99951388" tvg-logo="https://image.xumo.com/v1/channels/channel/99951388/512x512.png?type=color_onBlack" group-title="XUMO",PBR RidePass
-http://192.168.11.1:5004/XUMO/watch/99951388
 #EXTINF:-1 channelID="637" tvg-num="442" tvg-chno="442" tvg-name="Nova Sports Start Greece" tvg-id="637" group-title="DaddyLive",Nova Sports Start Greece
 http://192.168.11.1:5004/DaddyLive/watch/637
-#EXTINF:-1 channelID="99951399" tvg-num="442" tvg-chno="442" tvg-name="Bleacher Report Sports Network" tvg-id="99951399" tvg-logo="https://image.xumo.com/v1/channels/channel/99951399/512x512.png?type=color_onBlack" group-title="XUMO",Bleacher Report Sports Network
-http://192.168.11.1:5004/XUMO/watch/99951399
 #EXTINF:-1 channelID="480" tvg-num="443" tvg-chno="443" tvg-name="Nova TV Bulgaria" tvg-id="480" group-title="DaddyLive",Nova TV Bulgaria
 http://192.168.11.1:5004/DaddyLive/watch/480
 #EXTINF:-1 channelID="541" tvg-num="444" tvg-chno="444" tvg-name="ONE 1 HD Israel" tvg-id="541" group-title="DaddyLive",ONE 1 HD Israel
@@ -1195,32 +1001,18 @@ http://192.168.11.1:5004/DaddyLive/watch/294
 http://192.168.11.1:5004/DaddyLive/watch/385
 #EXTINF:-1 channelID="811" tvg-num="501" tvg-chno="501" tvg-name="SEE Denmark" tvg-id="811" group-title="DaddyLive",SEE Denmark
 http://192.168.11.1:5004/DaddyLive/watch/811
-#EXTINF:-1 channelID="99951132" tvg-num="501" tvg-chno="501" tvg-name="Fight Network" tvg-id="99951132" tvg-logo="https://image.xumo.com/v1/channels/channel/99951132/512x512.png?type=color_onBlack" group-title="XUMO",Fight Network
-http://192.168.11.1:5004/XUMO/watch/99951132
 #EXTINF:-1 channelID="792" tvg-num="502" tvg-chno="502" tvg-name="Showtime 2 USA (SHO2) USA" tvg-id="792" group-title="DaddyLive",Showtime 2 USA (SHO2) USA
 http://192.168.11.1:5004/DaddyLive/watch/792
-#EXTINF:-1 channelID="99951134" tvg-num="502" tvg-chno="502" tvg-name="UFC" tvg-id="99951134" tvg-logo="https://image.xumo.com/v1/channels/channel/99951134/512x512.png?type=color_onBlack" group-title="XUMO",UFC
-http://192.168.11.1:5004/XUMO/watch/99951134
 #EXTINF:-1 channelID="794" tvg-num="503" tvg-chno="503" tvg-name="Showtime Extreme USA" tvg-id="794" group-title="DaddyLive",Showtime Extreme USA
 http://192.168.11.1:5004/DaddyLive/watch/794
-#EXTINF:-1 channelID="99951154" tvg-num="503" tvg-chno="503" tvg-name="Boxing TV" tvg-id="99951154" tvg-logo="https://image.xumo.com/v1/channels/channel/99951154/512x512.png?type=color_onBlack" group-title="XUMO",Boxing TV
-http://192.168.11.1:5004/XUMO/watch/99951154
 #EXTINF:-1 channelID="795" tvg-num="504" tvg-chno="504" tvg-name="Showtime Family Zone (SHO Family Zone) USA" tvg-id="795" group-title="DaddyLive",Showtime Family Zone (SHO Family Zone) USA
 http://192.168.11.1:5004/DaddyLive/watch/795
-#EXTINF:-1 channelID="99951203" tvg-num="504" tvg-chno="504" tvg-name="PFL MMA" tvg-id="99951203" tvg-logo="https://image.xumo.com/v1/channels/channel/99951203/512x512.png?type=color_onBlack" group-title="XUMO",PFL MMA
-http://192.168.11.1:5004/XUMO/watch/99951203
 #EXTINF:-1 channelID="796" tvg-num="505" tvg-chno="505" tvg-name="Showtime Next (SHO Next) USA" tvg-id="796" group-title="DaddyLive",Showtime Next (SHO Next) USA
 http://192.168.11.1:5004/DaddyLive/watch/796
-#EXTINF:-1 channelID="99991278" tvg-num="505" tvg-chno="505" tvg-name="GLORY Kickboxing" tvg-id="99991278" tvg-logo="https://image.xumo.com/v1/channels/channel/99991278/512x512.png?type=color_onBlack" group-title="XUMO",GLORY Kickboxing
-http://192.168.11.1:5004/XUMO/watch/99991278
 #EXTINF:-1 channelID="793" tvg-num="506" tvg-chno="506" tvg-name="Showtime Showcase USA" tvg-id="793" group-title="DaddyLive",Showtime Showcase USA
 http://192.168.11.1:5004/DaddyLive/watch/793
-#EXTINF:-1 channelID="99991341" tvg-num="506" tvg-chno="506" tvg-name="TNA Wrestling Channel" tvg-id="99991341" tvg-logo="https://image.xumo.com/v1/channels/channel/99991341/512x512.png?type=color_onBlack" group-title="XUMO",TNA Wrestling Channel
-http://192.168.11.1:5004/XUMO/watch/99991341
 #EXTINF:-1 channelID="333" tvg-num="507" tvg-chno="507" tvg-name="Showtime USA" tvg-id="333" group-title="DaddyLive",Showtime USA
 http://192.168.11.1:5004/DaddyLive/watch/333
-#EXTINF:-1 channelID="99991696" tvg-num="507" tvg-chno="507" tvg-name="Swerve Combat" tvg-id="99991696" tvg-logo="https://image.xumo.com/v1/channels/channel/99991696/512x512.png?type=color_onBlack" group-title="XUMO",Swerve Combat
-http://192.168.11.1:5004/XUMO/watch/99991696
 #EXTINF:-1 channelID="797" tvg-num="508" tvg-chno="508" tvg-name="Showtime Women USA" tvg-id="797" group-title="DaddyLive",Showtime Women USA
 http://192.168.11.1:5004/DaddyLive/watch/797
 #EXTINF:-1 channelID="722" tvg-num="509" tvg-chno="509" tvg-name="SIC Portugal" tvg-id="722" group-title="DaddyLive",SIC Portugal
@@ -1409,36 +1201,20 @@ http://192.168.11.1:5004/DaddyLive/watch/49
 http://192.168.11.1:5004/DaddyLive/watch/74
 #EXTINF:-1 channelID="454" tvg-num="600" tvg-chno="600" tvg-name="Sport TV3 Portugal" tvg-id="454" group-title="DaddyLive",Sport TV3 Portugal
 http://192.168.11.1:5004/DaddyLive/watch/454
-#EXTINF:-1 channelID="99951438" tvg-num="601" tvg-chno="601" tvg-name="MotorTrend FAST TV" tvg-id="99951438" tvg-logo="https://image.xumo.com/v1/channels/channel/99951438/512x512.png?type=color_onBlack" group-title="XUMO",MotorTrend FAST TV
-http://192.168.11.1:5004/XUMO/watch/99951438
 #EXTINF:-1 channelID="289" tvg-num="601" tvg-chno="601" tvg-name="Sport TV4 Portugal" tvg-id="289" group-title="DaddyLive",Sport TV4 Portugal
 http://192.168.11.1:5004/DaddyLive/watch/289
-#EXTINF:-1 channelID="99991291" tvg-num="602" tvg-chno="602" tvg-name="PowerNation" tvg-id="99991291" tvg-logo="https://image.xumo.com/v1/channels/channel/99991291/512x512.png?type=color_onBlack" group-title="XUMO",PowerNation
-http://192.168.11.1:5004/XUMO/watch/99991291
 #EXTINF:-1 channelID="290" tvg-num="602" tvg-chno="602" tvg-name="Sport TV5 Portugal" tvg-id="290" group-title="DaddyLive",Sport TV5 Portugal
 http://192.168.11.1:5004/DaddyLive/watch/290
-#EXTINF:-1 channelID="99991325" tvg-num="603" tvg-chno="603" tvg-name="Motorvision" tvg-id="99991325" tvg-logo="https://image.xumo.com/v1/channels/channel/99991325/512x512.png?type=color_onBlack" group-title="XUMO",Motorvision
-http://192.168.11.1:5004/XUMO/watch/99991325
 #EXTINF:-1 channelID="291" tvg-num="603" tvg-chno="603" tvg-name="Sport TV6 Portugal" tvg-id="291" group-title="DaddyLive",Sport TV6 Portugal
 http://192.168.11.1:5004/DaddyLive/watch/291
-#EXTINF:-1 channelID="99951207" tvg-num="604" tvg-chno="604" tvg-name="Fifth Gear" tvg-id="99951207" tvg-logo="https://image.xumo.com/v1/channels/channel/99951207/512x512.png?type=color_onBlack" group-title="XUMO",Fifth Gear
-http://192.168.11.1:5004/XUMO/watch/99951207
 #EXTINF:-1 channelID="641" tvg-num="604" tvg-chno="604" tvg-name="Sport1 Germany" tvg-id="641" group-title="DaddyLive",Sport1 Germany
 http://192.168.11.1:5004/DaddyLive/watch/641
-#EXTINF:-1 channelID="99951249" tvg-num="605" tvg-chno="605" tvg-name="Top Gear" tvg-id="99951249" tvg-logo="https://image.xumo.com/v1/channels/channel/99951249/512x512.png?type=color_onBlack" group-title="XUMO",Top Gear
-http://192.168.11.1:5004/XUMO/watch/99951249
 #EXTINF:-1 channelID="640" tvg-num="605" tvg-chno="605" tvg-name="Sport1+ Germany" tvg-id="640" group-title="DaddyLive",Sport1+ Germany
 http://192.168.11.1:5004/DaddyLive/watch/640
-#EXTINF:-1 channelID="99951268" tvg-num="606" tvg-chno="606" tvg-name="SPEEDVISION" tvg-id="99951268" tvg-logo="https://image.xumo.com/v1/channels/channel/99951268/512x512.png?type=color_onBlack" group-title="XUMO",SPEEDVISION
-http://192.168.11.1:5004/XUMO/watch/99951268
 #EXTINF:-1 channelID="571" tvg-num="606" tvg-chno="606" tvg-name="SportDigital Fussball" tvg-id="571" group-title="DaddyLive",SportDigital Fussball
 http://192.168.11.1:5004/DaddyLive/watch/571
-#EXTINF:-1 channelID="99951269" tvg-num="607" tvg-chno="607" tvg-name="MAVTV Select" tvg-id="99951269" tvg-logo="https://image.xumo.com/v1/channels/channel/99951269/512x512.png?type=color_onBlack" group-title="XUMO",MAVTV Select
-http://192.168.11.1:5004/XUMO/watch/99951269
 #EXTINF:-1 channelID="716" tvg-num="607" tvg-chno="607" tvg-name="Sporting TV Portugal" tvg-id="716" group-title="DaddyLive",Sporting TV Portugal
 http://192.168.11.1:5004/DaddyLive/watch/716
-#EXTINF:-1 channelID="99951413" tvg-num="608" tvg-chno="608" tvg-name="NASCAR Channel" tvg-id="99951413" tvg-logo="https://image.xumo.com/v1/channels/channel/99951413/512x512.png?type=color_onBlack" group-title="XUMO",NASCAR Channel
-http://192.168.11.1:5004/XUMO/watch/99951413
 #EXTINF:-1 channelID="409" tvg-num="608" tvg-chno="608" tvg-name="Sportsnet 360" tvg-id="409" group-title="DaddyLive",Sportsnet 360
 http://192.168.11.1:5004/DaddyLive/watch/409
 #EXTINF:-1 channelID="408" tvg-num="609" tvg-chno="609" tvg-name="Sportsnet East" tvg-id="408" group-title="DaddyLive",Sportsnet East
@@ -1625,84 +1401,46 @@ http://192.168.11.1:5004/DaddyLive/watch/817
 http://192.168.11.1:5004/DaddyLive/watch/810
 #EXTINF:-1 channelID="808" tvg-num="700" tvg-chno="700" tvg-name="TV2 Sport X Denmark" tvg-id="808" group-title="DaddyLive",TV2 Sport X Denmark
 http://192.168.11.1:5004/DaddyLive/watch/808
-#EXTINF:-1 channelID="99991384" tvg-num="701" tvg-chno="701" tvg-name="Xumo Free Crime TV" tvg-id="99991384" tvg-logo="https://image.xumo.com/v1/channels/channel/99991384/512x512.png?type=color_onBlack" group-title="XUMO",Xumo Free Crime TV
-http://192.168.11.1:5004/XUMO/watch/99991384
 #EXTINF:-1 channelID="818" tvg-num="701" tvg-chno="701" tvg-name="TV2 Zulu" tvg-id="818" group-title="DaddyLive",TV2 Zulu
 http://192.168.11.1:5004/DaddyLive/watch/818
-#EXTINF:-1 channelID="99991626" tvg-num="702" tvg-chno="702" tvg-name="Dateline 24/7" tvg-id="99991626" tvg-logo="https://image.xumo.com/v1/channels/channel/99991626/512x512.png?type=color_onBlack" group-title="XUMO",Dateline 24/7
-http://192.168.11.1:5004/XUMO/watch/99991626
 #EXTINF:-1 channelID="223" tvg-num="702" tvg-chno="702" tvg-name="TV3 Max Denmark" tvg-id="223" group-title="DaddyLive",TV3 Max Denmark
 http://192.168.11.1:5004/DaddyLive/watch/223
-#EXTINF:-1 channelID="99991680" tvg-num="703" tvg-chno="703" tvg-name="Unsolved Mysteries" tvg-id="99991680" tvg-logo="https://image.xumo.com/v1/channels/channel/99991680/512x512.png?type=color_onBlack" group-title="XUMO",Unsolved Mysteries
-http://192.168.11.1:5004/XUMO/watch/99991680
 #EXTINF:-1 channelID="809" tvg-num="703" tvg-chno="703" tvg-name="TV3 Sport Denmark" tvg-id="809" group-title="DaddyLive",TV3 Sport Denmark
 http://192.168.11.1:5004/DaddyLive/watch/809
-#EXTINF:-1 channelID="99951234" tvg-num="704" tvg-chno="704" tvg-name="Oxygen True Crime Archives" tvg-id="99951234" tvg-logo="https://image.xumo.com/v1/channels/channel/99951234/512x512.png?type=color_onBlack" group-title="XUMO",Oxygen True Crime Archives
-http://192.168.11.1:5004/XUMO/watch/99951234
 #EXTINF:-1 channelID="819" tvg-num="704" tvg-chno="704" tvg-name="TV3+ Denmark" tvg-id="819" group-title="DaddyLive",TV3+ Denmark
 http://192.168.11.1:5004/DaddyLive/watch/819
-#EXTINF:-1 channelID="99951245" tvg-num="705" tvg-chno="705" tvg-name="Universal Crime" tvg-id="99951245" tvg-logo="https://image.xumo.com/v1/channels/channel/99951245/512x512.png?type=color_onBlack" group-title="XUMO",Universal Crime
-http://192.168.11.1:5004/XUMO/watch/99951245
 #EXTINF:-1 channelID="833" tvg-num="705" tvg-chno="705" tvg-name="TVA Sports" tvg-id="833" group-title="DaddyLive",TVA Sports
 http://192.168.11.1:5004/DaddyLive/watch/833
-#EXTINF:-1 channelID="99951246" tvg-num="706" tvg-chno="706" tvg-name="American Crimes" tvg-id="99951246" tvg-logo="https://image.xumo.com/v1/channels/channel/99951246/512x512.png?type=color_onBlack" group-title="XUMO",American Crimes
-http://192.168.11.1:5004/XUMO/watch/99951246
 #EXTINF:-1 channelID="834" tvg-num="706" tvg-chno="706" tvg-name="TVA Sports 2" tvg-id="834" group-title="DaddyLive",TVA Sports 2
 http://192.168.11.1:5004/DaddyLive/watch/834
-#EXTINF:-1 channelID="99991320" tvg-num="707" tvg-chno="707" tvg-name="Law&Crime" tvg-id="99991320" tvg-logo="https://image.xumo.com/v1/channels/channel/99991320/512x512.png?type=color_onBlack" group-title="XUMO",Law&Crime
-http://192.168.11.1:5004/XUMO/watch/99991320
 #EXTINF:-1 channelID="533" tvg-num="707" tvg-chno="707" tvg-name="TVE La 1 Spain" tvg-id="533" group-title="DaddyLive",TVE La 1 Spain
 http://192.168.11.1:5004/DaddyLive/watch/533
 #EXTINF:-1 channelID="536" tvg-num="708" tvg-chno="708" tvg-name="TVE La 2 Spain" tvg-id="536" group-title="DaddyLive",TVE La 2 Spain
 http://192.168.11.1:5004/DaddyLive/watch/536
-#EXTINF:-1 channelID="99991367" tvg-num="709" tvg-chno="709" tvg-name="Forensic Files" tvg-id="99991367" tvg-logo="https://image.xumo.com/v1/channels/channel/99991367/512x512.png?type=color_onBlack" group-title="XUMO",Forensic Files
-http://192.168.11.1:5004/XUMO/watch/99991367
 #EXTINF:-1 channelID="723" tvg-num="709" tvg-chno="709" tvg-name="TVI Portugal" tvg-id="723" group-title="DaddyLive",TVI Portugal
 http://192.168.11.1:5004/DaddyLive/watch/723
-#EXTINF:-1 channelID="99991368" tvg-num="710" tvg-chno="710" tvg-name="REELZ Famous & Infamous" tvg-id="99991368" tvg-logo="https://image.xumo.com/v1/channels/channel/99991368/512x512.png?type=color_onBlack" group-title="XUMO",REELZ Famous & Infamous
-http://192.168.11.1:5004/XUMO/watch/99991368
 #EXTINF:-1 channelID="724" tvg-num="710" tvg-chno="710" tvg-name="TVI Reality Portugal" tvg-id="724" group-title="DaddyLive",TVI Reality Portugal
 http://192.168.11.1:5004/DaddyLive/watch/724
-#EXTINF:-1 channelID="99951157" tvg-num="711" tvg-chno="711" tvg-name="ION Mystery" tvg-id="99951157" tvg-logo="https://image.xumo.com/v1/channels/channel/99951157/512x512.png?type=color_onBlack" group-title="XUMO",ION Mystery
-http://192.168.11.1:5004/XUMO/watch/99951157
 #EXTINF:-1 channelID="342" tvg-num="711" tvg-chno="711" tvg-name="TVLAND" tvg-id="342" group-title="DaddyLive",TVLAND
 http://192.168.11.1:5004/DaddyLive/watch/342
-#EXTINF:-1 channelID="99991713" tvg-num="712" tvg-chno="712" tvg-name="Court TV" tvg-id="99991713" tvg-logo="https://image.xumo.com/v1/channels/channel/99991713/512x512.png?type=color_onBlack" group-title="XUMO",Court TV
-http://192.168.11.1:5004/XUMO/watch/99991713
 #EXTINF:-1 channelID="565" tvg-num="712" tvg-chno="712" tvg-name="TVN HD Poland" tvg-id="565" group-title="DaddyLive",TVN HD Poland
 http://192.168.11.1:5004/DaddyLive/watch/565
-#EXTINF:-1 channelID="99991698" tvg-num="713" tvg-chno="713" tvg-name="Midsomer Murders" tvg-id="99991698" tvg-logo="https://image.xumo.com/v1/channels/channel/99991698/512x512.png?type=color_onBlack" group-title="XUMO",Midsomer Murders
-http://192.168.11.1:5004/XUMO/watch/99991698
 #EXTINF:-1 channelID="444" tvg-num="713" tvg-chno="713" tvg-name="TVN24 Poland" tvg-id="444" group-title="DaddyLive",TVN24 Poland
 http://192.168.11.1:5004/DaddyLive/watch/444
-#EXTINF:-1 channelID="99951233" tvg-num="714" tvg-chno="714" tvg-name="Court TV Legendary Trials" tvg-id="99951233" tvg-logo="https://image.xumo.com/v1/channels/channel/99951233/512x512.png?type=color_onBlack" group-title="XUMO",Court TV Legendary Trials
-http://192.168.11.1:5004/XUMO/watch/99951233
 #EXTINF:-1 channelID="842" tvg-num="714" tvg-chno="714" tvg-name="TVO CA" tvg-id="842" group-title="DaddyLive",TVO CA
 http://192.168.11.1:5004/DaddyLive/watch/842
-#EXTINF:-1 channelID="99951213" tvg-num="715" tvg-chno="715" tvg-name="BritBox Mysteries" tvg-id="99951213" tvg-logo="https://image.xumo.com/v1/channels/channel/99951213/512x512.png?type=color_onBlack" group-title="XUMO",BritBox Mysteries
-http://192.168.11.1:5004/XUMO/watch/99951213
 #EXTINF:-1 channelID="452" tvg-num="715" tvg-chno="715" tvg-name="TVP INFO" tvg-id="452" group-title="DaddyLive",TVP INFO
 http://192.168.11.1:5004/DaddyLive/watch/452
 #EXTINF:-1 channelID="128" tvg-num="716" tvg-chno="716" tvg-name="TVP Sport Poland" tvg-id="128" group-title="DaddyLive",TVP Sport Poland
 http://192.168.11.1:5004/DaddyLive/watch/128
-#EXTINF:-1 channelID="99951299" tvg-num="717" tvg-chno="717" tvg-name="TV One CRIME & JUSTICE FAST CHANNEL" tvg-id="99951299" tvg-logo="https://image.xumo.com/v1/channels/channel/99951299/512x512.png?type=color_onBlack" group-title="XUMO",TV One CRIME & JUSTICE FAST CHANNEL
-http://192.168.11.1:5004/XUMO/watch/99951299
 #EXTINF:-1 channelID="560" tvg-num="717" tvg-chno="717" tvg-name="TVP1 Poland" tvg-id="560" group-title="DaddyLive",TVP1 Poland
 http://192.168.11.1:5004/DaddyLive/watch/560
-#EXTINF:-1 channelID="99951315" tvg-num="718" tvg-chno="718" tvg-name="World's Wildest Police Videos" tvg-id="99951315" tvg-logo="https://image.xumo.com/v1/channels/channel/99951315/512x512.png?type=color_onBlack" group-title="XUMO",World's Wildest Police Videos
-http://192.168.11.1:5004/XUMO/watch/99951315
 #EXTINF:-1 channelID="561" tvg-num="718" tvg-chno="718" tvg-name="TVP2 Poland" tvg-id="561" group-title="DaddyLive",TVP2 Poland
 http://192.168.11.1:5004/DaddyLive/watch/561
-#EXTINF:-1 channelID="99951285" tvg-num="719" tvg-chno="719" tvg-name="Investigation" tvg-id="99951285" tvg-logo="https://image.xumo.com/v1/channels/channel/99951285/512x512.png?type=color_onBlack" group-title="XUMO",Investigation
-http://192.168.11.1:5004/XUMO/watch/99951285
 #EXTINF:-1 channelID="746" tvg-num="719" tvg-chno="719" tvg-name="TYC Sports Argentina" tvg-id="746" group-title="DaddyLive",TYC Sports Argentina
 http://192.168.11.1:5004/DaddyLive/watch/746
-#EXTINF:-1 channelID="99951410" tvg-num="720" tvg-chno="720" tvg-name="Lawless by Lionsgate" tvg-id="99951410" tvg-logo="https://image.xumo.com/v1/channels/channel/99951410/512x512.png?type=color_onBlack" group-title="XUMO",Lawless by Lionsgate
-http://192.168.11.1:5004/XUMO/watch/99951410
 #EXTINF:-1 channelID="133" tvg-num="720" tvg-chno="720" tvg-name="Unimas" tvg-id="133" group-title="DaddyLive",Unimas
 http://192.168.11.1:5004/DaddyLive/watch/133
-#EXTINF:-1 channelID="99951395" tvg-num="721" tvg-chno="721" tvg-name="The F.B.I." tvg-id="99951395" tvg-logo="https://image.xumo.com/v1/channels/channel/99951395/512x512.png?type=color_onBlack" group-title="XUMO",The F.B.I.
-http://192.168.11.1:5004/XUMO/watch/99951395
 #EXTINF:-1 channelID="668" tvg-num="721" tvg-chno="721" tvg-name="Universal Kids USA" tvg-id="668" group-title="DaddyLive",Universal Kids USA
 http://192.168.11.1:5004/DaddyLive/watch/668
 #EXTINF:-1 channelID="132" tvg-num="722" tvg-chno="722" tvg-name="Univision" tvg-id="132" group-title="DaddyLive",Univision
