@@ -14,4 +14,4 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="370254" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
 http://192.168.11.1:35455/youtube/LuKwFajn37U
 #EXTINF:-1 tvg-id="369234" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
-https://fl3.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
+#https://fl3.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
