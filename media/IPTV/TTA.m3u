@@ -8,7 +8,8 @@ https://fl3.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 https://fl3.moveonjoy.com/MSNBC/index.m3u8
 #http://192.168.11.1:5004/DaddyLive/watch/327
 #EXTINF:-1 tvg-id="cnn" tvg-name="CNN US SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
-http://192.168.11.1:5004/DaddyLive/watch/345
+https://fl1.moveonjoy.com/CNN/index.m3u8
+#http://192.168.11.1:5004/DaddyLive/watch/345
 #EXTINF:-1 tvg-id="fox-news" tvg-name="Fox News SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
 https://ft.fbcdntv247.cfd/memfs/f03819b3-64bd-4730-ab94-2469c3d30d81_output_0.m3u8
 #http://192.168.11.1:5004/DaddyLive/watch/347
