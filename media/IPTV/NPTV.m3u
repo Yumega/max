@@ -1,16 +1,12 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/kuke31/xmlgz/refs/heads/main/e.xml"
 #EXTINF:-1 tvg-id="189" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="香港",翡翠台
-http://bx.757888.xyz/api.php?id=fct
-#http://php.jdshipin.com/smt.php?id=jade_twn
+http://php.jdshipin.com/smt.php?id=jade_twn
 #EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
-http://bx.757888.xyz/api.php?id=fhzx
-#http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-id="193" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
-http://bx.757888.xyz/api.php?id=fhzw
-#http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-id="225" tvg-name="无线新闻" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB4.png" group-title="新闻",无线新闻
-http://bx.757888.xyz/api.php?id=wxxw
-#http://php.jdshipin.com/smt.php?id=inews_twn
+http://php.jdshipin.com/smt.php?id=inews_twn
 
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://192.168.11.1:35455/mgtv/608807420.m3u8
