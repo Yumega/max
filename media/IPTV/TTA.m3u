@@ -13,3 +13,5 @@ https://fl1.moveonjoy.com/CNN/index.m3u8
 #EXTINF:-1 tvg-id="fox-news" tvg-name="Fox News SD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
 https://ft.fbcdntv247.cfd/memfs/f03819b3-64bd-4730-ab94-2469c3d30d81_output_0.m3u8
 #http://192.168.11.1:5004/DaddyLive/watch/347
+#EXTINF:-1 tvg-id="cbs-wcbs-new-york-ny" tvg-name="CBS (WCBS) New York, NY SD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS",CBS新闻
+https://fl1.moveonjoy.com/CBSEAST/index.m3u8
