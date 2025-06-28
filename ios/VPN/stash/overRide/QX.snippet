@@ -3,8 +3,6 @@
 #!author=奶思
 #!homepage=https://github.com/fmz200/wool_scripts
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
-#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/rewrite.snippet
-#!tg-group=https://t.me/lanjieguanggao
 #!category=奶思的模块
 #!tag = 去广告, 奶思
 #!system = iOS, iPadOS
@@ -18,17 +16,6 @@
 # "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
 # "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
 # "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
-#############################################
-# 常见问题：
-# 1️⃣：我知道规则，不知道主机名怎么办？
-# ✅：几乎所有的主机名都是从规则中提取出来的，先有的规则再有的主机名
-# 举个栗子：12306的一条规则URL👉🏻^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
-# 只需要去掉反斜杠：^https?://ad.12306.cn/ad/ser/getAdList
-# 不用再说了吧，ad.12306.cn就是想要的主机名
-# 2️⃣：有些常用的软件为什么没有去广告配置？
-# ✅：如果要利用重写去广告，就需要对请求或响应信息进行解密(MITM)，现在一些软件已经禁止了MITM，所以就无法去广告。
-#############################################
-
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
 # > 闲鱼 匹配请求头需要在同一个URL之前匹配到
