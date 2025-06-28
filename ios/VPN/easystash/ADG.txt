@@ -35,6 +35,6 @@
 ||lofter.httpdns.c.163.com^
 ||httpdns.push.oppomobile.com^
 ||httpdns.volcengineapi.com^
-||dns.weibo.cn^
-||dns.weixin.qq.com^
-||dns.weixin.qq.com.cn^
+#||dns.weibo.cn^
+#||dns.weixin.qq.com^
+#||dns.weixin.qq.com.cn^
