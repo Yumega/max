@@ -1,10 +1,10 @@
 #包含wise、微信、腾讯、iOS升级、微软中国、cloudflare中国、京东、中国银行
+.757191.xyz
 .cloudflare.com
 #自定义
 gspe19-cn-ssl.ls.apple.com
 doh.dns.apple.com
 cloudflare-dns.com
-.757191.xyz
 .weshineapp.com
 .ip.plus
 .anti-ad.net
