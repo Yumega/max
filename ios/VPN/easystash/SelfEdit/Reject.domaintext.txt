@@ -16,7 +16,7 @@ js.hs-scripts.com
 .uww6.ifeng.com
 .bm7c.ifeng.com
 .i.flive.ifeng.com
-
+irisdt.cn
 
 #迅雷版权
 hub5idx.v6.shub.sandai.net
@@ -44,6 +44,6 @@ music.httpdns.c.163.com
 lofter.httpdns.c.163.com
 httpdns.push.oppomobile.com
 httpdns.volcengineapi.com
-dns.weibo.cn
-dns.weixin.qq.com
-dns.weixin.qq.com.cn
+#dns.weibo.cn
+#dns.weixin.qq.com
+#dns.weixin.qq.com.cn
