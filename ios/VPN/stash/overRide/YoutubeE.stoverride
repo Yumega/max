@@ -1,7 +1,9 @@
 name: |-
   Youtube增强
 desc: |-
-  Lite with little memory (Experimental)
+  增强Youtube功能
+category: |-
+  去广告
 icon: |-
   https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/stash/YouTube.png
 arguments-desc: |-
