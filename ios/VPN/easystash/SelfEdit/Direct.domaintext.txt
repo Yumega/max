@@ -4,6 +4,7 @@
 gspe19-cn-ssl.ls.apple.com
 doh.dns.apple.com
 cloudflare-dns.com
+.757191.xyz
 .weshineapp.com
 .ip.plus
 .anti-ad.net
