@@ -16,8 +16,7 @@ js.hs-scripts.com
 .uww6.ifeng.com
 .bm7c.ifeng.com
 .i.flive.ifeng.com
-irisdt.cn
-
+.irisdt.cn
 #迅雷版权
 hub5idx.v6.shub.sandai.net
 hub5emu.v6.shub.sandai.net
