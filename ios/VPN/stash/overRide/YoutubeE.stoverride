@@ -17,6 +17,6 @@ http:
 
   url-rewrite:
     - >-
-      ^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$ https://stream.maasea.workers.dev/$1?blockUpload=true&blockImmersive=true&blockShorts=false&captionLang=zh-CN&lyricLang=zh-CN&$4 307
+      ^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$ https://stream.maasea.workers.dev/$1?blockUpload=true&blockImmersive=true&blockShorts=false&captionLang=off&lyricLang=off&$4 307
     - >-
       ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-200
