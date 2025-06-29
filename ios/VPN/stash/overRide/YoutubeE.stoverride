@@ -1,0 +1,20 @@
+name: |-
+  Youtube增强
+desc: |-
+  Lite with little memory (Experimental)
+icon: |-
+  https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/stash/YouTube.png
+arguments-desc: |-
+  - 屏蔽参数：[true, false] \n- 翻译参数：[语言代码, off] \n\n1. 语言代码遵循 Google Translate Languages Codes, 当填入 off 时关闭翻译
+
+http:
+
+  mitm:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+
+  url-rewrite:
+    - >-
+      ^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$ https://stream.maasea.workers.dev/$1?blockUpload=true&blockImmersive=true&blockShorts=false&captionLang=on&lyricLang=off&$4 307
+    - >-
+      ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-200
