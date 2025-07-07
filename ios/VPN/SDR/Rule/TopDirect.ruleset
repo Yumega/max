@@ -19,10 +19,6 @@ IP-CIDR,2403:300:a51::/48,no-resolve
 IP-CIDR,2a01:b740:a42::/48,no-resolve
 IP-CIDR,17.0.0.0/8,no-resolve
 #自定义
-DOMAIN:activityrecord.757191.xyz
-DOMAIN:bestprice.757191.xyz
-DOMAIN-SUFFIX:757191.xyz
-DOMAIN-SUFFIX:gstatic.com
 DOMAIN:captive.apple.com
 DOMAIN-SUFFIX:jjcruises.com
 DOMAIN-SUFFIX:portablesubmarines.com
