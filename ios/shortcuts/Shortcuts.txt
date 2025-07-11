@@ -6,8 +6,12 @@ https://www.icloud.com/shortcuts/e936200f376f46919d31995c19db3557
 发送文件至wendav
 https://www.icloud.com/shortcuts/bb2fbfb0e7d6475daa81c75ec2fa9345
 
+分享至电脑
+https://www.icloud.com/shortcuts/5d4c2001d98344a8a0798ab05456382e
+
 发至电脑
 https://www.icloud.com/shortcuts/38b4622cc8444a3fb5b24a1cd7b794cf
+https://www.icloud.com/shortcuts/5d4c2001d98344a8a0798ab05456382e
 
 复至手机
 https://www.icloud.com/shortcuts/e936200f376f46919d31995c19db3557
