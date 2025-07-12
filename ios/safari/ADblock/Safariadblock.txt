@@ -6,6 +6,9 @@ gemini.google.com##.ng-star-inserted.ng-tns-c1944934886-1.gmat-caption
 www.bing.com###b-scopeListItem-convups
 www.bing.com###b_pag_chat_btn_container
 www.bing.com###b_results > li.b_ans
+www.theguardian.com##header > .dcr-1xdhyk6
+www.theguardian.com##.dcr-173mewl
+www.theguardian.com##.dcr-1xyi04h
 www.theguardian.com##.header-top-nav__cta-bar
 www.theguardian.com##.immersive-header-container
 www.theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container > .fc-container__inner
