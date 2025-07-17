@@ -1,4 +1,6 @@
 #EXTM3U x-tvg-url="https://11.112114.xyz/pp.xml"
+#EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
+http://192.168.11.1:35455/youtube/BLaQVW5oUGU
 #EXTINF:-1 group-title="BST测试" tvg-name="CCTV1" tvg-logo="https://11.112114.xyz/logo/CCTV1.png" epg-url="https://11.112114.xyz/pp.xml",CCTV1
 http://192.168.11.1:35455/bst/cctv1hd@4000000
 #EXTINF:-1 group-title="BST测试" tvg-name="CCTV2" tvg-logo="https://11.112114.xyz/logo/CCTV2.png" epg-url="https://11.112114.xyz/pp.xml",CCTV2
