@@ -1,10 +1,4 @@
 #EXTM3U x-tvg-url="https://11.112114.xyz/pp.xml"
-#EXTINF:-1 group-title="BST测试" tvg-name="欢笑剧场4K" tvg-logo="https://11.112114.xyz/logo/欢笑剧场4K.png" epg-url="https://11.112114.xyz/pp.xml",欢笑剧场
-http://192.168.11.1:35455/bst/hxjc4k@15000000
-#EXTINF:-1 group-title="BST测试" tvg-name="cctv4k" tvg-logo="https://11.112114.xyz/logo/cctv4k.png" epg-url="https://11.112114.xyz/pp.xml",CCTV4K
-http://192.168.11.1:35455/bst/cctv4k@15000000
-#EXTINF:-1 group-title="BST测试" tvg-name="cctv164k" tvg-logo="https://11.112114.xyz/logo/cctv164k.png" epg-url="https://11.112114.xyz/pp.xml",CCTV16K
-http://192.168.11.1:35455/bst/cctv16hd4k@15000000
 #EXTINF:-1 group-title="BST测试" tvg-name="CCTV1" tvg-logo="https://11.112114.xyz/logo/CCTV1.png" epg-url="https://11.112114.xyz/pp.xml",CCTV1
 http://192.168.11.1:35455/bst/cctv1hd@4000000
 #EXTINF:-1 group-title="BST测试" tvg-name="CCTV2" tvg-logo="https://11.112114.xyz/logo/CCTV2.png" epg-url="https://11.112114.xyz/pp.xml",CCTV2
@@ -33,9 +27,9 @@ http://192.168.11.1:35455/bst/cctv10hd@4000000
 http://192.168.11.1:35455/bst/cctv11hd4m@4000000
 #EXTINF:-1 group-title="BST测试" tvg-name="CCTV12" tvg-logo="https://11.112114.xyz/logo/CCTV12.png" epg-url="https://11.112114.xyz/pp.xml",CCTV12
 http://192.168.11.1:35455/bst/cctv12hd4m@4000000
-#EXTINF:-1 group-title="BST测试" tvg-name="CCTV13" tvg-logo="https://11.112114.xyz/logo/BTV新闻.png" epg-url="https://11.112114.xyz/pp.xml",CCTV13
+#EXTINF:-1 group-title="BST测试" tvg-name="CCTV13" tvg-logo="https://11.112114.xyz/logo/CCTV13.png" epg-url="https://11.112114.xyz/pp.xml",CCTV13
 http://192.168.11.1:35455/bst/cctv13hd4m@4000000
-#EXTINF:-1 group-title="BST测试" tvg-name="动感音乐" tvg-logo="https://11.112114.xyz/logo/动感音乐.png" epg-url="https://11.112114.xyz/pp.xml",CCTV15
+#EXTINF:-1 group-title="BST测试" tvg-name="CCTV15" tvg-logo="https://11.112114.xyz/logo/CCTV15.png" epg-url="https://11.112114.xyz/pp.xml",CCTV15
 http://192.168.11.1:35455/bst/cctvyyhd4m@4000000
 #EXTINF:-1 group-title="BST测试" tvg-name="CCTV16" tvg-logo="https://11.112114.xyz/logo/CCTV16.png" epg-url="https://11.112114.xyz/pp.xml",CCTV16
 http://192.168.11.1:35455/bst/cctv16hd4m@4000000
@@ -91,26 +85,13 @@ http://192.168.11.1:35455/bst/szwshd@4000000
 http://192.168.11.1:35455/bst/ynwshd4m@4000000
 #EXTINF:-1 group-title="BST测试" tvg-name="四川卫视" tvg-logo="https://11.112114.xyz/logo/四川卫视.png" epg-url="https://11.112114.xyz/pp.xml",四川卫视
 http://192.168.11.1:35455/bst/scwshd4m@4000000
-#EXTINF:-1 group-title="BST测试" tvg-name="山西卫视" tvg-logo="https://11.112114.xyz/logo/山西卫视.png" epg-url="https://11.112114.xyz/pp.xml",山西卫视
-http://192.168.11.1:35455/bst/shanxiws@1300000
-#EXTINF:-1 group-title="BST测试" tvg-name="陕西卫视" tvg-logo="https://11.112114.xyz/logo/陕西卫视.png" epg-url="https://11.112114.xyz/pp.xml",陕西卫视
-http://192.168.11.1:35455/bst/sxws@1300000
-#EXTINF:-1 group-title="BST测试" tvg-name="新疆卫视" tvg-logo="https://11.112114.xyz/logo/新疆卫视.png" epg-url="https://11.112114.xyz/pp.xml",新疆卫视
-http://192.168.11.1:35455/bst/xjws@1300000
-#EXTINF:-1 group-title="BST测试" tvg-name="安多卫视" tvg-logo="https://11.112114.xyz/logo/安多卫视.png" epg-url="https://11.112114.xyz/pp.xml",安多卫视
-http://192.168.11.1:35455/bst/adws2d5m@2500000
-#EXTINF:-1 group-title="BST测试" tvg-name="西藏卫视" tvg-logo="https://11.112114.xyz/logo/西藏卫视.png" epg-url="https://11.112114.xyz/pp.xml",西藏卫视
-http://192.168.11.1:35455/bst/xzws@2500000
-#EXTINF:-1 group-title="BST测试" tvg-name="兵团卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png" epg-url="https://11.112114.xyz/pp.xml",兵团卫视
-http://192.168.11.1:35455/bst/btws@1300000
-#EXTINF:-1 group-title="BST测试" tvg-name="内蒙古卫视" tvg-logo="https://11.112114.xyz/logo/内蒙古卫视.png" epg-url="https://11.112114.xyz/pp.xml",内蒙古卫视
-http://192.168.11.1:35455/bst/nmgws@1300000
-#EXTINF:-1 group-title="BST测试" tvg-name="宁夏卫视" tvg-logo="https://11.112114.xyz/logo/宁夏卫视.png" epg-url="https://11.112114.xyz/pp.xml",宁夏卫视
-http://192.168.11.1:35455/bst/nxws@1300000
-#EXTINF:-1 group-title="BST测试" tvg-name="青海卫视" tvg-logo="https://11.112114.xyz/logo/青海卫视.png" epg-url="https://11.112114.xyz/pp.xml",青海卫视
-http://192.168.11.1:35455/bst/qhws@1300000
-#EXTINF:-1 group-title="BST测试" tvg-name="三沙卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png" epg-url="https://11.112114.xyz/pp.xml",三沙卫视
-http://192.168.11.1:35455/bst/ssws2d5m@2500000
+#EXTINF:-1 group-title="BST测试" tvg-name="欢笑剧场4K" tvg-logo="https://11.112114.xyz/logo/欢笑剧场4K.png" epg-url="https://11.112114.xyz/pp.xml",欢笑剧场
+#http://192.168.11.1:35455/bst/hxjc4k@15000000
+#EXTINF:-1 group-title="BST测试" tvg-name="cctv4k" tvg-logo="https://11.112114.xyz/logo/cctv4k.png" epg-url="https://11.112114.xyz/pp.xml",CCTV4K
+http://192.168.11.1:35455/bst/cctv4k@15000000
+#EXTINF:-1 group-title="BST测试" tvg-name="cctv164k" tvg-logo="https://11.112114.xyz/logo/cctv164k.png" epg-url="https://11.112114.xyz/pp.xml",CCTV16K
+#http://192.168.11.1:35455/bst/cctv16hd4k@15000000
+
 #EXTINF:-1 group-title="BST测试" tvg-name="欢笑剧场" tvg-logo="https://11.112114.xyz/logo/欢笑剧场.png" epg-url="https://11.112114.xyz/pp.xml",欢笑剧场
 http://192.168.11.1:35455/bst/hxjchd@4000000
 #EXTINF:-1 group-title="BST测试" tvg-name="热门剧场HD" tvg-logo="https://11.112114.xyz/logo/热门剧场HD.png" epg-url="https://11.112114.xyz/pp.xml",热门剧场HD
