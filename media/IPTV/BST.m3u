@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://11.112114.xyz/pp.xml"
 #EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
-https://edge.163189.xyz/163189/fhzx
-#http://live.sxrtv.com/iptv/fhzx.m3u8
+#https://edge.163189.xyz/163189/fhzx
+http://live.sxrtv.com/iptv/fhzx.m3u8
 #http://192.168.11.1:35455/youtube/BLaQVW5oUGU
 #EXTINF:-1 tvg-id="193" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
 http://live.sxrtv.com/iptv/fhzw.m3u8
