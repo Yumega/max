@@ -19,18 +19,18 @@ IP-CIDR,2403:300:a51::/48,no-resolve
 IP-CIDR,2a01:b740:a42::/48,no-resolve
 IP-CIDR,17.0.0.0/8,no-resolve
 #自定义
-DOMAIN:captive.apple.com
-DOMAIN-SUFFIX:jjcruises.com
-DOMAIN-SUFFIX:portablesubmarines.com
-DOMAIN-SUFFIX:cloudflare-ech.com
+DOMAIN,captive.apple.com
+DOMAIN-SUFFIX,jjcruises.com
+DOMAIN-SUFFIX,portablesubmarines.com
+DOMAIN-SUFFIX,cloudflare-ech.com
 
 #wise
-DOMAIN-SUFFIX:cloudfront.net
-DOMAIN-SUFFIX:mixpanel.com
-DOMAIN-SUFFIX:datatheorem.com
-DOMAIN-SUFFIX:singular.net
-DOMAIN-SUFFIX:braze.eu
-DOMAIN-SUFFIX:wise.com
+#DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,datatheorem.com
+DOMAIN-SUFFIX,singular.net
+DOMAIN-SUFFIX,braze.eu
+DOMAIN-SUFFIX,wise.com
 #Geosite,CN苹果, from https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/refs/heads/master/apple.china.conf
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
