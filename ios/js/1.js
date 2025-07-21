@@ -60,7 +60,7 @@
                     box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
                 ">
                     <h1 style="
-                        font-size: 1.8em;
+                        font-size: 1.3em;
                         font-weight: bold;
                         margin-bottom: 0.5em;
                         line-height: 1.3;
