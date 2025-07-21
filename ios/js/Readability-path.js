@@ -9,7 +9,6 @@
 // @match        https://*.theguardian.com/*
 // @match        https://*.foxnews.com/*
 // @match        https://*.sky.com/*
-// @match        https://*.nbcnews.com/*
 // @match        https://*.euronews.com/*
 // @match        https://*.cnn.com/*
 // @exclude      https://www.channelnewsasia.com/listen/*
