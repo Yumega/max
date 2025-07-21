@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  在 CNN 子页面启用内嵌版 Readability，无需依赖 CDN，跳过首页
-// @author       ChatGPT
+// @author       Max
 // @match        https://*.cnn.com/*
 // @match        https://*.channelnewsasia.com/*
 // @match        https://*.theguardian.com/*
