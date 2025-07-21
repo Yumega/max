@@ -13,7 +13,7 @@
 
   // 1. 载入 readabilitySAX（你需要部署它或者使用打包好的版本）
   const script = document.createElement('script');
-  script.src = 'https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/someJS/readabilitySAX.bundle.js'; // 替换为实际 CDN 路径
+  script.src = 'https://raw.githubusercontent.com/fb55/readabilitySAX/refs/heads/master/readabilitySAX.js'; // 替换为实际 CDN 路径
   script.onload = () => {
     startReadability();
   };
