@@ -7,7 +7,7 @@
 // @match        https://*.bbc.com/*
 // @match        https://*.wsj.com/*
 // @match        https://*.nbcnews.com/*
-// @exclude      
+// @exclude      https://www.bbc.com/news/videos/*
 // @exclude      
 // @exclude     
 // @grant        none
