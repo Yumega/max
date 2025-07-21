@@ -2795,12 +2795,12 @@ if (typeof module === "object") {
 }
 /* ——— 粘贴结束 ——— */
 
-(function() {
+(function () {
     'use strict';
 
     // ✅ 仅当 URL 中含有数字时才继续执行
     if (!/\d/.test(location.href)) {
-        console.log('URL 不含数字，跳过 Readability 脚本执行');
+        console.log('[Readability] URL 不含数字，跳过执行');
         return;
     }
 
@@ -2808,17 +2808,77 @@ if (typeof module === "object") {
         try {
             const docClone = document.cloneNode(true);
             const article = new Readability(docClone).parse();
-            if (article && article.content) {
-                document.body.innerHTML = `
-                    <div style="max-width: 800px; margin: auto; font-family: serif; line-height: 1.6; padding: 2em;">
-                        <h1>${article.title}</h1>
-                        ${article.content}
-                    </div>`;
-                document.title = article.title;
-                document.body.style.backgroundColor = '#f4f4f4';
-            }
-        } catch (e) {
-            console.error('Readability 解析失败:', e);
+            if (!article || !article.content) return;
+
+            // ✅ 页面替换为简洁阅读模式
+            document.body.innerHTML = `
+                <div id="readability-content" style="
+                    max-width: 800px;
+                    margin: auto;
+                    font-family: 'Georgia', 'Times New Roman', serif;
+                    font-size: 18px;
+                    line-height: 1.8;
+                    color: #2c2c2c;
+                    background-color: #fdfdfd;
+                    padding: 4em 2em;
+                    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+                ">
+                    <h1 style="
+                        font-size: 1.3em;
+                        font-weight: bold;
+                        margin-bottom: 0.8em;
+                        line-height: 1.4;
+                        color: #111;
+                    ">${article.title}</h1>
+                    ${article.content}
+                </div>
+            `;
+            document.title = article.title;
+
+            // ✅ 美化排版样式
+            const style = document.createElement('style');
+            style.textContent = `
+                #readability-content p {
+                    margin: 1.2em 0;
+                }
+                #readability-content img {
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                    margin: 1.5em auto;
+                }
+                #readability-content blockquote {
+                    border-left: 4px solid #ccc;
+                    margin: 1.5em;
+                    padding-left: 1em;
+                    color: #666;
+                    font-style: italic;
+                }
+                #readability-content h2 {
+                    font-size: 1.2em;
+                    margin-top: 2em;
+                    font-weight: bold;
+                    line-height: 1.4;
+                    color: #333;
+                }
+                #readability-content h3 {
+                    font-size: 1.1em;
+                    margin-top: 1.6em;
+                    font-weight: bold;
+                    color: #444;
+                }
+                #readability-content a {
+                    color: #0077cc;
+                    text-decoration: underline;
+                }
+                #readability-content ul, ol {
+                    margin: 1em 2em;
+                    padding-left: 1em;
+                }
+            `;
+            document.head.appendChild(style);
+        } catch (err) {
+            console.error('[Readability] 执行失败:', err);
         }
     }
 
