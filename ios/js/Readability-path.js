@@ -2,7 +2,7 @@
 // @name         Readability 自动阅读模式(路径判断)
 // @namespace    http://tampermonkey.net/
 // @version      1.2
-// @description  在 CNN 子页面启用内嵌版 Readability，无需依赖 CDN，跳过首页
+// @description  Readability
 // @author       Max
 // @match        https://*.cnn.com/*
 // @match        https://*.channelnewsasia.com/*
