@@ -14,6 +14,7 @@
 // @match        *://*.nbcnews.com/*
 // @match        *://*.nbcnews.com/*
 // @match        *://*.wsj.com/*
+// @match        https://*.aljazeera.com/*
 // @match        *://*.foxnews.com/*
 // @author         max
 // @version        1.3.6
