@@ -14,7 +14,7 @@
     // 动态加载 Readability.js
     function loadReadability(callback) {
         const script = document.createElement('script');
-        script.src = 'https://unpkg.com/@mozilla/readability@0.4.4/Readability.js';
+        script.src = 'https://raw.githubusercontent.com/fb55/readabilitySAX/refs/heads/master/readabilitySAX.js';
         script.onload = callback;
         document.head.appendChild(script);
     }
