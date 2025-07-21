@@ -6,9 +6,10 @@
 // @author       Max
 // @match        https://*.bbc.com/*
 // @match        https://*.wsj.com/*
-// @exclude      https://www.channelnewsasia.com/listen/*
-// @exclude      https://*.cnn.com/*/video/*
-// @exclude      https://*.theguardian.com/*/gallery/*
+// @match        https://*.nbcnews.com/*
+// @exclude      
+// @exclude      
+// @exclude     
 // @grant        none
 // ==/UserScript==
 
