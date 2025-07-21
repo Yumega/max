@@ -18,7 +18,7 @@
 // @exclude      https://*.euronews.com/tag/*
 // @exclude      https://*.euronews.com/video/*
 // @exclude      https://podcasts.euronews.com/*
-// @exclude      https://*.cnn.com/*/video/*
+// @exclude      https://news.sky.com/video/*
 // @exclude      https://*.cnn.com/*/video/*
 // @grant        none
 // ==/UserScript==
