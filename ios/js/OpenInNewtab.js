@@ -20,7 +20,7 @@
 // @updateURL      https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/OpenInNewtab.js
 // ==/UserScript==
 
-window.onload = function() {
+(function() {
   "use strict";
 
   // 链接例外列表
