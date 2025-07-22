@@ -14,7 +14,6 @@
 // @match          *://*.nbcnews.com/*
 // @match          *://*.nbcnews.com/*
 // @match          *://*.wsj.com/*
-// @match          *://*.aljazeera.com/*
 // @author         max
 // @version        25.7.22
 // @grant          none
@@ -63,8 +62,7 @@ window.onload = function() {
       link.innerText &&
       !/^(\d+|Next|Prev|>|<|下一页|上一页|下一頁|上一頁|回首頁|次へ|前へ)$/.test(link.innerText)
     ) {
-      e.preventDefault();  // 阻止默认行为
-      window.open(link.href, '_blank');  // 使用 window.open 强制在新标签页中打开
+      link.target = "_blank";
     }
   });
-};
+})();
