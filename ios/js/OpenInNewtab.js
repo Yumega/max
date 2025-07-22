@@ -12,7 +12,6 @@
 // @match          *://*.euronews.com/*
 // @match          *://*.channelnewsasia.com/*
 // @match          *://*.nbcnews.com/*
-// @match          *://*.nbcnews.com/*
 // @match          *://*.wsj.com/*
 // @author         max
 // @version        25.7.22
