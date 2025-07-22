@@ -11,6 +11,7 @@
 // @exclude      https://www.bbc.com/news/videos/*
 // @exclude      https://www.foxnews.com/category/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/numerReadability.js
 // ==/UserScript==
 
 /* ——— 在此粘贴 Readability.js 的完整源码 ——— */
