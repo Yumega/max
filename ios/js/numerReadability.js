@@ -9,6 +9,7 @@
 // @match        https://*.nbcnews.com/*
 // @match        https://*.aljazeera.com/*
 // @exclude      https://www.bbc.com/news/videos/*
+// @exclude      https://www.foxnews.com/category/*
 // @grant        none
 // ==/UserScript==
 
