@@ -21,7 +21,7 @@
 // @exclude      https://*.cnn.com/*/video/*
 // @exclude      https://www.foxnews.com/category/*
 // @grant        none
-// @updateURL    
+// @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/pathReadability.js
 // ==/UserScript==
 
 /* ——— 在此粘贴 Readability.js 的完整源码 ——— */
