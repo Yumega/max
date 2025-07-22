@@ -16,7 +16,7 @@
 // @match          *://*.wsj.com/*
 // @match          *://*.aljazeera.com/*
 // @author         max
-// @version        2025.7.22
+// @version        25.7.22
 // @namespace      none
 // @grant          none
 // @license        MIT
