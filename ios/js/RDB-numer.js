@@ -2802,12 +2802,6 @@ if (typeof module === "object") {
         return;
     }
 
-    // ✅ 确保不在主页（路径为空）执行
-    if (location.pathname === "/" || location.pathname === "/index.html" || location.pathname === "") {
-        console.log('[Readability] 在主页，跳过执行');
-        return;
-    }
-
     function applyReadability() {
         try {
             const docClone = document.cloneNode(true);
