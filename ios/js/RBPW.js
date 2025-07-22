@@ -2802,16 +2802,6 @@ if (typeof module === "object") {
         return;
     }
 
-    // 动态加载外部脚本
-    function loadExternalScript(url, callback) {
-        const script = document.createElement('script');
-        script.src = url;
-        script.type = 'text/javascript';
-        script.onload = callback;  // 加载完毕后执行回调
-        document.head.appendChild(script);
-    }
-
-    // 执行 Readability 的函数
     function applyReadability() {
         try {
             const docClone = document.cloneNode(true);
@@ -2890,11 +2880,8 @@ if (typeof module === "object") {
         }
     }
 
-    // 确保外部脚本先加载
+    // 确保页面所有资源加载完成后执行
     window.addEventListener('load', function () {
-        loadExternalScript('https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=userscript%2Fbpc.en.user.js', function() {
-            console.log('外部脚本已加载');
-            applyReadability(); // 加载外部脚本后执行主脚本
-        });
+        applyReadability();  // 可以去掉 setTimeout，直接调用
     });
 })();
