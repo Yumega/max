@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Readability (数字)
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      25.7.22
 // @description  Readability
 // @author       Max
 // @match        https://*.bbc.com/*
@@ -9,8 +9,6 @@
 // @match        https://*.nbcnews.com/*
 // @match        https://*.aljazeera.com/*
 // @exclude      https://www.bbc.com/news/videos/*
-// @exclude      
-// @exclude     
 // @grant        none
 // ==/UserScript==
 
