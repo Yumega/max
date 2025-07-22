@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         Readability (数字)
-// @namespace    http://tampermonkey.net/
 // @version      25.7.22
 // @description  Readability
 // @author       Max
@@ -9,7 +8,6 @@
 // @match        https://*.nbcnews.com/*
 // @match        https://*.aljazeera.com/*
 // @exclude      https://www.bbc.com/news/videos/*
-// @exclude      https://www.foxnews.com/category/*
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/numerReadability.js
 // ==/UserScript==
