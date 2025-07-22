@@ -17,9 +17,7 @@
 // @match          *://*.aljazeera.com/*
 // @author         max
 // @version        25.7.22
-// @namespace      none
 // @grant          none
-// @license        MIT
 // @updateURL      https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/OpenInNewtab.js
 // ==/UserScript==
 
