@@ -1,7 +1,6 @@
 // ==UserScript==
-// @name         Readability 自动阅读模式(路径判断)
-// @namespace    http://tampermonkey.net/
-// @version      1.2
+// @name         Readability (路径)
+// @version      25.7.22
 // @description  Readability
 // @author       Max
 // @match        https://*.cnn.com/*
@@ -20,7 +19,9 @@
 // @exclude      https://podcasts.euronews.com/*
 // @exclude      https://news.sky.com/video/*
 // @exclude      https://*.cnn.com/*/video/*
+// @exclude      https://www.foxnews.com/category/*
 // @grant        none
+// @updateURL    
 // ==/UserScript==
 
 /* ——— 在此粘贴 Readability.js 的完整源码 ——— */
@@ -2815,12 +2816,19 @@ if (typeof module === "object") {
         return;
     }
 
+    // ✅ 确保不在主页（路径为空）执行
+    if (location.pathname === "/" || location.pathname === "/index.html" || location.pathname === "") {
+        console.log('[Readability] 在主页，跳过执行');
+        return;
+    }
+
     function applyReadability() {
         try {
             const docClone = document.cloneNode(true);
             const article = new Readability(docClone).parse();
             if (!article || !article.content) return;
 
+            // ✅ 页面替换为简洁阅读模式
             document.body.innerHTML = `
                 <div id="readability-content" style="
                     max-width: 800px;
@@ -2845,14 +2853,13 @@ if (typeof module === "object") {
             `;
             document.title = article.title;
 
+            // ✅ 美化排版样式
             const style = document.createElement('style');
             style.textContent = `
                 #readability-content p {
                     margin: 1.2em 0;
                 }
-                #readability-content img,
-                #readability-content video,
-                #readability-content iframe {
+                #readability-content img {
                     max-width: 100%;
                     height: auto;
                     display: block;
@@ -2889,11 +2896,12 @@ if (typeof module === "object") {
             `;
             document.head.appendChild(style);
         } catch (err) {
-            console.error('[Readability] 解析失败:', err);
+            console.error('[Readability] 执行失败:', err);
         }
     }
 
-    window.addEventListener('load', () => {
-        setTimeout(applyReadability, 500);
+    // 确保页面所有资源加载完成后执行
+    window.addEventListener('load', function () {
+        applyReadability();  // 可以去掉 setTimeout，直接调用
     });
 })();
