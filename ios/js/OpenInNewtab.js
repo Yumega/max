@@ -15,7 +15,6 @@
 // @match          *://*.nbcnews.com/*
 // @match          *://*.wsj.com/*
 // @match          *://*.aljazeera.com/*
-// @match          *://*.foxnews.com/*
 // @author         max
 // @version        2025.7.22
 // @namespace      none
