@@ -1,7 +1,11 @@
 ! Title: Safari自定义过滤
+||*.*^$script,domain=foxnews.com
+@@||foxnews.com^$script,domain=foxnews.com
+@@||segment.com^$script,domain=foxnews.com
+@@||akamaihd.net^$script,domain=foxnews.com
+foxnews.com##.ad-container.mobile.ad-h-250.ad-w-300
 ! 2025年7月23日 https://www.channelnewsasia.com
 www.channelnewsasia.com##.text-long > .newsletter-widget-subscription-form
-foxnews.com##.ad-container.mobile.ad-h-250.ad-w-300
 x.com##.r-1wbh5a2.r-16y2uox.r-1t2qqvi.r-s8bhmr.r-obd0qt.r-15ysp7h.r-1777fci.r-1pz39u2.css-175oi2r > .css-175oi2r
 x.com###layers > div.css-175oi2r.r-aqfbo4.r-
 cn.wsj.com##.wsj-ad-disclaimer
