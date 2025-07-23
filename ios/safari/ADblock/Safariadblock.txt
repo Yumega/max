@@ -1,8 +1,10 @@
 ! Title: Safari自定义过滤
+! 2025年7月23日 https://www.channelnewsasia.com
+www.channelnewsasia.com##.text-long > .newsletter-widget-subscription-form
+foxnews.com##.ad-container.mobile.ad-h-250.ad-w-300
 x.com##.r-1wbh5a2.r-16y2uox.r-1t2qqvi.r-s8bhmr.r-obd0qt.r-15ysp7h.r-1777fci.r-1pz39u2.css-175oi2r > .css-175oi2r
 x.com###layers > div.css-175oi2r.r-aqfbo4.r-
 cn.wsj.com##.wsj-ad-disclaimer
-gemini.google.com##.ng-star-inserted.ng-tns-c1944934886-1.gmat-caption
 www.bing.com###b-scopeListItem-convups
 www.bing.com###b_pag_chat_btn_container
 www.bing.com###b_results > li.b_ans
@@ -87,10 +89,6 @@ m.weibo.cn##.wrap
 ||ww1.sinaimg.cn.w.alikunlun.com^$script,domain=news.sina.cn
 news.sina.cn##.art_img_tit
 news.sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
-||*.*^$script,domain=finance.sina.cn
-||*.*^$script,domain=tech.sina.cn
-||*.*^$script,domain=news.sina.cn
-||*.*^$script,domain=t.cj.sina.cn
 ||*.*^$script,domain=jianshu.com
 @@||cdn2.jianshu.io$script,domain=jianshu.com
 www.jianshu.com##.download-app-guidance
@@ -157,8 +155,6 @@ www.cnn.com###footer-nav-container
 www.vox.com##.tab-bar-fixed.c-tab-bar
 www.vox.com##.c-footer
 sexgayplus.com##.float-ck
-blphoto.net##.float-ck
-gayfun.net##.float-ck
 @@||breakingnews.ie$script,domain=breakingnews.ie
 @@||ampproject.org$script,domain=breakingnews.ie
 www.breakingnews.ie##.md\:mb-4.md\:block.hidden
