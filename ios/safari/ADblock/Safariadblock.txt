@@ -1,8 +1,5 @@
 ! Title: Safari自定义过滤
 ||*.*^$script,domain=foxnews.com
-@@||foxnews.com^$script,domain=foxnews.com
-@@||segment.com^$script,domain=foxnews.com
-@@||akamaihd.net^$script,domain=foxnews.com
 foxnews.com##.ad-container.mobile.ad-h-250.ad-w-300
 ! 2025年7月23日 https://www.channelnewsasia.com
 www.channelnewsasia.com##.text-long > .newsletter-widget-subscription-form
