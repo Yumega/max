@@ -7,7 +7,6 @@
 // @match          *://*.politico.eu/*
 // @match          *://*.bbc.com/*
 // @match          *://*.economist.com/*
-// @match          *://*.theguardian.com/*
 // @match          *://*.sky.com/*
 // @match          *://*.euronews.com/*
 // @match          *://*.channelnewsasia.com/*
