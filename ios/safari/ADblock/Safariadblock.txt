@@ -1,7 +1,6 @@
 ! Title: Safari自定义过滤
 
 ! #拦截脚本
-||*.*^$script,domain=xw.qq.com
 ||*.*^$script,domain=3g.163
 ||*.*^$script,domain=theage.com.au
 ||*.*^$script,domain=nbcnews.com
