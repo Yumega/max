@@ -16,7 +16,7 @@
 // @match        https://*.euronews.com/*
 // @match        https://*.sky.com/*
 // @match        https://*.nbcnews.com/*
-// @match        https://*.aljazeera.com/*
+// @match        https://*.yahoo.com/*
 // @exclude      https://www.bbc.com/news/videos/*
 // @exclude      https://www.channelnewsasia.com/listen/*
 // @exclude      https://*.cnn.com/*/video/*
@@ -50,6 +50,7 @@
         'theguardian.com',
         'euronews.com',
         'sky.com'
+        'yahoo.com'
     ];
 
     // 正则排除的路径模式
