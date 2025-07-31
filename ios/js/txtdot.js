@@ -49,7 +49,7 @@
         'foxnews.com',
         'theguardian.com',
         'euronews.com',
-        'sky.com'
+        'sky.com',
         'yahoo.com'
     ];
 
