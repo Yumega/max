@@ -17,17 +17,6 @@
 // @match        https://*.sky.com/*
 // @match        https://*.nbcnews.com/*
 // @match        https://*.yahoo.com/*
-// @exclude      https://www.bbc.com/news/videos/*
-// @exclude      https://www.channelnewsasia.com/listen/*
-// @exclude      https://*.cnn.com/*/video/*
-// @exclude      https://*.theguardian.com/*/gallery/*
-// @exclude      https://*.foxnews.com/video/*
-// @exclude      https://*.euronews.com/tag/*
-// @exclude      https://*.euronews.com/video/*
-// @exclude      https://podcasts.euronews.com/*
-// @exclude      https://news.sky.com/video/*
-// @exclude      https://*.cnn.com/*/video/*
-// @exclude      https://www.foxnews.com/category/*
 // @grant        none
 // ==/UserScript==
 
