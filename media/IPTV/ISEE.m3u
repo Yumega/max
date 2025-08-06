@@ -1,10 +1,12 @@
 #EXTM3U url-tvg="http://192.168.11.1:7880/tempest_config/epg/Guide.xml"
-#EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://192.168.11.1:35455/youtube/BLaQVW5oUGU
-#EXTINF:-1 tvg-id="370183" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
 http://192.168.11.1:35455/youtube/o_-hSMgpAzs
-#EXTINF:-1 tvg-id="370177" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
 http://192.168.11.1:35455/youtube/vr3XyVCR4T0
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/hyxw.png" group-title="新闻",寰宇新闻
+http://192.168.11.1:35455/youtube/6IquAgfvYmc
 #EXTINF:-1 tvg-id="5167" tvg-name="CNN International (HD)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnni.png" group-title="NEWS",CNN国际
 https://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
 #https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
@@ -12,9 +14,9 @@ https://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
 http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="334901" tvg-name="半島英語新聞台Al Jazeera English HD" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
-#EXTINF:-1 tvg-id="5161" tvg-name="Deutsche Welle (English)" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
 http://192.168.11.1:35455/youtube/LuKwFajn37U
-#EXTINF:-1 tvg-id="6166" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
 https://fl3.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #https://jmp2.uk/sam-US4000033L.m3u8
 #http://192.168.11.1:5004/XUMO/watch/99951298
@@ -30,3 +32,8 @@ https://fl3.moveonjoy.com/FOX_NEWS_CHANNEL/tracks-v1a1/mono.ts.m3u8
 #http://192.168.11.1:5004/DaddyLive/watch/347
 #EXTINF:-1 tvg-id="cbs-wcbs-new-york-ny" tvg-name="CBS (WCBS) New York, NY SD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS",CBS新闻
 https://fl1.moveonjoy.com/CBSEAST/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/dsxw.png" group-title="新闻",东森新闻
+http://192.168.11.1:35455/youtube/V1p33hqPrUk
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",民视新闻
+http://192.168.11.1:35455/youtube/ylYJSBUgaMA
