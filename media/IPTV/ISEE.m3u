@@ -35,5 +35,5 @@ https://fl1.moveonjoy.com/CBSEAST/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/dsxw.png" group-title="新闻",东森新闻
 http://192.168.11.1:35455/youtube/V1p33hqPrUk
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",民视新闻
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msxw.png" group-title="新闻",民视新闻
 http://192.168.11.1:35455/youtube/ylYJSBUgaMA
