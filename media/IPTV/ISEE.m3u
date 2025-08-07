@@ -11,7 +11,7 @@ http://192.168.11.1:35455/youtube/6IquAgfvYmc
 https://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
 #https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
-http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
+#http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
 http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
