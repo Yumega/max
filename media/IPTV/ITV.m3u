@@ -2,6 +2,8 @@
 #EXTINF:-1 tvg-id="194" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
 http://192.168.11.1:35455/youtube/BLaQVW5oUGU
 #EXTINF:-1 tvg-id="193" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzw.png" group-title="新闻",凤凰中文
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="央视",央视新闻
+http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226717/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV1.png" group-title="央视",CCTV综合
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226737/1.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV经济
@@ -28,8 +30,6 @@ http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226708/1.m3u8
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226714/1.m3u8
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",CCTV社法
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226723/1.m3u8
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="新闻",央视新闻
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226717/1.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV音乐
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226648/1.m3u8
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="体育",CCTV奥林
