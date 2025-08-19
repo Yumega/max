@@ -30,7 +30,6 @@
         'qq.com',
         'sina.com.cn',
         'sohu.com',
-        'thepaper.cn',
         '163.com',
         'bbc.com',
         'cnn.com',
