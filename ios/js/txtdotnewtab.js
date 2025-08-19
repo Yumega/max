@@ -46,6 +46,7 @@
     // 正则排除的路径模式
     const exclusionPatterns = [
         /:\/\/www\.channelnewsasia\.com\/listen\//,
+        /:\/\/[^/]*cnn\.com\/.*\/live-news\//,
         /:\/\/[^/]*cnn\.com\/.*\/video\//,
         /:\/\/[^/]*theguardian\.com\/.*\/gallery\//,
         /:\/\/[^/]*foxnews\.com\/video\//,
