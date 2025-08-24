@@ -7,6 +7,10 @@ http://192.168.11.1:35455/youtube/o_-hSMgpAzs
 http://192.168.11.1:35455/youtube/vr3XyVCR4T0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/hyxw.png" group-title="新闻",寰宇新闻
 http://192.168.11.1:35455/youtube/6IquAgfvYmc
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/dsxw.png" group-title="新闻",东森新闻
+http://192.168.11.1:35455/youtube/V1p33hqPrUk
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msxw.png" group-title="新闻",民视新闻
+http://192.168.11.1:35455/youtube/ylYJSBUgaMA
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnni.png" group-title="NEWS",CNN国际
 https://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
 #https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
@@ -32,8 +36,3 @@ https://fl3.moveonjoy.com/FOX_NEWS_CHANNEL/tracks-v1a1/mono.ts.m3u8
 #http://192.168.11.1:5004/DaddyLive/watch/347
 #EXTINF:-1 tvg-id="" tvg-name="WCBS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS",WCBS
 https://fl1.moveonjoy.com/CBSEAST/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/dsxw.png" group-title="新闻",东森新闻
-http://192.168.11.1:35455/youtube/V1p33hqPrUk
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msxw.png" group-title="新闻",民视新闻
-http://192.168.11.1:35455/youtube/ylYJSBUgaMA
