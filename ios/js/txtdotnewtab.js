@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         链接替换为txtdot
 // @namespace    http://tampermonkey.net/
-// @version      25.8.20
+// @version      25.8.29
 // @description  替换新闻站链接为代理地址，仅替换文章页（路径层级≥2），排除视频/列表等非文章链接
 // @match        https://*.ifeng.com/*
 // @match        https://*.qq.com/*
@@ -29,6 +29,7 @@
         'ifeng.com',
         'qq.com',
         'sina.com.cn',
+        'sina.cn',
         'sohu.com',
         '163.com',
         'bbc.com',
@@ -49,6 +50,8 @@
         /:\/\/[^/]*cnn\.com\/.*\/video\//,
         /:\/\/[^/]*theguardian\.com\/.*\/gallery\//,
         /:\/\/[^/]*foxnews\.com\/video\//,
+        /:\/\/[^/]*nbcnews\.com\/video\//,
+        /:\/\/[^/]*nbcnews\.com\/.*\/video\//,
         /:\/\/[^/]*euronews\.com\/tag\//,
         /:\/\/[^/]*euronews\.com\/video\//,
         /:\/\/podcasts\.euronews\.com\//,
