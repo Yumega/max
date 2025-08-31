@@ -7,6 +7,7 @@
 // @match        https://*.qq.com/*
 // @match        https://*.sina.com.cn/*
 // @match        https://*.sohu.com/*
+// @match        https://*.toutiao.com/*
 // @match        https://*.google.com/*
 // @match        https://*.cnn.com/*
 // @match        https://*.bbc.com/*
@@ -31,6 +32,7 @@
         'sina.com.cn',
         'sina.cn',
         'sohu.com',
+        'toutiao.com',
         '163.com',
         'bbc.com',
         'cnn.com',
@@ -45,6 +47,9 @@
 
     // 正则排除的路径模式
     const exclusionPatterns = [
+        /:\/\/xw\.qq\.com\/m\/video/,
+        /:\/\/view\.inews\.qq\.com\/k\//,
+        /:\/\/www\.toutiao\.com\/video\//,
         /:\/\/www\.channelnewsasia\.com\/listen\//,
         /:\/\/[^/]*cnn\.com\/.*\/live-news\//,
         /:\/\/[^/]*cnn\.com\/.*\/video\//,
