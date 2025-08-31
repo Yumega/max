@@ -10,7 +10,8 @@
 ! #福克斯新闻
 ||*.*^$script,domain=foxnews.com
 foxnews.com##.ad-container.mobile.ad-h-250.ad-w-300
-
+! #deepnewz
+deepnewz.com##.text-center.p-8.space-y-4.items-center.flex-col.flex.relative
 ! #CNA亚洲新闻
 www.channelnewsasia.com##.text-long > .newsletter-widget-subscription-form
 
