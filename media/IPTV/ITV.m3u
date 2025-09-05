@@ -37,9 +37,8 @@ http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226825/1.m3u8
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="体育",CCTV奥林-4K
 
 #EXTINF:-1 tvg-id="26" tvg-name="CCTV4K" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV4k.1
-https://freetv.top/m2k/cctv4k.m3u8
+
 #EXTINF:-1 tvg-id="26" tvg-name="CCTV4K" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV4k.2
-https://freetv.top/m4k/cctv4k.m3u8
 
 #EXTINF:-1 tvg-id="80" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="卫视",东方卫视
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226734/1.m3u8
