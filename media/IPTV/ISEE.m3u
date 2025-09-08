@@ -3,7 +3,7 @@
 http://192.168.11.1:35455/youtube/BLaQVW5oUGU
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
 http://192.168.11.1:35455/youtube/o_-hSMgpAzs
-#EXTINF:-1 tvg-id="370177" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
 http://192.168.11.1:35455/youtube/vr3XyVCR4T0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/TTVNEWS.png" group-title="新闻",台視新聞
 http://192.168.11.1:35455/youtube/xL0ch83RAK8
