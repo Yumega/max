@@ -1,5 +1,11 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/fanmingming/live/main/e.xml"
 
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="央视",CCTV-4k
+webview://https://www.yangshipin.cn/tv/home?pid=600002264
+
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV8K.png" group-title="央视",CCTV-8k
+webview://https://www.yangshipin.cn/tv/home?pid=600156816
+
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视",CCTV-1 综合
 webview://https://yangshipin.cn/tv/home?pid=600001859
 
@@ -158,4 +164,5 @@ webview://https://yangshipin.cn/tv/home?pid=600190406
 
 #EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/西藏卫视.png" group-title="卫视",西藏卫视
 webview://https://yangshipin.cn/tv/home?pid=600190403
+
 
