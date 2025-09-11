@@ -47,6 +47,7 @@
 
     // 正则排除的路径模式
     const exclusionPatterns = [
+        /:\/\/gentie\.ifeng\.com/,
         /:\/\/xw\.qq\.com\/m\/video/,
         /:\/\/view\.inews\.qq\.com\/k\//,
         /:\/\/www\.toutiao\.com\/video\//,
