@@ -3,9 +3,7 @@
 // @version      25.7.31
 // @description  Make all links open in a new tab
 // @author       Max
-// @match        *://*.foxnews.com/*
-// @match        *://*.theguardian.com/*
-// @match        *://*.yahoo.com/*
+// @match        *://*.scmp.com/*   
 // @grant        none
 // ==/UserScript==
 
