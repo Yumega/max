@@ -17,7 +17,7 @@ http://192.168.11.1:35455/youtube/ylYJSBUgaMA
 http://192.168.11.1:35455/youtube/hGJkDZDchYI
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnni.png" group-title="NEWS",CNN国际
-https://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
+https://fl25.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
 #https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
 #http://192.168.11.1:35455/youtube/Ap-UM1O9RBU
@@ -26,12 +26,11 @@ http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
 http://192.168.11.1:35455/youtube/LuKwFajn37U
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
-https://jmp2.uk/stvp-US4000033L
-#http://192.168.11.1:5004/XUMO/watch/99951298
+http://192.168.11.1:7777/xumo/watch/99951298
+#https://fl25.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
-https://fl3.moveonjoy.com/MSNBC/index.m3u8
-#http://192.168.11.1:5004/DaddyLive/watch/327
+https://fl25.moveonjoy.com/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
-https://fl1.moveonjoy.com/CNN/index.m3u8
+https://fl25.moveonjoy.com/CNN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
-https://fl3.moveonjoy.com/FOX_NEWS_CHANNEL/tracks-v1a1/mono.ts.m3u8
+https://fl25.moveonjoy.com/FOX_NEWS_CHANNEL/tracks-v1a1/mono.m3u8
