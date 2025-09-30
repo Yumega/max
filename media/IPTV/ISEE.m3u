@@ -34,3 +34,4 @@ https://fl25.moveonjoy.com/MSNBC/index.m3u8
 https://fl25.moveonjoy.com/CNN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
 https://fl25.moveonjoy.com/FOX_NEWS_CHANNEL/tracks-v1a1/mono.m3u8
+#https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
