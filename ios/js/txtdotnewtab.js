@@ -19,6 +19,8 @@
 // @match        https://*.nbcnews.com/*
 // @match        https://*.yahoo.com/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/txtdotnewtab.js  
+
 // ==/UserScript==
 
 (function () {
