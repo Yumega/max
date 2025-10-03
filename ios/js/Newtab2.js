@@ -6,6 +6,7 @@
 // @match        *://*.scmp.com/*   
 // @match        https://www.google.com/search?*  
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/Newtab2.js
 // ==/UserScript==
 
 (function() {
