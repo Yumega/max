@@ -4,7 +4,7 @@
 // @description  Make all links open in a new tab
 // @author       Max
 // @match        *://*.scmp.com/*   
-// @match        *://*.google.com/*   
+// @match        https://www.google.com/search?*  
 // @grant        none
 // ==/UserScript==
 
