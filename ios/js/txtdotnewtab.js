@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         链接替换为txtdot
 // @namespace    http://tampermonkey.net/
-// @version      25.8.29
+// @version      25.11.11
 // @description  替换新闻站链接为代理地址，仅替换文章页（路径层级≥2），排除视频/列表等非文章链接
 // @match        https://*.ifeng.com/*
 // @match        https://*.qq.com/*
@@ -18,9 +18,8 @@
 // @match        https://*.sky.com/*
 // @match        https://*.nbcnews.com/*
 // @match        https://*.yahoo.com/*
+// @match        https://*.zaobao.com/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/txtdotnewtab.js  
-
 // ==/UserScript==
 
 (function () {
@@ -44,6 +43,7 @@
         'theguardian.com',
         'euronews.com',
         'sky.com',
+        'zaobao.com',
         'yahoo.com'
     ];
 
@@ -65,6 +65,8 @@
         /:\/\/podcasts\.euronews\.com\//,
         /:\/\/news\.sky\.com\/video\//,
         /:\/\/www\.foxnews\.com\/category\//,
+        /:\/\/[^/]*yahoo\.com\/news\/(us|politics|science|world|weather-news)\//,
+        /:\/\/[^/]*yahoo\.com\/guides\/originals\//,
         /:\/\/www\.bbc\.com\/news\/videos\//
     ];
 
